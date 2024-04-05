@@ -29,10 +29,10 @@ export default function MixpanelAnalytics() {
 
   useEffect(() => {
     mixpanel.track_pageview();
-    http("/api/update_count", {
-      method: "POST",
-      body: JSON.stringify(body),
-    });
+    // http("/api/update_count", {
+    //   method: "POST",
+    //   body: JSON.stringify(body),
+    // });
   }, [pathname]);
 
 

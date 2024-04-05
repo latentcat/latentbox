@@ -13,7 +13,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { transitionXl, transitionMd, transitionLg } from "@/lib/animations";
-import { QrbtfLogo } from "@/components/Logos";
+import { LatentBoxLogo } from "@/components/Logos";
 import { Container, ContainerFull } from "@/components/Containers";
 
 import { atom, useAtom, useAtomValue, useSetAtom } from "jotai";
@@ -40,7 +40,7 @@ interface HeaderProps {
   }[];
 }
 
-function Logo() {
+function Logo(props: { ext: string }) {
   const setMenuOpen = useSetAtom(menuOpenAtom);
   return (
     <div className="overflow-hidden">
@@ -51,7 +51,7 @@ function Logo() {
           className="px-2 -mx-2 flex h-14 items-center"
           onClick={() => setMenuOpen(false)}
         >
-          <QrbtfLogo className="h-7" />
+          <LatentBoxLogo className="h-9" ext={props.ext} />
         </TrackLink>
       </div>
     </div>
@@ -103,7 +103,7 @@ function MobileNavigation(
           props.className,
         )}
       >
-        <Logo />
+        <Logo ext="mobile" />
         <div className="flex items-center">
           <Button
             variant="ghost"
@@ -207,7 +207,7 @@ function DesktopNavigation(
     >
       <ContainerFull>
         <div className="h-14 flex items-center justify-between">
-          <Logo />
+          <Logo ext="desktop" />
           <div className="flex items-center">
             <nav>
               <ul className="flex text-sm _font-medium text-zinc-800 dark:text-zinc-200 items-center">

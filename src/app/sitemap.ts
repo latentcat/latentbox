@@ -40,7 +40,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         .slice(2),
     )
     .map((key) => key.replace("[locale]/", ""))
-    .filter((key) => !key.startsWith("(qrcodes)"))
+    .filter((key) => !key.startsWith("(common)"))
     .filter((key) => !key.startsWith("[...rest]"));
 
   pages.push("");
