@@ -1,7 +1,7 @@
-<h1 align="center">QRBTF</h1>
+<h1 align="center">Latent Box</h1>
 
 <p align="center">
-    Website: <a href="https://qrbtf.com" target="_blank">qrbtf.com</a>
+    Website: <a href="https://latentbox.com" target="_blank">latentbox.com</a>
     | <a href="https://discord.gg/V9CNuqYfte" target="_blank">Discord server</a>
 </p>
 <p align="center">

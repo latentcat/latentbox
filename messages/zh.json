@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": {
-      "template": "%s - QRBTF",
-      "default": "QRBTF - AI 二维码生成器"
+      "template": "%s - Latent Box",
+      "default": "Latent Box"
     },
     "description": "首创 AI 二维码",
     "keywords": {

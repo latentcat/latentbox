@@ -11,7 +11,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "metadata" });
 
   return {
-    metadataBase: new URL("https://qrbtf.com"),
+    metadataBase: new URL("https://latentbox.com"),
     title: {
       template: t("title.template"),
       default: t("title.default"),
@@ -35,30 +35,6 @@ export async function generateMetadata({
     },
   };
 }
-
-export const layoutMetadata: Metadata = {
-  metadataBase: new URL("https://qrbtf.com"),
-  title: {
-    template: "%s - QRBTF",
-    default: "QRBTF - #1 AI QR Code Generator",
-  },
-  description: "The world's first and best AI QR code generator.",
-  keywords: [
-    "QR Code",
-    "qrcode",
-    "AI QR Code",
-    "AI qrcode",
-    "Parametric QR Code",
-    "QRBTF",
-    "Mid Real",
-    "midreal",
-  ],
-  openGraph: {
-    // title: 'Troy Ni',
-    images:
-      "https://dt00g2eb5etby3xu.public.blob.vercel-storage.com/assets/qrbtf_kv-gXzB1cMYlyXQQrhza3HoQlH1WydQpe.jpg",
-  },
-};
 
 export const layoutViewport: Viewport = {
   themeColor: "black",

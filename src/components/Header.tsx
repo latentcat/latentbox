@@ -243,7 +243,7 @@ export function Header() {
     },
     {
       name: "GitHub",
-      href: "https://github.com/latentcat/qrbtf",
+      href: "https://github.com/latentcat/latentbox",
       target: "_blank",
     },
   ];

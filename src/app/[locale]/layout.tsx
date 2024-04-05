@@ -7,7 +7,7 @@ import { generateMetadata, LayoutHead } from "@/lib/layout_data";
 
 const inter = Inter({ subsets: ["latin"] });
 
-import { layoutMetadata, layoutViewport } from "@/lib/layout_data";
+import { layoutViewport } from "@/lib/layout_data";
 import { Header } from "@/components/Header";
 import { getServerSession } from "next-auth/next";
 import { NextIntlClientProvider, useMessages } from "next-intl";
