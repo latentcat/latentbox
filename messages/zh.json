@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "title": {
+      "template": "%s - QRBTF",
+      "default": "QRBTF - AI 二维码生成器"
+    },
+    "description": "首创 AI 二维码",
+    "keywords": {
+      "0": "QR Code",
+      "1": "qrcode",
+      "2": "AI QR Code",
+      "3": "AI qrcode",
+      "4": "二维码",
+      "5": "QRBTF",
+      "6": "Mid Real",
+      "7": "midreal",
+      "8": "",
+      "9": ""
+    }
+  },
+  "index": {
+    "hero": {
+      "title": "QRBTF",
+      "subtitle": "AI & 参数化二维码生成器。",
+      "join_discord": "加入 Discord",
+      "by": "来自 ",
+      "period": "。",
+      "url": "URL 链接",
+      "scan": "扫描"
+    },
+    "style": {
+      "title": "风格",
+      "subtitle": "左右滑动查看更多"
+    },
+    "params": {
+      "param_name": "参数名",
+      "generate": "生成",
+      "qrcode_output": "二维码输出",
+      "download": "下载"
+    },
+    "status": {
+      "title": "统计",
+      "subtitle": "",
+      "github_stars": "GitHub 标星",
+      "generate_count": "AI 二维码生成次数",
+      "download_count": "总下载量",
+      "page_view": "页面访问量"
+    },
+    "qa": {
+      "title": "常见问题",
+      "subtitle": "",
+      "0": {
+        "q": "QRBTF 是什么？",
+        "a": "QRBTF 是 \"QR Code Beautifier\" 的缩写，诞生于中传的一个课程项目。从那时起，我们开始使用生成艺术的方法将二维码隐藏在线条、气泡、像素和各种其他的图案中。该项目已在 GitHub 上开源，并仍可在 classic.qrbtf.com 上访问。\n\n2023 年 6 月，我们开创性地将二维码与生成式 AI 结合，利用 ControlNet 和 Stable Diffusion 创建了世界上第一个 AI 生成的 QR 码。随后，我们在 Reddit 等平台上分享了它，引起了广泛关注。\n\n现在，我们重构了整个网站，结合了参数化的部分和 AI 的部分，带来了全新的流畅体验。"
+      },
+      "1": {
+        "q": "我可以生成什么样的二维码？",
+        "a": "只要 URL 内容合法且符合规定，提示词不包含政治、色情和其他非法及不规范内容，您可以根据 URL 链接、提示词和各种参数生成各种形式的二维码。正如用户协议中所述，平台不对用户生成的任何非法内容负责。"
+      },
+      "2": {
+        "q": "生成的二维码一定可以被扫描吗？",
+        "a": "不一定，且我们不做任何担保。部分参数对扫描成功率影响较大，请自行使用目标的扫码器进行验证。通常情况下，微信和 iOS 的 \"扫码器\" app 的识别率较高。"
+      },
+      "3": {
+        "q": "如何提高二维码的识别率？",
+        "a": "二维码的控制强度和纠错率是提高扫描识别率的两个重要参数。控制强度越高，生成图像的对比度越高，与提示词的偏离程度也越大。控制强度越低，生成图像越难被识别，但会产生更自然的视觉效果，需要针对不同的提示词和种子进行适当调整。二维码的纠错率决定了二维码中信息点的密度，需要根据 URL 长度适当调整。此外，尝试不同的种子也可能有所帮助。"
+      },
+      "4": {
+        "q": "",
+        "a": ""
+      }
+    },
+    "refs": {
+      "title": "参考",
+      "subtitle": "",
+      "aigc": "AIGC 文档",
+      "hf": "Hugging Face 组织",
+      "antfu": "QR Code 101"
+    },
+    "team": {
+      "title": "团队",
+      "subtitle": ""
+    },
+    "sponsor": {
+      "title": "赞助",
+      "subtitle": ""
+    },
+    "changelog": {
+      "title": "更新记录",
+      "subtitle": "",
+      "post": "文章",
+      "message": {
+        "0": "QRBTF v1 发布。",
+        "1": "QRBTF v1 开源。",
+        "2": "发布 react-qrbtf 组件库。",
+        "3": "首次实现生成式 AI 二维码。",
+        "4": "QRBTF.AI 发布。使用 Nuxt.js 构建。",
+        "5": "QRBTF v3 发布。使用 Next.js 彻底重构。"
+      }
+    }
+  },
+  "pricing": {
+    "title": "定价",
+    "desc": "",
+    "parametric": {
+      "title": "参数化二维码",
+      "p0": {
+        "title": "免费",
+        "price": "$0",
+        "benefits": {
+          "0": "永久免费",
+          "1": "开源",
+          "2": "丰富的样式且无需后端",
+          "3": "支持 SVG 格式"
+        }
+      }
+    },
+    "ai": {
+      "title": "AI 二维码",
+      "p0": {
+        "title": "试用",
+        "price": "$0",
+        "benefits": {
+          "0": "快速生成",
+          "1": "每天 10 次生成"
+        }
+      },
+      "p1": {
+        "title": "Alpha",
+        "price": "$20",
+        "unit": "每月",
+        "benefits": {
+          "0": "快速生成",
+          "1": "在频率限制下不限生成次数",
+          "2": "使用 Discord Bot 生成",
+          "3": "社区、邮箱支持"
+        }
+      },
+      "sign_in": "登录",
+      "account": "查看账户",
+      "donate": "赞助"
+    }
+  },
+  "account": {
+    "title": "账户",
+    "desc": "",
+    "profile": "个人信息",
+    "plan": "计划",
+    "current_plan": "当前计划",
+    "usage": "用量",
+    "refreshed": "(每日刷新)",
+    "unlimited": "无限制",
+    "statistics": "统计",
+    "generation_count": "AI 二维码生成次数",
+    "download_count": "下载次数"
+  },
+  "signin": {
+    "title": "登录",
+    "desc": "点击登录按钮即代表您已同意我们的<TermOfService>条款协议</TermOfService>和<PrivacyPolicy>隐私政策</PrivacyPolicy>。"
+  },
+  "header": {
+    "pricing": "定价"
+  },
+  "user_button": {
+    "sign_in": "登录",
+    "account": "账户",
+    "sign_out": "登出"
+  },
+  "qrcodes": {
+    "common": {
+      "correct_level": {
+        "label": "纠错等级",
+        "desc": ""
+      }
+    },
+    "positioning": {
+      "positioning_point_type": {
+        "label": "定位点类型",
+        "desc": ""
+      },
+      "positioning_point_color": {
+        "label": "定位点颜色",
+        "desc": ""
+      },
+      "square": "方形",
+      "circle": "圆形",
+      "planet": "行星",
+      "rounded": "圆角矩形"
+    },
+    "preset": {
+      "label": "预设",
+      "desc": ""
+    },
+    "a1": {
+      "title": "A1",
+      "subtitle": "基本样式",
+      "content_point_type": {
+        "label": "信息点类型",
+        "desc": ""
+      },
+      "content_point_scale": {
+        "label": "信息点缩放",
+        "desc": ""
+      },
+      "content_point_opacity": {
+        "label": "信息点不透明度",
+        "desc": ""
+      },
+      "content_point_color": {
+        "label": "信息点颜色",
+        "desc": ""
+      },
+      "square": "方形",
+      "circle": "圆形"
+    },
+    "a2": {
+      "title": "A2",
+      "subtitle": "连线变种",
+
+      "content_line_type": {
+        "label": "连线类型",
+        "desc": ""
+      },
+      "content_point_scale": {
+        "label": "信息点缩放",
+        "desc": ""
+      },
+      "content_point_opacity": {
+        "label": "信息点不透明度",
+        "desc": ""
+      },
+      "content_point_color": {
+        "label": "信息点颜色",
+        "desc": ""
+      },
+      "horizontal": "横向",
+      "vertical": "纵向",
+      "interlock": "纵横",
+      "radial": "径向",
+      "tl-br": "左上—右下",
+      "tr-bl": "左下—右上",
+      "cross": "交错"
+    },
+    "c2": {
+      "title": "C2",
+      "subtitle": "1/3 像素点阵",
+      "contrast": {
+        "label": "对比度",
+        "desc": ""
+      },
+      "brightness": {
+        "label": "曝光度",
+        "desc": ""
+      },
+      "background": {
+        "label": "背景",
+        "desc": "",
+        "button_label": "上传"
+      },
+      "align_type": {
+        "label": "小定位点样式",
+        "desc": ""
+      },
+      "timing_type": {
+        "label": "时钟样式",
+        "desc": ""
+      }
+    },
+    "sp1": {
+      "title": "SP-1",
+      "subtitle": "来自 DSJ",
+      "content_stroke_width": {
+        "label": "信息点宽度",
+        "desc": ""
+      },
+      "content_x_stroke_width": {
+        "label": "X 宽度",
+        "desc": ""
+      },
+      "positioning_stroke_width": {
+        "label": "定位点描边",
+        "desc": ""
+      },
+      "positioning_point_type": {
+        "label": "定位点类型",
+        "desc": ""
+      },
+      "dsj": "DSJ",
+      "square": "方形"
+    },
+    "g1": {
+      "title": "G1",
+      "subtitle": "生成式 AI 二维码",
+      "prompt": {
+        "label": "提示词",
+        "desc": "二维码的英文提示词，用英文逗号（,）分割。",
+        "placeholder": "输入正面提示词..."
+      },
+      "negative_prompt": {
+        "label": "负面提示词",
+        "desc": "一些你不想要的东西。",
+        "placeholder": "输入负面提示词..."
+      },
+      "seed": {
+        "label": "种子",
+        "desc": ""
+      },
+      "control_strength": {
+        "label": "控制强度",
+        "desc": ""
+      },
+      "prompt_tuning": {
+        "label": "提示词优化",
+        "desc": ""
+      },
+      "restoration_rate": {
+        "label": "画面修复比例",
+        "desc": ""
+      },
+      "size": {
+        "label": "尺寸",
+        "desc": ""
+      },
+      "padding_ratio": {
+        "label": "边距比例",
+        "desc": ""
+      },
+      "correct_level": {
+        "label": "纠错等级",
+        "desc": ""
+      },
+      "anchor_style": {
+        "label": "定位点样式",
+        "desc": "",
+        "square": "方形",
+        "circle": "圆形",
+        "minimal": "最小化"
+      }
+    }
+  },
+  "footer": {
+    "reserve_rights": "保留所有权利。"
+  },
+  "loading": {
+    "loading_msg": "加载中"
+  },
+  "not_found": {
+    "title": "页面不存在",
+    "tagline": "很抱歉，我们无法找到你所需的页面。",
+    "home": "返回首页"
+  },
+  "LocaleSwitcher": {
+    "label": "Label",
+    "locale": "{locale, select, zh {中文} en {English} other {Unknown}}"
+  },
+  "ModeToggle": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
+  },
+  "api": {
+    "gen_image": {
+      "unauthorized": "请登录后使用。",
+      "rate_limit_basic": "频率过高，请稍后重试。",
+      "rate_limit_daily": "已达到今日使用上限，请查看定价页面获得更多生成次数。"
+    }
+  },
+  "qrcode_placeholder": {
+    "todo": "网站尚未完成迁移，请访问 <QrbtfClassic>classic.qrbtf.com</QrbtfClassic> 生成此样式的二维码。"
+  }
+}
