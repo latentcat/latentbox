@@ -5,6 +5,7 @@ export interface ComponentItemProps {
   name: string;
   id: string;
   desc: string;
+  tag?: string;
 }
 
 export const componentList: ComponentItemProps[] = [
@@ -17,6 +18,7 @@ export const componentList: ComponentItemProps[] = [
     name: "Zenitho",
     id: "zenitho",
     desc: "Shader from Stripe",
+    tag: "beta",
   },
   {
     name: "Novatrix",
@@ -54,25 +56,17 @@ export const navigation: NavGroup[] = [
     title: "Getting Started",
     links: [
       { title: "Introduction", href: "/docs" },
-      { title: "Installation", href: "/docs/installation" },
-      { title: "All Components", href: "/docs/components" },
       { title: "Contributing", href: "/docs/contributing" },
       { title: "Changelog", href: "/docs/changelog" },
     ],
   },
   {
-    title: "General",
-    links: [
-      { title: "<Slides />", href: "/docs/components/slides", tag: "beta" },
-    ],
-  },
-  {
-    title: "Canvas",
+    title: "Collections",
     links: [
       ...componentList.map((item, index) => ({
-        title: "<" + item.name + " />",
+        title: item.name,
         href: "/docs/components/" + item.id,
       })),
     ],
   },
-];
+] as const;

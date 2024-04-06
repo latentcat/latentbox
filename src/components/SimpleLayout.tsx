@@ -1,5 +1,5 @@
 import { Prose } from "@/components/Prose";
-import { Container } from "@/components/Containers";
+import { Container, ContainerFull } from "@/components/Containers";
 import { HeaderPadding } from "@/components/Header";
 
 interface SimpleLayoutProps {
@@ -34,5 +34,40 @@ export function SimpleLayoutProj(props: SimpleLayoutProps) {
         {children}
       </Prose>
     </SimpleLayout>
+  );
+}
+
+
+interface ArticleLayoutProps {
+  title: string;
+  intro: string;
+  children?: React.ReactNode;
+  hideGiscus?: boolean;
+}
+
+export function ArticleLayoutWithoutProse({ title, intro, children }: ArticleLayoutProps) {
+  return (
+    <div className="">
+      <header className="mt-8">
+        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
+          {title}
+        </h1>
+        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          {intro}
+        </p>
+      </header>
+      {children}
+    </div>
+  );
+}
+
+export function ArticleLayout(props: ArticleLayoutProps) {
+  const { children, ...rest } = props;
+  return (
+    <ArticleLayoutWithoutProse {...rest}>
+      <Prose className="mt-12 mb-16 break-words" data-mdx-content>
+        {children}
+      </Prose>
+    </ArticleLayoutWithoutProse>
   );
 }
