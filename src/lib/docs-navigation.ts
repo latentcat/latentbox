@@ -18,6 +18,11 @@ export function useCollectionData() {
       name: t("latent-cat-stack.title"),
       desc: t("latent-cat-stack.desc"),
     },
+    {
+      id: "awesome-resource-site",
+      name: t("awesome-resource-site.title"),
+      desc: t("awesome-resource-site.desc"),
+    },
   ] as const;
   return {
     collectionList,

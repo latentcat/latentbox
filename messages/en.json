@@ -39,6 +39,13 @@
     "latent-cat-stack": {
       "title": "Latent Cat Stack",
       "desc": ""
+    },
+    "awesome-resource-site": {
+      "title": "Awesome Resource Site",
+      "desc": "",
+      "web": "Web",
+      "ai": "AI",
+      "product": "Product"
     }
   },
   "footer": {
