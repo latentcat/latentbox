@@ -19,7 +19,7 @@ export function useCollectionData() {
   const t = useTranslations("docs");
   const collectionList: CollectionGroupProps[] = [
     {
-      title: "AI",
+      title: t("group.ai"),
       links: [
         {
           id: "sd-ecology",
@@ -39,7 +39,7 @@ export function useCollectionData() {
       ]
     },
     {
-      title: "Art",
+      title: t("group.art"),
       links: [
         {
           id: "digital-artists",
@@ -64,7 +64,7 @@ export function useCollectionData() {
       ]
     },
     {
-      title: "Web",
+      title: t("group.web"),
       links: [
         {
           id: "awesome-web3d",
@@ -79,7 +79,7 @@ export function useCollectionData() {
       ]
     },
     {
-      title: "Dev",
+      title: t("group.dev"),
       links: [
         {
           id: "python-5-libs",
@@ -89,7 +89,7 @@ export function useCollectionData() {
       ]
     },
     {
-      title: "Game",
+      title: t("group.game"),
       links: [
         {
           id: "awesome-unity",
@@ -99,7 +99,7 @@ export function useCollectionData() {
       ]
     },
     {
-      title: "Vis",
+      title: t("group.vis"),
       links: [
         {
           id: "vis-tools",
@@ -114,7 +114,7 @@ export function useCollectionData() {
       ]
     },
     {
-      title: "Miscellaneous",
+      title: t("group.miscellaneous"),
       links: [
         {
           id: "edu-free",

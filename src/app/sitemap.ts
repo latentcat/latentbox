@@ -37,20 +37,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       key
         .replace(/\/page\.(mdx|tsx)$/, "")
         .replace(/\([^)]+\)\//, "")
+        .replace(/\/\([^)]*\)/g, "")
         .slice(2),
     )
-    .map((key) => key.replace("[locale]/", ""))
-    .filter((key) => !key.startsWith("(common)"))
-    .filter((key) => !key.startsWith("[...rest]"));
+    .map((key) => key.replace("[locale]", ""))
+    .filter((key) => !key.startsWith("/[...rest]"));
 
   pages.push("");
 
   const prefixedPages: string[] = locales.flatMap((locale) =>
-    pages.map((page: string) => `${locale}/${page}`),
+    pages.map((page: string) => `${locale}${page}`),
   );
   console.log(prefixedPages);
 
-  const routes = ["", ...prefixedPages].map((route, index) => {
+  const routes = [...prefixedPages].map((route, index) => {
     let url = `${baseUrl}/${route}`;
     if (url.endsWith("/")) {
       url = url.slice(0, -1); // 去掉最后一个字符

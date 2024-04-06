@@ -35,7 +35,7 @@ export function SectionSocial() {
                 {t("discord")}
               </Button>
             </Link>
-            <Link href="https://github.com/latentcat/latentbox" target="_blank">
+            <Link href="https://www.xiaohongshu.com/user/profile/660223ac000000000b00f2ce" target="_blank">
               <Button variant="secondary" size="sm" className="rounded-full px-4">
                 <XhsIcon className="h-4 mr-2" />
                 {t("xiaohongshu")}

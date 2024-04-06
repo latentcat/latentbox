@@ -45,8 +45,74 @@
     "collection": "合集"
   },
   "docs": {
+    "group": {
+      "ai": "AI",
+      "art": "艺术",
+      "web": "网站",
+      "dev": "开发",
+      "game": "游戏",
+      "vis": "可视化",
+      "miscellaneous": "杂项"
+    },
+    "introduction": {
+      "title": "介绍",
+      "desc": "",
+      "what_is_latent_box": "什么是 Latent Box"
+    },
+    "sd-ecology": {
+      "title": "Stable Diffusion 生态技术",
+      "desc": ""
+    },
+    "transformer-papers": {
+      "title": "Transformer 论文精选",
+      "desc": ""
+    },
+    "image-datasets": {
+      "title": "图像数据集",
+      "desc": ""
+    },
+    "digital-artists": {
+      "title": "必须关注的数字艺术家",
+      "desc": ""
+    },
+    "digital-art-tools": {
+      "title": "数字艺术软件大全",
+      "desc": ""
+    },
+    "midi-controllers": {
+      "title": "MIDI 控制器推荐",
+      "desc": ""
+    },
+    "gen-art-algorithm": {
+      "title": "生成艺术算法",
+      "desc": ""
+    },
+    "awesome-web3d": {
+      "title": "Web 3D 案例精选",
+      "desc": ""
+    },
     "latent-cat-stack": {
       "title": "Latent Cat 技术栈",
+      "desc": ""
+    },
+    "python-5-libs": {
+      "title": "5 个改变体验的 Python 库",
+      "desc": ""
+    },
+    "awesome-unity": {
+      "title": "Unity 大全",
+      "desc": ""
+    },
+    "vis-tools": {
+      "title": "可视化工具大全",
+      "desc": ""
+    },
+    "vis-website": {
+      "title": "可视化网站推荐",
+      "desc": ""
+    },
+    "edu-free": {
+      "title": "教育免费应用大全",
       "desc": ""
     },
     "awesome-resource-sites": {

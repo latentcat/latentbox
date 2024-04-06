@@ -45,6 +45,15 @@
     "collection": "Collection"
   },
   "docs": {
+    "group": {
+      "ai": "AI",
+      "art": "Art",
+      "web": "Web",
+      "dev": "Dev",
+      "game": "Game",
+      "vis": "Visualization",
+      "miscellaneous": "Miscellaneous"
+    },
     "introduction": {
       "title": "Introduction",
       "desc": "",
@@ -71,7 +80,7 @@
       "desc": ""
     },
     "midi-controllers": {
-      "title": "Awesome Midi Controller",
+      "title": "Awesome MIDI Controller",
       "desc": ""
     },
     "gen-art-algorithm": {
