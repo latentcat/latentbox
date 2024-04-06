@@ -24,7 +24,7 @@ export default function Layout({
               <DocsSidebarNav items={navigation} />
             </div>
           </div>
-          <div className="md:pl-72 xl:pr-72 grow">
+          <div className="md:pl-72 2xl:pr-72 grow">
             <div className="px-6 lg:px-12 min-h-screen">
               {children}
             </div>
