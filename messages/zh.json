@@ -4,16 +4,16 @@
       "template": "%s - Latent Box",
       "default": "Latent Box"
     },
-    "description": "首创 AI 二维码",
+    "description": "AI、创意和艺术领域的精选合集，来自 Latent Cat。",
     "keywords": {
-      "0": "QR Code",
-      "1": "qrcode",
-      "2": "AI QR Code",
-      "3": "AI qrcode",
-      "4": "二维码",
-      "5": "QRBTF",
-      "6": "Mid Real",
-      "7": "midreal",
+      "0": "latent box",
+      "1": "latentbox",
+      "2": "ai website",
+      "3": "ai 产品",
+      "4": "ai 合集",
+      "5": "ai awesome list",
+      "6": "awesome list",
+      "7": "awesome-list",
       "8": "",
       "9": ""
     }
