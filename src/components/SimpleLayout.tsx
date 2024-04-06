@@ -47,16 +47,18 @@ interface ArticleLayoutProps {
 
 export function ArticleLayoutWithoutProse({ title, intro, children }: ArticleLayoutProps) {
   return (
-    <div className="">
-      <header className="mt-12">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
-          {title}
-        </h1>
-        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          {intro}
-        </p>
-      </header>
-      {children}
+    <div className="flex flex-col items-center">
+      <div className="w-full max-w-5xl">
+        <header className="mt-12">
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
+            {title}
+          </h1>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            {intro}
+          </p>
+        </header>
+        {children}
+      </div>
     </div>
   );
 }
