@@ -25,8 +25,8 @@ export function SectionHero() {
 
           <div className="h-3" />
 
-          <p className="text-lg text-foreground/70 leading-7 max-w-[500px] w-full text-center break-words">
-            A collection of awesome-lists for AI, creativity and art, brought to you by{" "}
+          <p className="text-lg text-foreground/70 leading-7 max-w-[450px] w-full text-center break-words">
+            A collection of awesome-lists for AI, creativity and art by{" "}
             <Link href="https://latentcat.com" target="_blank"
                   className="text-foreground underline font-semibold transition decoration-foreground/30 hover:decoration-foreground">
               Latent Cat
