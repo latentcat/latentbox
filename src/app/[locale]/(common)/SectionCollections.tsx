@@ -15,7 +15,7 @@ function CollectionLink(props: CollectionItemProps) {
   return (
     <Link
       href={`/${props.id}`}
-      className="basis-full sm:basis-1/2 md:basis-1/3 py-2 px-4 _bg-foreground/5 hover:bg-accent transition rounded-md"
+      className="basis-full md:basis-1/3 py-2 px-4 _bg-foreground/5 hover:bg-accent transition rounded-md"
     >
       <div className="text-center  line-clamp-1">
         {props.name}
@@ -31,7 +31,7 @@ function CollectionGroup(props: CollectionGroupProps) {
       <h3 className="text-base font-bold mb-2">
         {props.title}
       </h3>
-      <Separator className="my-3 hidden sm:block" />
+      <Separator className="my-3 hidden md:block" />
       <div className="w-full flex flex-row flex-wrap justify-center _gap-[2px]">
         {props.links.map((item, index) => (
           <CollectionLink
