@@ -1,3 +1,10 @@
+
+
+
+<p align="center">
+    <img src="public/assets/resources/latentbox-logo.svg" width="100">
+</p>
+
 <h1 align="center">Latent Box</h1>
 
 <p align="center">
