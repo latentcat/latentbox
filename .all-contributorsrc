@@ -1,0 +1,13 @@
+{
+  "projectName": "latentbox",
+  "projectOwner": "latentcat",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "contributors": [],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7
+}
