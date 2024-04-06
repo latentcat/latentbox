@@ -34,7 +34,7 @@ export function GalleryView(props: GalleryViewProps) {
                 height={720}
                 src={`${props.assetsPrefix || ""}/${item.id}.jpg`}
                 alt=""
-                unoptimized
+                // unoptimized
               />
               <div className="absolute top-0 left-0 w-full h-full rounded-lg ring-1 ring-inset ring-foreground/10" />
             </div>
