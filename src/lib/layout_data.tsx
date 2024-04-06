@@ -31,7 +31,7 @@ export async function generateMetadata({
     ],
     openGraph: {
       images:
-        "https://dt00g2eb5etby3xu.public.blob.vercel-storage.com/assets/qrbtf_kv-gXzB1cMYlyXQQrhza3HoQlH1WydQpe.jpg",
+        "/assets/resources/latentbox-hero.jpg",
     },
   };
 }
