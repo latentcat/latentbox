@@ -13,9 +13,10 @@ export default function Page() {
     <div>
       <SectionHero />
       <SectionSocial />
-      <Container>
-        <Separator />
-      </Container>
+      {/*<Container>*/}
+      {/*  <Separator />*/}
+      {/*</Container>*/}
+      <Separator />
       <SectionCollections />
     </div>
   );

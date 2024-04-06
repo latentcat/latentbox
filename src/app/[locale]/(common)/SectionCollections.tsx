@@ -31,7 +31,7 @@ function CollectionGroup(props: CollectionGroupProps) {
       <h3 className="text-base font-bold mb-2">
         {props.title}
       </h3>
-      <Separator className="my-3" />
+      <Separator className="my-3 hidden sm:block" />
       <div className="w-full flex flex-row flex-wrap justify-center _gap-[2px]">
         {props.links.map((item, index) => (
           <CollectionLink
