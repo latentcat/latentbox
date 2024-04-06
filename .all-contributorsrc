@@ -6,7 +6,17 @@
   "files": [
     "README.md"
   ],
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "ciaochaos",
+      "name": "Troy Ni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55932704?v=4",
+      "profile": "https://troyni.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
   "commitType": "docs",
   "commitConvention": "angular",
   "contributorsPerLine": 7
