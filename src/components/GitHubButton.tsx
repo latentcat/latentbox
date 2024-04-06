@@ -23,7 +23,7 @@ export function GitHubButton() {
   }, []);
 
   return (
-    <Button variant="secondary" className="overflow-hidden">
+    <Button variant="secondary" className="overflow-hidden bg-foreground/5 hover:bg-foreground/10">
       <motion.div className="flex items-center" layout layoutRoot>
         <GitHubIcon className="h-4 mr-2" />
         <span>GitHub</span>

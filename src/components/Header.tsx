@@ -94,13 +94,15 @@ function MobileNavigation(
   props: HeaderProps & React.ComponentPropsWithoutRef<"div">,
 ) {
   const [menuOpen, setMenuOpen] = useAtom(menuOpenAtom);
+  const isTop = useAtomValue(scrollTopAtom);
 
   return (
     <>
       <div
         className={clsx(
-          "fixed top-0 z-20 w-full bg-background h-14 flex md:hidden items-center justify-between px-6 _lg:px-12 break-words",
+          "fixed top-0 z-20 w-full h-14 flex md:hidden items-center justify-between px-6 _lg:px-12 break-words transition",
           props.className,
+          isTop ? "" : "bg-background",
         )}
       >
         <Logo ext="mobile" />
@@ -198,11 +200,13 @@ function NavItem(props: HeaderLinkProps) {
 function DesktopNavigation(
   props: HeaderProps & React.ComponentPropsWithoutRef<"nav">,
 ) {
+  const isTop = useAtomValue(scrollTopAtom);
   return (
     <div
       className={clsx(
-        "fixed top-0 z-20 w-full bg-background hidden md:flex break-words",
+        "fixed top-0 z-20 w-full hidden md:flex break-words transition",
         props.className,
+        isTop ? "" : "bg-background",
       )}
     >
       <ContainerFull>

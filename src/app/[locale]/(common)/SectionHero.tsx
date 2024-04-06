@@ -2,10 +2,12 @@ import { LatentBoxLogo } from "@/components/Logos";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/navigation";
 import { GitHubButton } from "@/components/GitHubButton";
+import { HeaderPadding } from "@/components/Header";
 
 export function SectionHero() {
   return (
-    <div className="flex flex-col items-center py-12">
+    <div className="flex flex-col items-center py-12 bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-950 dark:to-zinc-900">
+      <HeaderPadding />
       <LatentBoxLogo ext="hero" className="h-32" />
 
       <div className="h-6" />
@@ -29,6 +31,8 @@ export function SectionHero() {
           <GitHubButton />
         </Link>
       </div>
+
+      <div className="h-6" />
     </div>
   )
 }
