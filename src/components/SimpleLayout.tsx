@@ -48,7 +48,7 @@ interface ArticleLayoutProps {
 export function ArticleLayoutWithoutProse({ title, intro, children }: ArticleLayoutProps) {
   return (
     <div className="">
-      <header className="mt-8">
+      <header className="mt-12">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
           {title}
         </h1>
