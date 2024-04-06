@@ -15,7 +15,7 @@ import pick from "lodash/pick";
 import React from "react";
 import { getMessages } from "next-intl/server";
 import { cn } from "@/lib/utils";
-import { useNavData } from "@/lib/docs-navigation";
+import { useNavData } from "@/lib/docs_navigation";
 
 // export const metadata: Metadata = layoutMetadata;
 

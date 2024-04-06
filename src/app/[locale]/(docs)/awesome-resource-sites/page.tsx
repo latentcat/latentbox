@@ -1,14 +1,14 @@
 import { ArticleLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { GalleryView } from "@/components/collection/GalleryView";
-import { dataAI, dataProduct, dataWeb } from "@/app/[locale]/(docs)/awesome-resource-site/data";
+import { dataAI, dataProduct, dataWeb } from "@/app/[locale]/(docs)/awesome-resource-sites/data";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 
 
 export default function Page() {
-  const t = useTranslations("docs.awesome-resource-site")
-  const assetsPrefix = "/assets/collections/awesome-resource-site"
+  const t = useTranslations("docs.awesome-resource-sites")
+  const assetsPrefix = "/assets/collections/awesome-resource-sites"
 
   return (
     <ArticleLayout
@@ -34,7 +34,7 @@ export async function generateMetadata({
 }: Readonly<{
   params: { locale: string };
 }>) {
-  const t = await getTranslations({ locale, namespace: "docs.awesome-resource-site" });
+  const t = await getTranslations({ locale, namespace: "docs.awesome-resource-sites" });
 
   return {
     title: t("title"),

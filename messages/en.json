@@ -50,11 +50,63 @@
       "desc": "",
       "what_is_latent_box": "What is Latent Box"
     },
+    "sd-ecology": {
+      "title": "Stable Diffusion Ecology",
+      "desc": ""
+    },
+    "transformer-papers": {
+      "title": "Transformer Papers",
+      "desc": ""
+    },
+    "image-datasets": {
+      "title": "Image Datasets",
+      "desc": ""
+    },
+    "digital-artists": {
+      "title": "Must-Follow Digital Artist",
+      "desc": ""
+    },
+    "digital-art-tools": {
+      "title": "Awesome Digital Art Tools",
+      "desc": ""
+    },
+    "midi-controllers": {
+      "title": "Awesome Midi Controller",
+      "desc": ""
+    },
+    "gen-art-algorithm": {
+      "title": "Gen Art Algorithm",
+      "desc": ""
+    },
+    "awesome-web3d": {
+      "title": "Awesome Web 3D",
+      "desc": ""
+    },
     "latent-cat-stack": {
       "title": "Latent Cat Stack",
       "desc": ""
     },
-    "awesome-resource-site": {
+    "python-5-libs": {
+      "title": "5 Game-Changing Python Libs",
+      "desc": ""
+    },
+    "awesome-unity": {
+      "title": "Awesome Unity",
+      "desc": ""
+    },
+    "vis-tools": {
+      "title": "Awesome Vis Tools",
+      "desc": ""
+    },
+    "vis-website": {
+      "title": "Awesome Vis Websites",
+      "desc": ""
+    },
+    "edu-free": {
+      "title": "Education-Free Apps",
+      "desc": ""
+    },
+    "awesome-resource-sites": {
       "title": "Awesome Resource Site",
       "desc": "",
       "web": "Web",

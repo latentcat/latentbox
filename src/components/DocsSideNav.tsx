@@ -1,6 +1,6 @@
 "use client";
 
-import { NavGroup } from "@/lib/docs-navigation";
+import { NavGroup } from "@/lib/docs_navigation";
 import { cn } from "@/lib/utils";
 import {Badge} from "@/components/ui/badge";
 import { Link, usePathname } from "@/navigation";

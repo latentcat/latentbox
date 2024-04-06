@@ -1,6 +1,6 @@
 import { HeaderPadding } from "@/components/Header";
 import { DocsSidebarNav } from "@/components/DocsSideNav";
-import { useNavData } from "@/lib/docs-navigation";
+import { useNavData } from "@/lib/docs_navigation";
 import { Footer } from "@/components/Footer";
 import React from "react";
 

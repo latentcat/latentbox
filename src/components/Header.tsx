@@ -21,7 +21,7 @@ import { usePathname } from "@/navigation";
 import { trackEvent, TrackLink } from "@/components/TrackComponents";
 import { useTranslations } from "next-intl";
 import { DocsSidebarNav } from "@/components/DocsSideNav";
-import { NavGroup, useNavData } from "@/lib/docs-navigation";
+import { NavGroup, useNavData } from "@/lib/docs_navigation";
 
 const scrollTopAtom = atom(true);
 const menuOpenAtom = atom(false);
