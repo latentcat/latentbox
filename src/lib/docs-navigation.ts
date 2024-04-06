@@ -1,46 +1,28 @@
 
 import React from "react";
+import { useTranslations } from "next-intl";
 
-export interface ComponentItemProps {
-  name: string;
+export interface CollectionItemProps {
   id: string;
+  name: string;
   desc: string;
   tag?: string;
 }
 
-export const componentList: ComponentItemProps[] = [
-  {
-    name: "Lumiflex",
-    id: "lumiflex",
-    desc: "Gradient shader",
-  },
-  {
-    name: "Zenitho",
-    id: "zenitho",
-    desc: "Shader from Stripe",
-    tag: "beta",
-  },
-  {
-    name: "Novatrix",
-    id: "novatrix",
-    desc: "Fork from Shadertoy",
-  },
-  {
-    name: "Velustro",
-    id: "velustro",
-    desc: "Fork from Shadertoy",
-  },
-  {
-    name: "Tranquiluxe",
-    id: "tranquiluxe",
-    desc: "Fork from Shadertoy",
-  },
-  {
-    name: "Opulento",
-    id: "opulento",
-    desc: "Fork from Shadertoy",
-  },
-];
+
+export function useCollectionData() {
+  const t = useTranslations("docs");
+  const collectionList: CollectionItemProps[] = [
+    {
+      id: "latent-cat-stack",
+      name: t("latent-cat-stack.title"),
+      desc: t("latent-cat-stack.desc"),
+    },
+  ] as const;
+  return {
+    collectionList,
+  };
+}
 
 export interface NavGroup {
   title: string;
@@ -51,22 +33,30 @@ export interface NavGroup {
   }>;
 }
 
-export const navigation: NavGroup[] = [
-  {
-    title: "Getting Started",
-    links: [
-      { title: "Introduction", href: "/docs" },
-      { title: "Contributing", href: "/docs/contributing" },
-      { title: "Changelog", href: "/docs/changelog" },
-    ],
-  },
-  {
-    title: "Collections",
-    links: [
-      ...componentList.map((item, index) => ({
-        title: item.name,
-        href: "/docs/components/" + item.id,
-      })),
-    ],
-  },
-] as const;
+
+export function useNavData() {
+  const t = useTranslations("nav");
+  const { collectionList } = useCollectionData();
+  const navigation: NavGroup[] = [
+    {
+      title: t("getting_started"),
+      links: [
+        { title: t("introduction"), href: "/docs" },
+        { title: t("contributing"), href: "/docs/contributing" },
+        { title: t("changelog"), href: "/docs/changelog" },
+      ],
+    },
+    {
+      title: t("collection"),
+      links: [
+        ...collectionList.map((item, index) => ({
+          title: item.name,
+          href: "/" + item.id,
+        })),
+      ],
+    },
+  ] as const;
+  return {
+    navigation,
+  };
+}

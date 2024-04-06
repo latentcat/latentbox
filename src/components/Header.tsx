@@ -21,7 +21,7 @@ import { usePathname } from "@/navigation";
 import { trackEvent, TrackLink } from "@/components/TrackComponents";
 import { useTranslations } from "next-intl";
 import { DocsSidebarNav } from "@/components/DocsSideNav";
-import { navigation } from "@/lib/docs-navigation";
+import { useNavData } from "@/lib/docs-navigation";
 
 const scrollTopAtom = atom(true);
 const menuOpenAtom = atom(false);
@@ -93,6 +93,9 @@ function MobileNavItem(props: HeaderLinkProps) {
 function MobileNavigation(
   props: HeaderProps & React.ComponentPropsWithoutRef<"div">,
 ) {
+
+  const { navigation } = useNavData()
+
   const [menuOpen, setMenuOpen] = useAtom(menuOpenAtom);
   const isTop = useAtomValue(scrollTopAtom);
 
@@ -237,8 +240,8 @@ export function Header() {
     //   href: "/docs",
     // },
     {
-      name: t("pricing"),
-      href: "/pricing",
+      name: t("docs"),
+      href: "/docs",
     },
     {
       name: "Discord",

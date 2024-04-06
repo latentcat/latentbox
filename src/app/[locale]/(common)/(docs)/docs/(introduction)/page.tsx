@@ -20,10 +20,10 @@ export async function generateMetadata({
 }: Readonly<{
   params: { locale: string };
 }>) {
-  const t = await getTranslations({ locale, namespace: "pricing" });
+  const t = await getTranslations({ locale, namespace: "index.hero" });
 
   return {
     title: t("title"),
-    description: t("desc"),
+    description: t("subtitle"),
   };
 }

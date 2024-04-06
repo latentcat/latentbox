@@ -1,6 +1,6 @@
 import { HeaderPadding } from "@/components/Header";
 import { DocsSidebarNav } from "@/components/DocsSideNav";
-import { navigation } from "@/lib/docs-navigation";
+import { useNavData } from "@/lib/docs-navigation";
 
 
 export default function Layout({
@@ -10,6 +10,7 @@ export default function Layout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  const { navigation } = useNavData()
   return (
     <main className="flex min-h-screen flex-col items-center">
       <div className="relative w-full">

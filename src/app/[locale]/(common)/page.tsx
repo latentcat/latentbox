@@ -4,7 +4,6 @@ import { HeaderPadding } from "@/components/Header";
 import { SectionHero } from "@/app/[locale]/(common)/SectionHero";
 
 export default function Page() {
-  const t = useTranslations("qrcodes.g1");
 
   return (
     <div>
