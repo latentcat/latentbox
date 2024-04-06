@@ -53,3 +53,19 @@ export function MailIcon(props: React.ComponentPropsWithoutRef<"svg">) {
     </svg>
   );
 }
+
+export function XhsIcon(props: React.ComponentPropsWithoutRef<"svg">) {
+  return (
+    <div className="scale-[1.25]">
+      <svg viewBox="0 0 48 48" {...props}>
+        <path fillRule="evenodd" clipRule="evenodd"
+              d="M14 8H9V15H14V21H7V28H14V43H21V28H33.0312C33.9561 28 34 28.0733 34 29V35C34 35.9267 33.9561 36 33.0312 36H26V36C26 39.866 29.1653 43 33.0312 43V43C38 43 41 41 41 36V29C41 24 37 21 32 21V16C32 10.7488 28.2409 8 23 8H22C21.4477 8 21 7.55228 21 7V5H14V8ZM24 21C24.5523 21 25 20.5523 25 20V16C25 15.0733 24.6711 15 24 15H21V20C21 20.5523 21.4477 21 22 21H24Z"
+              fill="currentColor"/>
+        <path
+          d="M41 10.5C41 12.433 39.433 14 37.5 14C36.5207 14 34 14 34 14C34 14 34 11.4537 34 10.5C34 8.567 35.567 7 37.5 7C39.433 7 41 8.567 41 10.5Z"
+          fill="currentColor"/>
+      </svg>
+    </div>
+
+  )
+}

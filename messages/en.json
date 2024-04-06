@@ -23,6 +23,17 @@
       "title": "Latent Box",
       "subtitle": "A collection of awesome-lists for AI, creativity and art by <LatentCat></LatentCat>.",
       "introduction": "Introduction"
+    },
+    "social": {
+      "title": "Follow Us",
+      "x": "X",
+      "discord": "Discord",
+      "xiaohongshu": "小红书"
+    },
+    "collections": {
+      "title": "Browse Collections",
+      "subtitle": "A collection of awesome-lists for AI, creativity and art by <LatentCat></LatentCat>.",
+      "introduction": "Introduction"
     }
   },
   "header": {
