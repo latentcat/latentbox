@@ -1,7 +1,7 @@
 
 
 
-<p align="center">
+<p align="center" style="margin-top: 24px;">
     <img src="public/assets/resources/latentbox-logo.svg" width="100">
 </p>
 
