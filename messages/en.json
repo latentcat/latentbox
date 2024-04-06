@@ -45,6 +45,11 @@
     "collection": "Collection"
   },
   "docs": {
+    "introduction": {
+      "title": "Introduction",
+      "desc": "",
+      "what_is_latent_box": "What is Latent Box"
+    },
     "latent-cat-stack": {
       "title": "Latent Cat Stack",
       "desc": ""

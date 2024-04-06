@@ -1,22 +1,36 @@
 import { ArticleLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
+import imageHero from "../../../../../../public/assets/resources/latentbox-hero.svg"
+import Image from "next/image"
+import { useTranslations } from "next-intl";
 
 
 export default function Page() {
+
+  const t = useTranslations("docs.introduction")
+
   return (
     <ArticleLayout
-      title="Introduction"
-      intro="123"
+      title={t("title")}
+      intro=""
     >
+
       <h2>
-        What is Latent Box
+        {t("what_is_latent_box")}
       </h2>
+
+      <Image
+        className="border rounded-lg"
+        src={imageHero}
+        alt=""
+      />
+
     </ArticleLayout>
   )
 }
 
 export async function generateMetadata({
-  params: { locale },
+                                         params: { locale },
 }: Readonly<{
   params: { locale: string };
 }>) {
