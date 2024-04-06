@@ -32,7 +32,7 @@ export function SectionHero() {
             {t.rich("subtitle", {
               LatentCat: (chunk: ReactNode) => (
                 <Link href="https://latentcat.com" target="_blank"
-                      className="text-foreground underline font-semibold transition decoration-foreground/30 hover:decoration-foreground">
+                      className="text-foreground underline font-semibold transition decoration-foreground/30 hover:decoration-foreground whitespace-nowrap">
                   Latent Cat
                 </Link>
               ),

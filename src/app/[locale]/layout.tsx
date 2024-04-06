@@ -15,6 +15,7 @@ import pick from "lodash/pick";
 import React from "react";
 import { getMessages } from "next-intl/server";
 import { cn } from "@/lib/utils";
+import { useNavData } from "@/lib/docs-navigation";
 
 // export const metadata: Metadata = layoutMetadata;
 
@@ -22,14 +23,15 @@ export { generateMetadata } from "@/lib/layout_data";
 
 export const viewport: Viewport = layoutViewport;
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
   params: { locale },
 }: Readonly<{
   children: React.ReactNode;
   params: { locale: string };
 }>) {
-  const messages = await getMessages();
+  const messages = useMessages();
+  const { navigation } = useNavData()
 
   return (
     <html lang={locale} className="antialiased" suppressHydrationWarning>
@@ -39,7 +41,7 @@ export default async function RootLayout({
         <NextIntlClientProvider
           messages={pick(messages, ["header", "user_button"])}
         >
-          <Header />
+          <Header navigation={navigation}/>
         </NextIntlClientProvider>
         <div className="min-h-screen flex flex-col">{children}</div>
         <Footer />
