@@ -1,6 +1,8 @@
 import { HeaderPadding } from "@/components/Header";
 import { DocsSidebarNav } from "@/components/DocsSideNav";
 import { useNavData } from "@/lib/docs-navigation";
+import { Footer } from "@/components/Footer";
+import React from "react";
 
 
 export default function Layout({
@@ -12,7 +14,7 @@ export default function Layout({
 }>) {
   const { navigation } = useNavData()
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex flex-col items-center">
       <div className="relative w-full">
         <HeaderPadding />
         <div className="flex flex-col">
@@ -23,7 +25,10 @@ export default function Layout({
             </div>
           </div>
           <div className="md:pl-72 xl:pr-72 grow">
-            <div className="px-6 lg:px-12">{children}</div>
+            <div className="px-6 lg:px-12 min-h-screen">
+              {children}
+            </div>
+            <Footer />
           </div>
         </div>
       </div>

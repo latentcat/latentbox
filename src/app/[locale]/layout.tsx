@@ -43,8 +43,7 @@ export default function RootLayout({
         >
           <Header navigation={navigation}/>
         </NextIntlClientProvider>
-        <div className="min-h-screen flex flex-col">{children}</div>
-        <Footer />
+        <div className="flex flex-col">{children}</div>
       </Providers>
       </body>
     </html>

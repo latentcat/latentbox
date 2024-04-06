@@ -1,3 +1,5 @@
+import { Footer } from "@/components/Footer";
+import React from "react";
 
 
 export default function RootLayout({
@@ -8,8 +10,11 @@ export default function RootLayout({
   params: { locale: string };
 }>) {
   return (
-    <div>
-      {children}
-    </div>
+    <>
+      <div className="min-h-screen">
+        {children}
+      </div>
+      <Footer />
+    </>
   );
 }

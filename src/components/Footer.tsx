@@ -1,4 +1,4 @@
-import { Container } from "@/components/Containers";
+import { Container, ContainerFull } from "@/components/Containers";
 import Link from "next/link";
 import {
   NextIntlClientProvider,
@@ -16,8 +16,8 @@ export function Footer() {
   const messages = useMessages();
 
   return (
-    <div className="_border-t py-9 lg:py-12 flex flex-col mt-12">
-      <Container>
+    <div className="w-full _border-t py-9 lg:py-12 flex flex-col mt-12">
+      <ContainerFull>
         <div className="text-sm text-muted-foreground mb-2 flex gap-4">
           <LocaleSwitcher />
 
@@ -38,7 +38,7 @@ export function Footer() {
           . {t("reserve_rights")}
         </p>
         <p className="safe-pb" />
-      </Container>
+      </ContainerFull>
     </div>
   );
 }
