@@ -31,9 +31,7 @@
       "xiaohongshu": "小红书"
     },
     "collections": {
-      "title": "Browse Collections",
-      "subtitle": "A collection of awesome-lists for AI, creativity and art by <LatentCat></LatentCat>.",
-      "introduction": "Introduction"
+      "title": "Browse Collections"
     }
   },
   "header": {

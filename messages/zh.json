@@ -23,6 +23,15 @@
       "title": "Latent Box",
       "subtitle": "AI、创意和艺术领域的精选合集，来自 <LatentCat></LatentCat>。",
       "introduction": "介绍"
+    },
+    "social": {
+      "title": "关注我们",
+      "x": "X",
+      "discord": "Discord",
+      "xiaohongshu": "小红书"
+    },
+    "collections": {
+      "title": "浏览合集"
     }
   },
   "header": {
