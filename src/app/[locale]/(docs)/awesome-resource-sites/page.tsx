@@ -14,7 +14,7 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={"ciaochaos"}
+      authors={["ciaochaos", "cpunisher"]}
     >
 
       <SectionTitle title={t("web")} />
