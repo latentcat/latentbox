@@ -42,7 +42,7 @@ export function GalleryView(props: GalleryViewProps) {
               />
               <div className="absolute top-0 left-0 w-full h-full rounded-lg ring-1 ring-inset ring-foreground/10" />
             </div>
-            <div className="mt-2 text-sm text-foreground/70">
+            <div className="mt-2 text-sm text-foreground/70 text-center">
               {item.name}
             </div>
           </div>

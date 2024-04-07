@@ -1,0 +1,25 @@
+import { ResourceItem } from "@/lib/data_types";
+
+export const dataWeb3D: ResourceItem[] = [
+  { id: "blob-mixer", name: "Blob Mixer", url: "https://blobmixer.14islands.com" },
+  { id: "tongji-exhibition", name: "2022 Virtual Graduation Exhibition of D&I, Tongji University", url: "https://tjdi.tongji.edu.cn/tags/exhibition/" },
+  { id: "frontier-within", name: "Frontier Within", url: "http://frontierwithin.thorne.com/" },
+  { id: "gucci-burst", name: "Gucci Burst", url: "https://gucciburst.gucci.com/" },
+  { id: "medal-of-honor", name: "Medal of Honor", url: "https://www.oculus.com/medal-of-honor/" },
+  { id: "cine-shader", name: "CineShader", url: "https://cineshader.com/" },
+  { id: "lusion", name: "Lusion", url: "https://lusion.co/" },
+  { id: "guillaume-gouessan", name: "Guillaume Gouessan", url: "https://guillaumegouessan.com/" },
+  { id: "midwan", name: "Midwam", url: "https://www.midwam.com/en" },
+  { id: "emmit-fenn", name: "Emmit Fenn", url: "https://farfromhere.emmitfenn.com/" },
+  { id: "george-and-jonathan", name: "George & Jonathan", url: "https://www.georgeandjonathan.com/#1" },
+  { id: "wild-flower", name: "Wildflower", url: "http://wildflower.resn.co.nz/" },
+  { id: "keita-yamada", name: "Web Graphic Experiments", url: "https://experiments.p5aholic.me/" },
+  { id: "chartogne-taillet", name: "Chartogne-Taillet", url: "https://chartogne-taillet.com/en" },
+  { id: "threejs-journey", name: "threejs-journey", url: "https://threejs-journey.com/" },
+  { id: "interland", name: "Interland", url: "https://beinternetawesome.withgoogle.com/en_us/interland" },
+  { id: "github-skyline", name: "Github Skyline", url: "https://skyline.github.com/" },
+  { id: "bartosz-ciechanowski", name: "Bartosz Ciechanowski", url: "https://ciechanow.ski/archives/" },
+  { id: "fourier", name: "An Interactive Introduction to Fourier Transforms", url: "https://www.jezzamon.com/fourier/index.html" },
+  { id: "glchaosp", name: "glChAoS.P", url: "https://www.michelemorrone.eu/glchaosp/" },
+  { id: "slow-roads", name: "Slow Roads", url: "https://slowroads.io/" },
+];
