@@ -168,7 +168,9 @@
     "system": "跟随系统"
   },
   "CollectionLayout": {
-    "latent_box_collection": "Latent Box 合集"
+    "latent_box_collection": "Latent Box 合集",
+    "follow_us": "关注我们",
+    "browse_more": "浏览更多"
   },
   "Feedback": {
     "q": "这篇文档有帮助吗？",

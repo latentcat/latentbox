@@ -168,7 +168,9 @@
     "system": "System"
   },
   "CollectionLayout": {
-    "latent_box_collection": "Latent Box Collection"
+    "latent_box_collection": "Latent Box Collection",
+    "follow_us": "Follow Us",
+    "browse_more": "Browse More"
   },
   "Feedback": {
     "q": "Was this page helpful?",
