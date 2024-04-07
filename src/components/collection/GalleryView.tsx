@@ -21,7 +21,11 @@ export function GalleryView(props: GalleryViewProps) {
       )}
     >
       {props.data.map((item, index) => (
-        <Link href={item.url} target="_blank">
+        <Link
+          href={item.url}
+          target="_blank"
+          key={item.id}
+        >
           <div
             key={item.id}
             className="flex flex-col items-center"

@@ -40,9 +40,9 @@
   "nav": {
     "getting_started": "开始",
     "introduction": "介绍",
+    "follow-us": "关注我们",
     "contributing": "贡献",
-    "changelog": "Changelog",
-    "collection": "合集"
+    "collections": "浏览合集"
   },
   "docs": {
     "group": {

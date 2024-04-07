@@ -152,8 +152,9 @@ export function useNavData() {
       title: t("getting_started"),
       links: [
         { title: t("introduction"), href: "/docs" },
+        { title: t("follow-us"), href: "/docs/follow-us" },
         { title: t("contributing"), href: "/docs/contributing" },
-        { title: t("changelog"), href: "/docs/changelog" },
+        { title: t("collections"), href: "/docs/collections" },
       ],
     },
     ...collectionList.map((group, groupIndex) => (

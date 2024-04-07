@@ -40,9 +40,9 @@
   "nav": {
     "getting_started": "Getting Started",
     "introduction": "Introduction",
+    "follow-us": "Follow Us",
     "contributing": "Contributing",
-    "changelog": "Changelog",
-    "collection": "Collection"
+    "collections": "Browse Collections"
   },
   "docs": {
     "group": {

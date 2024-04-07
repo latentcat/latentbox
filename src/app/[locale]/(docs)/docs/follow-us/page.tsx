@@ -5,7 +5,7 @@ import { getTranslations } from "next-intl/server";
 export default function Page() {
   return (
     <ArticleLayout
-      title="Changelog"
+      title="Follow Us"
       intro="123"
     >
       <h2>
