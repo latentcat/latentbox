@@ -15,18 +15,18 @@
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
-<div>
-  <div style="display: flex; flex-wrap: wrap; gap: 12px">
+<table>
+  <tbody>
     <tr>
-      <td align="center" valign="top" width="8.33%"><a style="display: block;" href="https://troyni.com"><img style="border-radius: 9999px; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/55932704?v=4" width="100px;" alt=""/><br /><sub style="display: none;"><b>Troy Ni</b></sub></a></td>
-      <td align="center" valign="top" width="8.33%"><a style="display: block;" href="https://github.com/CPunisher"><img style="border-radius: 9999px; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/8509934?v=4" width="100px;" alt=""/><br /><sub style="display: none;"><b>cpunisher</b></sub></a></td>
-      <td align="center" valign="top" width="8.33%"><a style="display: block;" href="https://github.com/chenbaiyujason"><img style="border-radius: 9999px; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/55756122?v=4" width="100px;" alt=""/><br /><sub style="display: none;"><b>shichen</b></sub></a></td>
-      <td align="center" valign="top" width="8.33%"><a style="display: block;" href="https://github.com/zheishei"><img style="border-radius: 9999px; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/98081036?v=4" width="100px;" alt=""/><br /><sub style="display: none;"><b>Chang</b></sub></a></td>
-      <td align="center" valign="top" width="8.33%"><a style="display: block;" href="https://github.com/Zhaohan-Wang"><img style="border-radius: 9999px; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/48054435?v=4" width="100px;" alt=""/><br /><sub style="display: none;"><b>Zhaohan Wang</b></sub></a></td>
-      <td align="center" valign="top" width="8.33%"><a style="display: block;" href="https://github.com/SuiyuanV"><img style="border-radius: 9999px; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/142250122?v=4" width="100px;" alt=""/><br /><sub style="display: none;"><b>SuiyuanV</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://troyni.com"><img src="https://avatars.githubusercontent.com/u/55932704?v=4" width="100px;" alt=""/><br /><sub><b>Troy Ni</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/CPunisher"><img src="https://avatars.githubusercontent.com/u/8509934?v=4" width="100px;" alt=""/><br /><sub><b>cpunisher</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/chenbaiyujason"><img src="https://avatars.githubusercontent.com/u/55756122?v=4" width="100px;" alt=""/><br /><sub><b>shichen</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zheishei"><img src="https://avatars.githubusercontent.com/u/98081036?v=4" width="100px;" alt=""/><br /><sub><b>Chang</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Zhaohan-Wang"><img src="https://avatars.githubusercontent.com/u/48054435?v=4" width="100px;" alt=""/><br /><sub><b>Zhaohan Wang</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SuiyuanV"><img src="https://avatars.githubusercontent.com/u/142250122?v=4" width="100px;" alt=""/><br /><sub><b>SuiyuanV</b></sub></a></td>
     </tr>
-  </div>
-</div>
+  </tbody>
+</table>
 
 
 
