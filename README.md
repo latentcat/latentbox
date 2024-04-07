@@ -21,6 +21,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/CPunisher"><img src="https://avatars.githubusercontent.com/u/8509934?v=4?s=100" width="100px;" alt="cpunisher"/><br /><sub><b>cpunisher</b></sub></a><br /><a href="https://github.com/latentcat/latentbox/commits?author=cpunisher" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/chenbaiyujason"><img src="https://avatars.githubusercontent.com/u/55756122?v=4?s=100" width="100px;" alt="shichen"/><br /><sub><b>shichen</b></sub></a><br /><a href="https://github.com/latentcat/latentbox/commits?author=chenbaiyujason" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zheishei"><img src="https://avatars.githubusercontent.com/u/98081036?v=4?s=100" width="100px;" alt="Chang"/><br /><sub><b>Chang</b></sub></a><br /><a href="https://github.com/latentcat/latentbox/commits?author=zheishei" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Zhaohan-Wang"><img src="https://avatars.githubusercontent.com/u/48054435?v=4?s=100" width="100px;" alt="Zhaohan Wang"/><br /><sub><b>Zhaohan Wang</b></sub></a><br /><a href="https://github.com/latentcat/latentbox/commits?author=Zhaohan-Wang" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
