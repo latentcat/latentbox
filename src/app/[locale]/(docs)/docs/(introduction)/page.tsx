@@ -20,25 +20,48 @@ export default function Page() {
         {t("what_is_latent_box")}
       </h2>
 
+      <p>
+        {t("p1")}
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            <b>{t("p2")}</b><br />
+            {t("p3")}
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>{t("p4")}</b><br />
+            {t("p5")}
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>{t("p6")}</b><br />
+            {t("p7")}
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        {t("p8")}
+      </p>
+
       <h2>
         {t("contributors")}
       </h2>
 
       <Contributors />
 
-      <Image
-        className="border rounded-lg"
-        src={imageHero}
-        alt=""
-      />
-
     </ArticleLayout>
   )
 }
 
 export async function generateMetadata({
-                                         params: { locale },
-}: Readonly<{
+                                         params: { locale }
+                                       }: Readonly<{
   params: { locale: string };
 }>) {
   const t = await getTranslations({ locale, namespace: "index.hero" });

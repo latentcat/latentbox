@@ -1,5 +1,7 @@
 import { ArticleLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
+import imageHero from "../../../../../../public/assets/resources/latentbox-hero.svg";
 
 
 export default function Page() {
@@ -11,6 +13,13 @@ export default function Page() {
       <h2>
         What is Latent Box
       </h2>
+
+
+      <Image
+        className="border rounded-lg"
+        src={imageHero}
+        alt=""
+      />
     </ArticleLayout>
   )
 }

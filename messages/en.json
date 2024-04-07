@@ -58,6 +58,14 @@
       "title": "Introduction",
       "desc": "",
       "what_is_latent_box": "What is Latent Box",
+      "p1": "Latent Box is a reinvented resource site, maintained by Latent Cat. Why are we doing this? We have a few pursuits:",
+      "p2": "Bridging the information gap with high-quality content.",
+      "p3": "We don't need another search engine, a massive collection of websites and products, or complex automation, retrieval, and user systems - because no one will look at those. We hope that when we curate a thousand sites, a hundred of them will be genuinely good things that users will open, try, and remember.",
+      "p4": "Promoting diversity and interdisciplinary collaboration as much as possible.",
+      "p5": "We believe that a good product, good technology, and a good team involve a broad range of disciplinary knowledge and professional skills. We hope that this collection can cover as many creative fields as possible. Therefore, it is suitable for those who are equally enthusiastic about breaking through themselves.",
+      "p6": "Maintaining updates and engaging in community co-creation.",
+      "p7": "Keeping updates is challenging, and the community will be our motivation to persist. Therefore, we have open-sourced the entire website on GitHub and established Twitter and Xiaohongshu accounts, as well as Discord and WeChat groups. You can share content with us on any platform and directly submit pull requests on GitHub, add contributor names. Besides, your every 'like' will be our greatest encouragement.",
+      "p8": "This is the original intention of setting up Latent Box, and we hope to bring some help to everyone!",
       "contributors": "Contributors"
     },
     "sd-ecology": {

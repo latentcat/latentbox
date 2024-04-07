@@ -33,7 +33,7 @@ export async function addCount(collection_name: string, name: string) {
 }
 
 export async function getGitHubStars() {
-  const res = await fetch("https://api.github.com/repos/latentcat/qrbtf", {
+  const res = await fetch("https://api.github.com/repos/latentcat/latentbox", {
     next: { revalidate: 60 }, // Revalidate every 60 seconds
   });
   const data = await res.json();

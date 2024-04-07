@@ -4,7 +4,7 @@ export default function typographyStyles({ theme }: PluginUtils) {
   return {
     DEFAULT: {
       css: {
-        "--tw-prose-body": theme("colors.zinc.700"),
+        "--tw-prose-body": theme("colors.zinc.900"),
         "--tw-prose-headings": theme("colors.zinc.900"),
         "--tw-prose-links": theme("colors.foreground"),
         "--tw-prose-links-hover": theme("colors.foreground"),
@@ -22,7 +22,7 @@ export default function typographyStyles({ theme }: PluginUtils) {
         "--tw-prose-th-borders": theme("colors.zinc.300"),
         "--tw-prose-td-borders": theme("colors.zinc.200"),
 
-        "--tw-prose-invert-body": theme("colors.zinc.400"),
+        "--tw-prose-invert-body": theme("colors.zinc.200"),
         "--tw-prose-invert-headings": theme("colors.white"),
         "--tw-prose-invert-links": theme("colors.foreground"),
         "--tw-prose-invert-links-hover": theme("colors.foreground"),
@@ -110,8 +110,8 @@ export default function typographyStyles({ theme }: PluginUtils) {
           color: "var(--tw-prose-bullets)",
         },
         "> ul > li p": {
-          marginTop: theme("spacing.2"),
-          marginBottom: theme("spacing.2"),
+          marginTop: theme("spacing.3"),
+          marginBottom: theme("spacing.3"),
         },
         // '> ul > li > *:first-child': {
         //   marginTop: theme('spacing.5'),
