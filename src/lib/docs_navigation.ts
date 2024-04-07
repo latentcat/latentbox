@@ -71,16 +71,16 @@ export function useCollectionData() {
           name: t("awesome-web3d.title"),
           desc: t("awesome-web3d.desc"),
         },
-        {
-          id: "latent-cat-stack",
-          name: t("latent-cat-stack.title"),
-          desc: t("latent-cat-stack.desc"),
-        },
       ]
     },
     {
       title: t("group.dev"),
       links: [
+        {
+          id: "latent-cat-stack",
+          name: t("latent-cat-stack.title"),
+          desc: t("latent-cat-stack.desc"),
+        },
         {
           id: "python-5-libs",
           name: t("python-5-libs.title"),
