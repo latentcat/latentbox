@@ -43,10 +43,17 @@ const nextConfig = {
     );
     imageLoaderRule.exclude = /\.inline\.(png|jpg|svg)$/i;
 
-    config.module.rules.push({
-      test: /\.inline\.(png|jpg|gif)$/i,
-      type: "asset/inline",
-    });
+    config.module.rules = [
+      ...config.module.rules,
+      {
+        test: /\.inline\.(png|jpg|gif)$/i,
+        type: "asset/inline",
+      },
+      {
+        test: /\.all-contributorsrc/,
+        type: "json",
+      },
+    ];
     return config;
   },
 };

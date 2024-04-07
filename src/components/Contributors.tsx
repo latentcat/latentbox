@@ -1,25 +1,27 @@
-
-
-import { promises as fs } from 'fs';
+import { default as data } from "../../.all-contributorsrc";
 
 interface Contributor {
-  login: string
-  name: string
-  avatar_url: string
-  profile: string
-  contributions: string[]
+  login: string;
+  name: string;
+  avatar_url: string;
+  profile: string;
+  contributions: string[];
 }
 
 export default async function Contributors() {
-  const file = await fs.readFile(process.cwd() + '/.all-contributorsrc', 'utf8');
-  const data = JSON.parse(file);
-  const contributors: Contributor[] = data["contributors"]
+  const contributors: Contributor[] = data["contributors"];
 
   return (
     <div className="flex flex-wrap gap-6 not-prose">
       {contributors.map((contributor) => (
-        <div key={contributor.login} className="flex flex-col items-center _grow">
-          <a href={contributor.profile} className="flex flex-col items-center grow-0 w-20">
+        <div
+          key={contributor.login}
+          className="flex flex-col items-center _grow"
+        >
+          <a
+            href={contributor.profile}
+            className="flex flex-col items-center grow-0 w-20"
+          >
             <img
               src={contributor.avatar_url}
               alt={contributor.name}
