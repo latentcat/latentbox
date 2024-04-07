@@ -7,6 +7,7 @@ import { ContainerFull } from "@/components/Containers";
 import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
 import { DiscordIcon, XhsIcon, XIcon } from "@/components/LogosBrand";
+import { ChevronRightIcon } from "lucide-react";
 
 export function SectionSocial() {
   const t = useTranslations("index.social");
@@ -22,7 +23,7 @@ export function SectionSocial() {
 
           <div className="h-6" />
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 flex-wrap justify-center">
             <Link href="https://twitter.com/latent_box" target="_blank">
               <Button variant="secondary" size="sm" className="rounded-full px-4">
                 <XIcon className="h-4 mr-2"/>
@@ -39,6 +40,12 @@ export function SectionSocial() {
               <Button variant="secondary" size="sm" className="rounded-full px-4">
                 <XhsIcon className="h-4 mr-2" />
                 {t("xiaohongshu")}
+              </Button>
+            </Link>
+            <Link href="/docs/follow-us">
+              <Button variant="ghost" size="sm" className="rounded-full px-4">
+                {t("more")}
+                <ChevronRightIcon className="w-4 h-4 ml-1 -mr-1"/>
               </Button>
             </Link>
           </div>
