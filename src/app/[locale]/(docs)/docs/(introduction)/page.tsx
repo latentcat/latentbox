@@ -4,6 +4,8 @@ import imageHero from "../../../../../../public/assets/resources/latentbox-hero.
 import Image from "next/image"
 import { useTranslations } from "next-intl";
 import Contributors from "@/components/Contributors";
+import { Link } from "@/navigation";
+import { MidRealLogoFull } from "@/components/Logos";
 
 
 export default function Page() {
@@ -55,6 +57,18 @@ export default function Page() {
       </h2>
 
       <Contributors />
+
+
+      <h2>
+        {t("sponsor")}
+      </h2>
+
+      <Link
+        href="https://midreal.ai"
+        target="_blank"
+      >
+        <MidRealLogoFull className="h-12" />
+      </Link>
 
     </ArticleLayout>
   )
