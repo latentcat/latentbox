@@ -69,6 +69,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "LIUXIN52534",
+      "name": "Stefano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75652238?v=4",
+      "profile": "https://github.com/LIUXIN52534",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
