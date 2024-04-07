@@ -27,10 +27,10 @@ export function ListView(props: GalleryViewProps) {
           <div
             className="flex flex-col"
           >
-            <div className="py-3 text-base flex justify-between">
+            <div className="py-3 text-base flex justify-between gap-6">
               {item.name}
               {item.desc && (
-                <div className="text-sm text-foreground/50">
+                <div className="text-sm text-foreground/50 text-end">
                   {item.desc}
                 </div>
               )}
