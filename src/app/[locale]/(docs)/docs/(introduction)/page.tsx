@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import imageHero from "../../../../../../public/assets/resources/latentbox-hero.svg"
 import Image from "next/image"
 import { useTranslations } from "next-intl";
+import Contributors from "@/components/Contributors";
 
 
 export default function Page() {
@@ -18,6 +19,12 @@ export default function Page() {
       <h2>
         {t("what_is_latent_box")}
       </h2>
+
+      <h2>
+        {t("contributors")}
+      </h2>
+
+      <Contributors />
 
       <Image
         className="border rounded-lg"

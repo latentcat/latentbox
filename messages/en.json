@@ -57,7 +57,8 @@
     "introduction": {
       "title": "Introduction",
       "desc": "",
-      "what_is_latent_box": "What is Latent Box"
+      "what_is_latent_box": "What is Latent Box",
+      "contributors": "Contributors"
     },
     "sd-ecology": {
       "title": "Stable Diffusion Ecology",
