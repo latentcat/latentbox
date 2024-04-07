@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import React from "react";
+import { ContainerFull } from "@/components/Containers";
 
 
 export default function RootLayout({
@@ -14,7 +15,9 @@ export default function RootLayout({
       <div className="min-h-screen">
         {children}
       </div>
-      <Footer />
+      <ContainerFull>
+        <Footer />
+      </ContainerFull>
     </>
   );
 }

@@ -4,6 +4,8 @@ import { HeaderPadding } from "@/components/Header";
 import { NextIntlClientProvider, useMessages, useTranslations } from "next-intl";
 import { Feedback } from "@/components/Feedback";
 import pick from "lodash/pick";
+import { Footer } from "@/components/Footer";
+import React from "react";
 
 
 
@@ -18,7 +20,7 @@ interface ArticleLayoutProps {
 export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-full max-w-5xl">
+      <div className="w-full max-w-5xl min-h-screen">
         <header className="mt-12">
           {props.category && (
             <p className="_font-bold text-lg text-foreground/70 mb-4">
@@ -45,6 +47,7 @@ export function ArticleLayout(props: ArticleLayoutProps) {
       <Prose className="mt-12 mb-16 break-words" data-mdx-content>
         {children}
       </Prose>
+      <Footer />
     </ArticleLayoutWithoutProse>
   );
 }

@@ -25,10 +25,12 @@ export default function Layout({
             </div>
           </div>
           <div className="md:pl-72 2xl:pr-72 grow">
-            <div className="px-6 lg:px-12 min-h-screen">
-              {children}
+            <div className="px-6 lg:px-12">
+              <div className="min-h-screen">
+                {children}
+              </div>
+              {/*<Footer />*/}
             </div>
-            <Footer />
           </div>
         </div>
       </div>
