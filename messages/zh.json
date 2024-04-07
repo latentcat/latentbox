@@ -143,5 +143,8 @@
     "light": "浅色",
     "dark": "深色",
     "system": "跟随系统"
+  },
+  "CollectionLayout": {
+    "latent_box_collection": "Latent Box 合集"
   }
 }

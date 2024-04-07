@@ -1,63 +1,36 @@
 import { Prose } from "@/components/Prose";
 import { Container, ContainerFull } from "@/components/Containers";
 import { HeaderPadding } from "@/components/Header";
+import { useTranslations } from "next-intl";
 
-interface SimpleLayoutProps {
-  title: string;
-  intro: string;
-  children?: React.ReactNode;
-  hideGiscus?: boolean;
-}
-
-export function SimpleLayout({ title, intro, children }: SimpleLayoutProps) {
-  return (
-    <Container className="">
-      <HeaderPadding />
-      <header className="max-w-2xl mt-16 sm:mt-24">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          {title}
-        </h1>
-        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          {intro}
-        </p>
-      </header>
-      {children && <div className="mt-16 sm:mt-20">{children}</div>}
-    </Container>
-  );
-}
-
-export function SimpleLayoutProj(props: SimpleLayoutProps) {
-  const { children, ...rest } = props;
-  return (
-    <SimpleLayout {...rest}>
-      <Prose className="mt-8 mb-16 break-words" data-mdx-content>
-        {children}
-      </Prose>
-    </SimpleLayout>
-  );
-}
 
 
 interface ArticleLayoutProps {
+  category?: string;
   title: string;
   intro: string;
   children?: React.ReactNode;
   hideGiscus?: boolean;
 }
 
-export function ArticleLayoutWithoutProse({ title, intro, children }: ArticleLayoutProps) {
+export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
   return (
     <div className="flex flex-col items-center">
       <div className="w-full max-w-5xl">
         <header className="mt-12">
+          {props.category && (
+            <p className="_font-bold text-lg text-foreground/70 mb-4">
+              {props.category}
+            </p>
+          )}
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
-            {title}
+            {props.title}
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            {intro}
+            {props.intro}
           </p>
         </header>
-        {children}
+        {props.children}
       </div>
     </div>
   );
@@ -72,4 +45,23 @@ export function ArticleLayout(props: ArticleLayoutProps) {
       </Prose>
     </ArticleLayoutWithoutProse>
   );
+}
+
+interface CollectionLayoutProps {
+  title: string;
+  intro: string;
+  children?: React.ReactNode;
+  hideGiscus?: boolean;
+}
+
+export function CollectionLayout({ children, ...rest }: CollectionLayoutProps) {
+  const t = useTranslations("CollectionLayout")
+  return (
+    <ArticleLayout
+      category={t("latent_box_collection")}
+      {...rest}
+    >
+      { children }
+    </ArticleLayout>
+  )
 }

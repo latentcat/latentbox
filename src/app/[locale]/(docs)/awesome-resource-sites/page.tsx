@@ -1,4 +1,4 @@
-import { ArticleLayout } from "@/components/SimpleLayout";
+import { ArticleLayout, CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { GalleryView } from "@/components/collection/GalleryView";
 import { dataAI, dataPaper, dataProduct, dataWeb } from "@/app/[locale]/(docs)/awesome-resource-sites/data";
@@ -11,7 +11,7 @@ export default function Page() {
   const assetsPrefix = "/assets/collections/awesome-resource-sites"
 
   return (
-    <ArticleLayout
+    <CollectionLayout
       title={t("title")}
       intro={t("desc")}
     >
@@ -28,7 +28,7 @@ export default function Page() {
       <SectionTitle title={t("paper")} />
       <GalleryView data={dataPaper} assetsPrefix={assetsPrefix} />
 
-    </ArticleLayout>
+    </CollectionLayout>
   )
 }
 

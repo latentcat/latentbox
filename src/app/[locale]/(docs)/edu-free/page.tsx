@@ -1,4 +1,4 @@
-import { ArticleLayout } from "@/components/SimpleLayout";
+import { ArticleLayout, CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { GalleryView } from "@/components/collection/GalleryView";
 import { SectionTitle } from "@/components/collection/SectionTitle";
@@ -11,14 +11,14 @@ export default function Page() {
   const t = useTranslations("docs.edu-free")
 
   return (
-    <ArticleLayout
+    <CollectionLayout
       title={t("title")}
       intro={t("desc")}
     >
 
       <ListView data={data} />
 
-    </ArticleLayout>
+    </CollectionLayout>
   )
 }
 
