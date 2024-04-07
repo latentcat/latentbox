@@ -70,7 +70,10 @@
     },
     "image-datasets": {
       "title": "图像数据集",
-      "desc": ""
+      "desc": "",
+      "internet": "互联网",
+      "midjourney": "Midjourney",
+      "anime": "动漫"
     },
     "digital-artists": {
       "title": "必须关注的数字艺术家",

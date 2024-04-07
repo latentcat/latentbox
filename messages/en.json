@@ -70,7 +70,10 @@
     },
     "image-datasets": {
       "title": "Image Datasets",
-      "desc": ""
+      "desc": "",
+      "internet": "Internet",
+      "midjourney": "Midjourney",
+      "anime": "Anime"
     },
     "digital-artists": {
       "title": "Must-Follow Digital Artists",
