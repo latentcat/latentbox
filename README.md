@@ -14,7 +14,6 @@
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
 <table>
   <tbody>
     <tr>
@@ -24,11 +23,10 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zheishei"><img src="https://avatars.githubusercontent.com/u/98081036?v=4" width="100px;" alt=""/><br /><sub><b>Chang</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Zhaohan-Wang"><img src="https://avatars.githubusercontent.com/u/48054435?v=4" width="100px;" alt=""/><br /><sub><b>Zhaohan Wang</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SuiyuanV"><img src="https://avatars.githubusercontent.com/u/142250122?v=4" width="100px;" alt=""/><br /><sub><b>SuiyuanV</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jw782cn"><img src="https://avatars.githubusercontent.com/u/45711839?v=4" width="100px;" alt=""/><br /><sub><b>chty627</b></sub></a></td>
     </tr>
   </tbody>
 </table>
-
-
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
