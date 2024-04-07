@@ -62,7 +62,9 @@
       ]
     }
   ],
+  "contributorTemplate": "<a style=\"display: block;\" href=\"<%= contributor.profile %>\"><img style=\"border-radius: 9999px; width: <%= options.imageSize %>px; height: <%= options.imageSize %>px;\" src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub style=\"display: none;\"><b><%= contributor.name %></b></sub></a>",
+  "wrapperTemplate": "\n<div>\n  <div style=\"display: flex; flex-wrap: wrap; gap: 12px\"><%= bodyContent %>  </div>\n</div>\n\n",
   "commitType": "docs",
   "commitConvention": "angular",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 12
 }
