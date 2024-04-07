@@ -62,7 +62,9 @@
     },
     "sd-ecology": {
       "title": "Stable Diffusion 生态技术",
-      "desc": ""
+      "desc": "",
+      "Papers": "论文",
+      "instant-style": "基于 ip-adapter 的风格一致性"
     },
     "transformer-papers": {
       "title": "Transformer 论文精选",

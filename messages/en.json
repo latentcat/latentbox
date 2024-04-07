@@ -62,7 +62,9 @@
     },
     "sd-ecology": {
       "title": "Stable Diffusion Ecology",
-      "desc": ""
+      "desc": "",
+      "Papers": "Papers",
+      "instant-style": "Style Consistency based on ip-adapter"
     },
     "transformer-papers": {
       "title": "Transformer Papers",
