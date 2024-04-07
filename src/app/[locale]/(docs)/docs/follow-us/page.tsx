@@ -8,7 +8,8 @@ export default function Page() {
   return (
     <ArticleLayout
       title="Follow Us"
-      intro="123"
+      intro=""
+      authors={["zheishei", "SuiyuanV"]}
     >
       <h2>
         What is Latent Box

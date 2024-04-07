@@ -14,6 +14,7 @@ export default function Page() {
     <ArticleLayout
       title={t("title")}
       intro=""
+      authors={["ciaochaos"]}
     >
 
       <h2>

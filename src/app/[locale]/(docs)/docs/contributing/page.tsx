@@ -7,6 +7,7 @@ export default function Page() {
     <ArticleLayout
       title="Contribute"
       intro="123"
+      authors={["ciaochaos", "cpunisher"]}
     >
       <h2>
         What is Latent Box
