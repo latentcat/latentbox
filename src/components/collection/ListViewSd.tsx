@@ -34,7 +34,7 @@ export function ListView(props: GalleryViewProps) {
               {item.name}
               {item.id && (
                 <div className="text-sm text-foreground/50 text-end pt-0.5">
-                  {t(item.id)}
+                  {/*{t(item.id)}*/}
                 </div>
               )}
             </div>
