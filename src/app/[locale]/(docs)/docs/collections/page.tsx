@@ -1,12 +1,16 @@
 import { ArticleLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
 
 export default function Page() {
+
+  const t = useTranslations("docs.collections")
+
   return (
     <ArticleLayout
-      title="Browsing Collections"
-      intro="123"
+      title={t("title")}
+      intro=""
     >
       <h2>
         What is Latent Box
@@ -20,7 +24,7 @@ export async function generateMetadata({
 }: Readonly<{
   params: { locale: string };
 }>) {
-  const t = await getTranslations({ locale, namespace: "index.hero" });
+  const t = await getTranslations({ locale, namespace: "docs.collections" });
 
   return {
     title: t("title"),

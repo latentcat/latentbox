@@ -145,16 +145,16 @@ export interface NavGroup {
 
 
 export function useNavData() {
-  const t = useTranslations("nav");
+  const t = useTranslations();
   const { collectionList } = useCollectionData();
   const navigation: NavGroup[] = [
     {
-      title: t("getting_started"),
+      title: t("nav.getting_started"),
       links: [
-        { title: t("introduction"), href: "/docs" },
-        { title: t("follow-us"), href: "/docs/follow-us" },
-        { title: t("contributing"), href: "/docs/contributing" },
-        { title: t("collections"), href: "/docs/collections" },
+        { title: t("docs.introduction.title"), href: "/docs" },
+        { title: t("docs.follow-us.title"), href: "/docs/follow-us" },
+        { title: t("docs.contributing.title"), href: "/docs/contributing" },
+        { title: t("docs.collections.title"), href: "/docs/collections" },
       ],
     },
     ...collectionList.map((group, groupIndex) => (

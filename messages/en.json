@@ -38,11 +38,7 @@
     "docs": "Docs"
   },
   "nav": {
-    "getting_started": "Getting Started",
-    "introduction": "Introduction",
-    "follow-us": "Follow Us",
-    "contributing": "Contributing",
-    "collections": "Browse Collections"
+    "getting_started": "Getting Started"
   },
   "docs": {
     "group": {
@@ -67,6 +63,18 @@
       "p7": "Keeping updates is challenging, and the community will be our motivation to persist. Therefore, we have open-sourced the entire website on GitHub and established Twitter and Xiaohongshu accounts, as well as Discord and WeChat groups. You can share content with us on any platform and directly submit pull requests on GitHub, add contributor names. Besides, your every 'like' will be our greatest encouragement.",
       "p8": "This is the original intention of setting up Latent Box, and we hope to bring some help to everyone!",
       "contributors": "Contributors"
+    },
+    "follow-us": {
+      "title": "Follow Us",
+      "desc": ""
+    },
+    "contributing": {
+      "title": "Contributing",
+      "desc": ""
+    },
+    "collections": {
+      "title": "Browse Collections",
+      "desc": ""
     },
     "sd-ecology": {
       "title": "Stable Diffusion Ecology",

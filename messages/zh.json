@@ -38,11 +38,7 @@
     "docs": "文档"
   },
   "nav": {
-    "getting_started": "开始",
-    "introduction": "介绍",
-    "follow-us": "关注我们",
-    "contributing": "贡献",
-    "collections": "浏览合集"
+    "getting_started": "开始"
   },
   "docs": {
     "group": {
@@ -67,6 +63,18 @@
       "p7": "保持更新非常难，社区会是我们坚持下去的动力。所以，我们在 GitHub 开源了整个网站，并建立了 Twitter、小红书账号，和 Discord、微信群。你可以在任何一个平台与我们分享内容，并可以直接在 GitHub 上提交 pull requests、添加贡献者名字。除此之外，你的每次点赞都会是对我们最大的鼓励。",
       "p8": "这就我们设立 Latent Box 的初心，希望能给大家带来一点帮助！",
       "contributors": "贡献者"
+    },
+    "follow-us": {
+      "title": "关注我们",
+      "desc": ""
+    },
+    "contributing": {
+      "title": "贡献",
+      "desc": ""
+    },
+    "collections": {
+      "title": "浏览合集",
+      "desc": ""
     },
     "sd-ecology": {
       "title": "Stable Diffusion 生态技术",
