@@ -1,7 +1,7 @@
 import { ArticleLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { GalleryView } from "@/components/collection/GalleryView";
-import { dataAI, dataProduct, dataWeb } from "@/app/[locale]/(docs)/awesome-resource-sites/data";
+import { dataAI, dataPaper, dataProduct, dataWeb } from "@/app/[locale]/(docs)/awesome-resource-sites/data";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 
@@ -24,6 +24,9 @@ export default function Page() {
 
       <SectionTitle title={t("product")} />
       <GalleryView data={dataProduct} assetsPrefix={assetsPrefix} />
+
+      <SectionTitle title={t("paper")} />
+      <GalleryView data={dataPaper} assetsPrefix={assetsPrefix} />
 
     </ArticleLayout>
   )

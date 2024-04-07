@@ -25,3 +25,8 @@ export const dataProduct: ResourceItem[] = [
   { id: "future-tools", name: "Future Tools", url: "https://www.futuretools.io/" },
   { id: "mobbin", name: "Mobbin", url: "https://mobbin.com/" },
 ];
+
+export const dataPaper: ResourceItem[] = [
+  { id: "papers-with-code", name: "Papers With Code", url: "https://paperswithcode.com/" },
+  { id: "hugging-face-daily-papers", name: "Hugging Face Daily Papers", url: "https://huggingface.co/papers" },
+];
