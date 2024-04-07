@@ -1,18 +1,23 @@
 import { Prose } from "@/components/Prose";
 import { Container, ContainerFull } from "@/components/Containers";
 import { HeaderPadding } from "@/components/Header";
-import { NextIntlClientProvider, useMessages, useTranslations } from "next-intl";
+import {
+  NextIntlClientProvider,
+  useMessages,
+  useTranslations,
+} from "next-intl";
 import { Feedback } from "@/components/Feedback";
 import pick from "lodash/pick";
 import { Footer } from "@/components/Footer";
 import React from "react";
 
-
+import { default as contributors } from "../../.all-contributorsrc";
 
 interface ArticleLayoutProps {
   category?: string;
   title: string;
   intro: string;
+  authors?: string | string[];
   children?: React.ReactNode;
   hideGiscus?: boolean;
 }
@@ -30,6 +35,22 @@ export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
             {props.title}
           </h1>
+          {props.authors && (
+            <p>
+              {(Array.isArray(props.authors)
+                ? props.authors
+                : [props.authors]
+              ).map((author) => (
+                <span key={author}>
+                  {
+                    contributors["contributors"].find(
+                      (c) => c["login"] === author,
+                    )?.name
+                  }
+                </span>
+              ))}
+            </p>
+          )}
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             {props.intro}
           </p>
@@ -55,26 +76,22 @@ export function ArticleLayout(props: ArticleLayoutProps) {
 interface CollectionLayoutProps {
   title: string;
   intro: string;
+  authors?: string | string[];
   children?: React.ReactNode;
   hideGiscus?: boolean;
 }
 
 export function CollectionLayout({ children, ...rest }: CollectionLayoutProps) {
-  const t = useTranslations("CollectionLayout")
+  const t = useTranslations("CollectionLayout");
   const messages = useMessages();
   return (
-    <ArticleLayout
-      category={t("latent_box_collection")}
-      {...rest}
-    >
-      { children }
+    <ArticleLayout category={t("latent_box_collection")} {...rest}>
+      {children}
       <div className="h-12" />
 
-      <NextIntlClientProvider
-        messages={pick(messages, ["Feedback"])}
-      >
+      <NextIntlClientProvider messages={pick(messages, ["Feedback"])}>
         <Feedback />
       </NextIntlClientProvider>
     </ArticleLayout>
-  )
+  );
 }
