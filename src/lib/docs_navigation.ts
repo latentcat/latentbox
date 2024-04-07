@@ -107,9 +107,9 @@ export function useCollectionData() {
           desc: t("vis-tools.desc"),
         },
         {
-          id: "vis-website",
-          name: t("vis-website.title"),
-          desc: t("vis-website.desc"),
+          id: "vis-websites",
+          name: t("vis-websites.title"),
+          desc: t("vis-websites.desc"),
         },
       ]
     },
