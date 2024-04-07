@@ -23,13 +23,13 @@ export function SectionSocial() {
           <div className="h-6" />
 
           <div className="flex gap-4">
-            <Link href="/docs" target="_blank">
+            <Link href="https://twitter.com/latent_box" target="_blank">
               <Button variant="secondary" size="sm" className="rounded-full px-4">
                 <XIcon className="h-4 mr-2"/>
                 {t("x")}
               </Button>
             </Link>
-            <Link href="https://github.com/latentcat/latentbox" target="_blank">
+            <Link href="https://discord.gg/V9CNuqYfte" target="_blank">
               <Button variant="secondary" size="sm" className="rounded-full px-4">
                 <DiscordIcon className="h-4 mr-2" />
                 {t("discord")}
