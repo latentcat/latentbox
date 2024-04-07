@@ -146,5 +146,11 @@
   },
   "CollectionLayout": {
     "latent_box_collection": "Latent Box Collection"
+  },
+  "Feedback": {
+    "q": "Was this page helpful?",
+    "yes": "Yes",
+    "no": "No",
+    "thanks": "Thanks for your feedback!"
   }
 }

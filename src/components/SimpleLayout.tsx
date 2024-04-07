@@ -1,7 +1,9 @@
 import { Prose } from "@/components/Prose";
 import { Container, ContainerFull } from "@/components/Containers";
 import { HeaderPadding } from "@/components/Header";
-import { useTranslations } from "next-intl";
+import { NextIntlClientProvider, useMessages, useTranslations } from "next-intl";
+import { Feedback } from "@/components/Feedback";
+import pick from "lodash/pick";
 
 
 
@@ -56,12 +58,20 @@ interface CollectionLayoutProps {
 
 export function CollectionLayout({ children, ...rest }: CollectionLayoutProps) {
   const t = useTranslations("CollectionLayout")
+  const messages = useMessages();
   return (
     <ArticleLayout
       category={t("latent_box_collection")}
       {...rest}
     >
       { children }
+      <div className="h-12" />
+
+      <NextIntlClientProvider
+        messages={pick(messages, ["Feedback"])}
+      >
+        <Feedback />
+      </NextIntlClientProvider>
     </ArticleLayout>
   )
 }
