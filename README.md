@@ -5,8 +5,16 @@
 <h1 align="center">Latent Box</h1>
 
 <p align="center">
-    Website: <a href="https://latentbox.com" target="_blank">latentbox.com</a>
-    | <a href="https://discord.gg/V9CNuqYfte" target="_blank">Discord server</a>
+    A collection of awesome-lists for AI, creativity and art. AI、创意和艺术领域的精选合集。
+</p>
+
+<p align="center">
+  <samp>
+    <a href="https://latentbox.com" target="_blank">latentbox.com</a> .
+    <a href="https://twitter.com/latent_box" target="_blank">X</a> .
+    <a href="https://discord.gg/V9CNuqYfte" target="_blank">Discord</a> .
+    <a href="https://www.xiaohongshu.com/user/profile/660223ac000000000b00f2ce" target="_blank">小红书</a>
+  </samp>
 </p>
 
 ## Contributors
