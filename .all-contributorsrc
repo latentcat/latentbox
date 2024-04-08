@@ -141,6 +141,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "onemachi",
+      "name": "onemachi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67481767?v=4",
+      "profile": "https://github.com/onemachi",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
