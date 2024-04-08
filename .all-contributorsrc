@@ -114,6 +114,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "luosiallen",
+      "name": "Simian Luo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47499850?v=4",
+      "profile": "https://luosiallen.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
