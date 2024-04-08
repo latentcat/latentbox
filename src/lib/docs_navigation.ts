@@ -69,6 +69,16 @@ export function useCollectionData() {
       ]
     },
     {
+      title: t("group.design"),
+      links: [
+        {
+          id: "open-source-fonts",
+          name: t("open-source-fonts.title"),
+          desc: t("open-source-fonts.desc"),
+        },
+      ]
+    },
+    {
       title: t("group.web"),
       links: [
         {

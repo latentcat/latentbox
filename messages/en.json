@@ -45,6 +45,7 @@
     "group": {
       "ai": "AI",
       "art": "Art",
+      "design": "Design",
       "web": "Web",
       "dev": "Dev",
       "game": "Game",
@@ -121,6 +122,10 @@
     },
     "gen-art-algorithm": {
       "title": "Gen Art Algorithm",
+      "desc": ""
+    },
+    "open-source-fonts": {
+      "title": "Chinese Open Source Fonts",
       "desc": ""
     },
     "awesome-web3d": {

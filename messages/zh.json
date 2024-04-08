@@ -45,6 +45,7 @@
     "group": {
       "ai": "AI",
       "art": "艺术",
+      "design": "设计",
       "web": "网站",
       "dev": "开发",
       "game": "游戏",
@@ -121,6 +122,10 @@
     },
     "gen-art-algorithm": {
       "title": "生成艺术算法",
+      "desc": ""
+    },
+    "open-source-fonts": {
+      "title": "中文开源字体",
       "desc": ""
     },
     "awesome-web3d": {
