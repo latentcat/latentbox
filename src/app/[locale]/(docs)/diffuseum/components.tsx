@@ -56,7 +56,7 @@ export function Podcasts() {
               <Image
                 src={imgDiffuseum}
                 alt=""
-                className="w-48 h-48 rounded-md opacity-50"
+                className="w-48 h-48 rounded-md opacity-50 border"
               />
               <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
                 <Link href={item.xiaoyuzhou} target="_blank">
@@ -75,15 +75,15 @@ export function Podcasts() {
             <h3 className="text-lg font-bold text-foreground">
               {item.title}
             </h3>
-            <div className="mt-3 flex flex-wrap gap-3">
-              {item.authors.map((author, index) => (
-                <ContributorById key={author} id={author} />
-              ))}
-            </div>
             <div
               className="mt-3 flex flex-col gap-3"
             >
               {item.content}
+            </div>
+            <div className="mt-4 flex flex-wrap gap-3">
+              {item.authors.map((author, index) => (
+                <ContributorById key={author} id={author} />
+              ))}
             </div>
           </div>
         </div>
