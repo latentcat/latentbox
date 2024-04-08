@@ -105,6 +105,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "avantcontra",
+      "name": "avantcontra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/659937?v=4",
+      "profile": "https://avantcontra.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
