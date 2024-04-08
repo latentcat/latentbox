@@ -1,4 +1,4 @@
-<p align="center" style="margin-top: 24px;">
+<p align="center">
     <img src="public/assets/resources/latentbox-logo.svg" width="100">
 </p>
 
