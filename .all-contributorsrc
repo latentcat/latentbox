@@ -132,6 +132,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "op7418",
+      "name": "op7418",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4",
+      "profile": "https://github.com/op7418",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
