@@ -36,6 +36,7 @@
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LIUXIN52534"><img src="https://avatars.githubusercontent.com/u/75652238?v=4" width="100px;" alt=""/><br /><sub><b>Stefano</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/HiMrHOW"><img src="https://avatars.githubusercontent.com/u/85627933?v=4" width="100px;" alt=""/><br /><sub><b>MrHOW</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://chenmudw.zcool.com.cn"><img src="https://avatars.githubusercontent.com/u/68949228?v=4" width="100px;" alt=""/><br /><sub><b>枯白子</b></sub></a></td>
     </tr>
   </tbody>
 </table>
