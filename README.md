@@ -42,6 +42,9 @@
       <td align="center" valign="top" width="14.28%"><a href="https://luosiallen.github.io"><img src="https://avatars.githubusercontent.com/u/47499850?v=4" width="100px;" alt=""/><br /><sub><b>Simian Luo</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://haofanwang.github.io"><img src="https://avatars.githubusercontent.com/u/18741068?v=4" width="100px;" alt=""/><br /><sub><b>Haofan Wang</b></sub></a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/op7418"><img src="https://avatars.githubusercontent.com/u/13505770?v=4" width="100px;" alt=""/><br /><sub><b>op7418</b></sub></a></td>
+    </tr>
   </tbody>
 </table>
 
