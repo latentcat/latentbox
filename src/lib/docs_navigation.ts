@@ -27,6 +27,11 @@ export function useCollectionData() {
           desc: t("sd-ecology.desc"),
         },
         {
+          id: "diffuseum",
+          name: t("diffuseum.title"),
+          desc: t("diffuseum.desc"),
+        },
+        {
           id: "transformer-papers",
           name: t("transformer-papers.title"),
           desc: t("transformer-papers.desc"),

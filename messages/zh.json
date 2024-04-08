@@ -84,6 +84,10 @@
       "Papers": "论文",
       "instant-style": "基于 ip-adapter 的风格一致性"
     },
+    "diffuseum": {
+      "title": "Diffuseum 播客",
+      "desc": ""
+    },
     "transformer-papers": {
       "title": "Transformer 论文精选",
       "desc": ""

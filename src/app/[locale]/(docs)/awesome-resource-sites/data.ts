@@ -14,7 +14,7 @@ export const dataWeb: ResourceItem[] = [
 ];
 
 export const dataAI: ResourceItem[] = [
-  { id: "way-to-agi", name: "Way To AGI", url: "通往 AGI 之路" },
+  { id: "way-to-agi", name: "Way To AGI", url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e" },
   { id: "1001-ai-resources", name: "1001+ AI Resources", url: "https://ignacio-velasquez.notion.site/1001-AI-Resources-30379fa273a740aa9e263a405d0f80f1" },
   { id: "toolify-ai", name: "Toolify.ai", url: "https://www.toolify.ai/" },
 ];

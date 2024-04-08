@@ -12,7 +12,7 @@ import { Footer } from "@/components/Footer";
 import React from "react";
 
 import { default as contributors } from "../../.all-contributorsrc";
-import { Contributor, ContributorProps } from "@/components/Contributors";
+import { Contributor, ContributorById, ContributorProps } from "@/components/Contributors";
 import { Separator } from "@/components/ui/separator";
 import { Link } from "@/navigation";
 
@@ -34,17 +34,6 @@ export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
         ? [props.authors]
         : []
   )
-  const authors: ContributorProps[] = authorIds.map((author) => (
-    contributors["contributors"].find(
-      (c) => c["login"] === author,
-    ) || {
-      login: author,
-      name: author,
-      avatar_url: "",
-      profile: "",
-      contributions: []
-    }
-  ))
 
   return (
     <div className="flex flex-col items-center">
@@ -58,10 +47,10 @@ export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
             {props.title}
           </h1>
-          {authors && (
+          {authorIds && (
             <div className="mt-6 flex flex-wrap gap-3">
-              {authors.map((author, index) => (
-                <Contributor key={author.login} {...author} />
+              {authorIds.map((author, index) => (
+                <ContributorById key={author} id={author} />
               ))}
             </div>
           )}
