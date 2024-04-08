@@ -2,7 +2,7 @@
     <img src="public/assets/resources/latentbox-logo.svg" width="100">
 </p>
 
-<h1 align="center">Latent Box</h1>
+<h1 align="center">Latent Box (WIP!)</h1>
 
 <p align="center">
     A collection of awesome-lists for AI, creativity and art. AI、创意和艺术领域的精选合集。
