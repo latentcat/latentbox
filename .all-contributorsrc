@@ -96,6 +96,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gogodecay",
+      "name": "gogodecay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121620462?v=4",
+      "profile": "https://github.com/gogodecay",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
