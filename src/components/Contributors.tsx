@@ -14,7 +14,7 @@ export function Contributor(props: ContributorProps) {
     >
       <Badge
         variant="secondary"
-        className="flex gap-2.5 items-center grow-0 max-w-32 p-1 rounded-full"
+        className="flex gap-2.5 items-center grow-0 max-w-48 p-1 rounded-full"
       >
         <Image
           width={24}
@@ -23,7 +23,7 @@ export function Contributor(props: ContributorProps) {
           alt={props.name}
           className="w-6 h-6 rounded-full block"
         />
-        <div className="text-xs font-normal font-mono line-clamp-1 w-full text-center pr-2">
+        <div className="text-xs text-start font-normal font-mono line-clamp-1 w-full text-center pr-2">
           {props.name}
         </div>
       </Badge>
@@ -46,26 +46,7 @@ export function ContributorById(props: { id: string }) {
     }
 
   return (
-    <Link
-      href={author.profile}
-      target="_blank"
-    >
-      <Badge
-        variant="secondary"
-        className="flex gap-2.5 items-center grow-0 max-w-32 p-1 rounded-full"
-      >
-        <Image
-          width={24}
-          height={24}
-          src={author.avatar_url}
-          alt={author.name}
-          className="w-6 h-6 rounded-full block"
-        />
-        <div className="text-xs font-normal font-mono line-clamp-1 w-full text-center pr-2">
-          {author.name}
-        </div>
-      </Badge>
-    </Link>
+    <Contributor {...author} />
   )
 }
 

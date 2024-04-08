@@ -28,14 +28,14 @@ export function useData() {
       title: t("ep1.title"),
       content: t.rich("ep1.content", markups),
       xiaoyuzhou: "https://www.xiaoyuzhoufm.com/episode/65df04989bf20df4c86f6523",
-      authors: ["luosiallen"],
+      authors: ["luosiallen", "gogodecay"],
     },
     {
       id: "2",
       title: t("ep2.title"),
       content: t.rich("ep2.content", markups),
       xiaoyuzhou: "https://www.xiaoyuzhoufm.com/episode/660953101519139e4fb4c9a8",
-      authors: ["haofanwang", "op7418"],
+      authors: ["haofanwang", "op7418", "gogodecay"],
     },
   ];
 

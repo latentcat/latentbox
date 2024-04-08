@@ -47,6 +47,9 @@ export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 _sm:text-5xl">
             {props.title}
           </h1>
+          <p className="mt-4 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            {props.intro}
+          </p>
           {authorIds && (
             <div className="mt-6 flex flex-wrap gap-3">
               {authorIds.map((author, index) => (
@@ -54,9 +57,6 @@ export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
               ))}
             </div>
           )}
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            {props.intro}
-          </p>
         </header>
         {props.children}
       </div>
