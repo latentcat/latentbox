@@ -62,7 +62,7 @@ export default async function Contributors() {
   const contributors: ContributorProps[] = data["contributors"];
 
   return (
-    <div className="flex flex-wrap gap-6 not-prose">
+    <div className="flex flex-wrap gap-3 not-prose">
       {contributors.map((contributor) => (
         <div
           key={contributor.login}
