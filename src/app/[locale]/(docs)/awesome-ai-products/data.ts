@@ -101,7 +101,6 @@ export const dataDigitalHuman: ResourceItem[] = [
   { id: "shang-tang-ru-ying", name: "商汤如影", url: "http://senseavatar.sensetime.com/" },
   { id: "synthesia", name: "Synthesia", url: "https://www.synthesia.io/" },
   { id: "kalidoface", name: "Kalidoface", url: "https://kalidoface.com/" },
-  { id: "ka-ka-shu-zi-ren", name: "咔咔数字人", url: "_AIGC虚拟角色探索" },
 ];
 
 export const data3D: ResourceItem[] = [
