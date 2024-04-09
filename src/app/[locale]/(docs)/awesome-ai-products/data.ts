@@ -79,7 +79,6 @@ export const dataMusic: ResourceItem[] = [
   { id: "ace-studio", name: "ACE Studio", url: "https://ace-studio.timedomain.cn/" },
   { id: "wang-yi-tian-yin", name: "网易天音", url: "https://tianyin.163.com/" },
   { id: "aiva", name: "AIVA", url: "https://aiva.ai/" },
-  { id: "amper-music", name: "Amper Music", url: "https://www.ampermusic.com/" },
 ];
 
 export const dataVoice: ResourceItem[] = [
