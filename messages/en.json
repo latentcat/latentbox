@@ -175,7 +175,19 @@
     },
     "awesome-unity": {
       "title": "Awesome Unity",
-      "desc": ""
+      "desc": "",
+      "getting_started": "Getting Started",
+      "csharp": "C#",
+      "shader_graph": "Shader Graph",
+      "vfx_graph": "Visual Effect Graph",
+      "nav_mesh": "Nav Mesh",
+      "programming": "Programming",
+      "terrain": "Terrain",
+      "master": "Master",
+      "advanced_reference": "Advanced Reference",
+      "unity_official": "Unity Official",
+      "jetbrains": "Jetbrains",
+      "vrchat": "VRChat"
     },
     "vis-tools": {
       "title": "Awesome Vis Tools",

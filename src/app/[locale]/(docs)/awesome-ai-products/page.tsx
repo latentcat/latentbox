@@ -3,16 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 import { ProductView } from "@/components/collection/ProductView";
-import data, {
-  data3D,
-  dataDesign,
-  dataDigitalHuman,
-  dataImage,
-  dataMusic,
-  dataSearch,
-  dataVideo,
-  dataVoice
-} from "./data";
+import data from "./data";
 
 
 export default function Page() {

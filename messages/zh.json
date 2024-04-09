@@ -175,7 +175,19 @@
     },
     "awesome-unity": {
       "title": "Unity 从入门到精通",
-      "desc": ""
+      "desc": "",
+      "getting_started": "入门",
+      "csharp": "C#",
+      "shader_graph": "Shader Graph",
+      "vfx_graph": "Visual Effect Graph",
+      "nav_mesh": "Nav Mesh",
+      "programming": "编程",
+      "terrain": "地形",
+      "master": "大师",
+      "advanced_reference": "高级参考",
+      "unity_official": "Unity 官方",
+      "jetbrains": "Jetbrains",
+      "vrchat": "VRChat"
     },
     "vis-tools": {
       "title": "可视化工具大全",
