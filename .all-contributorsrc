@@ -150,6 +150,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ZHO-ZHO-ZHO",
+      "name": "ZHO-ZHO-ZHO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/140084057?v=4",
+      "profile": "https://github.com/ZHO-ZHO-ZHO",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
