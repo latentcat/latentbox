@@ -26,7 +26,7 @@ function CollectionGroup(props: CollectionGroupProps) {
       <h3 className="text-base font-bold mb-1">
         {props.title}
       </h3>
-      <Separator className="my-2 hidden md:block" />
+      <Separator className="my-2" />
       <div className="w-full grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 _gap-[2px]">
         {props.links.map((item, index) => (
           <CollectionLink
