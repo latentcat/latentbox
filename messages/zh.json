@@ -79,7 +79,20 @@
     },
     "contributing": {
       "title": "贡献",
-      "desc": ""
+      "desc": "",
+      "h2-1": "如何贡献 Latent Box",
+      "p1-thanking": "感谢你有兴趣贡献该项目",
+      "p2-tip": "在你提交第一个 pull request 之前，请你花一些时间阅读这个文档。我们建议先检查现有的 issue 和 pull request 看看有没有人正在做和你想做的类似的事情。",
+      "p3-help": "如果你需要帮助，请联系",
+      "h3-1": "Fork 这个项目",
+      "p4-fork": "你可以在 Github 项目主页 Fork 这个项目到你的账号下",
+      "h3-2": "Clone 到本地",
+      "h3-3": "切换到项目目录",
+      "h3-4": "创建新的分支",
+      "h3-5": "安装依赖",
+      "h3-6": "修改代码并创建 pull request",
+      "p5-pr": "接下来添加或修改一些代码，并在 Github 上创建 pull request。",
+      "p6-accept": "当 pull request 被接受时，我们会将其合并到主分支，并将你添加为贡献者。"
     },
     "collections": {
       "title": "浏览合集",
