@@ -79,7 +79,6 @@ export const dataMusic: ResourceItem[] = [
   { id: "ace-studio", name: "ACE Studio", url: "https://ace-studio.timedomain.cn/" },
   { id: "wang-yi-tian-yin", name: "网易天音", url: "https://tianyin.163.com/" },
   { id: "aiva", name: "AIVA", url: "https://aiva.ai/" },
-  { id: "amper-music", name: "Amper Music", url: "https://www.ampermusic.com/" },
 ];
 
 export const dataVoice: ResourceItem[] = [
@@ -96,12 +95,11 @@ export const dataDigitalHuman: ResourceItem[] = [
   { id: "heygen", name: "HeyGen", url: "https://www.heygen.com/" },
   { id: "raskai", name: "RaskAI", url: "https://www.rask.ai/" },
   { id: "d-id", name: "D-iD", url: "https://studio.d-id.com/" },
-  { id: "xiao-bing-shu-zi-yuan-gong", name: "小冰数字员工", url: "https://aibeings-vip.xiaoice.com/" },
+  // { id: "xiao-bing-shu-zi-yuan-gong", name: "小冰数字员工", url: "https://aibeings-vip.xiaoice.com/" },
   { id: "xun-fei-zhi-zuo", name: "讯飞智作", url: "https://peiyin.xunfei.cn/virtual-broadcasting" },
   { id: "shang-tang-ru-ying", name: "商汤如影", url: "http://senseavatar.sensetime.com/" },
   { id: "synthesia", name: "Synthesia", url: "https://www.synthesia.io/" },
   { id: "kalidoface", name: "Kalidoface", url: "https://kalidoface.com/" },
-  { id: "ka-ka-shu-zi-ren", name: "咔咔数字人", url: "_AIGC虚拟角色探索" },
 ];
 
 export const data3D: ResourceItem[] = [

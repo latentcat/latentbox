@@ -8,6 +8,7 @@ import data from "./data";
 
 export default function Page() {
   const t = useTranslations("docs.awesome-ai-products")
+  const assetsPrefix = "/assets/collections/awesome-ai-products"
 
   return (
     <CollectionLayout
@@ -17,34 +18,34 @@ export default function Page() {
     >
 
       <SectionTitle title={t("llm-global")} />
-      <ProductView data={data.dataLlmGlobal} />
+      <ProductView data={data.dataLlmGlobal} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("llm-chinese")} />
-      <ProductView data={data.dataLlmChinese} />
+      <ProductView data={data.dataLlmChinese} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("search")} />
-      <ProductView data={data.dataSearch} />
+      <ProductView data={data.dataSearch} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("image")} />
-      <ProductView data={data.dataImage} />
+      <ProductView data={data.dataImage} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("video")} />
-      <ProductView data={data.dataVideo} />
+      <ProductView data={data.dataVideo} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("music")} />
-      <ProductView data={data.dataMusic} />
+      <ProductView data={data.dataMusic} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("voice")} />
-      <ProductView data={data.dataVoice} />
+      <ProductView data={data.dataVoice} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("digital-human")} />
-      <ProductView data={data.dataDigitalHuman} />
+      <ProductView data={data.dataDigitalHuman} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("3d")} />
-      <ProductView data={data.data3D} />
+      <ProductView data={data.data3D} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("design")} />
-      <ProductView data={data.dataDesign} />
+      <ProductView data={data.dataDesign} assetsPrefix={assetsPrefix} />
 
     </CollectionLayout>
   )

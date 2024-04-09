@@ -99,7 +99,7 @@
     },
     {
       "login": "gogodecay",
-      "name": "gogodecay",
+      "name": "JOJOZ",
       "avatar_url": "https://avatars.githubusercontent.com/u/121620462?v=4",
       "profile": "https://github.com/gogodecay",
       "contributions": [
@@ -147,6 +147,24 @@
       "name": "onemachi",
       "avatar_url": "https://avatars.githubusercontent.com/u/67481767?v=4",
       "profile": "https://github.com/onemachi",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "ZHO-ZHO-ZHO",
+      "name": "ZHO-ZHO-ZHO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/140084057?v=4",
+      "profile": "https://github.com/ZHO-ZHO-ZHO",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "antfu",
+      "name": "Anthony Fu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?v=4",
+      "profile": "https://antfu.me",
       "contributions": [
         "doc"
       ]
