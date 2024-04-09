@@ -69,7 +69,13 @@
     },
     "follow-us": {
       "title": "关注我们",
-      "desc": ""
+      "desc": "",
+      "p1": "网站维护不易，若要了解我们的最新动态，请关注我们的社交账号！我们将在第一时间发布最新的合集、好物推荐，也期待来自你的反馈！",
+      "x": "X",
+      "discord": "Discord",
+      "xiaohongshu": "小红书",
+      "github": "GitHub",
+      "wechat_mp": "微信公众号"
     },
     "contributing": {
       "title": "贡献",
