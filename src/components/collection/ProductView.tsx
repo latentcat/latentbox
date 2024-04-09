@@ -17,7 +17,7 @@ export function ProductView(props: ProductViewProps) {
       className={cn(
         "not-prose",
         "grid grid-cols-2 xl:grid-cols-3",
-        "gap-6",
+        "gap-4",
       )}
     >
       {props.data.map((item, index) => (
