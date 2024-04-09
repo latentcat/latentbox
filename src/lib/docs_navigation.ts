@@ -41,6 +41,11 @@ export function useCollectionData() {
           name: t("image-datasets.title"),
           desc: t("image-datasets.desc"),
         },
+        {
+          id: "awesome-ai-products",
+          name: t("awesome-ai-products.title"),
+          desc: t("awesome-ai-products.desc"),
+        },
       ]
     },
     {
