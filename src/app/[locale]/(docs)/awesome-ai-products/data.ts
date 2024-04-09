@@ -96,7 +96,7 @@ export const dataDigitalHuman: ResourceItem[] = [
   { id: "heygen", name: "HeyGen", url: "https://www.heygen.com/" },
   { id: "raskai", name: "RaskAI", url: "https://www.rask.ai/" },
   { id: "d-id", name: "D-iD", url: "https://studio.d-id.com/" },
-  { id: "xiao-bing-shu-zi-yuan-gong", name: "小冰数字员工", url: "https://aibeings-vip.xiaoice.com/" },
+  // { id: "xiao-bing-shu-zi-yuan-gong", name: "小冰数字员工", url: "https://aibeings-vip.xiaoice.com/" },
   { id: "xun-fei-zhi-zuo", name: "讯飞智作", url: "https://peiyin.xunfei.cn/virtual-broadcasting" },
   { id: "shang-tang-ru-ying", name: "商汤如影", url: "http://senseavatar.sensetime.com/" },
   { id: "synthesia", name: "Synthesia", url: "https://www.synthesia.io/" },
