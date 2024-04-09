@@ -30,7 +30,7 @@ export function GalleryView(props: GalleryViewProps) {
             key={item.id}
             className="flex flex-col items-center"
           >
-            <div className="w-full relative rounded-lg overflow-hidden">
+            <div className="w-full relative rounded-xl overflow-hidden">
               <AspectRatio ratio={16/9} />
               <Image
                 className="absolute top-0 left-0 w-full h-full"
@@ -40,7 +40,7 @@ export function GalleryView(props: GalleryViewProps) {
                 alt=""
                 // unoptimized
               />
-              <div className="absolute top-0 left-0 w-full h-full rounded-lg ring-1 ring-inset ring-foreground/10" />
+              <div className="absolute top-0 left-0 w-full h-full rounded-xl ring-1 ring-inset ring-foreground/10" />
             </div>
             <div className="mt-2 text-sm text-foreground/70 text-center">
               {item.name}

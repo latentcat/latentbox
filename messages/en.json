@@ -116,7 +116,17 @@
     },
     "awesome-ai-products": {
       "title": "Awesome AI Products",
-      "desc": "Mr. How’s AI product list"
+      "desc": "Mr. How’s AI product list",
+      "llm-global": "LLM (Global)",
+      "llm-chinese": "LLM (Chinese)",
+      "search": "Search",
+      "image": "Image",
+      "video": "Video",
+      "music": "Music",
+      "voice": "Voice",
+      "digital-human": "Digital Human",
+      "3d": "3D",
+      "design": "Design"
     },
     "digital-artists": {
       "title": "Must-Follow Digital Artists",

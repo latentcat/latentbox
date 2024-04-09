@@ -116,7 +116,17 @@
     },
     "awesome-ai-products": {
       "title": "精选 AI 产品集",
-      "desc": "卓浩的 AI 产品清单"
+      "desc": "卓浩的 AI 产品清单",
+      "llm-global": "LLM（全球）",
+      "llm-chinese": "LLM（中国）",
+      "search": "搜索",
+      "image": "图像",
+      "video": "视频",
+      "music": "音乐",
+      "voice": "语音",
+      "digital-human": "数字人",
+      "3d": "3D",
+      "design": "设计"
     },
     "digital-artists": {
       "title": "必须关注的数字艺术家",
