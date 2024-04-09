@@ -79,7 +79,20 @@
     },
     "contributing": {
       "title": "Contributing",
-      "desc": ""
+      "desc": "",
+      "h2-1": "How to contribute to Latent Box",
+      "p1-thanking": "Thanks for your interest in contributing to Latent Box.",
+      "p2-tip": "Please take a moment to review this document before submitting your first pull request. We also strongly recommend that you check for open issues and pull requests to see if someone else is working on something similar.",
+      "p3-help": "If you need any help, feel free to reach out to",
+      "h3-1": "Fork this repo",
+      "p4-fork": "You can fork this repo by clicking the fork button in the top right corner of this page.",
+      "h3-2": "Clone on your local machine",
+      "h3-3": "Navigate to project directory",
+      "h3-4": "Create a new Branch",
+      "h3-5": "Install dependencies",
+      "h3-6": "Modify and create a pull request",
+      "p5-pr": "Then add some codes/articles/collections and create a pull request.",
+      "p6-accept": "If it is accepted, we will merge it into the main branch and add you to contributors."
     },
     "collections": {
       "title": "Browse Collections",
