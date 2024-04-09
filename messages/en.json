@@ -157,6 +157,12 @@
       "title": "Gen Art Algorithm",
       "desc": ""
     },
+    "design-resources": {
+      "title": "Design Resources",
+      "desc": "",
+      "design_systems": "Design Systems",
+      "color_tools": "Color Tools"
+    },
     "open-source-fonts": {
       "title": "Chinese Open Source Fonts",
       "desc": ""

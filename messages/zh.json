@@ -157,6 +157,12 @@
       "title": "生成艺术算法",
       "desc": ""
     },
+    "design-resources": {
+      "title": "设计资源",
+      "desc": "",
+      "design_systems": "设计系统",
+      "color_tools": "配色工具"
+    },
     "open-source-fonts": {
       "title": "中文开源字体",
       "desc": ""

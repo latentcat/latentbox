@@ -77,6 +77,11 @@ export function useCollectionData() {
       title: t("group.design"),
       links: [
         {
+          id: "design-resources",
+          name: t("design-resources.title"),
+          desc: t("design-resources.desc"),
+        },
+        {
           id: "open-source-fonts",
           name: t("open-source-fonts.title"),
           desc: t("open-source-fonts.desc"),
