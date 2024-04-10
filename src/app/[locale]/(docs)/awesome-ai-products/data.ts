@@ -51,6 +51,7 @@ export const dataImage: ResourceItem[] = [
   { id: "dreamina", name: "Dreamina", url: "https://www.capcut.cn/ai-tool/platform" },
   { id: "firefly", name: "Firefly", url: "https://www.adobe.com/products/firefly.html" },
   { id: "gemini", name: "Gemini", url: "https://gemini.google.com/" },
+  { id: 'diffus', name: 'Diffus', url: 'https://www.diffus.me/' },
 ];
 
 export const dataVideo: ResourceItem[] = [
