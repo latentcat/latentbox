@@ -15,6 +15,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import { MailIcon } from "lucide-react";
 
 
 export default function Page() {
@@ -35,7 +36,7 @@ export default function Page() {
       <p className="flex gap-4 flex-wrap">
         <Link href="https://twitter.com/latent_box" target="_blank">
           <Button variant="secondary" size="sm">
-            <XIcon className="h-4 mr-2"/>
+            <XIcon className="h-4 mr-2" />
             {t("x")}
           </Button>
         </Link>
@@ -74,10 +75,25 @@ export default function Page() {
               </DialogDescription>
             </DialogHeader>
             <div className="w-full flex justify-center _sm:justify-start">
-              <img src="/assets/resources/mp.jpg" alt="" className="w-36 h-36"/>
+              <img src="/assets/resources/mp.jpg" alt="" className="w-36 h-36" />
             </div>
           </DialogContent>
         </Dialog>
+      </p>
+
+
+      <h2>
+        {t("h2")}
+      </h2>
+
+
+      <p className="flex gap-4 flex-wrap">
+        <Link href="mailto:contact@latentcat.com">
+          <Button variant="secondary" size="sm">
+            <MailIcon className="h-4 mr-2" />
+            contact@latentcat.com
+          </Button>
+        </Link>
       </p>
 
       <Image
@@ -90,8 +106,8 @@ export default function Page() {
 }
 
 export async function generateMetadata({
-  params: { locale },
-}: Readonly<{
+                                         params: { locale },
+                                       }: Readonly<{
   params: { locale: string };
 }>) {
   const t = await getTranslations({ locale, namespace: "docs.follow-us" });
