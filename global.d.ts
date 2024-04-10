@@ -2,6 +2,11 @@
 type Messages = typeof import("./messages/en.json");
 declare interface IntlMessages extends Messages {}
 
+declare module "*.jpg" {
+  const value: string;
+  export default value;
+}
+
 declare module "*.all-contributorsrc" {
   const value: {
     projectName: string;
