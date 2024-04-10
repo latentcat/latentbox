@@ -20,7 +20,7 @@ export default function Layout({
         <div className="flex flex-col">
           <div className="fixed top-0 hidden md:flex flex-col h-full w-72">
             <HeaderPadding />
-            <div className="w-full h-0 grow overflow-y-auto p-6">
+            <div className="w-full h-0 grow overflow-y-auto fixed-scrollbar p-6">
               <DocsSidebarNav items={navigation} />
             </div>
           </div>
