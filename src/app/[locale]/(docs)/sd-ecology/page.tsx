@@ -3,8 +3,9 @@ import { getTranslations } from "next-intl/server";
 import { GalleryView } from "@/components/collection/GalleryView";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
-import { data } from "@/app/[locale]/(docs)/sd-ecology/data";
+import data from "./data.json";
 import { ListView } from "@/components/collection/ListViewSd";
+import { PaperView } from "@/components/collection/PaperView";
 
 
 export default function Page() {
@@ -17,8 +18,11 @@ export default function Page() {
       authors={["ciaochaos", "chenbaiyujason", "huo-ju", "Dango233", "cpunisher", "Zhaohan-Wang"]}
     >
 
-      <SectionTitle title={t("Papers")} />
-      <ListView data={data} />
+      <PaperView
+        namespace="docs.sd-ecology"
+        data={data}
+      />
+
     </CollectionLayout>
   )
 }

@@ -86,7 +86,7 @@
       "desc": ""
     },
     "sd-ecology": {
-      "title": "Stable Diffusion 生态技术",
+      "title": "Stable Diffusion 生态论文精选",
       "desc": "",
       "Papers": "论文",
       "instant-style": "基于 ip-adapter 的风格一致性"

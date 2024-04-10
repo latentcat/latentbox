@@ -86,10 +86,15 @@
       "desc": ""
     },
     "sd-ecology": {
-      "title": "Stable Diffusion Ecology",
+      "title": "Stable Diffusion Papers",
       "desc": "",
-      "Papers": "Papers",
-      "instant-style": "Style Consistency based on ip-adapter"
+      "normal": "Normal",
+      "uncategorized": "Uncategorized",
+      "consistency": "Consistency",
+      "animation": "Animation",
+      "semantic_enhancement": "Semantic Enhancement",
+      "enhancement": "Enhancement",
+      "acceleration": "Acceleration"
     },
     "diffuseum": {
       "title": "Diffuseum Podcast",
@@ -105,13 +110,7 @@
     },
     "transformer-papers": {
       "title": "Transformer Papers",
-      "desc": "",
-      "normal": "Normal",
-      "consistency": "Consistency",
-      "animation": "Animation",
-      "semantic_enhancement": "Semantic Enhancement",
-      "enhancement": "Enhancement",
-      "acceleration": "Acceleration"
+      "desc": ""
     },
     "image-datasets": {
       "title": "Image Datasets",
