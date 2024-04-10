@@ -1,11 +1,46 @@
 [
   {
-    "category": "uncategorized",
+    "category": "original",
     "items": [
       {
         "name": "Stable Diffusion",
-        "arxiv": "https://arxiv.org/abs/2112.10752"
+        "arxiv": "https://arxiv.org/abs/2112.10752",
+        "github": "https://github.com/CompVis/latent-diffusion",
+        "hugging_face": "https://huggingface.co/spaces",
+        "principle_diagram": true,
+        "showcase": true
       },
+      {
+        "name": "Stable Diffusion 2",
+        "arxiv": "https://stability.ai/news/stable-diffusion-v2-release",
+        "github": "https://github.com/Stability-AI/stablediffusion",
+        "showcase": true
+      },
+      {
+        "name": "SDXL",
+        "arxiv": "https://stability.ai/news/stable-diffusion-sdxl-1-announcement",
+        "github": "https://github.com/Stability-AI/generative-models",
+        "showcase": true
+      },
+      {
+        "name": "Stable Diffusion 3",
+        "arxiv": "https://stability.ai/news/stable-diffusion-3-research-paper",
+        "showcase": true
+      },
+      {
+        "name": "SDXL Turbo",
+        "arxiv": "https://stability.ai/research/adversarial-diffusion-distillation",
+        "github": "https://github.com/Stability-AI/generative-models",
+        "project_website": "https://clipdrop.co/stable-diffusion-turbo",
+        "hugging_face": "https://huggingface.co/stabilityai/sd-turbo",
+        "principle_diagram": true,
+        "showcase": true
+      }
+    ]
+  },
+  {
+    "category": "control",
+    "items": [
       {
         "name": "ControlNet",
         "arxiv": "http://arxiv.org/abs/2302.05543",
@@ -14,58 +49,10 @@
         "showcase": true
       },
       {
-        "name": "LoRA",
-        "arxiv": "http://arxiv.org/abs/2106.09685"
-      },
-      {
-        "name": "Lavi-Bridge",
-        "arxiv": "https://arxiv.org/abs/2403.07860",
-        "github": "https://github.com/ShihaoZhaoZSH/LaVi-Bridge",
-        "project_website": "https://shihaozhaozsh.github.io/LaVi-Bridge/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "CoMat",
-        "arxiv": "https://arxiv.org/pdf/2404.03653.pdf",
-        "github": "https://github.com/CaraJ7/CoMat",
-        "project_website": "https://caraj7.github.io/comat/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "mudi",
+        "name": "Mudi",
         "arxiv": "https://arxiv.org/abs/2404.04243",
         "github": "https://github.com/agwmon/MuDI",
         "project_website": "https://mudi-t2i.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "T-GATE",
-        "arxiv": "https://arxiv.org/pdf/2404.02747.pdf",
-        "github": "https://github.com/HaozheLiu-ST/T-GATE",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "spright-t2i",
-        "arxiv": "https://arxiv.org/abs/2404.01197",
-        "github": "https://github.com/SPRIGHT-T2I/SPRIGHT",
-        "project_website": "https://spright-t2i.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "CosmicMan",
-        "github": "https://github.com/cosmicman-cvpr2024/CosmicMan",
-        "project_website": "https://cosmicman-cvpr2024.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "VersaT2I",
-        "arxiv": "https://arxiv.org/abs/2403.18493",
         "principle_diagram": true,
         "showcase": true
       },
@@ -78,46 +65,11 @@
         "showcase": true
       },
       {
-        "name": "LCM",
-        "arxiv": "https://arxiv.org/abs/2310.04378",
-        "github": "https://github.com/luosiallen/latent-consistency-model",
-        "project_website": "https://latent-consistency-models.github.io/",
-        "showcase": true
-      },
-      {
-        "name": "lighting",
-        "arxiv": "https://arxiv.org/abs/2402.13929",
-        "showcase": true
-      },
-      {
-        "name": "turbo",
-        "hugging_face": "https://huggingface.co/stabilityai/sd-turbo",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "LayerDiffusion",
-        "arxiv": "http://arxiv.org/abs/2402.17113",
-        "github": "https://github.com/layerdiffusion/LayerDiffuse",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "RegionalDiffusion",
-        "github": "https://github.com/hako-mikan/sd-webui-regional-prompter",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Diffusion-DPO",
-        "arxiv": "https://arxiv.org/abs/2311.12908",
-        "showcase": true
-      },
-      {
         "name": "OMG",
         "arxiv": "https://arxiv.org/abs/2403.10983",
         "github": "https://github.com/kongzhecn/OMG",
         "project_website": "https://kongzhecn.github.io/omg-project/",
+        "hugging_face": "https://huggingface.co/spaces/Fucius/OMG",
         "showcase": true
       },
       {
@@ -125,20 +77,6 @@
         "arxiv": "https://arxiv.org/abs/2305.18247",
         "github": "https://github.com/AILab-CVC/TaleCrafter",
         "project_website": "https://ailab-cvc.github.io/TaleCrafter/",
-        "showcase": true
-      },
-      {
-        "name": "DreamSync",
-        "arxiv": "https://arxiv.org/abs/2311.17946",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Rerender",
-        "arxiv": "https://arxiv.org/abs/2306.07954",
-        "github": "https://github.com/williamyang1991/Rerender_A_Video",
-        "project_website": "https://www.mmlab-ntu.com/project/rerender/",
-        "principle_diagram": true,
         "showcase": true
       },
       {
@@ -150,101 +88,32 @@
         "showcase": true
       },
       {
-        "name": "DemoFusion",
-        "github": "https://github.com/PRIS-CV/DemoFusion",
-        "project_website": "https://ruoyidu.github.io/demofusion/demofusion.html",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Specialist Diffusion",
-        "arxiv": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Specialist_Diffusion_Plug-and-Play_Sample-Efficient_Fine-Tuning_of_Text-to-Image_Diffusion_Models_To_CVPR_2023_paper.pdf",
-        "github": "https://github.com/Picsart-AI-Research/Specialist-Diffusion",
-        "project_website": "https://specialist-diffusion.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "LEDITS",
-        "arxiv": "https://arxiv.org/abs/2311.16711",
-        "github": "https://huggingface.co/spaces/editing-images/leditsplusplus/tree/main",
-        "project_website": "https://leditsplusplus-project.static.hf.space/index.html",
-        "hugging_face": "https://huggingface.co/spaces/editing-images/leditsplusplus",
-        "showcase": true
-      },
-      {
-        "name": "photomaker",
-        "arxiv": "https://huggingface.co/papers/2312.04461",
-        "github": "https://github.com/TencentARC/PhotoMaker",
-        "project_website": "https://photo-maker.github.io/"
-      },
-      {
-        "name": "freeu",
-        "github": "https://github.com/ChenyangSi/FreeU",
-        "project_website": "https://chenyangsi.top/FreeU/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "anytext",
-        "github": "https://github.com/tyxsspa/AnyText/",
-        "hugging_face": "https://modelscope.cn/studios/iic/studio_anytext/summary"
-      },
-      {
-        "name": "udifftext",
+        "name": "UdiffText",
         "arxiv": "https://arxiv.org/abs/2312.04884",
         "github": "https://github.com/ZYM-PKU/UDiffText",
-        "project_website": "https://udifftext.github.io/"
-      },
-      {
-        "name": "Champ",
-        "arxiv": "http://arxiv.org/abs/2403.14781",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "asva",
-        "project_website": "https://lzhangbj.github.io/projects/asva/asva.html"
-      },
-      {
-        "name": "EMO",
-        "arxiv": "http://arxiv.org/abs/2402.17485",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Glyph-ByT5",
-        "arxiv": "https://arxiv.org/abs/2403.09622",
-        "project_website": "https://glyph-byt5.github.io/",
+        "project_website": "https://udifftext.github.io/",
         "principle_diagram": true,
         "showcase": true
       },
       {
         "name": "FreeControl",
         "arxiv": "http://arxiv.org/abs/2312.07536",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "PowerPaint",
-        "arxiv": "http://arxiv.org/abs/2312.03594",
+        "github": "https://github.com/genforce/freecontrol",
+        "project_website": "https://genforce.github.io/freecontrol/",
         "principle_diagram": true,
         "showcase": true
       },
       {
         "name": "LooseControl",
         "arxiv": "http://arxiv.org/abs/2312.03079",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "LCM-Lookahead",
-        "project_website": "https://lcm-lookahead.github.io/",
+        "github": "https://github.com/shariqfarooq123/LooseControl",
+        "project_website": "https://shariqfarooq123.github.io/loose-control/",
         "principle_diagram": true,
         "showcase": true
       },
       {
         "name": "Diffuse to Choose",
+        "arxiv": "https://arxiv.org/abs/2401.13795",
         "project_website": "https://diffuse2choose.github.io/",
         "principle_diagram": true,
         "showcase": true
@@ -255,122 +124,26 @@
         "github": "https://github.com/mkshing/scedit-pytorch",
         "principle_diagram": true,
         "showcase": true
-      },
-      {
-        "name": "Prompt-to-Prompt",
-        "project_website": "https://prompt-to-prompt.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "DreamTuner",
-        "project_website": "https://dreamtuner-diffusion.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "PIA",
-        "project_website": "https://pi-animator.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "StreamDiffusion",
-        "github": "https://github.com/cumulo-autumn/StreamDiffusion",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "FreeInit",
-        "project_website": "https://tianxingwu.github.io/pages/FreeInit/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "AnyDoor",
-        "project_website": "https://github.com/ali-vilab/AnyDoor",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "MagicScroll",
-        "project_website": "https://magicscroll.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "LongAnimateDiff",
-        "github": "https://github.com/Lightricks/LongAnimateDiff"
-      },
-      {
-        "name": "DreaMoving",
-        "arxiv": "https://arxiv.org/abs/2312.05107",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Instant LoRA Composition",
-        "github": "https://github.com/CompVis/instant-lora-composition"
-      },
-      {
-        "name": "InfEdit",
-        "project_website": "https://sled-group.github.io/InfEdit/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Mix-of-Show",
-        "project_website": "https://showlab.github.io/Mix-of-Show/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Smooth Diffusion",
-        "project_website": "https://shi-labs.github.io/Smooth-Diffusion/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "AnimateZero",
-        "project_website": "https://vvictoryuki.github.io/animatezero.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "DemoFusion",
-        "github": "https://github.com/PRIS-CV/DemoFusion",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "VideoBooth",
-        "project_website": "https://vchitect.github.io/VideoBooth-project/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Visual Anagrams",
-        "project_website": "https://dangeng.github.io/visual_anagrams/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Animate Anyone",
-        "project_website": "https://humanaigc.github.io/animate-anyone/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "Cross-Image Attention",
-        "github": "https://github.com/garibida/cross-image-attention",
-        "principle_diagram": true,
-        "showcase": true
       }
     ]
   },
   {
     "category": "consistency",
     "items": [
+      {
+        "name": "LoRA",
+        "arxiv": "http://arxiv.org/abs/2106.09685",
+        "github": "https://github.com/cloneofsimo/lora",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "LyCORIS",
+        "arxiv": "https://arxiv.org/abs/2309.14859",
+        "github": "https://github.com/KohakuBlueleaf/LyCORIS",
+        "principle_diagram": true,
+        "showcase": true
+      },
       {
         "name": "IP Adapter",
         "arxiv": "http://arxiv.org/abs/2308.06721",
@@ -405,7 +178,62 @@
       },
       {
         "name": "FlashFace",
+        "arxiv": "https://arxiv.org/abs/2312.02928",
+        "github": "https://github.com/jshilong/FlashFace",
         "project_website": "https://jshilong.github.io/flashface-page/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Stable-diffusion-reference-only",
+        "github": "https://github.com/aihao2000/stable-diffusion-reference-only",
+        "showcase": true
+      },
+      {
+        "name": "Specialist Diffusion",
+        "arxiv": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Specialist_Diffusion_Plug-and-Play_Sample-Efficient_Fine-Tuning_of_Text-to-Image_Diffusion_Models_To_CVPR_2023_paper.pdf",
+        "github": "https://github.com/Picsart-AI-Research/Specialist-Diffusion",
+        "project_website": "https://specialist-diffusion.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "PhotoMaker",
+        "arxiv": "https://huggingface.co/papers/2312.04461",
+        "github": "https://github.com/TencentARC/PhotoMaker",
+        "project_website": "https://photo-maker.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "DreamTuner",
+        "arxiv": "https://arxiv.org/abs/2312.13691",
+        "project_website": "https://dreamtuner-diffusion.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "PIA",
+        "arxiv": "https://arxiv.org/abs/2312.13964",
+        "github": "https://github.com/open-mmlab/PIA",
+        "project_website": "https://pi-animator.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "AnyDoor",
+        "arxiv": "https://arxiv.org/abs/2307.09481",
+        "github": "https://github.com/ali-vilab/AnyDoor",
+        "project_website": "https://github.com/ali-vilab/AnyDoor",
+        "hugging_face": "https://huggingface.co/spaces/xichenhku/AnyDoor-online",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Mix-of-Show",
+        "arxiv": "https://arxiv.org/abs/2305.18292",
+        "github": "https://github.com/TencentARC/Mix-of-Show",
+        "project_website": "https://showlab.github.io/Mix-of-Show/",
         "principle_diagram": true,
         "showcase": true
       }
@@ -416,6 +244,7 @@
     "items": [
       {
         "name": "MagicAnimate",
+        "arxiv": "https://arxiv.org/abs/2311.16498",
         "github": "https://github.com/magic-research/magic-animate",
         "project_website": "https://showlab.github.io/magicanimate/",
         "hugging_face": "https://huggingface.co/spaces/zcxu-eric/magicanimate",
@@ -437,6 +266,85 @@
         "project_website": "https://animatediff.github.io/",
         "principle_diagram": true,
         "showcase": true
+      },
+      {
+        "name": "Rerender",
+        "arxiv": "https://arxiv.org/abs/2306.07954",
+        "github": "https://github.com/williamyang1991/Rerender_A_Video",
+        "project_website": "https://www.mmlab-ntu.com/project/rerender/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Champ",
+        "arxiv": "http://arxiv.org/abs/2403.14781",
+        "github": "https://github.com/fudan-generative-vision/champ",
+        "project_website": "https://fudan-generative-vision.github.io/champ/#/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "ASVA",
+        "arxiv": "https://arxiv.org/abs/2403.05659",
+        "project_website": "https://lzhangbj.github.io/projects/asva/asva.html",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "EMO",
+        "arxiv": "http://arxiv.org/abs/2402.17485",
+        "github": "https://github.com/HumanAIGC/EMO",
+        "project_website": "https://humanaigc.github.io/emote-portrait-alive/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "FreeInit",
+        "arxiv": "https://arxiv.org/abs/2312.07537",
+        "github": "https://github.com/TianxingWu/FreeInit",
+        "project_website": "https://tianxingwu.github.io/pages/FreeInit/",
+        "hugging_face": "https://huggingface.co/spaces/TianxingWu/FreeInit",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "LongAnimateDiff",
+        "github": "https://github.com/Lightricks/LongAnimateDiff",
+        "hugging_face": "https://huggingface.co/Lightricks/LongAnimateDiff",
+        "showcase": true
+      },
+      {
+        "name": "DreaMoving",
+        "arxiv": "https://arxiv.org/abs/2312.05107",
+        "github": "https://github.com/dreamoving/dreamoving-project",
+        "project_website": "https://dreamoving.github.io/dreamoving/",
+        "hugging_face": "https://huggingface.co/spaces/jiayong/Dreamoving",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "AnimateZero",
+        "arxiv": "https://arxiv.org/abs/2312.03793",
+        "github": "https://github.com/vvictoryuki/AnimateZero",
+        "project_website": "https://vvictoryuki.github.io/animatezero.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "VideoBooth",
+        "arxiv": "https://arxiv.org/pdf/2312.00777.pdf",
+        "github": "https://github.com/Vchitect/VideoBooth",
+        "project_website": "https://vchitect.github.io/VideoBooth-project/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Animate Anyone",
+        "arxiv": "https://arxiv.org/pdf/2311.17117.pdf",
+        "github": "https://github.com/HumanAIGC/AnimateAnyone",
+        "project_website": "https://humanaigc.github.io/animate-anyone/",
+        "principle_diagram": true,
+        "showcase": true
       }
     ]
   },
@@ -452,6 +360,14 @@
         "showcase": true
       },
       {
+        "name": "Lavi-Bridge",
+        "arxiv": "https://arxiv.org/abs/2403.07860",
+        "github": "https://github.com/ShihaoZhaoZSH/LaVi-Bridge",
+        "project_website": "https://shihaozhaozsh.github.io/LaVi-Bridge/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
         "name": "Ranni",
         "arxiv": "https://arxiv.org/abs/2311.17002",
         "github": "https://github.com/ali-vilab/Ranni",
@@ -460,9 +376,83 @@
         "showcase": true
       },
       {
-        "name": "rpg-diffusionmaster",
+        "name": "RPG-Diffusionmaster",
         "arxiv": "https://arxiv.org/abs/2401.11708",
         "github": "https://github.com/YangLing0818/RPG-DiffusionMaster",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "CoMat",
+        "arxiv": "https://arxiv.org/pdf/2404.03653.pdf",
+        "github": "https://github.com/CaraJ7/CoMat",
+        "project_website": "https://caraj7.github.io/comat/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "SPRIGHT",
+        "arxiv": "https://arxiv.org/abs/2404.01197",
+        "github": "https://github.com/SPRIGHT-T2I/SPRIGHT",
+        "project_website": "https://spright-t2i.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "VersaT2I",
+        "arxiv": "https://arxiv.org/abs/2403.18493",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Diffusion-DPO",
+        "arxiv": "https://arxiv.org/abs/2311.12908",
+        "github": "https://github.com/SalesforceAIResearch/DiffusionDPO",
+        "hugging_face": "https://huggingface.co/mhdang/dpo-sd1.5-text2image-v1",
+        "showcase": true
+      },
+      {
+        "name": "DreamSync",
+        "arxiv": "https://arxiv.org/abs/2311.17946",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Glyph-ByT5",
+        "arxiv": "https://arxiv.org/abs/2403.09622",
+        "project_website": "https://glyph-byt5.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Prompt-to-Prompt",
+        "arxiv": "https://prompt-to-prompt.github.io/ptp_files/Prompt-to-Prompt_preprint.pdf",
+        "github": "https://github.com/google/prompt-to-prompt/",
+        "project_website": "https://prompt-to-prompt.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "MagicScroll",
+        "arxiv": "https://arxiv.org/abs/2312.10899",
+        "project_website": "https://magicscroll.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "InfEdit",
+        "arxiv": "https://arxiv.org/pdf/2312.04965.pdf",
+        "github": "https://github.com/sled-group/InfEdit",
+        "project_website": "https://sled-group.github.io/InfEdit/",
+        "hugging_face": "https://huggingface.co/spaces/sled-umich/InfEdit",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Cross-Image Attention",
+        "arxiv": "https://arxiv.org/abs/2311.03335",
+        "github": "https://github.com/garibida/cross-image-attention",
+        "hugging_face": "https://huggingface.co/spaces/yuvalalaluf/cross-image-attention",
         "principle_diagram": true,
         "showcase": true
       }
@@ -486,17 +476,131 @@
         "project_website": "https://showlab.github.io/X-Adapter/",
         "principle_diagram": true,
         "showcase": true
+      },
+      {
+        "name": "RegionalDiffusion",
+        "github": "https://github.com/hako-mikan/sd-webui-regional-prompter",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "DemoFusion",
+        "arxiv": "https://arxiv.org/pdf/2311.16973.pdf",
+        "github": "https://github.com/PRIS-CV/DemoFusion",
+        "project_website": "https://ruoyidu.github.io/demofusion/demofusion.html",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "FreeU",
+        "arxiv": "https://arxiv.org/pdf/2309.11497.pdf",
+        "github": "https://github.com/ChenyangSi/FreeU",
+        "project_website": "https://chenyangsi.top/FreeU/",
+        "hugging_face": "https://huggingface.co/spaces/ChenyangSi/FreeU",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "PowerPaint",
+        "arxiv": "https://arxiv.org/abs/2312.03594",
+        "github": "https://github.com/zhuang2002/PowerPaint",
+        "project_website": "https://powerpaint.github.io/",
+        "hugging_face": "https://huggingface.co/JunhaoZhuang/PowerPaint_v2",
+        "principle_diagram": true,
+        "showcase": true,
+        "introduction": "基于 1.5 的效果媲美PS的开源重绘模型"
       }
     ]
   },
   {
-    "category": "加速",
+    "category": "acceleration",
     "items": [
+      {
+        "name": "T-GATE",
+        "arxiv": "https://arxiv.org/pdf/2404.02747.pdf",
+        "github": "https://github.com/HaozheLiu-ST/T-GATE",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "LCM",
+        "arxiv": "https://arxiv.org/abs/2310.04378",
+        "github": "https://github.com/luosiallen/latent-consistency-model",
+        "project_website": "https://latent-consistency-models.github.io/",
+        "showcase": true
+      },
+      {
+        "name": "Llighting",
+        "arxiv": "https://arxiv.org/abs/2402.13929",
+        "showcase": true
+      },
       {
         "name": "TCD",
         "arxiv": "https://arxiv.org/abs/2402.19159",
         "github": "https://github.com/jabir-zheng/TCD",
-        "hugging_face": "https://huggingface.co/h1t/TCD-SDXL-LoRA"
+        "hugging_face": "https://huggingface.co/h1t/TCD-SDXL-LoRA",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "LCM-Lookahead",
+        "arxiv": "https://arxiv.org/abs/2404.03620",
+        "project_website": "https://lcm-lookahead.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "StreamDiffusion",
+        "arxiv": "https://arxiv.org/abs/2312.12491",
+        "github": "https://github.com/cumulo-autumn/StreamDiffusion",
+        "hugging_face": "https://huggingface.co/papers/2312.12491",
+        "principle_diagram": true,
+        "showcase": true
+      }
+    ]
+  },
+  {
+    "category": "extension",
+    "items": [
+      {
+        "name": "LayerDiffusion",
+        "arxiv": "http://arxiv.org/abs/2402.17113",
+        "github": "https://github.com/layerdiffusion/LayerDiffuse",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "LEDITS",
+        "arxiv": "https://arxiv.org/abs/2311.16711",
+        "github": "https://huggingface.co/spaces/editing-images/leditsplusplus/tree/main",
+        "project_website": "https://leditsplusplus-project.static.hf.space/index.html",
+        "hugging_face": "https://huggingface.co/spaces/editing-images/leditsplusplus",
+        "showcase": true
+      },
+      {
+        "name": "PowerPaint",
+        "arxiv": "http://arxiv.org/abs/2312.03594",
+        "github": "https://github.com/zhuang2002/PowerPaint/tree/main",
+        "project_website": "https://powerpaint.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Smooth Diffusion",
+        "arxiv": "https://arxiv.org/abs/2312.04410",
+        "github": "https://github.com/SHI-Labs/Smooth-Diffusion/",
+        "project_website": "https://shi-labs.github.io/Smooth-Diffusion/",
+        "hugging_face": "https://huggingface.co/spaces/shi-labs/Smooth-Diffusion",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Visual Anagrams",
+        "arxiv": "https://arxiv.org/pdf/2311.17919.pdf",
+        "github": "https://github.com/dangeng/visual_anagrams",
+        "project_website": "https://dangeng.github.io/visual_anagrams/",
+        "principle_diagram": true,
+        "showcase": true
       }
     ]
   }
