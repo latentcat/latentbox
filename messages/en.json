@@ -160,7 +160,13 @@
     },
     "latent-cat-stack": {
       "title": "Latent Cat Stack",
-      "desc": ""
+      "desc": "",
+      "framework": "Framework",
+      "deploy": "Deploy",
+      "ui": "UI",
+      "library": "Library",
+      "iconset": "Iconset",
+      "analytics": "Analytics"
     },
     "python-5-libs": {
       "title": "5 Game-Changing Python Libs",

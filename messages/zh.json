@@ -160,7 +160,13 @@
     },
     "latent-cat-stack": {
       "title": "Latent Cat 技术栈",
-      "desc": ""
+      "desc": "",
+      "framework": "框架",
+      "deploy": "部署",
+      "ui": "UI",
+      "library": "依赖库",
+      "iconset": "图标集合",
+      "analytics": "统计分析"
     },
     "python-5-libs": {
       "title": "5 个改变体验的 Python 库",
