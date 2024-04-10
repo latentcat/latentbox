@@ -602,24 +602,5 @@
         "showcase": true
       }
     ]
-  },
-  {
-    "category": "其他生图架构",
-    "items": [
-      {
-        "name": "CosmicMan",
-        "arxiv": "https://arxiv.org/abs/2404.01294",
-        "github": "https://github.com/cosmicman-cvpr2024/CosmicMan",
-        "project_website": "https://cosmicman-cvpr2024.github.io/",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "anytext",
-        "arxiv": "https://arxiv.org/abs/2311.03054",
-        "github": "https://github.com/tyxsspa/AnyText/",
-        "hugging_face": "https://modelscope.cn/studios/iic/studio_anytext/summary"
-      }
-    ]
   }
 ]

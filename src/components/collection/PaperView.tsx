@@ -73,10 +73,10 @@ export function PaperView(props: GalleryViewProps) {
                 const urls = ["showcase", "principle_diagram"]
                 return (
                   <Card
-                    key={item.name} className="relative overflow-hidden flex flex-col border-b">
+                    key={item.name} className="relative overflow-hidden flex flex-col">
                     {flags.some(item => item === true) && (
                       <Carousel
-                        className="shrink-0 w-full _max-w-sm"
+                        className="shrink-0 w-full _max-w-sm border-b"
                         opts={{
                           loop: true,
                         }}
