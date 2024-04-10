@@ -186,6 +186,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "LonelyFellas",
+      "name": "Darwish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38754760?v=4",
+      "profile": "https://github.com/LonelyFellas",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",

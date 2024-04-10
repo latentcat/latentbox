@@ -49,6 +49,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://antfu.me"><img src="https://avatars.githubusercontent.com/u/11247099?v=4" width="100px;" alt=""/><br /><sub><b>Anthony Fu</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jhuo.ca/"><img src="https://avatars.githubusercontent.com/u/561810?v=4" width="100px;" alt=""/><br /><sub><b>Ju Huo</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Dango233"><img src="https://avatars.githubusercontent.com/u/15649295?v=4" width="100px;" alt=""/><br /><sub><b>Dango233</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/LonelyFellas"><img src="https://avatars.githubusercontent.com/u/38754760?v=4" width="100px;" alt=""/><br /><sub><b>Darwish</b></sub></a></td>
     </tr>
   </tbody>
 </table>
