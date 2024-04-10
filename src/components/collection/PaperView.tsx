@@ -45,7 +45,7 @@ interface GalleryViewProps {
 }
 
 
-const linkButtonClass="rounded-full"
+const linkButtonClass="text-foreground/60 hover:text-foreground transition flex items-center "
 
 
 export function PaperView(props: GalleryViewProps) {
@@ -64,97 +64,94 @@ export function PaperView(props: GalleryViewProps) {
         <div key={group.category}>
           <SectionTitle title={t(group.category as never)} />
           <div className="not-prose">
-            <Accordion
-              type="multiple"
+            <div
+              className="grid grid-cols-2 xl:grid-cols-3 gap-6"
             >
               {group.items.map((item) => {
                 const flags = [item.showcase, item.principle_diagram]
                 const urls = ["showcase", "principle_diagram"]
                 return (
-                  <AccordionItem
-                    key={item.name}
-                    value={item.name}
-                  >
-                    <AccordionTrigger>{item.name}</AccordionTrigger>
-                    <AccordionContent>
-                      <div className="w-full flex flex-col items-start lg:flex-row gap-6">
-
-                        {flags.some(item => item === true) && (
-                          <Carousel
-                            className="shrink-0 w-full max-w-sm"
-                            opts={{
-                              loop: true,
-                            }}
-                          >
-                            <CarouselContent>
-                              {flags.map((flag, index) => {
-                                if (!flag) return null
-                                return (
-                                  <CarouselItem key={index}>
-                                    <div className="">
-                                      <Card className="relative overflow-hidden">
-                                        <AspectRatio ratio={4/3} />
-                                        <div className="absolute top-0 left-0 w-full h-full">
-                                          <Image
-                                            className="w-full h-full object-cover"
-                                            width={1000}
-                                            height={1000}
-                                            src={`${props.assetsPrefix || ""}/${urls[index]}/${item.name}.jpg`}
-                                            alt=""
-                                            // unoptimized
-                                          />
-                                        </div>
-                                      </Card>
-                                    </div>
-                                  </CarouselItem>
-                                )
-                              })}
-                            </CarouselContent>
+                  <Card
+                    key={item.name} className="relative overflow-hidden flex flex-col">
+                    {flags.some(item => item === true) && (
+                      <Carousel
+                        className="shrink-0 w-full max-w-sm"
+                        opts={{
+                          loop: true,
+                        }}
+                      >
+                        <CarouselContent>
+                          {flags.map((flag, index) => {
+                            if (!flag) return null
+                            return (
+                              <CarouselItem key={index}>
+                                <div className="relative">
+                                  <AspectRatio ratio={16 / 9} />
+                                  <div className="absolute top-0 left-0 w-full h-full">
+                                    <Image
+                                      className="w-full h-full object-cover"
+                                      width={1000}
+                                      height={1000}
+                                      src={`${props.assetsPrefix || ""}/${urls[index]}/${item.name}.jpg`}
+                                      alt=""
+                                      // unoptimized
+                                    />
+                                  </div>
+                                </div>
+                              </CarouselItem>
+                            )
+                          })}
+                        </CarouselContent>
+                        {flags.filter(item => !!item).length > 1 && (
+                          <Fragment>
                             <CarouselPrevious />
                             <CarouselNext />
-                          </Carousel>
+                          </Fragment>
                         )}
+                      </Carousel>
+                    )}
 
-                        <div className="grow flex flex-wrap _flex-col gap-0">
-                          {item.arxiv && (
-                            <Link href={item.arxiv}>
-                              <Button variant="ghost" className={linkButtonClass}>
-                                <ArxivIcon className="w-4 h-4 mr-2" />
-                                Arxiv
-                              </Button>
-                            </Link>
-                          )}
-                          {item.github && (
-                            <Link href={item.github}>
-                              <Button variant="ghost" className={linkButtonClass}>
-                                <GitHubIcon className="w-4 h-4 mr-2" />
-                                Github
-                              </Button>
-                            </Link>
-                          )}
-                          {item.hugging_face && (
-                            <Link href={item.hugging_face}>
-                              <Button variant="ghost" className={linkButtonClass}>
-                                <HuggingFaceIcon className="w-4 h-4 mr-2" />
-                                Hugging Face
-                              </Button>
-                            </Link>
-                          )}
-                          {item.project_website && (
-                            <Link href={item.project_website}>
-                              <Button variant="ghost" className={linkButtonClass}>
-                                <GlobeIcon className="w-4 h-4 mr-2" />
-                                Website
-                              </Button>
-                            </Link>
-                          )}
-                        </div>
-                      </div>
-                    </AccordionContent>
-                  </AccordionItem>
+                    <div className="border-t px-4 pt-3 _text-sm font-bold">
+                      {item.name}
+                    </div>
+                    <div className="px-4 pt-2 pb-3 grow flex flex-wrap _flex-col gap-3 text-xs">
+                      {item.arxiv && (
+                        <Link href={item.arxiv}>
+                          <div className={linkButtonClass}>
+                            <ArxivIcon className="w-4 h-4 mr-1.5" />
+                            Arxiv
+                          </div>
+                        </Link>
+                      )}
+                      {item.github && (
+                        <Link href={item.github}>
+                          <div className={linkButtonClass}>
+                            <GitHubIcon className="w-4 h-4 mr-1.5" />
+                            Github
+                          </div>
+                        </Link>
+                      )}
+                      {item.hugging_face && (
+                        <Link href={item.hugging_face}>
+                          <div className={linkButtonClass}>
+                            <HuggingFaceIcon className="w-4 h-4 mr-1.5" />
+                            Hugging Face
+                          </div>
+                        </Link>
+                      )}
+                      {item.project_website && (
+                        <Link href={item.project_website}>
+                          <div className={linkButtonClass}>
+                            <GlobeIcon className="w-4 h-4 mr-1.5" />
+                            Website
+                          </div>
+                        </Link>
+                      )}
+                    </div>
+                  </Card>
                 )
               })}
-            </Accordion>
+            </div>
           </div>
         </div>
       ))}

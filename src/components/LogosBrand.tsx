@@ -40,7 +40,7 @@ export function XIcon(props: React.ComponentPropsWithoutRef<"svg">) {
 
 export function ArxivIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
-    <div className="scale-110">
+    <div className="scale-100">
       <svg viewBox="0 0 85 111" fill="none" {...props}>
         <path
           d="M49.8112 46.2302L74.1711 16.3402C75.6631 14.3512 76.3711 13.3102 75.6631 11.6172C75.2906 10.7212 74.6722 9.94885 73.8792 9.38949C73.0863 8.83013 72.1512 8.50657 71.1821 8.45618C70.6316 8.42491 70.0805 8.50713 69.563 8.69773C69.0456 8.88833 68.5728 9.18325 68.1741 9.56419L42.0352 37.8242L49.8112 46.2302Z"
