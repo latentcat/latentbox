@@ -135,12 +135,12 @@
       "3d": "3D",
       "design": "设计"
     },
-    "digital-artists": {
-      "title": "必须关注的数字艺术家",
-      "desc": ""
-    },
     "digital-art-tools": {
       "title": "数字艺术软件大全",
+      "desc": ""
+    },
+    "digital-artists": {
+      "title": "数字艺术家推荐",
       "desc": ""
     },
     "midi-controllers": {

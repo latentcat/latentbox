@@ -52,14 +52,14 @@ export function useCollectionData() {
       title: t("group.art"),
       links: [
         {
-          id: "digital-artists",
-          name: t("digital-artists.title"),
-          desc: t("digital-artists.desc"),
-        },
-        {
           id: "digital-art-tools",
           name: t("digital-art-tools.title"),
           desc: t("digital-art-tools.desc"),
+        },
+        {
+          id: "digital-artists",
+          name: t("digital-artists.title"),
+          desc: t("digital-artists.desc"),
         },
         {
           id: "midi-controllers",

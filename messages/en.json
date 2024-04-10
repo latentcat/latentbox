@@ -135,12 +135,12 @@
       "3d": "3D",
       "design": "Design"
     },
-    "digital-artists": {
-      "title": "Must-Follow Digital Artists",
-      "desc": ""
-    },
     "digital-art-tools": {
       "title": "Awesome Digital Art Tools",
+      "desc": ""
+    },
+    "digital-artists": {
+      "title": "Awesome Digital Artists",
       "desc": ""
     },
     "midi-controllers": {
