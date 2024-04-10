@@ -88,13 +88,14 @@
     "sd-ecology": {
       "title": "Stable Diffusion Papers",
       "desc": "",
-      "normal": "Normal",
-      "uncategorized": "Uncategorized",
+      "original": "Original",
+      "control": "Control",
       "consistency": "Consistency",
       "animation": "Animation",
       "semantic_enhancement": "Semantic Enhancement",
       "enhancement": "Enhancement",
-      "acceleration": "Acceleration"
+      "acceleration": "Acceleration",
+      "extension": "Extension"
     },
     "diffuseum": {
       "title": "Diffuseum Podcast",

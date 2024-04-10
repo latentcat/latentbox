@@ -88,8 +88,14 @@
     "sd-ecology": {
       "title": "Stable Diffusion 生态论文精选",
       "desc": "",
-      "Papers": "论文",
-      "instant-style": "基于 ip-adapter 的风格一致性"
+      "original": "原版",
+      "control": "控制",
+      "consistency": "连续性",
+      "animation": "动画",
+      "semantic_enhancement": "语义增强",
+      "enhancement": "增强",
+      "acceleration": "加速",
+      "extension": "扩展"
     },
     "diffuseum": {
       "title": "Diffuseum 播客",
@@ -105,13 +111,7 @@
     },
     "transformer-papers": {
       "title": "Transformer 论文精选",
-      "desc": "",
-      "normal": "通用",
-      "consistency": "图片一致性",
-      "animation": "动画",
-      "semantic_enhancement": "语义增强",
-      "enhancement": "模型增强",
-      "acceleration": "模型加速"
+      "desc": ""
     },
     "image-datasets": {
       "title": "图像数据集",
