@@ -11,7 +11,7 @@ export const dataDeploy: ResourceItem[] = [
 ];
 
 export const dataUI: ResourceItem[] = [
-  { id: "shadcn/ui", name: "shadcn/ui", url: "https://ui.shadcn.com/" },
+  { id: "shadcn-ui", name: "shadcn/ui", url: "https://ui.shadcn.com/" },
   { id: "tailwindcss", name: "Tailwind CSS", url: "https://tailwindcss.com/" },
 ];
 
@@ -41,12 +41,12 @@ export const dataLibrary: ResourceItem[] = [
     url: "https://docs.pmnd.rs/react-three-fiber",
   },
   {
-    id: "@next/mdx",
+    id: "next-mdx",
     name: "@next/mdx",
     url: "https://nextjs.org/docs/pages/building-your-application/configuring/mdx",
   },
   {
-    id: "@tailwindcss/typography",
+    id: "tailwindcss-typography",
     name: "@tailwindcss/typography",
     url: "https://tailwindcss-typography.vercel.app/",
   },
