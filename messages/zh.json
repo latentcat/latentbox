@@ -105,7 +105,13 @@
     },
     "transformer-papers": {
       "title": "Transformer 论文精选",
-      "desc": ""
+      "desc": "",
+      "normal": "通用",
+      "consistency": "图片一致性",
+      "animation": "动画",
+      "semantic_enhancement": "语义增强",
+      "enhancement": "模型增强",
+      "acceleration": "模型加速"
     },
     "image-datasets": {
       "title": "图像数据集",

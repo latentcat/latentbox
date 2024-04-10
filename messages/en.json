@@ -105,7 +105,13 @@
     },
     "transformer-papers": {
       "title": "Transformer Papers",
-      "desc": ""
+      "desc": "",
+      "normal": "Normal",
+      "consistency": "Consistency",
+      "animation": "Animation",
+      "semantic_enhancement": "Semantic Enhancement",
+      "enhancement": "Enhancement",
+      "acceleration": "Acceleration"
     },
     "image-datasets": {
       "title": "Image Datasets",
