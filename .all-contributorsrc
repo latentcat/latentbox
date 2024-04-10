@@ -168,6 +168,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "huo-ju",
+      "name": "Ju Huo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/561810?v=4",
+      "profile": "https://jhuo.ca/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
