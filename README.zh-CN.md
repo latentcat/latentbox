@@ -9,8 +9,10 @@
 </p>
 
 <p align='center'>
-  <a href="https://github.com/latentcat/latentbox/blob/main/README.md">English</a> | 简体中文 
+  <a href="https://github.com/latentcat/latentbox/blob/main/README.md">English</a> 
+  | 简体中文 
 </p>
+
 <p align="center">
   <samp>
     <a href="https://latentbox.com" target="_blank">latentbox.com</a> .

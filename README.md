@@ -7,8 +7,9 @@
 <p align="center">
     A collection of awesome-lists for AI, creativity and art. 
 </p>
+
 <p align='center'>
-  English|
+  English |
   <a href="https://github.com/latentcat/latentbox/blob/main/README.zh-CN.md">简体中文</a>
 </p>
 
