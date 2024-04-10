@@ -10,6 +10,7 @@ import { PaperView } from "@/components/collection/PaperView";
 
 export default function Page() {
   const t = useTranslations("docs.sd-ecology")
+  const assetsPrefix = "/assets/collections/sd-ecology"
 
   return (
     <CollectionLayout
@@ -21,6 +22,7 @@ export default function Page() {
       <PaperView
         namespace="docs.sd-ecology"
         data={data}
+        assetsPrefix={assetsPrefix}
       />
 
     </CollectionLayout>
