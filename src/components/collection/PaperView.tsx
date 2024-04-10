@@ -56,26 +56,27 @@ export function PaperView(props: GalleryViewProps) {
     <div
       className={cn(
         "",
-        "grid",
-        "gap-6",
+        "",
+        "space-y-6",
       )}
     >
+      <div className="mt-9" />
       {props.data.map((group) => (
         <div key={group.category}>
           <SectionTitle title={t(group.category as never)} />
           <div className="not-prose">
             <div
-              className="grid grid-cols-2 xl:grid-cols-3 gap-6"
+              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"
             >
               {group.items.map((item) => {
                 const flags = [item.showcase, item.principle_diagram]
                 const urls = ["showcase", "principle_diagram"]
                 return (
                   <Card
-                    key={item.name} className="relative overflow-hidden flex flex-col">
+                    key={item.name} className="relative overflow-hidden flex flex-col justify-center border-b">
                     {flags.some(item => item === true) && (
                       <Carousel
-                        className="shrink-0 w-full max-w-sm"
+                        className="shrink-0 w-full _max-w-sm"
                         opts={{
                           loop: true,
                         }}
@@ -85,7 +86,7 @@ export function PaperView(props: GalleryViewProps) {
                             if (!flag) return null
                             return (
                               <CarouselItem key={index}>
-                                <div className="relative">
+                                <div className="relative max-h-48">
                                   <AspectRatio ratio={16 / 9} />
                                   <div className="absolute top-0 left-0 w-full h-full">
                                     <Image
@@ -111,10 +112,10 @@ export function PaperView(props: GalleryViewProps) {
                       </Carousel>
                     )}
 
-                    <div className="border-t px-4 pt-3 _text-sm font-bold">
+                    <div className="px-4 pt-3 _text-sm font-bold">
                       {item.name}
                     </div>
-                    <div className="px-4 pt-2 pb-3 grow flex flex-wrap _flex-col gap-3 text-xs">
+                    <div className="px-4 pt-2 pb-3 flex flex-wrap _flex-col gap-3 text-xs">
                       {item.arxiv && (
                         <Link href={item.arxiv}>
                           <div className={linkButtonClass}>
