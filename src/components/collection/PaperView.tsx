@@ -45,7 +45,7 @@ interface GalleryViewProps {
 }
 
 
-const linkButtonClass="text-foreground/60 hover:text-foreground transition flex items-center "
+const linkButtonClass="text-foreground opacity-60 hover:opacity-100 transition-opacity flex items-center "
 
 
 export function PaperView(props: GalleryViewProps) {
