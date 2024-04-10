@@ -47,6 +47,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/onemachi"><img src="https://avatars.githubusercontent.com/u/67481767?v=4" width="100px;" alt=""/><br /><sub><b>onemachi</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ZHO-ZHO-ZHO"><img src="https://avatars.githubusercontent.com/u/140084057?v=4" width="100px;" alt=""/><br /><sub><b>ZHO-ZHO-ZHO</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://antfu.me"><img src="https://avatars.githubusercontent.com/u/11247099?v=4" width="100px;" alt=""/><br /><sub><b>Anthony Fu</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://jhuo.ca/"><img src="https://avatars.githubusercontent.com/u/561810?v=4" width="100px;" alt=""/><br /><sub><b>Ju Huo</b></sub></a></td>
     </tr>
   </tbody>
 </table>
