@@ -177,6 +177,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Dango233",
+      "name": "Dango233",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15649295?v=4",
+      "profile": "https://github.com/Dango233",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
