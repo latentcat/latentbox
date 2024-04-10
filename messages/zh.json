@@ -170,7 +170,8 @@
     },
     "python-5-libs": {
       "title": "5 个改变体验的 Python 库",
-      "desc": ""
+      "desc": "",
+      "face_recognition": "人脸识别"
     },
     "awesome-unity": {
       "title": "Unity 从入门到精通",

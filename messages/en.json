@@ -170,7 +170,8 @@
     },
     "python-5-libs": {
       "title": "5 Game-Changing Python Libs",
-      "desc": ""
+      "desc": "",
+      "face_recognition": "Face Recognition"
     },
     "awesome-unity": {
       "title": "Awesome Unity",
