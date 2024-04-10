@@ -120,7 +120,7 @@ export function PaperView(props: GalleryViewProps) {
                         <Link href={item.arxiv}>
                           <div className={linkButtonClass}>
                             <ArxivIcon className="w-4 h-4 mr-1.5" />
-                            Arxiv
+                            Paper
                           </div>
                         </Link>
                       )}
@@ -128,7 +128,7 @@ export function PaperView(props: GalleryViewProps) {
                         <Link href={item.github}>
                           <div className={linkButtonClass}>
                             <GitHubIcon className="w-4 h-4 mr-1.5" />
-                            Github
+                            GitHub
                           </div>
                         </Link>
                       )}
