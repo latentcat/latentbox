@@ -71,6 +71,7 @@ export const dataVideo: ResourceItem[] = [
 ];
 
 export const dataMusic: ResourceItem[] = [
+  { id: "udio", name: "udio", url: "https://udio.com/" },
   { id: "suno", name: "SUNO", url: "https://app.suno.ai/" },
   { id: "stable-audio", name: "Stable Audio", url: "https://www.stableaudio.com/" },
   { id: "mubert", name: "Mubert", url: "https://mubert.com/" },
