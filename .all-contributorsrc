@@ -222,6 +222,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "xiaohu2015",
+      "name": "Hu Ye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16861194?v=4",
+      "profile": "https://github.com/xiaohu2015",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
