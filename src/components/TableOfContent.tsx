@@ -13,7 +13,7 @@ export function TableOfContent() {
   return (
     <div className="fixed z-10 right-0">
       {sections.map((section) => (
-        <Link key={section.innerText} href={section.id}>
+        <Link key={section.innerText} href={`#${section.id}`}>
           <div>{section.innerText}</div>
         </Link>
       ))}
