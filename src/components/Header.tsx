@@ -90,7 +90,7 @@ function MobileNavItem(props: HeaderLinkProps) {
   );
 }
 
-const headerBgClass = "bg-background/50 backdrop-blur-lg backdrop-saturate-150"
+const headerBgClass = "bg-background/50 backdrop-blur-xl backdrop-saturate-150"
 
 function MobileNavigation(
   props: HeaderProps & { navigation: NavGroup[] } & React.ComponentPropsWithoutRef<"div">,
