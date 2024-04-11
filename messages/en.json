@@ -70,13 +70,16 @@
     "follow-us": {
       "title": "Follow Us",
       "desc": "",
+      "social_media": "Social Media",
+      "communities": "Communities",
+      "contact": "Contact",
       "p1": "It is not easy to maintain the website. If you want to know our latest updates, please follow our social accounts! We will release the latest collections and product recommendations as soon as possible, and we look forward to your feedback!",
       "x": "X",
       "discord": "Discord",
       "xiaohongshu": "小红书",
       "github": "GitHub",
-      "wechat_mp": "WeChat MP",
-      "h2": "Contact"
+      "hugging_face": "Hugging Face",
+      "wechat_mp": "WeChat MP"
     },
     "contributing": {
       "title": "Contributing",
