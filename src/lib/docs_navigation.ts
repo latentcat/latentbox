@@ -35,6 +35,7 @@ export function useCollectionData() {
           id: "transformer-papers",
           name: t("transformer-papers.title"),
           desc: t("transformer-papers.desc"),
+          tag: "WIP",
         },
         {
           id: "image-datasets",
@@ -60,16 +61,19 @@ export function useCollectionData() {
           id: "digital-artists",
           name: t("digital-artists.title"),
           desc: t("digital-artists.desc"),
+          tag: "WIP",
         },
         {
           id: "midi-controllers",
           name: t("midi-controllers.title"),
           desc: t("midi-controllers.desc"),
+          tag: "WIP",
         },
         {
           id: "gen-art-algorithm",
           name: t("gen-art-algorithm.title"),
           desc: t("gen-art-algorithm.desc"),
+          tag: "WIP",
         },
       ]
     },
@@ -80,6 +84,7 @@ export function useCollectionData() {
           id: "design-resources",
           name: t("design-resources.title"),
           desc: t("design-resources.desc"),
+          tag: "WIP",
         },
         {
           id: "open-source-fonts",
@@ -110,6 +115,7 @@ export function useCollectionData() {
           id: "python-5-libs",
           name: t("python-5-libs.title"),
           desc: t("python-5-libs.desc"),
+          tag: "WIP",
         },
       ]
     },
@@ -120,6 +126,7 @@ export function useCollectionData() {
           id: "awesome-unity",
           name: t("awesome-unity.title"),
           desc: t("awesome-unity.desc"),
+          tag: "WIP",
         },
       ]
     },
@@ -130,11 +137,13 @@ export function useCollectionData() {
           id: "vis-tools",
           name: t("vis-tools.title"),
           desc: t("vis-tools.desc"),
+          tag: "WIP",
         },
         {
           id: "vis-websites",
           name: t("vis-websites.title"),
           desc: t("vis-websites.desc"),
+          tag: "WIP",
         },
       ]
     },
@@ -189,6 +198,7 @@ export function useNavData() {
           ...group.links.map((item, index) => ({
             title: item.name,
             href: "/" + item.id,
+            tag: item.tag
           })),
         ],
       }

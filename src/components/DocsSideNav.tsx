@@ -55,9 +55,11 @@ export function DocsSidebarNavItems({
               : "text-muted-foreground"
           )}
         >
-          {item.title}
+          <div className="line-clamp-1">
+            {item.title}
+          </div>
           {item.tag && (
-            <Badge className="px-1.5 py-0 font-normal leading-5 ml-2 border-foreground/20" variant="outline">
+            <Badge className="px-1.5 py-0 rounded-md font-mono bg-background font-normal leading-5 ml-2 border-foreground/20" variant="outline">
               {item.tag}
             </Badge>
           )}
