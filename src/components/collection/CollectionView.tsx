@@ -15,7 +15,7 @@ function CollectionLink(props: CollectionItemProps) {
         className="relative flex flex-col items-center justify-center rounded-xl _border"
       >
         {props.icon && (
-          <props.icon className="w-16 h-16 text-white" />
+          <props.icon className="w-14 h-14 text-white" />
         )}
 
         {props.tag && (
