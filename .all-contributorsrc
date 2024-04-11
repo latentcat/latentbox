@@ -213,6 +213,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Leozzz7988",
+      "name": "Leozzz7988",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166421489?v=4",
+      "profile": "https://github.com/Leozzz7988",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
