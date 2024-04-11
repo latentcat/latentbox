@@ -126,7 +126,6 @@ export function useCollectionData() {
           id: "awesome-unity",
           name: t("awesome-unity.title"),
           desc: t("awesome-unity.desc"),
-          tag: "WIP",
         },
       ]
     },

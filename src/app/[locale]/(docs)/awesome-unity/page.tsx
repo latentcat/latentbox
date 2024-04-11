@@ -4,52 +4,56 @@ import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 import { ListView } from "@/components/collection/ListView";
 import data from "./data";
+import { GalleryView } from "@/components/collection/GalleryView";
 
 
 export default function Page() {
   const t = useTranslations("docs.awesome-unity")
+  const assetsPrefix = "/assets/collections/awesome-unity"
+
 
   return (
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
+      authors={["ciaochaos", "Leozzz7988"]}
     >
 
       <SectionTitle title={t("getting_started")} />
-      <ListView data={data.dataGettingStarted} />
+      <GalleryView data={data.dataGettingStarted} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("csharp")} />
-      <ListView data={data.dataCSharp} />
+      <GalleryView data={data.dataCSharp} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("shader_graph")} />
-      <ListView data={data.dataShaderGraph} />
+      <GalleryView data={data.dataShaderGraph} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("vfx_graph")} />
-      <ListView data={data.dataVFXGraph} />
+      <GalleryView data={data.dataVFXGraph} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("nav_mesh")} />
-      <ListView data={data.dataNavMesh} />
+      <GalleryView data={data.dataNavMesh} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("programming")} />
-      <ListView data={data.dataProgramming} />
+      <GalleryView data={data.dataProgramming} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("terrain")} />
-      <ListView data={data.dataTerrain} />
+      <GalleryView data={data.dataTerrain} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("master")} />
-      <ListView data={data.dataMaster} />
+      <GalleryView data={data.dataMaster} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("advanced_reference")} />
-      <ListView data={data.dataAdvancedReference} />
+      <GalleryView data={data.dataAdvancedReference} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("unity_official")} />
-      <ListView data={data.dataUnityOfficial} />
+      <GalleryView data={data.dataUnityOfficial} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("jetbrains")} />
-      <ListView data={data.dataJetBrains} />
+      <GalleryView data={data.dataJetBrains} assetsPrefix={assetsPrefix} />
 
       <SectionTitle title={t("vrchat")} />
-      <ListView data={data.dataVRChat} />
+      <GalleryView data={data.dataVRChat} assetsPrefix={assetsPrefix} />
 
     </CollectionLayout>
   )
