@@ -112,7 +112,8 @@
     },
     "transformer-papers": {
       "title": "Transformer 论文精选",
-      "desc": ""
+      "desc": "",
+      "original": "原版"
     },
     "image-datasets": {
       "title": "图像数据集",
