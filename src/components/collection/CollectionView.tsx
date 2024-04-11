@@ -10,7 +10,7 @@ function CollectionLink(props: CollectionItemProps) {
       className="flex flex-col gap-2 items-center"
     >
       <AspectRatio
-        ratio={16/9}
+        ratio={21/9}
         style={{ background: props.background }}
         className="relative flex flex-col items-center justify-center rounded-xl _border"
       >
