@@ -57,6 +57,7 @@ export const dataImage: ResourceItem[] = [
 export const dataVideo: ResourceItem[] = [
   { id: "sora", name: "Sora", url: "https://openai.com/sora" },
   { id: "runway", name: "Runway", url: "https://app.runwayml.com/" },
+  { id: "morph", name: "Morph Studio", url: "https://morphstudio.com/" },
   { id: "pika", name: "Pika", url: "https://pika.art/" },
   { id: "pixverse", name: "Pixverse", url: "https://pixverse.ai/" },
   { id: "moonvalley", name: "Moonvalley", url: "https://moonvalley.ai/" },
