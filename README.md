@@ -88,6 +88,7 @@ Latent Box 是一个重新构想的聚合站，由 Latent Cat 组织维护。为
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/xiaohu2015"><img src="https://avatars.githubusercontent.com/u/16861194?v=4" width="100px;" alt=""/><br /><sub><b>Hu Ye</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sdbds"><img src="https://avatars.githubusercontent.com/u/8085926?v=4" width="100px;" alt=""/><br /><sub><b>青龍聖者@bdsqlsz</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/headboxer"><img src="https://avatars.githubusercontent.com/u/45675810?v=4" width="100px;" alt=""/><br /><sub><b>Echo_Sculpture</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/iFurySt"><img src="https://avatars.githubusercontent.com/u/16201837?v=4" width="100px;" alt=""/><br /><sub><b>Leo</b></sub></a></td>
     </tr>
   </tbody>
 </table>
