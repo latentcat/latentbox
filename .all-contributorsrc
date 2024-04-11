@@ -240,6 +240,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "headboxer",
+      "name": "Echo_Sculpture",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45675810?v=4",
+      "profile": "https://github.com/headboxer",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
