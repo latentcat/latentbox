@@ -141,3 +141,21 @@ body {
 .fixed-scrollbar::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--foreground) / 0.3);
 }
+
+.dark pre {
+  color: var(--shiki-dark, inherit);
+  background: #18181b;
+}
+
+html:not(.dark) pre {
+  color: var(--shiki-light, inherit);
+  background: #f9f9f9;
+}
+
+.dark code span {
+  color: var(--shiki-dark, inherit);
+}
+
+html:not(.dark) code span {
+  color: var(--shiki-light, inherit);
+}

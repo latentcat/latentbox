@@ -298,15 +298,19 @@ export default function typographyStyles({ theme }: PluginUtils) {
         ":is(a, blockquote, thead th) strong": {
           color: "inherit",
         },
+        pre: {
+          padding: "1rem",
+          borderRadius: "0.5rem",
+        },
         code: {
-          color: "var(--tw-prose-code)",
-          borderRadius: theme("borderRadius.lg"),
-          paddingTop: theme("padding.1"),
-          paddingRight: theme("padding[1.5]"),
-          paddingBottom: theme("padding.1"),
-          paddingLeft: theme("padding[1.5]"),
-          boxShadow: "inset 0 0 0 1px var(--tw-prose-code-ring)",
-          backgroundColor: "var(--tw-prose-code-bg)",
+          // color: "var(--tw-prose-code)",
+          // borderRadius: theme("borderRadius.lg"),
+          // paddingTop: theme("padding.1"),
+          // paddingRight: theme("padding[1.5]"),
+          // paddingBottom: theme("padding.1"),
+          // paddingLeft: theme("padding[1.5]"),
+          // boxShadow: "inset 0 0 0 1px var(--tw-prose-code-ring)",
+          // backgroundColor: "var(--tw-prose-code-bg)",
           fontSize: theme("fontSize.xs"),
         },
         ":is(a, h1, h2, h3, blockquote, thead th) code": {

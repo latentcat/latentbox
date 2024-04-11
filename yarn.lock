@@ -1112,6 +1112,30 @@
   resolved "https://registry.npmmirror.com/@rushstack/eslint-patch/-/eslint-patch-1.7.2.tgz#2d4260033e199b3032a08b41348ac10de21c47e9"
   integrity sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==
 
+"@shikijs/core@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.3.0.tgz#5b93b51ddb8def1e3a1543107f9b5b0540f716f6"
+  integrity sha512-7fedsBfuILDTBmrYZNFI8B6ATTxhQAasUHllHmjvSZPnoq4bULWoTpHwmuQvZ8Aq03/tAa2IGo6RXqWtHdWaCA==
+
+"@shikijs/rehype@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/rehype/-/rehype-1.3.0.tgz#b7f43bf4fc268238a4d97bd8d583393d8a7a9789"
+  integrity sha512-CknEidx0ZTg3TeYAPU4ah8cr31a16neBbMyQ5kwAVdkloCe65uhQp+C/FEFs8NRir4eU5XCDA/+w2v5wnN6zgQ==
+  dependencies:
+    "@shikijs/transformers" "1.3.0"
+    "@types/hast" "^3.0.4"
+    hast-util-to-string "^3.0.0"
+    shiki "1.3.0"
+    unified "^11.0.4"
+    unist-util-visit "^5.0.0"
+
+"@shikijs/transformers@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/transformers/-/transformers-1.3.0.tgz#b03c5733ef61e25e4f53666bf11889f8876f34e9"
+  integrity sha512-3mlpg2I9CjhjE96dEWQOGeCWoPcyTov3s4aAsHmgvnTHa8MBknEnCQy8/xivJPSpD+olqOqIEoHnLfbNJK29AA==
+  dependencies:
+    shiki "1.3.0"
+
 "@swc/helpers@0.5.2":
   version "0.5.2"
   resolved "https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.2.tgz#85ea0c76450b61ad7d10a37050289eded783c27d"
@@ -1172,7 +1196,7 @@
   resolved "https://registry.npmjs.org/@types/estree/-/estree-1.0.5.tgz#a6ce3e556e00fd9895dd872dd172ad0d4bd687f4"
   integrity sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==
 
-"@types/hast@^3.0.0":
+"@types/hast@^3.0.0", "@types/hast@^3.0.4":
   version "3.0.4"
   resolved "https://registry.npmjs.org/@types/hast/-/hast-3.0.4.tgz#1d6b39993b82cea6ad783945b0508c25903e15aa"
   integrity sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==
@@ -3098,6 +3122,13 @@ hast-util-to-jsx-runtime@^2.0.0:
     style-to-object "^1.0.0"
     unist-util-position "^5.0.0"
     vfile-message "^4.0.0"
+
+hast-util-to-string@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-to-string/-/hast-util-to-string-3.0.0.tgz#2a131948b4b1b26461a2c8ac876e2c88d02946bd"
+  integrity sha512-OGkAxX1Ua3cbcW6EJ5pT/tslVb90uViVkcJ4ZZIMW/R33DX/AkcJcRrPebPwJkHYwlDHXz4aIwvAAaAdtrACFA==
+  dependencies:
+    "@types/hast" "^3.0.0"
 
 hast-util-whitespace@^3.0.0:
   version "3.0.0"
@@ -5060,6 +5091,13 @@ shebang-regex@^3.0.0:
   resolved "https://registry.npmmirror.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+shiki@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.3.0.tgz#3eda35cb49f6f0a98525e9da48fc072e6c655a3f"
+  integrity sha512-9aNdQy/etMXctnPzsje1h1XIGm9YfRcSksKOGqZWXA/qP9G18/8fpz5Bjpma8bOgz3tqIpjERAd6/lLjFyzoww==
+  dependencies:
+    "@shikijs/core" "1.3.0"
+
 side-channel@^1.0.4:
   version "1.0.6"
   resolved "https://registry.npmmirror.com/side-channel/-/side-channel-1.0.6.tgz#abd25fb7cd24baf45466406b1096b7831c9215f2"
@@ -5525,7 +5563,7 @@ undici-types@~5.26.4:
   resolved "https://registry.npmmirror.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
-unified@^11.0.0:
+unified@^11.0.0, unified@^11.0.4:
   version "11.0.4"
   resolved "https://registry.npmjs.org/unified/-/unified-11.0.4.tgz#f4be0ac0fe4c88cb873687c07c64c49ed5969015"
   integrity sha512-apMPnyLjAX+ty4OrNap7yumyVAMlKx5IWU2wlzzUdYJO9A8f1p9m/gywF/GM2ZDFcjQPrx59Mc90KwmxsoklxQ==
