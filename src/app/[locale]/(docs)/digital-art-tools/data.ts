@@ -5,8 +5,7 @@ export const dataArt: ResourceItem[] = [
   { id: "p5-js", name: "p5.js", url: "https://p5js.org/" },
   { id: "open-framework", name: "Open Framework", url: "https://openframeworks.cc/" },
   { id: "netlogo", name: "NetLogo", url: "https://ccl.northwestern.edu/netlogo/" },
-  { id: "glchaos-p", name: "glChAoS.P", url: "https://github.com/BrutPitt/glChAoS.P" },
-  { id: "jsplacement", name: "JSplacement", url: "https://windmillart.net/?p=jsplacement" },
+  { id: "glchaos-p", name: "glChAoS.P", url: "https://www.michelemorrone.eu/glchaosp/" },
   { id: "unfolder", name: "Unfolder", url: "https://www.unfolder.app/" },
   { id: "vvvv", name: "VVVV", url: "https://vvvv.org/" },
   { id: "notch", name: "Notch", url: "https://www.notch.one/" },
@@ -48,24 +47,24 @@ export const dataTexture: ResourceItem[] = [
 
 export const dataRenderer: ResourceItem[] = [
   { id: "redshift", name: "Redshift", url: "https://www.redshift3d.com/" },
-  { id: "eevee", name: "Eevee", url: "https://www.blender.org/features/eevee/" },
+  { id: "cycles", name: "Cycles", url: "https://www.blender.org/features/rendering/" },
   { id: "iray", name: "Iray", url: "https://www.nvidia.com/en-us/design-visualization/iray/" },
   { id: "arnold", name: "Arnold", url: "https://www.arnoldrenderer.com/" },
   { id: "v-ray", name: "V-Ray", url: "https://www.chaos.com/vray" },
   { id: "octane", name: "Octane", url: "https://home.otoy.com/" },
   { id: "keyshot", name: "Keyshot", url: "https://www.keyshot.com/" },
-  { id: "d5", name: "D5", url: "https://www.d5techs.com/" },
-  { id: "mantra", name: "Mantra", url: "https://www.sidefx.com/docs/houdini/render/overview.html" },
-  { id: "karma", name: "Karma", url: "https://www.sidefx.com/docs/houdini/render/karma.html" },
+  { id: "d5", name: "D5", url: "https://www.d5render.com/" },
+  { id: "mantra", name: "Mantra", url: "https://www.sidefx.com/docs/houdini/render/render.html" },
+  { id: "karma", name: "Karma", url: "https://www.sidefx.com/docs/houdini/solaris/karma.html" },
   { id: "three-js", name: "Three.js", url: "https://threejs.org/" },
 ];
 
 export const dataComputing: ResourceItem[] = [
   { id: "cuda", name: "CUDA", url: "https://developer.nvidia.com/cuda-zone" },
   { id: "metal", name: "Metal", url: "https://developer.apple.com/metal/" },
-  { id: "direct-x", name: "DirectX", url: "https://developer.microsoft.com/en-us/windows/directx/" },
+  { id: "direct-x", name: "DirectX", url: "https://learn.microsoft.com/en-us/windows/uwp/gaming/directx-getting-started" },
   { id: "vulkan", name: "Vulkan", url: "https://www.khronos.org/vulkan/" },
-  { id: "webgpu", name: "WebGPU", url: "https://gpuweb.github.io/" },
+  { id: "webgpu", name: "WebGPU", url: "https://gpuweb.github.io/gpuweb/" },
   { id: "webgl", name: "webgl", url: "https://www.khronos.org/webgl/" },
   { id: "opengl", name: "OpenGL", url: "https://www.opengl.org/" },
   { id: "opencl", name: "OpenCL", url: "https://www.khronos.org/opencl/" },
@@ -85,7 +84,7 @@ export const dataInteraction: ResourceItem[] = [
 ];
 
 export const dataProjection: ResourceItem[] = [
-  { id: "arena", name: "Arena", url: "https://www.rockwellautomation.com/en-us/products/software/factorytalk/operationsuite/arena.html" },
+  { id: "arena", name: "Arena", url: "https://www.rockwellautomation.com.cn/products/software/arena-simulation.html" },
   { id: "madmapper", name: "MadMapper", url: "https://madmapper.com/" },
 ];
 
