@@ -112,7 +112,8 @@
     },
     "transformer-papers": {
       "title": "Transformer Papers",
-      "desc": ""
+      "desc": "",
+      "original": "Original"
     },
     "image-datasets": {
       "title": "Image Datasets",
