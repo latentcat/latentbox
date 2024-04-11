@@ -1,6 +1,4 @@
 import { Prose } from "@/components/Prose";
-import { Container, ContainerFull } from "@/components/Containers";
-import { HeaderPadding } from "@/components/Header";
 import {
   NextIntlClientProvider,
   useMessages,
@@ -11,10 +9,10 @@ import pick from "lodash/pick";
 import { Footer } from "@/components/Footer";
 import React from "react";
 
-import { default as contributors } from "../../.all-contributorsrc";
-import { Contributor, ContributorById, ContributorProps } from "@/components/Contributors";
+import { ContributorById } from "@/components/Contributors";
 import { Separator } from "@/components/ui/separator";
 import { Link } from "@/navigation";
+import { TableOfContent } from "./TableOfContent";
 
 interface ArticleLayoutProps {
   category?: string;
@@ -26,17 +24,15 @@ interface ArticleLayoutProps {
 }
 
 export function ArticleLayoutWithoutProse(props: ArticleLayoutProps) {
-
-  const authorIds = (
-    Array.isArray(props.authors)
-      ? props.authors
-      : props.authors !== undefined
-        ? [props.authors]
-        : []
-  )
+  const authorIds = Array.isArray(props.authors)
+    ? props.authors
+    : props.authors !== undefined
+      ? [props.authors]
+      : [];
 
   return (
     <div className="flex flex-col items-center">
+      <TableOfContent />
       <div className="w-full max-w-5xl min-h-screen">
         <header className="mt-12">
           {props.category && (
@@ -102,20 +98,15 @@ export function CollectionLayout({ children, ...rest }: CollectionLayoutProps) {
         </NextIntlClientProvider>
 
         <div className="text-sm flex items-center shrink-0 gap-4 py-1.5 h-8 text-zinc-600 dark:text-zinc-400">
-          <Link href="/docs/follow-us">
-            {t("follow_us")}
-          </Link>
+          <Link href="/docs/follow-us">{t("follow_us")}</Link>
           <Separator orientation="vertical" />
-          <Link href="/docs/collections">
-            {t("browse_more")}
-          </Link>
+          <Link href="/docs/collections">{t("browse_more")}</Link>
         </div>
       </div>
 
       <div className="h-3" />
 
       {/*<Separator />*/}
-
     </ArticleLayout>
   );
 }
