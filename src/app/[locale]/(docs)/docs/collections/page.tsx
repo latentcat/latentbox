@@ -5,48 +5,9 @@ import { CollectionGroupProps, CollectionItemProps, useCollectionData } from "@/
 import { Link } from "@/navigation";
 import { Separator } from "@/components/ui/separator";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { CollectionGroup } from "@/components/collection/CollectionView";
 
 
-function CollectionLink(props: CollectionItemProps) {
-  return (
-    <Link
-      href={`/${props.id}`}
-      className="flex flex-col gap-2 items-center"
-    >
-      <AspectRatio
-        ratio={16/9}
-        style={{ background: props.background }}
-        className="flex flex-col items-center justify-center rounded-lg _border"
-      >
-        {props.icon && (
-          <props.icon className="w-16 h-16 text-white" />
-        )}
-      </AspectRatio>
-      <div className="line-clamp-1">
-        {props.name}
-      </div>
-    </Link>
-  )
-}
-
-
-function CollectionGroup(props: CollectionGroupProps) {
-  return (
-    <div className="w-full flex flex-col">
-      <h3 className="text-xl font-bold mb-6">
-        {props.title}
-      </h3>
-      <div className="w-full grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-        {props.links.map((item, index) => (
-          <CollectionLink
-            key={index}
-            {...item}
-          />
-        ))}
-      </div>
-    </div>
-  )
-}
 
 export default function Page() {
 
