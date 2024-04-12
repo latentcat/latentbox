@@ -4,6 +4,7 @@ export const data: ResourceItem[] = [
   { id: "si-yuan-hei-ti", name: "思源黑体", url: "https://github.com/adobe-fonts/source-han-sans/releases" },
   { id: "si-yuan-song-ti", name: "思源宋体", url: "https://github.com/adobe-fonts/source-han-serif/releases" },
   { id: "si-yuan-hei-ti", name: "思源等宽", url: "https://github.com/adobe-fonts/source-han-mono/releases" },
+  { id: "glow-sans", name: "未来荧黑", url: "https://github.com/welai/glow-sans" },
   { id: "a-li-ba-ba-hui-pu-ti", name: "阿里巴巴普惠体", url: "https://alibabafont.taobao.com/wow/alibabafont/act/alifont" },
   { id: "a-li-ba-ba-hui-pu-ti-v2", name: "阿里巴巴普惠体2.0", url: "https://ics-static.oss-cn-hangzhou.aliyuncs.com/static/ucan/Alibaba_PuHuiTi2.0.zip" },
   { id: "a-li-ma-ma-shu-hei-ti", name: "阿里妈妈数黑体", url: "https://www.iconfont.cn/fonts/detail?cnid=a9fXc2HD9n7s" },
