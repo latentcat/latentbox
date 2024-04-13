@@ -11,7 +11,7 @@ interface ChartData {
 
 function getChart(data: ChartData) {
   // Specify the chart’s dimensions.
-  const width = 800;
+  const width = 1000;
   const height = width;
   const cx = width * 0.5; // adjust as needed to fit
   const cy = height * 0.5; // adjust as needed to fit
