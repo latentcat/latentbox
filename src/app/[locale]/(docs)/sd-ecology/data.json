@@ -523,10 +523,15 @@
         "showcase": true
       },
       {
-        "name": "T-GATE",
-        "arxiv": "https://arxiv.org/pdf/2404.02747.pdf",
-        "github": "https://github.com/HaozheLiu-ST/T-GATE",
-        "principle_diagram": true,
+        "name": "Lightning",
+        "arxiv": "https://arxiv.org/abs/2402.13929",
+        "showcase": true
+      },
+      {
+        "name": "SDXS",
+        "arxiv": "https://arxiv.org/abs/2403.16627",
+        "project_website": "https://idkiro.github.io/sdxs/",
+        "github": "https://github.com/IDKiro/sdxs",
         "showcase": true
       },
       {
@@ -537,8 +542,10 @@
         "showcase": true
       },
       {
-        "name": "Llighting",
-        "arxiv": "https://arxiv.org/abs/2402.13929",
+        "name": "LCM-Lookahead",
+        "arxiv": "https://arxiv.org/abs/2404.03620",
+        "project_website": "https://lcm-lookahead.github.io/",
+        "principle_diagram": true,
         "showcase": true
       },
       {
@@ -550,9 +557,9 @@
         "showcase": true
       },
       {
-        "name": "LCM-Lookahead",
-        "arxiv": "https://arxiv.org/abs/2404.03620",
-        "project_website": "https://lcm-lookahead.github.io/",
+        "name": "T-GATE",
+        "arxiv": "https://arxiv.org/pdf/2404.02747.pdf",
+        "github": "https://github.com/HaozheLiu-ST/T-GATE",
         "principle_diagram": true,
         "showcase": true
       }
