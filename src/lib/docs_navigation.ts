@@ -7,7 +7,7 @@ import {
   BrainIcon, ComponentIcon,
   FileImageIcon, GlobeIcon, GraduationCap,
   Grid3X3Icon,
-  ImagesIcon, Layers3Icon, LayoutGrid, PackageIcon, Paintbrush2Icon,
+  ImagesIcon, Layers3Icon, LayoutGrid, NewspaperIcon, PackageIcon, Paintbrush2Icon,
   Palette, PaletteIcon,
   PenToolIcon,
   PodcastIcon, Rotate3DIcon, ScanEyeIcon, SlidersVertical, SlidersVerticalIcon
@@ -136,6 +136,13 @@ export function useCollectionData() {
           desc: t("awesome-web3d.desc"),
           background: "linear-gradient(293.96deg, #98FFF9 0%, #19C8FF 19.55%, #FF2A55 63.83%, #B499FF 100%)",
           icon: GlobeIcon,
+        },
+        {
+          id: "awesome-wechat-svg",
+          name: t("awesome-wechat-svg.title"),
+          desc: t("awesome-wechat-svg.desc"),
+          background: "linear-gradient(293.96deg, #98FFF9 0%, #19C8FF 19.55%, #FF2A55 63.83%, #B499FF 100%)",
+          icon: NewspaperIcon,
         },
       ]
     },
