@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { PaperView } from "@/components/collection/PaperView";
 import data from "./data.json";
-import RadialClusterTree from "@/components/RadialClusterTree";
+import RadialClusterTree from "@/components/vis/RadialClusterTree";
 
 export default function Page() {
   const t = useTranslations("docs.sd-ecology");
