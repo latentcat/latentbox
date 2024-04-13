@@ -96,7 +96,6 @@ export function useCollectionData() {
           desc: t("midi-controllers.desc"),
           background: "linear-gradient(114.38deg, #DB8EFF 0%, #0967F5 48.9%, rgba(255, 227, 231, 0.906327) 86.73%)",
           icon: SlidersVerticalIcon,
-          tag: "WIP",
         },
         {
           id: "gen-art-algorithm",
