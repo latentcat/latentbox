@@ -1346,6 +1346,11 @@
     "@typescript-eslint/types" "6.21.0"
     eslint-visitor-keys "^3.4.1"
 
+"@uidotdev/usehooks@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmmirror.com/@uidotdev/usehooks/-/usehooks-2.4.1.tgz#4b733eaeae09a7be143c6c9ca158b56cc1ea75bf"
+  integrity sha512-1I+RwWyS+kdv3Mv0Vmc+p0dPYH0DTRAo04HLyXReYBL9AeseDWUJyi4THuksBJcu9F0Pih69Ak150VDnqbVnXg==
+
 "@uiw/color-convert@2.1.1":
   version "2.1.1"
   resolved "https://registry.npmjs.org/@uiw/color-convert/-/color-convert-2.1.1.tgz#621e40d859f15a2cc4b9db15ab5b57f7537a47ac"
