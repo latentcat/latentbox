@@ -108,6 +108,7 @@ export const dataDigitalHuman: ResourceItem[] = [
 export const data3D: ResourceItem[] = [
   { id: "tripo3d", name: "Tripo3D", url: "https://www.tripo3d.ai/" },
   { id: "meshy-ai", name: "Meshy AI", url: "https://www.meshy.ai/" },
+  { id: "artefacts-ai", name: "Artefacts AI", url: "https://artefacts.ai/" },
   { id: "csm-ai", name: "CSM AI", url: "https://www.csm.ai/" },
   { id: "3dfy-ai", name: "3DFY AI", url: "https://3dfy.ai/" },
   { id: "luma-ai", name: "Luma AI", url: "https://captures.lumalabs.ai/imagine" },
