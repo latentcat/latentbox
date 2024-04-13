@@ -12,7 +12,7 @@ export default function Page() {
   const radialClusterTreeData = {
     name: "Stable Diffusion",
     children: data.map((d) => ({
-      name: d.category,
+      name: t(d.category as never),
       children: d.items.map((item) => ({
         name: item.name,
         value: 0,
