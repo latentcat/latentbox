@@ -11,11 +11,11 @@ interface ChartData {
 
 function getChart(data: ChartData) {
   // Specify the chart’s dimensions.
-  const width = 928;
+  const width = 800;
   const height = width;
   const cx = width * 0.5; // adjust as needed to fit
-  const cy = height * 0.54; // adjust as needed to fit
-  const radius = Math.min(width, height) / 2 - 80;
+  const cy = height * 0.5; // adjust as needed to fit
+  const radius = Math.min(width, height) / 2 - 100;
 
   // Create a radial cluster layout. The layout’s first dimension (x)
   // is the angle, while the second (y) is the radius.
@@ -91,7 +91,7 @@ function getChart(data: ChartData) {
       d.x < Math.PI === !d.children ? "start" : "end",
     )
     .attr("paint-order", "stroke")
-    .attr("stroke", "white")
+    .attr("stroke", "hsl(var(--background))")
     .attr("fill", "currentColor")
     .text((d) => d.data.name);
 
