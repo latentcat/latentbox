@@ -13,7 +13,7 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["ciaochaos", "chenbaiyujason", "huo-ju", "Dango233", "cpunisher", "Zhaohan-Wang", "gogodecay", "xiaohu2015", "sdbds"]}
+      authors={["ciaochaos", "chenbaiyujason", "huo-ju", "Dango233", "cpunisher", "Zhaohan-Wang", "gogodecay", "xiaohu2015", "sdbds", "IDKiro"]}
     >
 
       <PaperView
