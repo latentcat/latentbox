@@ -143,6 +143,7 @@ export function useCollectionData() {
           desc: t("awesome-wechat-svg.desc"),
           background: "linear-gradient(293.96deg, #98FFF9 0%, #19C8FF 19.55%, #FF2A55 63.83%, #B499FF 100%)",
           icon: NewspaperIcon,
+          tag: "WIP",
         },
       ]
     },
