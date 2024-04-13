@@ -92,6 +92,7 @@ Latent Box 是一个重新构想的聚合站，由 Latent Cat 组织维护。为
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/IDKiro"><img src="https://avatars.githubusercontent.com/u/24263261?v=4" width="100px;" alt=""/><br /><sub><b>IDKiro</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://chatidea.com"><img src="https://avatars.githubusercontent.com/u/166817217?v=4" width="100px;" alt=""/><br /><sub><b>Yangzehao</b></sub></a></td>
     </tr>
   </tbody>
 </table>
