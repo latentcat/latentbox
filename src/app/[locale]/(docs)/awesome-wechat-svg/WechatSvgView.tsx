@@ -31,6 +31,7 @@ export function WechatSvgView(props: GalleryViewProps) {
           >
             <SectionTitle title={item.name} />
           </Link>
+          <p>{item.desc}</p>
           <div className="grid grid-cols-3 gap-3 not-prose">
             {["1", "2", "3"].map((imageIndex, index) => (
               <div
