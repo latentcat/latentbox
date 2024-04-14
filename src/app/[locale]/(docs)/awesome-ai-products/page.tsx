@@ -3,52 +3,47 @@ import { getTranslations } from "next-intl/server";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 import { ProductView } from "@/components/collection/ProductView";
-import data from "./data";
+import RadialClusterTree from "@/components/vis/RadialClusterTree";
+import { Fragment } from "react";
 
+import data from "./data";
+import ProductTree, { ChartData } from "@/components/vis/ProductTree";
 
 export default function Page() {
-  const t = useTranslations("docs.awesome-ai-products")
-  const assetsPrefix = "/assets/collections/awesome-ai-products"
+  const t = useTranslations("docs.awesome-ai-products");
+  const assetsPrefix = "/assets/collections/awesome-ai-products";
+
+  const radialClusterTreeData: ChartData = {
+    name: t("title"),
+    children: data.map((d) => ({
+      name: t(d.category as never),
+      children: d.items.map((item) => ({
+        name: item.name,
+        id: item.id,
+        value: 0,
+      })),
+    })),
+  };
 
   return (
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["HiMrHOW", "ciaochaos", "LonelyFellas"]}
+      authors={["HiMrHOW", "ciaochaos", "zheishei", "LonelyFellas"]}
     >
+      <ProductTree data={radialClusterTreeData} assetsPrefix={assetsPrefix} />
 
-      <SectionTitle title={t("llm-global")} />
-      <ProductView data={data.dataLlmGlobal} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("llm-chinese")} />
-      <ProductView data={data.dataLlmChinese} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("search")} />
-      <ProductView data={data.dataSearch} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("image")} />
-      <ProductView data={data.dataImage} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("video")} />
-      <ProductView data={data.dataVideo} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("music")} />
-      <ProductView data={data.dataMusic} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("voice")} />
-      <ProductView data={data.dataVoice} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("digital-human")} />
-      <ProductView data={data.dataDigitalHuman} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("3d")} />
-      <ProductView data={data.data3D} assetsPrefix={assetsPrefix} />
-
-      <SectionTitle title={t("design")} />
-      <ProductView data={data.dataDesign} assetsPrefix={assetsPrefix} />
+      {data.map((d, index) => (
+        <Fragment
+          key={index}
+        >
+          <SectionTitle title={t(d.category as never)} />
+          <ProductView data={d.items} assetsPrefix={assetsPrefix} />
+        </Fragment>
+      ))}
 
     </CollectionLayout>
-  )
+  );
 }
 
 export async function generateMetadata({
@@ -56,7 +51,10 @@ export async function generateMetadata({
 }: Readonly<{
   params: { locale: string };
 }>) {
-  const t = await getTranslations({ locale, namespace: "docs.awesome-ai-products" });
+  const t = await getTranslations({
+    locale,
+    namespace: "docs.awesome-ai-products",
+  });
 
   return {
     title: t("title"),

@@ -5,7 +5,7 @@ import imageHero from "../../../../../../public/assets/resources/latentbox-hero.
 import { useTranslations } from "next-intl";
 import { Link } from "@/navigation";
 import { Button } from "@/components/ui/button";
-import { DiscordIcon, GitHubIcon, MpIcon, XhsIcon, XIcon } from "@/components/LogosBrand";
+import { DiscordIcon, GitHubIcon, HuggingFaceIcon, MpIcon, XhsIcon, XIcon } from "@/components/LogosBrand";
 
 import {
   Dialog,
@@ -15,6 +15,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import { MailIcon } from "lucide-react";
 
 
 export default function Page() {
@@ -25,36 +26,29 @@ export default function Page() {
     <ArticleLayout
       title={t("title")}
       intro=""
-      authors={["zheishei", "SuiyuanV"]}
+      authors={["zheishei", "SuiyuanV", "kubai087"]}
     >
+
 
       <p>
         {t("p1")}
       </p>
 
+      <h2>
+        {t("social_media")}
+      </h2>
+
       <p className="flex gap-4 flex-wrap">
         <Link href="https://twitter.com/latent_box" target="_blank">
           <Button variant="secondary" size="sm">
-            <XIcon className="h-4 mr-2"/>
+            <XIcon className="h-4 mr-2" />
             {t("x")}
-          </Button>
-        </Link>
-        <Link href="https://discord.gg/V9CNuqYfte" target="_blank">
-          <Button variant="secondary" size="sm">
-            <DiscordIcon className="h-4 mr-2" />
-            {t("discord")}
           </Button>
         </Link>
         <Link href="https://www.xiaohongshu.com/user/profile/660223ac000000000b00f2ce" target="_blank">
           <Button variant="secondary" size="sm">
             <XhsIcon className="h-4 mr-2" />
             {t("xiaohongshu")}
-          </Button>
-        </Link>
-        <Link href="https://github.com/latentcat" target="_blank">
-          <Button variant="secondary" size="sm">
-            <GitHubIcon className="h-4 mr-2" />
-            {t("github")}
           </Button>
         </Link>
         <Dialog>
@@ -74,10 +68,50 @@ export default function Page() {
               </DialogDescription>
             </DialogHeader>
             <div className="w-full flex justify-center _sm:justify-start">
-              <img src="/assets/resources/mp.jpg" alt="" className="w-36 h-36"/>
+              <img src="/assets/resources/mp.jpg" alt="" className="w-36 h-36" />
             </div>
           </DialogContent>
         </Dialog>
+      </p>
+
+      <h2>
+        {t("communities")}
+      </h2>
+
+      <p className="flex gap-4 flex-wrap">
+        <Link href="https://discord.gg/V9CNuqYfte" target="_blank">
+          <Button variant="secondary" size="sm">
+            <DiscordIcon className="h-4 mr-2" />
+            {t("discord")}
+          </Button>
+        </Link>
+        <Link href="https://github.com/latentcat" target="_blank">
+          <Button variant="secondary" size="sm">
+            <GitHubIcon className="h-4 mr-2" />
+            {t("github")}
+          </Button>
+        </Link>
+        <Link href="https://huggingface.co/latentcat" target="_blank">
+          <Button variant="secondary" size="sm">
+            <HuggingFaceIcon className="h-4 mr-2" />
+            {t("hugging_face")}
+          </Button>
+        </Link>
+      </p>
+
+
+      <h2>
+        {t("contact")}
+      </h2>
+
+
+      <p className="flex gap-4 flex-wrap">
+        <Link href="mailto:contact@latentcat.com">
+          <Button variant="secondary" size="sm">
+            <MailIcon className="h-4 mr-2" />
+            contact@latentcat.com
+          </Button>
+        </Link>
       </p>
 
       <Image
@@ -90,8 +124,8 @@ export default function Page() {
 }
 
 export async function generateMetadata({
-  params: { locale },
-}: Readonly<{
+                                         params: { locale },
+                                       }: Readonly<{
   params: { locale: string };
 }>) {
   const t = await getTranslations({ locale, namespace: "docs.follow-us" });

@@ -90,6 +90,8 @@ function MobileNavItem(props: HeaderLinkProps) {
   );
 }
 
+const headerBgClass = "bg-background/50 backdrop-blur-xl backdrop-saturate-150"
+
 function MobileNavigation(
   props: HeaderProps & { navigation: NavGroup[] } & React.ComponentPropsWithoutRef<"div">,
 ) {
@@ -103,7 +105,7 @@ function MobileNavigation(
         className={clsx(
           "fixed top-0 z-20 w-full h-14 flex md:hidden items-center justify-between px-6 _lg:px-12 break-words transition",
           props.className,
-          isTop ? "" : "bg-background",
+          isTop ? "" : headerBgClass,
         )}
       >
         <Logo ext="mobile" />
@@ -207,7 +209,7 @@ function DesktopNavigation(
       className={clsx(
         "fixed top-0 z-20 w-full hidden md:flex break-words transition",
         props.className,
-        isTop ? "" : "bg-background",
+        isTop ? "" : headerBgClass,
       )}
     >
       <ContainerFull>

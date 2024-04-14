@@ -70,11 +70,15 @@
     "follow-us": {
       "title": "Follow Us",
       "desc": "",
+      "social_media": "Social Media",
+      "communities": "Communities",
+      "contact": "Contact",
       "p1": "It is not easy to maintain the website. If you want to know our latest updates, please follow our social accounts! We will release the latest collections and product recommendations as soon as possible, and we look forward to your feedback!",
       "x": "X",
       "discord": "Discord",
       "xiaohongshu": "小红书",
       "github": "GitHub",
+      "hugging_face": "Hugging Face",
       "wechat_mp": "WeChat MP"
     },
     "contributing": {
@@ -86,10 +90,16 @@
       "desc": ""
     },
     "sd-ecology": {
-      "title": "Stable Diffusion Ecology",
+      "title": "Stable Diffusion Papers",
       "desc": "",
-      "Papers": "Papers",
-      "instant-style": "Style Consistency based on ip-adapter"
+      "original": "Original",
+      "control": "Control",
+      "consistency": "Consistency",
+      "animation": "Animation",
+      "semantic_enhancement": "Semantic Enhancement",
+      "enhancement": "Enhancement",
+      "acceleration": "Acceleration",
+      "extension": "Extension"
     },
     "diffuseum": {
       "title": "Diffuseum Podcast",
@@ -105,7 +115,8 @@
     },
     "transformer-papers": {
       "title": "Transformer Papers",
-      "desc": ""
+      "desc": "",
+      "original": "Original"
     },
     "image-datasets": {
       "title": "Image Datasets",
@@ -128,12 +139,28 @@
       "3d": "3D",
       "design": "Design"
     },
-    "digital-artists": {
-      "title": "Must-Follow Digital Artists",
-      "desc": ""
-    },
     "digital-art-tools": {
       "title": "Awesome Digital Art Tools",
+      "desc": "",
+      "gen_art": "Gen Art",
+      "3d_engine": "3D Engine",
+      "3d_modeling": "3D Modeling",
+      "texture": "Texture",
+      "renderer": "Renderer",
+      "computing": "Computing",
+      "geometry": "Geometry",
+      "interaction": "Interaction",
+      "projection": "Projection",
+      "audio": "Audio",
+      "graphics_design": "Graphics Design",
+      "prototype": "Prototype",
+      "photo_editing": "Photo Editing",
+      "layout_design": "Layout Design",
+      "video_editing": "Video Editing",
+      "composing": "Composing"
+    },
+    "digital-artists": {
+      "title": "Awesome Digital Artists",
       "desc": ""
     },
     "midi-controllers": {
@@ -156,6 +183,10 @@
     },
     "awesome-web3d": {
       "title": "Awesome Web 3D",
+      "desc": ""
+    },
+    "awesome-wechat-svg": {
+      "title": "Awesome WeChat SVG",
       "desc": ""
     },
     "latent-cat-stack": {

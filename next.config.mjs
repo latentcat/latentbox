@@ -1,8 +1,26 @@
 import createNextIntlPlugin from "next-intl/plugin";
+import createNextMDXPlugin from "@next/mdx";
+import NextBundleAnalyzer from "@next/bundle-analyzer";
+
+import rehypeShiki from "@shikijs/rehype";
 
 const withNextIntl = createNextIntlPlugin();
-import withMDX from "@next/mdx";
-import NextBundleAnalyzer from "@next/bundle-analyzer";
+const withMDX = createNextMDXPlugin({
+  options: {
+    rehypePlugins: [
+      [
+        rehypeShiki,
+        {
+          themes: {
+            light: "vitesse-light",
+            dark: "vitesse-dark",
+          },
+          defaultColor: false,
+        },
+      ],
+    ],
+  },
+});
 const withBundleAnalyzer = NextBundleAnalyzer({
   enabled: process.env.ANALYZE === "true",
 });
@@ -13,10 +31,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: '**.githubusercontent.com',
-        port: '',
-        pathname: '**',
+        protocol: "https",
+        hostname: "**.githubusercontent.com",
+        port: "",
+        pathname: "**",
       },
     ],
   },
@@ -68,4 +86,4 @@ const nextConfig = {
   },
 };
 
-export default withBundleAnalyzer(withNextIntl(withMDX()(nextConfig)));
+export default withBundleAnalyzer(withNextIntl(withMDX(nextConfig)));

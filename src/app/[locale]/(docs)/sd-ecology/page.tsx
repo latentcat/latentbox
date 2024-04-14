@@ -1,26 +1,50 @@
-import { ArticleLayout, CollectionLayout } from "@/components/SimpleLayout";
+import { CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
-import { GalleryView } from "@/components/collection/GalleryView";
-import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
-import { data } from "@/app/[locale]/(docs)/sd-ecology/data";
-import { ListView } from "@/components/collection/ListViewSd";
-
+import { PaperView } from "@/components/collection/PaperView";
+import data from "./data.json";
+import RadialClusterTree from "@/components/vis/RadialClusterTree";
 
 export default function Page() {
-  const t = useTranslations("docs.sd-ecology")
+  const t = useTranslations("docs.sd-ecology");
+  const assetsPrefix = "/assets/collections/sd-ecology";
+
+  const radialClusterTreeData = {
+    name: "Stable Diffusion",
+    children: data.map((d) => ({
+      name: t(d.category as never),
+      children: d.items.map((item) => ({
+        name: item.name,
+        value: 0,
+      })),
+    })),
+  };
 
   return (
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["ciaochaos", "chenbaiyujason", "huo-ju", "Dango233"]}
+      authors={[
+        "ciaochaos",
+        "chenbaiyujason",
+        "huo-ju",
+        "Dango233",
+        "cpunisher",
+        "Zhaohan-Wang",
+        "gogodecay",
+        "xiaohu2015",
+        "sdbds",
+        "IDKiro",
+      ]}
     >
-
-      <SectionTitle title={t("Papers")} />
-      <ListView data={data} />
+      <RadialClusterTree data={radialClusterTreeData} />
+      <PaperView
+        namespace="docs.sd-ecology"
+        data={data}
+        assetsPrefix={assetsPrefix}
+      />
     </CollectionLayout>
-  )
+  );
 }
 
 export async function generateMetadata({

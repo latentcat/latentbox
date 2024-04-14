@@ -71,6 +71,19 @@ This is the original intention of setting up Latent Box, and we hope to bring so
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Dango233"><img src="https://avatars.githubusercontent.com/u/15649295?v=4" width="100px;" alt=""/><br /><sub><b>Dango233</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LonelyFellas"><img src="https://avatars.githubusercontent.com/u/38754760?v=4" width="100px;" alt=""/><br /><sub><b>Darwish</b></sub></a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mog-"><img src="https://avatars.githubusercontent.com/u/3657219?v=4" width="100px;" alt=""/><br /><sub><b>Mog</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vzhao-21"><img src="https://avatars.githubusercontent.com/u/61822573?v=4" width="100px;" alt=""/><br /><sub><b>LionelZ</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Leozzz7988"><img src="https://avatars.githubusercontent.com/u/166421489?v=4" width="100px;" alt=""/><br /><sub><b>Leozzz7988</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/xiaohu2015"><img src="https://avatars.githubusercontent.com/u/16861194?v=4" width="100px;" alt=""/><br /><sub><b>Hu Ye</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sdbds"><img src="https://avatars.githubusercontent.com/u/8085926?v=4" width="100px;" alt=""/><br /><sub><b>青龍聖者@bdsqlsz</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/headboxer"><img src="https://avatars.githubusercontent.com/u/45675810?v=4" width="100px;" alt=""/><br /><sub><b>Echo_Sculpture</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/iFurySt"><img src="https://avatars.githubusercontent.com/u/16201837?v=4" width="100px;" alt=""/><br /><sub><b>Leo</b></sub></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/IDKiro"><img src="https://avatars.githubusercontent.com/u/24263261?v=4" width="100px;" alt=""/><br /><sub><b>IDKiro</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://chatidea.com"><img src="https://avatars.githubusercontent.com/u/166817217?v=4" width="100px;" alt=""/><br /><sub><b>Yangzehao</b></sub></a></td>
+    </tr>
   </tbody>
 </table>
 

@@ -70,11 +70,15 @@
     "follow-us": {
       "title": "关注我们",
       "desc": "",
+      "social_media": "社交媒体",
+      "communities": "社区",
+      "contact": "联系",
       "p1": "网站维护不易，若要了解我们的最新动态，请关注我们的社交账号！我们将在第一时间发布最新的合集、好物推荐，也期待来自你的反馈！",
       "x": "X",
       "discord": "Discord",
       "xiaohongshu": "小红书",
       "github": "GitHub",
+      "hugging_face": "Hugging Face",
       "wechat_mp": "微信公众号"
     },
     "contributing": {
@@ -86,10 +90,16 @@
       "desc": ""
     },
     "sd-ecology": {
-      "title": "Stable Diffusion 生态技术",
+      "title": "Stable Diffusion 生态论文精选",
       "desc": "",
-      "Papers": "论文",
-      "instant-style": "基于 ip-adapter 的风格一致性"
+      "original": "原版",
+      "control": "控制",
+      "consistency": "一致性",
+      "animation": "动画",
+      "semantic_enhancement": "语义增强",
+      "enhancement": "增强",
+      "acceleration": "加速",
+      "extension": "扩展"
     },
     "diffuseum": {
       "title": "Diffuseum 播客",
@@ -105,7 +115,8 @@
     },
     "transformer-papers": {
       "title": "Transformer 论文精选",
-      "desc": ""
+      "desc": "",
+      "original": "原版"
     },
     "image-datasets": {
       "title": "图像数据集",
@@ -128,12 +139,28 @@
       "3d": "3D",
       "design": "设计"
     },
-    "digital-artists": {
-      "title": "必须关注的数字艺术家",
-      "desc": ""
-    },
     "digital-art-tools": {
-      "title": "数字艺术软件大全",
+      "title": "数字艺术工具大全",
+      "desc": "",
+      "gen_art": "生成艺术",
+      "3d_engine": "3D 引擎",
+      "3d_modeling": "3D 建模",
+      "texture": "材质",
+      "renderer": "渲染",
+      "computing": "计算",
+      "geometry": "几何",
+      "interaction": "互动",
+      "projection": "投影",
+      "audio": "音频",
+      "graphics_design": "平面设计",
+      "prototype": "原型",
+      "photo_editing": "图像编辑",
+      "layout_design": "版式设计",
+      "video_editing": "视频编辑",
+      "composing": "合成"
+    },
+    "digital-artists": {
+      "title": "数字艺术家推荐",
       "desc": ""
     },
     "midi-controllers": {
@@ -155,6 +182,10 @@
       "desc": ""
     },
     "awesome-web3d": {
+      "title": "Web 3D 案例精选",
+      "desc": ""
+    },
+    "awesome-wechat-svg": {
       "title": "Web 3D 案例精选",
       "desc": ""
     },

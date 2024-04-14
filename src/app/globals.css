@@ -134,10 +134,28 @@ body {
 }
 
 .fixed-scrollbar::-webkit-scrollbar-thumb {
-  background: #27272a;
+  background: hsl(var(--foreground) / 0.15);
   border-radius: 10px;
 }
 
 .fixed-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #3f3f46;
+  background: hsl(var(--foreground) / 0.3);
+}
+
+.dark pre {
+  color: var(--shiki-dark, inherit);
+  background: #18181b;
+}
+
+html:not(.dark) pre {
+  color: var(--shiki-light, inherit);
+  background: #f9f9f9;
+}
+
+.dark code span {
+  color: var(--shiki-dark, inherit);
+}
+
+html:not(.dark) code span {
+  color: var(--shiki-light, inherit);
 }

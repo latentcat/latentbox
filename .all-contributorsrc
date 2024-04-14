@@ -195,6 +195,87 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mog-",
+      "name": "Mog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3657219?v=4",
+      "profile": "https://github.com/mog-",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "vzhao-21",
+      "name": "LionelZ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61822573?v=4",
+      "profile": "https://github.com/vzhao-21",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Leozzz7988",
+      "name": "Leozzz7988",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166421489?v=4",
+      "profile": "https://github.com/Leozzz7988",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "xiaohu2015",
+      "name": "Hu Ye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16861194?v=4",
+      "profile": "https://github.com/xiaohu2015",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "sdbds",
+      "name": "青龍聖者@bdsqlsz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8085926?v=4",
+      "profile": "https://github.com/sdbds",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "headboxer",
+      "name": "Echo_Sculpture",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45675810?v=4",
+      "profile": "https://github.com/headboxer",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "iFurySt",
+      "name": "Leo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16201837?v=4",
+      "profile": "https://github.com/iFurySt",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "IDKiro",
+      "name": "IDKiro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24263261?v=4",
+      "profile": "https://github.com/IDKiro",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "yangzehaohandsome",
+      "name": "Yangzehao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166817217?v=4",
+      "profile": "http://chatidea.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
