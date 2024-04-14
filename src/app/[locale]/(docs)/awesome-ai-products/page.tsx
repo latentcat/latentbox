@@ -21,6 +21,7 @@ export default function Page() {
         name: item.name,
         id: item.id,
         value: 0,
+        iconType: item.iconType
       })),
     })),
   };

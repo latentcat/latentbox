@@ -138,6 +138,7 @@ export const data: dataType = [
       },
       { id: "gemini", name: "Gemini", url: "https://gemini.google.com/" },
       { id: "diffus", name: "Diffus", url: "https://www.diffus.me/" },
+      { id: 'code-former', name: 'Code Former', url: 'https://huggingface.co/spaces/sczhou/CodeFormer', iconType: 'svg' },
     ],
   },
   {
@@ -173,6 +174,7 @@ export const data: dataType = [
         url: "https://www.capcut.cn/ai-tool/",
       },
       { id: "du-jia", name: "度加", url: "https://aigc.baidu.com/" },
+      { id: 'viggle', name: 'Viggle', url: 'https://viggle.ai/', iconType: 'ico' },
     ],
   },
   {

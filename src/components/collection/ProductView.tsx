@@ -32,7 +32,7 @@ export function ProductView(props: ProductViewProps) {
               className="shrink-0 bg-background border rounded-full"
               width={64}
               height={64}
-              src={`${props.assetsPrefix || ""}/${item.id}.jpg`}
+              src={`${props.assetsPrefix || ""}/${item.id}.${item.iconType ?? 'jpg'}`}
               alt=""
               // unoptimized
             />
