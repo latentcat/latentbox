@@ -2,10 +2,13 @@ import { CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
+import { WechatSvgView } from "@/app/[locale]/(docs)/awesome-wechat-svg/WechatSvgView";
+import { data } from "./data";
 
 
 export default function Page() {
   const t = useTranslations("docs.awesome-wechat-svg")
+  const assetsPrefix = "/assets/collections/awesome-wechat-svg"
 
   return (
     <CollectionLayout
@@ -14,7 +17,7 @@ export default function Page() {
       authors={["yangzehaohandsome", "BbuBbuBe"]}
     >
 
-      <SectionTitle title={t("title")} />
+      <WechatSvgView data={data} assetsPrefix={assetsPrefix} />
 
     </CollectionLayout>
   )
