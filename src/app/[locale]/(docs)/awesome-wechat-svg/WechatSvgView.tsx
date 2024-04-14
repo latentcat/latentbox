@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Link } from "@/navigation";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { SectionTitle } from "@/components/collection/SectionTitle";
+import { LinkIcon } from "lucide-react";
 
 interface GalleryViewProps {
   data: ResourceItem[]
@@ -23,10 +24,14 @@ export function WechatSvgView(props: GalleryViewProps) {
           <Link
             href={item.url}
             target="_blank"
+            className="flex"
           >
-            <SectionTitle title={item.name} />
+            <h2 className="">
+              <LinkIcon className="w-5 h-5 text-foreground/50 inline-block mr-2" />
+              {item.name}
+            </h2>
           </Link>
-          <p>{item.desc}</p>
+          <p className="not-prose mb-6">{item.desc}</p>
           <div className="grid grid-cols-3 gap-3 not-prose">
             {["1", "2", "3"].map((imageIndex, index) => (
               <div
