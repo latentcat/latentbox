@@ -8,6 +8,7 @@ export interface ChartData {
   id?: string;
   children?: ChartData[];
   value?: number;
+  iconType?: string;
 }
 
 function getChart(data: ChartData, assetsPrefix?: string) {
@@ -81,7 +82,7 @@ function getChart(data: ChartData, assetsPrefix?: string) {
     .data(root.descendants())
     .join("image")
     .filter(d => (d.data.id !== undefined))
-    .attr("xlink:href", d => (`${assetsPrefix}/${d.data.id}.jpg`))
+    .attr("xlink:href", d => (`${assetsPrefix}/${d.data.id}.${d.data.iconType ?? 'jpg'}`))
     .attr("x", -iconSize)  // 图像左上角的x坐标
     .attr("y", -iconSize)  // 图像左上角的y坐标
     .attr("width", 2 * iconSize)  // 图像宽度
