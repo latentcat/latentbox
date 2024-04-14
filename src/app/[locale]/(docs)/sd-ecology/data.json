@@ -168,6 +168,13 @@
         "showcase": true
       },
       {
+        "name": "ControlNet++",
+        "arxiv": "https://arxiv.org/abs/2404.07987",
+        "project_website": "https://liming-ai.github.io/ControlNet_Plus_Plus/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
         "name": "Concept Sliders",
         "arxiv": "https://arxiv.org/pdf/2311.12092.pdf",
         "github": "https://github.com/rohitgandikota/sliders",
@@ -233,13 +240,6 @@
         "name": "SCEdit",
         "arxiv": "https://arxiv.org/abs/2312.11392",
         "github": "https://github.com/mkshing/scedit-pytorch",
-        "principle_diagram": true,
-        "showcase": true
-      },
-      {
-        "name": "ControlNet++",
-        "arxiv": "https://arxiv.org/abs/2404.07987",
-        "project_website": "https://liming-ai.github.io/ControlNet_Plus_Plus/",
         "principle_diagram": true,
         "showcase": true
       }
@@ -638,17 +638,6 @@
     "category": "hires",
     "items": [
       {
-        "name": "Uncovering the Text Embedding in Text-to-Image Diffusion Models",
-        "arxiv": "https://arxiv.org/pdf/2404.01154.pdf"
-      },
-      {},
-      {}
-    ]
-  },
-  {
-    "category": "hires",
-    "items": [
-      {
         "name": "StableSR",
         "arxiv": "https://arxiv.org/abs/2305.07015",
         "github": "https://github.com/IceClear/StableSR",
@@ -657,7 +646,7 @@
         "showcase": true
       },
       {
-        "name": " DiffBIR",
+        "name": "DiffBIR",
         "arxiv": "https://arxiv.org/abs/2308.15070",
         "github": "https://github.com/XPixelGroup/DiffBIR",
         "project_website": "https://0x3f3f3f3fun.github.io/projects/diffbir/",
