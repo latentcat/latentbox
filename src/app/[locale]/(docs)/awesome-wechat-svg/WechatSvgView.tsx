@@ -14,16 +14,11 @@ interface GalleryViewProps {
 
 export function WechatSvgView(props: GalleryViewProps) {
   return (
-    <div
-      className={cn(
-        "",
-        "grid",
-        "gap-6",
-      )}
-    >
+    <div>
       {props.data.map((item, index) => (
         <div
           key={item.id}
+          className="mb-6"
         >
           <Link
             href={item.url}
