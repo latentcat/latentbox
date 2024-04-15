@@ -168,6 +168,13 @@
         "showcase": true
       },
       {
+        "name": "ControlNet++",
+        "arxiv": "https://arxiv.org/abs/2404.07987",
+        "project_website": "https://liming-ai.github.io/ControlNet_Plus_Plus/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
         "name": "Concept Sliders",
         "arxiv": "https://arxiv.org/pdf/2311.12092.pdf",
         "github": "https://github.com/rohitgandikota/sliders",
@@ -399,6 +406,23 @@
         "principle_diagram": true,
         "showcase": true,
         "introduction": "基于 1.5 的效果媲美PS的开源重绘模型"
+      },
+      {
+        "name": "Diffusion-DPO",
+        "arxiv": "https://arxiv.org/abs/2311.12908",
+        "hugging_face": "https://huggingface.co/mhdang/dpo-sdxl-text2image-v1",
+        "showcase": true
+      },
+      {
+        "name": "Diffusion-KTO",
+        "arxiv": "https://arxiv.org/abs/2404.04465",
+        "principle_diagram": true
+      },
+      {
+        "name": "SPIN-Diffusion",
+        "arxiv": "https://arxiv.org/abs/2402.10210",
+        "hugging_face": "https://huggingface.co/UCLA-AGI/SPIN-Diffusion-iter3",
+        "showcase": true
       }
     ]
   },
@@ -605,6 +629,64 @@
         "arxiv": "https://arxiv.org/pdf/2311.17919.pdf",
         "github": "https://github.com/dangeng/visual_anagrams",
         "project_website": "https://dangeng.github.io/visual_anagrams/",
+        "principle_diagram": true,
+        "showcase": true
+      }
+    ]
+  },
+  {
+    "category": "hires",
+    "items": [
+      {
+        "name": "StableSR",
+        "arxiv": "https://arxiv.org/abs/2305.07015",
+        "github": "https://github.com/IceClear/StableSR",
+        "project_website": "https://iceclear.github.io/projects/stablesr/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "DiffBIR",
+        "arxiv": "https://arxiv.org/abs/2308.15070",
+        "github": "https://github.com/XPixelGroup/DiffBIR",
+        "project_website": "https://0x3f3f3f3fun.github.io/projects/diffbir/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "PASD",
+        "arxiv": "https://arxiv.org/abs/2308.14469",
+        "github": "https://github.com/yangxy/PASD",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "SeeSR",
+        "arxiv": "https://arxiv.org/abs/2311.16518",
+        "github": "https://github.com/cswry/SeeSR",
+        "project_website": "https://github.com/Fanghua-Yu/SUPIR?tab=readme-ov-file",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "PromptSR",
+        "arxiv": "https://arxiv.org/abs/2311.14282",
+        "github": "https://github.com/zhengchen1999/PromptSR",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "Coser",
+        "arxiv": "https://arxiv.org/abs/2311.16512",
+        "github": "https://github.com/VINHYU/CoSeR",
+        "project_website": "https://coser-main.github.io/",
+        "principle_diagram": true,
+        "showcase": true
+      },
+      {
+        "name": "SUPIR",
+        "arxiv": "https://arxiv.org/abs/2401.13627",
+        "github": "https://github.com/Fanghua-Yu/SUPIR",
         "principle_diagram": true,
         "showcase": true
       }

@@ -99,7 +99,8 @@
       "semantic_enhancement": "语义增强",
       "enhancement": "增强",
       "acceleration": "加速",
-      "extension": "扩展"
+      "extension": "扩展",
+      "hires": "图片超分"
     },
     "diffuseum": {
       "title": "Diffuseum 播客",
