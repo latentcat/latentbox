@@ -30,7 +30,7 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["HiMrHOW", "ciaochaos", "zheishei", "LonelyFellas"]}
+      authors={["HiMrHOW", "ciaochaos", "zheishei", "LonelyFellas", "jw782cn" ]}
     >
       <ProductTree data={radialClusterTreeData} assetsPrefix={assetsPrefix} />
 
