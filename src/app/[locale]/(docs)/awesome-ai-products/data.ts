@@ -19,6 +19,11 @@ export const data: dataType = [
         name: "Llama (Hugging Face Space)",
         url: "https://huggingface.co/spaces/huggingface-projects/llama-2-13b-chat",
       },
+      {
+        id: "grok-ai",
+        name: "Grok xAI",
+        url: "https://grok.x.ai/",
+      },
     ],
   },
   {
@@ -27,7 +32,7 @@ export const data: dataType = [
       {
         id: "zhi-pu-qing-yan",
         name: "智谱清言",
-        url: "https://open.bigmodel.cn/",
+        url: "https://chatglm.cn/main/detail?fr=zjh",
       },
       { id: "dou-bao", name: "豆包", url: "https://www.doubao.com/" },
       { id: "xing-huo", name: "星火", url: "https://xinghuo.xfyun.cn/" },
@@ -48,6 +53,11 @@ export const data: dataType = [
       { id: "shang-liang", name: "商量", url: "https://chat.sensetime.com/" },
       { id: "yue-wen", name: "跃问", url: "https://stepchat.cn/" },
       { id: "wan-zhi", name: "万知", url: "https://wanzhi.com/" },
+      {
+        id: "dify",
+        name: "Dify",
+        url: "https://dify.ai/",
+      },
     ],
   },
   {
@@ -72,6 +82,11 @@ export const data: dataType = [
         id: "tian-gong-ai",
         name: "天工 AI",
         url: "https://search.tiangong.cn/",
+      },
+      {
+        id: "devv-ai",
+        name: "Devv AI",
+        url: "https://devv.ai/",
       },
     ],
   },
