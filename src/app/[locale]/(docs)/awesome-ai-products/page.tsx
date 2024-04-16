@@ -3,11 +3,11 @@ import { getTranslations } from "next-intl/server";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 import { ProductView } from "@/components/collection/ProductView";
-import RadialClusterTree from "@/components/vis/RadialClusterTree";
+import RadialClusterTree from "@/app/[locale]/(docs)/sd-ecology/RadialClusterTree";
 import { Fragment } from "react";
 
 import data from "./data";
-import ProductTree, { ChartData } from "@/components/vis/ProductTree";
+import ProductTree, { ChartData } from "@/app/[locale]/(docs)/awesome-ai-products/ProductTree";
 
 export default function Page() {
   const t = useTranslations("docs.awesome-ai-products");

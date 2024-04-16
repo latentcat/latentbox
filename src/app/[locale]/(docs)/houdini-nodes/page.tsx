@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { PaperView } from "@/components/collection/PaperView";
 import data from "./data.json";
-import RadialClusterTree from "@/app/[locale]/(docs)/sd-ecology/RadialClusterTree";
+import HoudiniNodeTree from "@/app/[locale]/(docs)/houdini-nodes/HoudiniNodeTree";
 
 export default function Page() {
   const t = useTranslations("docs.sd-ecology");
@@ -12,10 +12,13 @@ export default function Page() {
   const radialClusterTreeData = {
     name: "Stable Diffusion",
     children: data.map((d) => ({
-      name: t(d.category as never),
-      children: d.items.map((item) => ({
-        name: item.name,
-        value: 0,
+      name: d.category,
+      children: d.items.map((t) => ({
+        name: t.tool,
+        children: t.items.map((n) => ({
+          name: n,
+          value: 0,
+        })),
       })),
     })),
   };
@@ -26,23 +29,10 @@ export default function Page() {
       intro={t("desc")}
       authors={[
         "ciaochaos",
-        "chenbaiyujason",
-        "huo-ju",
-        "Dango233",
-        "cpunisher",
-        "Zhaohan-Wang",
-        "gogodecay",
-        "xiaohu2015",
-        "sdbds",
-        "IDKiro",
       ]}
     >
-      <RadialClusterTree data={radialClusterTreeData} />
-      <PaperView
-        namespace="docs.sd-ecology"
-        data={data}
-        assetsPrefix={assetsPrefix}
-      />
+      <HoudiniNodeTree data={radialClusterTreeData} />
+
     </CollectionLayout>
   );
 }

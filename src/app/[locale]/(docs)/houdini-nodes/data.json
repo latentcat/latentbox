@@ -1,0 +1,5370 @@
+[
+  {
+    "category": "Chop",
+    "items": [
+      {
+        "tool": "Audio",
+        "items": [
+          "Acoustic",
+          "Band EQ",
+          "Oscillator",
+          "Parametric EQ",
+          "Pass Filter",
+          "Phoneme",
+          "Pitch",
+          "Spatial Audio",
+          "Spectrum"
+        ]
+      },
+      {
+        "tool": "Import",
+        "items": [
+          "Agent",
+          "Dynamics",
+          "FBX",
+          "Fetch Parameters",
+          "Fetch Channels",
+          "File",
+          "Geometry",
+          "Image",
+          "Object",
+          "Object Chain"
+        ]
+      },
+      {
+        "tool": "Solve",
+        "items": [
+          "Area",
+          "Attribute",
+          "BlendPose",
+          "Euler Rotation Filter",
+          "Expression",
+          "Function",
+          "Pre-Transform",
+          "Slope",
+          "Transform",
+          "Transform Chain",
+          "Vector"
+        ]
+      },
+      {
+        "tool": "Device",
+        "items": [
+          "Audio In",
+          "Gamepad",
+          "Keyboard",
+          "MIDI In",
+          "MIDI Out",
+          "Mouse",
+          "Mouse3D",
+          "Network",
+          "Pipe In",
+          "Pipe Out"
+        ]
+      },
+      {
+        "tool": "Perform",
+        "items": [
+          "Beat",
+          "Device Transform",
+          "Feedback",
+          "Gesture",
+          "Record"
+        ]
+      },
+      {
+        "tool": "Combine",
+        "items": [
+          "Blend",
+          "Composite",
+          "Fan",
+          "Interpolate",
+          "Layer",
+          "Logic",
+          "Math",
+          "Merge",
+          "Sequence",
+          "Switch"
+        ]
+      },
+      {
+        "tool": "Create",
+        "items": [
+          "Channel",
+          "Constant",
+          "Noise",
+          "Pulse",
+          "Wave",
+          "Waveform"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Channel Wrangle",
+          "For-Each",
+          "Null",
+          "Output",
+          "Stash",
+          "Subnetwork",
+          "Transform VOP CVEX",
+          "Channel VOP"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Material Network",
+          "Object Network",
+          "ROP Channel Output",
+          "ROP Network",
+          "SHOP Network",
+          "SOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Constraints",
+        "items": [
+          "Constraint Begin",
+          "Blend",
+          "Export Constraints",
+          "Get Local Space",
+          "Get Parent Space",
+          "Get World Space",
+          "Look At",
+          "Object",
+          "Object Offset",
+          "PreTransform",
+          "Offset",
+          "Offset Blend",
+          "Parent",
+          "Parent",
+          "Follow Path",
+          "Points",
+          "Sequence",
+          "Simple Blend",
+          "Surface",
+          "Transform",
+          "Identity",
+          "Invert",
+          "Multiply",
+          "Pose"
+        ]
+      },
+      {
+        "tool": "Event",
+        "items": [
+          "Copy",
+          "Count",
+          "Hold",
+          "Trigger"
+        ]
+      },
+      {
+        "tool": "Timing",
+        "items": [
+          "Cycle",
+          "Delay",
+          "Dynamic Warp",
+          "Resample",
+          "Shift",
+          "Stretch",
+          "Time Range",
+          "Time Shift",
+          "Trim",
+          "Warp"
+        ]
+      },
+      {
+        "tool": "Arrange",
+        "items": [
+          "Delete",
+          "Rename",
+          "Reorder",
+          "Shuffle"
+        ]
+      },
+      {
+        "tool": "Shape",
+        "items": [
+          "Envelope",
+          "Extend",
+          "Filter",
+          "Jiggle",
+          "Lag",
+          "Limit",
+          "Lookup",
+          "Spline",
+          "Spring"
+        ]
+      },
+      {
+        "tool": "Export",
+        "items": [
+          "Export",
+          "Export Transforms"
+        ]
+      },
+      {
+        "tool": "Character",
+        "items": [
+          "Extract Bone Transforms",
+          "Extract Locomotion",
+          "Extract Pose-Drivers",
+          "Foot Plant",
+          "Handle",
+          "IKSolver",
+          "InverseKin",
+          "Pose Difference",
+          "Stash Pose",
+          "Voice Split",
+          "Voice Sync"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ChopNet",
+    "items": [
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cop2",
+    "items": [
+      {
+        "tool": "Comps",
+        "items": [
+          "Add",
+          "Anaglyph",
+          "Atop",
+          "Average",
+          "Blend",
+          "Composite",
+          "Diff",
+          "Inside",
+          "Layer",
+          "Max",
+          "Min",
+          "Multiply",
+          "Outside",
+          "Over",
+          "Screen",
+          "Subtract",
+          "Under",
+          "Wipe",
+          "Xor",
+          "Z Composite"
+        ]
+      },
+      {
+        "tool": "Effects",
+        "items": [
+          "Denoise AI",
+          "Blur",
+          "Bump",
+          "Convolve",
+          "Defocus",
+          "Deform",
+          "Degrain",
+          "Denoise TVD",
+          "Depth Darken",
+          "DilateErode",
+          "Depth of Field",
+          "Drop Shadow",
+          "Edge Detect",
+          "Edge Blur",
+          "Emboss",
+          "Environment",
+          "Extract",
+          "Extrapolate Boundaries",
+          "Fog",
+          "Grain",
+          "Lighting",
+          "Median",
+          "Mosaic",
+          "Noise",
+          "Radial Blur",
+          "Sharpen",
+          "Streak Blur",
+          "Tile",
+          "Time Machine",
+          "Time Filter",
+          "Velocity Blur"
+        ]
+      },
+      {
+        "tool": "Matte",
+        "items": [
+          "Border",
+          "Corner Ramp",
+          "Cryptomatte",
+          "Expand",
+          "Font",
+          "Geometry",
+          "Mask",
+          "Ramp",
+          "RotoShape",
+          "Shape",
+          "Sky Environment Map"
+        ]
+      },
+      {
+        "tool": "PixelOp",
+        "items": [
+          "Bright",
+          "Contrast",
+          "Function",
+          "Gamma",
+          "HSV",
+          "Invert",
+          "Levels",
+          "Limit",
+          "Lookup",
+          "Mono",
+          "Quantize",
+          "Vector"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Channel Copy",
+          "Color Wheel",
+          "Convert",
+          "Delete",
+          "Error Function Table Generator",
+          "Flip",
+          "Front Face",
+          "Gradient",
+          "Illegal Pixel",
+          "Merge",
+          "Metadata",
+          "Null",
+          "Reference",
+          "Rename",
+          "Subnetwork",
+          "Switch",
+          "Switch Alpha",
+          "UV Map"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Material Network",
+          "Object Network",
+          "ROP File Output",
+          "ROP Network",
+          "SHOP Network",
+          "SOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Keying",
+        "items": [
+          "Chromakey",
+          "Geokey",
+          "Lumakey",
+          "LumaMatte"
+        ]
+      },
+      {
+        "tool": "Color",
+        "items": [
+          "Color",
+          "Color Correct",
+          "Color Curve",
+          "Color Map",
+          "Color Replace",
+          "Equalize",
+          "Hue Curve",
+          "Pixel",
+          "Premultiply"
+        ]
+      },
+      {
+        "tool": "Transform",
+        "items": [
+          "Crop",
+          "Corner Pin",
+          "Scale",
+          "UnPin",
+          "Window",
+          "Transform"
+        ]
+      },
+      {
+        "tool": "Timing",
+        "items": [
+          "Deinterlace",
+          "Extend",
+          "Field Merge",
+          "Field Split",
+          "Field Swap",
+          "Interleave",
+          "Pulldown",
+          "Pushup",
+          "Reverse",
+          "Sequence",
+          "Shift",
+          "Shuffle",
+          "Snip",
+          "TimeScale",
+          "Trim",
+          "TimeWarp"
+        ]
+      },
+      {
+        "tool": "Import",
+        "items": [
+          "DSM Flatten",
+          "Fetch",
+          "File",
+          "Render",
+          "SOP Import"
+        ]
+      },
+      {
+        "tool": "Labs/Image/Geometry",
+        "items": [
+          "Labs Attribute Import"
+        ]
+      },
+      {
+        "tool": "Labs/Image/Color",
+        "items": [
+          "Labs Blackbody"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Import",
+        "items": [
+          "Labs DDS File"
+        ]
+      },
+      {
+        "tool": "Labs/Image/Tiling",
+        "items": [
+          "Labs DeMosaic",
+          "Labs Grid Texture"
+        ]
+      },
+      {
+        "tool": "Labs/Image/Vector",
+        "items": [
+          "Labs Normal Color",
+          "Labs Normal Combine",
+          "Labs Normal Invert",
+          "Labs Normal Levels",
+          "Labs Normal From Grayscale",
+          "Labs Normalize Normal",
+          "Labs Normal Rotate",
+          "Labs Vector Normalize"
+        ]
+      },
+      {
+        "tool": "VEX",
+        "items": [
+          "VEX Filter",
+          "VEX Generator",
+          "VOP COP2 Filter",
+          "VOP COP2 Generator"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "CopNet",
+    "items": [
+      {
+        "tool": "Managers",
+        "items": [
+          "Image Network"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Dop",
+    "items": [
+      {
+        "tool": "Solvers",
+        "items": [
+          "Active Value",
+          "Blend Factor",
+          "Blend Solver",
+          "Bullet Solver",
+          "Cloth Solver",
+          "Copy Data Solver",
+          "Enable Solver",
+          "Filament Solver",
+          "FLIP Solver",
+          "FLIP Solver",
+          "Fluid Solver",
+          "Fluid Solver",
+          "Gas Up Res",
+          "Gas Up Res",
+          "Impact Analysis",
+          "Multiple Solver",
+          "POP Solver",
+          "Pyro Solver",
+          "Pyro Solver",
+          "Pyro Solver (Sparse)",
+          "RBD Solver",
+          "Rigid Body Solver",
+          "Ripple Solver",
+          "Script Solver",
+          "Smoke Solver",
+          "Smoke Solver",
+          "Smoke Solver (Sparse)",
+          "SOP Solver",
+          "SOP Solver",
+          "Static Solver",
+          "Switch Solver",
+          "Switch Value",
+          "Vellum Solver",
+          "Voronoi Fracture Solver",
+          "Whitewater Solver",
+          "Whitewater Solver",
+          "Wire Solver"
+        ]
+      },
+      {
+        "tool": "Object Flow",
+        "items": [
+          "Affector",
+          "Copy Objects",
+          "Copy Object Information",
+          "Delete",
+          "Empty Object",
+          "File",
+          "Merge",
+          "Null",
+          "ROP Output",
+          "Partition Objects",
+          "Split Object Stream",
+          "Subnetwork",
+          "Output",
+          "Switch"
+        ]
+      },
+      {
+        "tool": "Crowds",
+        "items": [
+          "Agent Arcing Clip Layer",
+          "Agent Clip Layer",
+          "Agent Look At",
+          "Agent Look At",
+          "Agent Look At",
+          "Agent Look At Apply",
+          "Agent Look At Apply",
+          "Agent Look At Apply",
+          "Agent Terrain Adaptation",
+          "Agent Terrain Adaptation",
+          "Agent Terrain Adaptation",
+          "Agent Terrain Projection",
+          "Crowd Fuzzy Logic",
+          "Crowd Solver",
+          "Crowd Solver",
+          "Crowd Solver",
+          "Crowd State",
+          "Crowd State",
+          "Crowd State",
+          "Crowd Transition",
+          "Crowd Transition",
+          "Crowd Transition",
+          "Crowd Trigger",
+          "Crowd Trigger",
+          "Crowd Trigger Logic",
+          "Crowd Trigger Logic"
+        ]
+      },
+      {
+        "tool": "Constraint Tools",
+        "items": [
+          "Anchor: Align Axis",
+          "Anchor: Object Point Group Position",
+          "Anchor: Object Point Group Rotation",
+          "Anchor: Object Point Id Position",
+          "Anchor: Object Point Id Rotation",
+          "Anchor: Object Point Number Position",
+          "Anchor: Object Point Number Rotation",
+          "Anchor: Object Primitive Position",
+          "Anchor: Object Region",
+          "Anchor: Object Space Position",
+          "Anchor: Object Space Rotation",
+          "Anchor: Object Attach",
+          "Anchor: Object Slide",
+          "Anchor: Target",
+          "Anchor: World Space Position",
+          "Anchor: World Space Rotation",
+          "Bullet Soft Constraint Relationship",
+          "Cone Twist Constraint Relationship",
+          "Constraint Network Relationship",
+          "Glue Constraint Relationship",
+          "Hard Constraint Relationship",
+          "No Constraint Relationship",
+          "Slider Constraint Relationship",
+          "SoftAttach Constraint Relationship",
+          "Spring Constraint Relationship",
+          "Two State Constraint Relationship"
+        ]
+      },
+      {
+        "tool": "Data Flow",
+        "items": [
+          "Apply Data",
+          "Container",
+          "Copy Data",
+          "Empty Data",
+          "Fetch Data",
+          "File Data",
+          "Intangible Value",
+          "Link to Source Object",
+          "Modify Data",
+          "Net Fetch Data",
+          "Data Only Once"
+        ]
+      },
+      {
+        "tool": "Relationships",
+        "items": [
+          "Apply Relationship",
+          "Collide Relationship",
+          "Constraint Relationship",
+          "Empty Relationship",
+          "Group Dynamic Objects",
+          "Group Relationship",
+          "Pump Relationship",
+          "Sink Relationship",
+          "Source Apply",
+          "Source Relationship",
+          "Source Volume",
+          "Target Relationship",
+          "Volume Source",
+          "Whitewater Emitter"
+        ]
+      },
+      {
+        "tool": "Configure Object",
+        "items": [
+          "Bullet Data",
+          "Cloth Configure Object",
+          "FEM Solid Configure Object",
+          "FLIP Configure Object",
+          "Fluid Configure Object",
+          "Particle Fluid Configure Object",
+          "RBD Configure Object",
+          "Ripple Configure Object",
+          "Smoke Configure Object",
+          "Voronoi Fracture Configure Object",
+          "Wire Configure Object"
+        ]
+      },
+      {
+        "tool": "Forces",
+        "items": [
+          "Buoyancy Force",
+          "Drag Force",
+          "Fan Force",
+          "Field Force",
+          "Fluid Force",
+          "Gravity Force",
+          "Impulse Force",
+          "Magnet Force",
+          "Mask Field",
+          "Noise Field",
+          "Point Force",
+          "Reference Frame Force",
+          "Uniform Force",
+          "Velocity Impulse Force",
+          "VOP Force",
+          "Vortex Force",
+          "Wind Force"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Material Network",
+          "Object Network",
+          "ROP Output Driver",
+          "ROP Network",
+          "SHOP Network",
+          "SOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Objects",
+        "items": [
+          "Cloth Object",
+          "Cloth Object",
+          "Crowd Object",
+          "Filament Object",
+          "FLIP Object",
+          "Fluid Object",
+          "Ground Plane",
+          "Instanced Objects",
+          "POP Object",
+          "RBD Fractured Object",
+          "RBD Glue Object",
+          "RBD Object",
+          "RBD Packed Object",
+          "RBD Point Object",
+          "Ripple Object",
+          "Smoke Object",
+          "Smoke Object (Sparse)",
+          "Static Object",
+          "Terrain Object",
+          "Vellum Object",
+          "Volume Collider",
+          "Whitewater Object",
+          "Whitewater Object",
+          "Wire Object"
+        ]
+      },
+      {
+        "tool": "Constraints",
+        "items": [
+          "Cloth Stitch Constraint",
+          "Constraint",
+          "Constraint Network",
+          "RBD Angular Constraint",
+          "RBD Angular Spring Constraint",
+          "RBD Cone Twist Constraint",
+          "RBD Hinge Constraint",
+          "RBD Pin Constraint",
+          "RBD Slider Constraint",
+          "RBD Spring Constraint",
+          "SBD Constraint",
+          "Wire Angular Constraint",
+          "Wire Angular Spring Constraint",
+          "Wire Glue Constraint"
+        ]
+      },
+      {
+        "tool": "Visualization",
+        "items": [
+          "Cloth Visualization",
+          "Constraint Network Visualization",
+          "Multi-Field Visualization",
+          "Particle Fluid Visualization",
+          "RBD Visualization",
+          "Rendering Parameters Volatile",
+          "SOP Guide",
+          "Static Visualization",
+          "Visualize Geometry",
+          "Wire Visualization"
+        ]
+      },
+      {
+        "tool": "Collision Tools",
+        "items": [
+          "Collider Label",
+          "No Collider",
+          "Point Collider",
+          "Sphere Edge Tree",
+          "Sphere Point Tree",
+          "Surface Collision Parameters",
+          "ThinPlate/ThinPlate Collider",
+          "Wire/Volume Collider",
+          "Wire/Wire Collider"
+        ]
+      },
+      {
+        "tool": "Physical Properties",
+        "items": [
+          "Drag Properties",
+          "Embedding Properties",
+          "Finite Element Output Attributes",
+          "Particle Material Property Parameters",
+          "Physical Parameters",
+          "Rod Material Property Parameters",
+          "Seam Properties",
+          "Shell Material Property Parameters",
+          "Soft Body Collision Properties",
+          "Soft Body Fracture Properties",
+          "Soft Body Rest Properties",
+          "Soft Body Target Properties",
+          "Solid Material Property Parameters",
+          "Voronoi Fracture Parameters",
+          "Wire Elasticity",
+          "Wire Physical Parameters",
+          "Wire Plasticity"
+        ]
+      },
+      {
+        "tool": "FEM",
+        "items": [
+          "FEM Attach Constraint",
+          "FEM Fuse Constraint",
+          "FEM Hybrid Configure Object",
+          "FEM Hybrid Object",
+          "FEM Region Constraint",
+          "FEM Slide Constraint",
+          "FEM Solid Object",
+          "FEM Solver",
+          "FEM Target Constraint",
+          "SBD Pin Constraint",
+          "SBD Spring Constraint"
+        ]
+      },
+      {
+        "tool": "Micro Solvers",
+        "items": [
+          "Gas Adaptive Viscosity",
+          "Gas Advect",
+          "Gas Advect CL",
+          "Gas Advect CL",
+          "Gas Advect Field",
+          "Gas Advect Field",
+          "Gas Analysis",
+          "Gas Attribute Swap",
+          "Gas Axis Force",
+          "Gas Blend Density",
+          "Gas Blur",
+          "Gas Build Collision Mask",
+          "Gas Build Collision Mask From Pieces",
+          "Gas Build Occupancy Mask",
+          "Gas Build Relationship Mask",
+          "Gas Buoyancy",
+          "Gas Calculate",
+          "Gas Collision Detect",
+          "Gas Combustion",
+          "Gas Convex Clip SDF",
+          "Gas Correct By Markers",
+          "Gas Cross",
+          "Gas Curve Force",
+          "Gas Damp",
+          "Gas Diffuse",
+          "Gas Dissipate",
+          "Gas Disturbance",
+          "Gas Disturb",
+          "Gas Each Data Solver",
+          "Gas Embed Fluid",
+          "Gas Enforce Boundary",
+          "Gas Equalize Density",
+          "Gas Equalize Volume",
+          "Gas Error",
+          "Gas External Forces",
+          "Gas Extrapolate",
+          "Gas Feather Field",
+          "Gas Feedback",
+          "Gas Fetch Fields to Embed",
+          "Gas Field to Particle",
+          "Gas Field VOP",
+          "Gas Field Wrangle",
+          "Gas Filter Hourglass Modes",
+          "Gas Geometry Defragment",
+          "Gas Geometry/Option Transfer",
+          "Gas Geometry to SDF",
+          "Gas Guiding Volume",
+          "Gas Impact to Attributes",
+          "Gas Integrate Shallow Water Equations",
+          "Gas Integrator",
+          "Gas Interleave Solver",
+          "Gas Intermittent Solve",
+          "Gas Limit",
+          "Gas Limit Particles",
+          "Gas Linear Combination",
+          "Gas Local Sharpen",
+          "Gas Lookup",
+          "Gas Match Field",
+          "Gas Mist Solver",
+          "Gas Net Fetch Data",
+          "Gas Net Field Border Exchange",
+          "Gas Net Field Slice Exchange",
+          "Gas Net Slice Balance",
+          "Gas Net Slice Exchange",
+          "Gas OpenCL",
+          "Gas OpenCL Enforce Boundary",
+          "Gas OpenCL Merge VDB",
+          "Gas Particle Count",
+          "Gas Particle Fluid Density CL",
+          "Gas Particle Fluid Forces CL",
+          "Gas Particle Move to Iso",
+          "Gas Particle Separate",
+          "Gas Particle to Field",
+          "Gas Particle to SDF",
+          "Gas Project Non Divergent",
+          "Gas Project Non Divergent Adaptive",
+          "Gas Project Non Divergent Multigrid",
+          "Gas Project Non Divergent Variational",
+          "Gas Reduce",
+          "Gas Reduce Local",
+          "Gas Reinitialize SDF",
+          "Gas Repeat Solver",
+          "Gas Resize Field",
+          "Gas Resize Fluid Dynamic",
+          "Gas Rest",
+          "Gas Sand Forces",
+          "Gas SDF to Fog",
+          "Gas Seed Fluid Particles",
+          "Gas Seed Markers",
+          "Gas Seed Particles",
+          "Gas Seed Volume",
+          "Gas Shred",
+          "Gas Slice To Index Field",
+          "Gas Stick On Collision",
+          "Gas Strain Forces",
+          "Gas Strain Integrate",
+          "Gas SubStep",
+          "Gas Surface Snap",
+          "Gas Surface Tension",
+          "Gas Synchronize Fields",
+          "Gas Target Force",
+          "Gas Temperature Update",
+          "Gas Turbulence",
+          "Gas Velocity Scale",
+          "Gas Velocity Stretch",
+          "Gas Viscosity",
+          "Gas Volume Ramp",
+          "Gas Vortex Boost",
+          "Gas Vortex Confinement",
+          "Gas Vortex Equalizer",
+          "Gas Vorticle Forces",
+          "Gas Vorticle Recycle",
+          "Gas Wavelets",
+          "Gas Wind",
+          "Geometry VOP",
+          "Geometry Wrangle",
+          "RBD Auto Freeze",
+          "SOP Merge Field",
+          "Volume Instance Source"
+        ]
+      },
+      {
+        "tool": "Geometry",
+        "items": [
+          "Gas Vorticle Geometry",
+          "Geometry Copy",
+          "SOP Geometry",
+          "Filament Source",
+          "SDF Representation"
+        ]
+      },
+      {
+        "tool": "Fields",
+        "items": [
+          "Index Field",
+          "Index Field Visualization",
+          "Matrix Field",
+          "Matrix Field Visualization",
+          "Scalar Field",
+          "Scalar Field Visualization",
+          "SOP Scalar Field",
+          "SOP Vector Field",
+          "Vector Field",
+          "Vector Field Visualization"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Pyro",
+        "items": [
+          "Labs Gas Expand from Temperature (Beta)",
+          "Labs Gas Flamefront (Beta)"
+        ]
+      },
+      {
+        "tool": "Position",
+        "items": [
+          "Motion",
+          "OBJ Position",
+          "Point Position",
+          "Position",
+          "RBD Keyframe Active",
+          "RBD State"
+        ]
+      },
+      {
+        "tool": "POPs",
+        "items": [
+          "POP Advect by Filaments",
+          "POP Advect by Volumes",
+          "POP Attract",
+          "POP Attribute from Volume",
+          "POP Awaken",
+          "POP Axis Force",
+          "POP Collision Behavior",
+          "POP Collision Detect",
+          "POP Collision Ignore",
+          "POP Color",
+          "POP Curve Force",
+          "POP Drag",
+          "POP Drag Spin",
+          "POP Fan Cone",
+          "POP Fireworks",
+          "POP Float by Volumes",
+          "POP Flock",
+          "POP Fluid",
+          "POP Force",
+          "POP Grains",
+          "POP Group",
+          "POP Hair Internal Force",
+          "POP Instance",
+          "POP Interact",
+          "POP Kill",
+          "POP Limit",
+          "POP Local Force",
+          "POP Location",
+          "POP Lookat",
+          "POP Metaball Force",
+          "POP Properties",
+          "POP Proximity",
+          "POP Replicate",
+          "POP Soft Limit",
+          "POP Source",
+          "POP Source",
+          "POP Speed Limit",
+          "POP Spin",
+          "POP Spin by Volumes",
+          "POP Sprite",
+          "POP Steer Align",
+          "POP Steer Avoid",
+          "POP Steer Avoid",
+          "POP Steer Cohesion",
+          "POP Steer Custom",
+          "POP Steer Obstacle",
+          "POP Steer Obstacle",
+          "POP Steer Path",
+          "POP Steer Seek",
+          "POP Steer Separate",
+          "POP Steer Solver",
+          "POP Steer Solver",
+          "POP Steer Turn Constraint",
+          "POP Steer Wander",
+          "POP Stream",
+          "POP Torque",
+          "POP Velocity",
+          "POP VOP",
+          "POP Wind",
+          "POP Wrangle"
+        ]
+      },
+      {
+        "tool": "RBD",
+        "items": [
+          "RBD Guide"
+        ]
+      },
+      {
+        "tool": "Slice",
+        "items": [
+          "Slice Along Line",
+          "Slice by Plane"
+        ]
+      },
+      {
+        "tool": "Vellum",
+        "items": [
+          "Vellum Constraint Properties",
+          "Vellum Constraints",
+          "Vellum Rest Blend",
+          "Vellum Source"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Driver",
+    "items": [
+      {
+        "tool": "Scene",
+        "items": [
+          "Agent",
+          "Alembic",
+          "Bake Animation",
+          "Filmbox FBX",
+          "GLTF",
+          "USD",
+          "USD Stitch",
+          "USD Stitch Clips",
+          "USD Zip"
+        ]
+      },
+      {
+        "tool": "Farm",
+        "items": [
+          "Tractor",
+          "HQueue Render",
+          "HQueue Simulation"
+        ]
+      },
+      {
+        "tool": "Render",
+        "items": [
+          "Bake Texture",
+          "Bake Texture",
+          "Bake Texture",
+          "Bake Hair Card Textures",
+          "Mantra",
+          "Karma",
+          "OpenGL",
+          "USD Render",
+          "Wren (Wireframe)"
+        ]
+      },
+      {
+        "tool": "Dependency",
+        "items": [
+          "Batch",
+          "Frame Container",
+          "Frame Dependency",
+          "Net Barrier",
+          "PrePost",
+          "Switch"
+        ]
+      },
+      {
+        "tool": "Geometry",
+        "items": [
+          "Brick Map Generator",
+          "Geometry",
+          "Mantra Archive",
+          "MDD Point Cache"
+        ]
+      },
+      {
+        "tool": "Motion",
+        "items": [
+          "Channel"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Material Network",
+          "Object Network",
+          "SHOP Network",
+          "SOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Image",
+        "items": [
+          "Composite"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Dem Bones Skinning Converter",
+          "DSM Merge",
+          "Fetch",
+          "Merge",
+          "Null",
+          "Shell",
+          "Subnetwork",
+          "Wedge"
+        ]
+      },
+      {
+        "tool": "Simulation",
+        "items": [
+          "Dynamics"
+        ]
+      },
+      {
+        "tool": "Volume",
+        "items": [
+          "Geo to I3D"
+        ]
+      },
+      {
+        "tool": "KineFX",
+        "items": [
+          "Filmbox FBX Animation",
+          "Filmbox FBX Character",
+          "GLTF Character"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Facebook",
+        "items": [
+          "Labs 3D Facebook Image"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Export",
+        "items": [
+          "Labs CSV Exporter",
+          "Labs JSON Exporter"
+        ]
+      },
+      {
+        "tool": "Labs/Real-Time Engine",
+        "items": [
+          "Labs Flipbook Textures",
+          "Labs Impostor Texture",
+          "Labs Niagara ROP",
+          "Labs RBD to FBX",
+          "Labs Vertex Animation Textures",
+          "Labs XYZ Pointcloud Exporter"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Baking",
+        "items": [
+          "Labs Games Baker",
+          "Labs Games Baker"
+        ]
+      },
+      {
+        "tool": "Labs",
+        "items": [
+          "Labs Marmoset ROP",
+          "Labs Pyro Preview ROP",
+          "Labs RBD to FBX",
+          "Labs RBD to FBX"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Marmoset",
+        "items": [
+          "Labs Marmoset Export"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Real-Time Engine",
+        "items": [
+          "Labs Motion Vectors",
+          "Labs Texture Sheets",
+          "Labs Texture Sheets",
+          "Labs Vertex Animation Textures",
+          "Labs Vertex Animation Textures",
+          "Labs Vertex Animation Textures"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Sketchfab",
+        "items": [
+          "Labs Sketchfab"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Lop",
+    "items": [
+      {
+        "tool": "Rendering",
+        "items": [
+          "Additional Render Vars",
+          "Background Plate",
+          "Karma",
+          "Karma Cryptomatte",
+          "Karma Render Products",
+          "Karma Render Settings",
+          "Karma Standard Render Vars",
+          "Motion Blur",
+          "Render Geometry Settings",
+          "Render Product",
+          "Render Settings",
+          "Render Var"
+        ]
+      },
+      {
+        "tool": "Variants",
+        "items": [
+          "Add Variants to New Primitive",
+          "Auto Select LOD",
+          "Create LOD",
+          "Explore Variants",
+          "Set Variant"
+        ]
+      },
+      {
+        "tool": "USD Model Assets",
+        "items": [
+          "Asset Reference"
+        ]
+      },
+      {
+        "tool": "Materials",
+        "items": [
+          "Assign Material",
+          "Coordinate System",
+          "Edit Material Network",
+          "Edit Material Properties",
+          "Material Library",
+          "Material Linker",
+          "Material Variation",
+          "Unassign Material"
+        ]
+      },
+      {
+        "tool": "Instancing",
+        "items": [
+          "Assign Prototypes",
+          "Edit Prototypes",
+          "Extract Instances",
+          "Instancer",
+          "Layout",
+          "Modify Point Instances",
+          "Retime Instances",
+          "Split Point Instancers"
+        ]
+      },
+      {
+        "tool": "Attributes",
+        "items": [
+          "Attribute VOP",
+          "Attribute Wrangle",
+          "Copy Property",
+          "Edit Properties",
+          "Edit Properties From Node",
+          "Modify Paths"
+        ]
+      },
+      {
+        "tool": "Crowds",
+        "items": [
+          "Bake Skinning",
+          "Vary Material Assignment"
+        ]
+      },
+      {
+        "tool": "Primitive",
+        "items": [
+          "Basis Curves",
+          "Capsule",
+          "Cone",
+          "Xform",
+          "Cube",
+          "Cylinder",
+          "Hermite Curves",
+          "Mesh",
+          "Points",
+          "Primitive",
+          "Scope",
+          "Sphere",
+          "Volume"
+        ]
+      },
+      {
+        "tool": "Context Options",
+        "items": [
+          "Begin Context Options Block",
+          "Edit Context Options"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Blend",
+          "Cache",
+          "Cache",
+          "Configure Layer",
+          "Configure Primitive",
+          "Configure Property",
+          "Configure Stage",
+          "Duplicate",
+          "Edit Target Layer",
+          "Error",
+          "For Each",
+          "Inline USD",
+          "Insertion Point",
+          "Isolate Scene",
+          "Karma Fog Box",
+          "Karma Ocean",
+          "Layer Break",
+          "Layer Replace",
+          "Loft Payload Info",
+          "Mask from Bounds",
+          "Null",
+          "Output",
+          "Prune",
+          "Python Script",
+          "Resample Transforms",
+          "Restructure Scene Graph",
+          "Set Extents",
+          "Split Scene",
+          "Store Parameter Values",
+          "Subnetwork",
+          "Switch",
+          "TimeShift",
+          "Transform UV",
+          "Value Clip"
+        ]
+      },
+      {
+        "tool": "Constraints",
+        "items": [
+          "Blend Constraint",
+          "Follow Path Constraint",
+          "Look At Constraint",
+          "Parent Constraint",
+          "Points Constraint",
+          "Surface Constraint"
+        ]
+      },
+      {
+        "tool": "Cameras",
+        "items": [
+          "Camera"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Material Network",
+          "Object Network",
+          "ROP Network",
+          "SHOP Network",
+          "SOP Network",
+          "TOP Network",
+          "USD ROP",
+          "USD Render ROP",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Collections",
+        "items": [
+          "Collection",
+          "Collection"
+        ]
+      },
+      {
+        "tool": "USD Model Assets/Component",
+        "items": [
+          "Component Geometry",
+          "Component Geometry Variants",
+          "Component Material",
+          "Component Output"
+        ]
+      },
+      {
+        "tool": "Lights",
+        "items": [
+          "Distant Light",
+          "Distant Light",
+          "Dome Light",
+          "Dome Light",
+          "Light",
+          "Light",
+          "Light Filter Library",
+          "Light Linker",
+          "Light Mixer",
+          "LPE Tag"
+        ]
+      },
+      {
+        "tool": "Transform",
+        "items": [
+          "Drop",
+          "Edit",
+          "Match Size",
+          "Transform by SOP Points",
+          "Transform"
+        ]
+      },
+      {
+        "tool": "Import",
+        "items": [
+          "Fetch",
+          "Geometry Sequence",
+          "HDA Dynamic Payload",
+          "SOP Character Import",
+          "Load Layer For Editing",
+          "Reference",
+          "Reference",
+          "Scene Import",
+          "Scene Import",
+          "SOP Crowd Import",
+          "SOP Import",
+          "Stage Manager",
+          "Sublayer"
+        ]
+      },
+      {
+        "tool": "Export",
+        "items": [
+          "File Cache"
+        ]
+      },
+      {
+        "tool": "Geometry",
+        "items": [
+          "Geometry Subset VOP",
+          "Karma Procedural",
+          "Simulation Proxy",
+          "SOP Create",
+          "SOP Modify",
+          "Split Primitive"
+        ]
+      },
+      {
+        "tool": "Combine",
+        "items": [
+          "Graft Branches",
+          "Graft Stages",
+          "Merge"
+        ]
+      },
+      {
+        "tool": "Procedurals",
+        "items": [
+          "Houdini Procedural: Hair",
+          "Preview Houdini Procedurals"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering",
+        "items": [
+          "Labs Karma"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering/Render",
+        "items": [
+          "Labs Karma"
+        ]
+      },
+      {
+        "tool": "Destruction",
+        "items": [
+          "RBD Destruction"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Object",
+    "items": [
+      {
+        "tool": "Crowds",
+        "items": [
+          "Agent Cam"
+        ]
+      },
+      {
+        "tool": "Geometry",
+        "items": [
+          "Alembic Archive",
+          "Alembic Xform",
+          "Geometry",
+          "Instance"
+        ]
+      },
+      {
+        "tool": "Lights",
+        "items": [
+          "Ambient Light",
+          "Environment Light",
+          "Light",
+          "Light Template"
+        ]
+      },
+      {
+        "tool": "Auto Rigs",
+        "items": [
+          "Auto Rig Eye"
+        ]
+      },
+      {
+        "tool": "Rigging",
+        "items": [
+          "Auto Bone Chain Interface",
+          "Autorigs",
+          "Module Arm",
+          "Module Foot",
+          "Module Hand",
+          "Module Head",
+          "Module Leg",
+          "Module Master",
+          "Module Spine",
+          "Bone",
+          "Franken Muscle",
+          "Handle",
+          "Muscle",
+          "Muscle Pin",
+          "Muscle Rig",
+          "Muscle"
+        ]
+      },
+      {
+        "tool": "Parenting",
+        "items": [
+          "Blend",
+          "Blend Sticky",
+          "Extract Transform",
+          "Fetch",
+          "Rivet",
+          "Sticky"
+        ]
+      },
+      {
+        "tool": "Cameras",
+        "items": [
+          "Camera",
+          "Stereo Camera Template",
+          "Stereo Camera",
+          "Switcher",
+          "VR Camera"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "Reference Image",
+          "LOP Network",
+          "Material Network",
+          "ROP Network",
+          "SHOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Dynamics",
+        "items": [
+          "DOP Network"
+        ]
+      },
+      {
+        "tool": "Create",
+        "items": [
+          "Formation Example",
+          "Ragdoll Run Example",
+          "Stadium Example",
+          "Street Example"
+        ]
+      },
+      {
+        "tool": "Fur",
+        "items": [
+          "Fur"
+        ]
+      },
+      {
+        "tool": "Hair",
+        "items": [
+          "Fur",
+          "Groom Merge",
+          "Guide Deform",
+          "Guide Groom",
+          "Guide Simulate",
+          "Hair Card Generate",
+          "Hair Generate",
+          "Hair Generate"
+        ]
+      },
+      {
+        "tool": "Digital Assets",
+        "items": [
+          "Fuzzy State Transition"
+        ]
+      },
+      {
+        "tool": "Import",
+        "items": [
+          "glTF Hierarchy",
+          "LOP Import",
+          "LOP Import Camera",
+          "Mocap Acclaim"
+        ]
+      },
+      {
+        "tool": "Render",
+        "items": [
+          "Light",
+          "Indirect Light",
+          "Pxr AOV Light",
+          "Pxr Barn Light Filter",
+          "Pxr Blocker Light Filter",
+          "Pxr Cookie Light Filter",
+          "Pxr Disk Light",
+          "Pxr Distant Light",
+          "Pxr Dome Light",
+          "Pxr Environment Day Light",
+          "Pxr Gobo Light Filter",
+          "Pxr Intensity Mult Light Filter",
+          "Pxr Mesh Light",
+          "Pxr Portal Light",
+          "Pxr Ramp Light Filter",
+          "Pxr Rect Light",
+          "Pxr Rod Light Filter",
+          "Pxr Sphere Light",
+          "Pxr Std Area Light",
+          "Pxr Std Env Day Light",
+          "Pxr Std Env Map Light"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Pyro",
+        "items": [
+          "Labs Fire Presets"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering/Camera",
+        "items": [
+          "Labs Impostor Camera Rig"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Export",
+        "items": [
+          "Labs LOD Hierarchy"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering/Geometry",
+        "items": [
+          "Labs Render Geometry"
+        ]
+      },
+      {
+        "tool": "Sound",
+        "items": [
+          "Microphone",
+          "Sound"
+        ]
+      },
+      {
+        "tool": "Characters",
+        "items": [
+          "Mocap Biped 1",
+          "Mocap Biped 2",
+          "Mocap Biped 3",
+          "Simple Biped",
+          "Simple Female",
+          "Simple Male",
+          "Toon Character"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Null",
+          "Path",
+          "PathCV",
+          "Python Script",
+          "Subnetwork",
+          "Viewport Isolator"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Shop",
+    "items": [
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Subnetwork",
+          "Material Network",
+          "Object Network",
+          "RIS Shader Network",
+          "ROP Network",
+          "SOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Material",
+        "items": [
+          "Hair Shader",
+          "Mantra Surface",
+          "Principled Shader",
+          "Pyro",
+          "Pyro",
+          "RSL Material Shader Builder",
+          "Output Shaders",
+          "Toon Outline Shader",
+          "Material Shader Builder"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Water",
+        "items": [
+          "Labs Flowmap Shader"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering/Camera",
+        "items": [
+          "Labs Turntable Lens",
+          "Labs Octahedron Lens"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Pyro",
+        "items": [
+          "Labs Motionvector Shader"
+        ]
+      },
+      {
+        "tool": "Co-Shader",
+        "items": [
+          "RSL Merge Co-Shader"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Properties",
+          "Select",
+          "Switch"
+        ]
+      },
+      {
+        "tool": "Surface",
+        "items": [
+          "Pyro",
+          "RSL Surface Shader Builder",
+          "Collada Surface Shader",
+          "Constant",
+          "Decal",
+          "Diffuse Lighting",
+          "FBX Surface Shader",
+          "Gingham Checks",
+          "Matte",
+          "Multiple Importance Sampling Lighting",
+          "Plastic",
+          "Plastic",
+          "Shadow Matte",
+          "Volume Cloud",
+          "Surface Shader Builder"
+        ]
+      },
+      {
+        "tool": "Displacement",
+        "items": [
+          "RSL Displacement Shader Builder",
+          "Choppy Water",
+          "Fractal Dent",
+          "Displacement Shader Builder"
+        ]
+      },
+      {
+        "tool": "Output",
+        "items": [
+          "RSL Imager Shader Builder"
+        ]
+      },
+      {
+        "tool": "Light",
+        "items": [
+          "RSL Light Shader Builder",
+          "Ambient",
+          "ASAD Light",
+          "Global Illumination Light",
+          "Point Cloud Photon Map Tracer",
+          "UV Lens",
+          "Light Shader Builder"
+        ]
+      },
+      {
+        "tool": "Atmosphere",
+        "items": [
+          "RSL Volume Shader Builder",
+          "Z-Map Fog",
+          "Light Path Tracer",
+          "Lit Fog",
+          "Path Tracer",
+          "Photon Tracer",
+          "Uniform Fog",
+          "Z-Depth Fog",
+          "Fog Shader Builder"
+        ]
+      },
+      {
+        "tool": "CVEX",
+        "items": [
+          "ASAD Lens",
+          "VR Lens",
+          "CVEX Shader Builder"
+        ]
+      },
+      {
+        "tool": "Image 3D",
+        "items": [
+          "Fluffy Clouds",
+          "Meta Cloud",
+          "Image3D Shader Builder"
+        ]
+      },
+      {
+        "tool": "Light Shadow",
+        "items": [
+          "ASAD Shadow",
+          "Shadow Shader Builder"
+        ]
+      },
+      {
+        "tool": "Procedural",
+        "items": [
+          "Agent Procedural",
+          "Alembic",
+          "Houdini Engine Procedural",
+          "Houdini Engine: Curve Generation",
+          "Houdini Engine: Point Generation",
+          "Delayed Load Procedural",
+          "Fur Procedural",
+          "Image3D Procedural",
+          "Image3D Volume Procedural",
+          "Program Procedural",
+          "Point Instance Procedural",
+          "Point Replicate Procedural",
+          "Sprite Procedural",
+          "VEX Volume Procedural"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Sop",
+    "items": [
+      {
+        "tool": "Utility",
+        "items": [
+          "Adaptive Prune",
+          "Attribute from Parameters",
+          "Blend Shapes",
+          "Blend Shapes",
+          "Block Begin",
+          "Block End",
+          "Bound",
+          "Cache",
+          "Cache-If",
+          "Chain",
+          "Circle Spline",
+          "Block Begin Compile",
+          "Block End Compile",
+          "Connect Adjacent Pieces",
+          "Convert",
+          "Convert Line",
+          "Convert Meta",
+          "Convex Decomposition",
+          "Copy to Curves",
+          "Copy to Points",
+          "Copy to Points",
+          "Copy and Transform",
+          "Creep",
+          "Cross Section Surface",
+          "Detangle",
+          "Duplicate",
+          "Each",
+          "Edge Transport",
+          "Enumerate",
+          "Error",
+          "Exploded View",
+          "Exploded View",
+          "Extract Centroid",
+          "Extract Point from Curve",
+          "Extract Transform",
+          "Falloff",
+          "Filament Advect",
+          "Find Shortest Path",
+          "Spline Fit",
+          "Glue Cluster",
+          "Graph Color",
+          "Heat Geodesic",
+          "Intersection Analysis",
+          "Intersection Stitch",
+          "Invoke Compiled Block",
+          "Invoke Compiled Graph",
+          "Kelvinlet Sculpt",
+          "Match Topology",
+          "Merge",
+          "Merge Packed",
+          "Mirror",
+          "Null",
+          "OpenCL",
+          "Output",
+          "Point Wrangle",
+          "PolyDoctor",
+          "PolyPath",
+          "Python",
+          "Rails",
+          "Resample",
+          "Retime",
+          "Rewire Vertices",
+          "Sequence Blend",
+          "Sequence Blend",
+          "Script",
+          "Shape Difference",
+          "Shrinkwrap",
+          "Shrinkwrap",
+          "Single Curve Operation",
+          "Single Point Weld",
+          "Solid Embed",
+          "Solid Fracture",
+          "Solidify",
+          "Solver",
+          "Split",
+          "Point Split",
+          "Stash",
+          "Stroke",
+          "Stroke Cache",
+          "Subnetwork",
+          "Sweep",
+          "Sweep",
+          "Switch",
+          "Switch-If",
+          "Tangent Field",
+          "Tet Partition",
+          "Tetrahedralize",
+          "Convert Tets",
+          "Time Blend",
+          "Time Blend",
+          "Time Shift",
+          "Time Warp",
+          "TOP Geometry",
+          "Unix",
+          "Visualize Properties",
+          "Voronoi Adjacency",
+          "Voronoi Fracture Points",
+          "Voronoi Split",
+          "Winding Number"
+        ]
+      },
+      {
+        "tool": "Polygon",
+        "items": [
+          "Add",
+          "Assemble",
+          "Blast",
+          "Boolean",
+          "Boolean Fracture",
+          "Spline Cap",
+          "Clean",
+          "Clip",
+          "Dissolve",
+          "Dissolve",
+          "Divide",
+          "Edge Collapse",
+          "Edge Cusp",
+          "Edge Divide",
+          "Edge Flip",
+          "Ends",
+          "Extrude - Old",
+          "Extrude Volume",
+          "Facet",
+          "Fuse",
+          "Fuse",
+          "Hole",
+          "Knife",
+          "Normal",
+          "Orientation Along Curve",
+          "Point Weld",
+          "PolyBevel",
+          "PolyBevel - Old",
+          "PolyBevel",
+          "PolyBridge",
+          "PolyCut",
+          "PolyExpand2D",
+          "PolyExtrude",
+          "PolyExtrude",
+          "PolyFill",
+          "PolyFrame",
+          "PolyLoft",
+          "PolyPatch",
+          "PolyReduce",
+          "PolyReduce",
+          "PolySpline",
+          "PolySplit",
+          "PolySplit",
+          "PolyWire",
+          "Remesh",
+          "Remesh",
+          "Remesh to Grid",
+          "Reverse",
+          "Shatter",
+          "Starburst",
+          "Subdivide",
+          "Superquad",
+          "TopoBuild",
+          "Triangulate2D",
+          "Triangulate2D",
+          "Triangulate 2D",
+          "TriDivide",
+          "UV Flatten",
+          "Voronoi Fracture",
+          "Voronoi Fracture",
+          "Wireframe"
+        ]
+      },
+      {
+        "tool": "Crowds",
+        "items": [
+          "Agent",
+          "Agent Clip",
+          "Agent Clip",
+          "Agent Clip Properties",
+          "Agent Clip Transition Graph",
+          "Agent Collision Layer",
+          "Agent Configure Joints",
+          "Agent Constraint Network",
+          "Agent Definition Cache",
+          "Agent Edit",
+          "Agent Layer",
+          "Agent Layer",
+          "Agent Look At",
+          "Agent Look At",
+          "Agent Look At",
+          "Agent Metadata",
+          "Agent Prep",
+          "Agent Prep",
+          "Agent Prep",
+          "Agent Proxy",
+          "Agent Relationship",
+          "Agent Terrain Adaptation",
+          "Agent Transform Group",
+          "Agent Unpack",
+          "Agent Vellum Unpack",
+          "Crowd Assign Layers",
+          "Crowd Source",
+          "Crowd Source",
+          "Crowd Source",
+          "Test Simulation: Crowd Transition",
+          "Test Simulation: Ragdoll"
+        ]
+      },
+      {
+        "tool": "Pack",
+        "items": [
+          "Alembic",
+          "Alembic Group",
+          "Alembic Primitive",
+          "Instance",
+          "Pack",
+          "Packed Disk Properties",
+          "Packed Properties",
+          "Pack Inject",
+          "Pack Points",
+          "Repack",
+          "Unpack",
+          "Unpack Points",
+          "Unpack USD",
+          "Unpack USD"
+        ]
+      },
+      {
+        "tool": "NURBS",
+        "items": [
+          "Spline Align",
+          "Spline Basis",
+          "Carve",
+          "Spline Clay",
+          "Spline Curve Clay",
+          "Curve Intersect",
+          "Fillet",
+          "Join",
+          "Spline Profile",
+          "Spline Project",
+          "Refine",
+          "Skin",
+          "Stitch",
+          "Spline Surfsect",
+          "Spline Trim"
+        ]
+      },
+      {
+        "tool": "Attribute",
+        "items": [
+          "Attribute Adjust Color",
+          "Attribute Adjust Dictionary",
+          "Attribute Adjust Float",
+          "Attribute Adjust Integer",
+          "Attribute Adjust Vector",
+          "Attribute Blur",
+          "Attribute Cast",
+          "Attribute Combine",
+          "Attribute Composite",
+          "Attribute Copy",
+          "Attribute Create",
+          "Attribute Create",
+          "Attribute Delete",
+          "Attribute Expression",
+          "Attribute Fade",
+          "Attribute Fill",
+          "Attribute from Map",
+          "Attribute from Pieces",
+          "Attribute Interpolate",
+          "Attribute Mirror",
+          "Attribute Noise",
+          "Attribute Noise",
+          "Attribute Paint",
+          "Attribute Promote",
+          "Attribute Randomize",
+          "Attribute Remap",
+          "Attribute Reorient",
+          "Attribute String Edit",
+          "Attribute Swap",
+          "Attribute Transfer",
+          "Attribute Transfer by UV",
+          "Attribute Rename",
+          "Attribute VOP",
+          "Attribute Wrangle",
+          "Cluster",
+          "Cluster Points",
+          "Comb",
+          "Connectivity",
+          "Crease",
+          "Delete",
+          "Distance along Geometry",
+          "Distance from Geometry",
+          "Distance from Target",
+          "Measure",
+          "Measure",
+          "MetaGroups",
+          "Paint Color",
+          "Point Velocity",
+          "Pose Scope",
+          "Sort",
+          "Toon Shader Attributes",
+          "Vertex - Old",
+          "Visibility",
+          "Vortex Force Attributes"
+        ]
+      },
+      {
+        "tool": "Volume",
+        "items": [
+          "Attribute from Volume",
+          "Bake Volume",
+          "Cloud",
+          "Cloud",
+          "Cloud Light",
+          "Cloud Noise",
+          "Convert Volume",
+          "IsoOffset",
+          "Lattice from Volume",
+          "Name",
+          "Point Cloud Iso",
+          "Sky",
+          "Volume",
+          "Volume Adjust Fog",
+          "Volume Analysis",
+          "Volume Arrival Time",
+          "Volume Blur",
+          "Volume Bound",
+          "Volume Break",
+          "Volume Combine",
+          "Volume Compress",
+          "Volume Convolve 3x3x3",
+          "Volume Deform",
+          "Volume Feather",
+          "Volume FFT",
+          "Volume from Attribute",
+          "Volume Merge",
+          "Volume Mix",
+          "Volume Noise Fog",
+          "Volume Noise SDF",
+          "Volume Noise Vector",
+          "Volume Normalize Weights",
+          "Volume Optical Flow",
+          "Volume Patch",
+          "Volume Ramp",
+          "Volume Rasterize",
+          "Volume Rasterize Attributes",
+          "Volume Rasterize Curve",
+          "Volume Rasterize Hair",
+          "Volume Rasterize Lattice",
+          "Volume Rasterize Particles",
+          "Volume Rasterize Points",
+          "Volume Reduce",
+          "Volume Resample",
+          "Volume Resize",
+          "Volume SDF",
+          "Volume Slice",
+          "Volume Splice",
+          "Volume Stamp",
+          "Volume Surface",
+          "Volume Trail",
+          "Volume Velocity",
+          "Volume Velocity from Curves",
+          "Volume Velocity from Surface",
+          "Volume Visualization",
+          "Volume VOP",
+          "Volume Wrangle"
+        ]
+      },
+      {
+        "tool": "Muscles",
+        "items": [
+          "Autoflex Lines",
+          "Tissue Solver",
+          "Bone Solidify",
+          "Fascia",
+          "Fascia Solidify",
+          "Fascia Solver",
+          "FEM Deform",
+          "Fiber Groom",
+          "Muscle Constraint Properties",
+          "Muscle Constraint Properties FEM",
+          "Muscle Constraint Properties Vellum",
+          "Muscle Flex",
+          "Muscle ID",
+          "Muscle Mirror",
+          "Muscle Paint",
+          "Muscle Preroll",
+          "Muscle Properties",
+          "Muscle Slide Constraint",
+          "Muscle Solidify",
+          "Muscle Solver",
+          "Muscle Solver FEM",
+          "Muscle Solver Vellum",
+          "Muscle Tension Lines",
+          "Muscle T-Pose",
+          "Skin Properties",
+          "Skin Solidify",
+          "Skin Solver Vellum",
+          "Tissue Properties",
+          "Tissue Solidify",
+          "Tissue Solver Vellum"
+        ]
+      },
+      {
+        "tool": "Export",
+        "items": [
+          "Bake ODE",
+          "Dem Bones Skinning Converter",
+          "File Cache",
+          "File Cache",
+          "USD Configure",
+          "USD Export"
+        ]
+      },
+      {
+        "tool": "Pyro",
+        "items": [
+          "Ballistic Path",
+          "Pyro Bake Volume",
+          "Pyro Burst Source",
+          "Pyro Post-Process",
+          "Pyro Post-Process",
+          "Pyro Scatter from Burst",
+          "Pyro Solver",
+          "Pyro Source",
+          "Pyro Source Instance",
+          "Pyro Source Pack",
+          "Pyro Source Spread",
+          "Pyro Spawn Sources",
+          "Pyro Trail Path",
+          "Pyro Trail Source"
+        ]
+      },
+      {
+        "tool": "Manipulate",
+        "items": [
+          "Bend",
+          "Bulge",
+          "Deformation Wrangle",
+          "Edit",
+          "Elastic Transform",
+          "Fractal",
+          "Inflate",
+          "Magnet",
+          "Match Axis",
+          "Match Size",
+          "Mountain",
+          "Mountain",
+          "Ocean Evaluate",
+          "Path Deform",
+          "Peak",
+          "Point Jitter",
+          "Ray",
+          "Point Relax",
+          "Revolve",
+          "Revolve",
+          "Ripple",
+          "Ripple",
+          "Sculpt",
+          "Shot Sculpt",
+          "Smooth",
+          "Smooth",
+          "Soft Peak",
+          "Soft Transform",
+          "SSS Scatter",
+          "Topo Landmark",
+          "Topo Transfer",
+          "Trail",
+          "Waveform",
+          "Transform",
+          "Transform Axis",
+          "Transform by Attribute",
+          "Transform Pieces"
+        ]
+      },
+      {
+        "tool": "Rigging",
+        "items": [
+          "Bone Capture Biharmonic",
+          "Bone Capture Lines",
+          "Bone Deform",
+          "Bone Link",
+          "Bone Capture",
+          "Capture Attribute Pack",
+          "Capture Attribute Unpack",
+          "Capture Correct",
+          "Capture Layer Paint",
+          "Capture Mirror",
+          "Capture Override",
+          "Bone Capture Proximity",
+          "Cloth Capture",
+          "Cloth Deform",
+          "Capture Region",
+          "Delta Mush",
+          "Lattice",
+          "Muscle Capture",
+          "Muscle Deform",
+          "Point Capture",
+          "Point Deform",
+          "Pose-Space Deform",
+          "Pose-Space Deform Combine",
+          "Pose-Space Edit",
+          "Pose-Space Edit Configure",
+          "Slide Modifier Paint",
+          "Tissuesolver",
+          "Wire Capture",
+          "Wire Deform"
+        ]
+      },
+      {
+        "tool": "Create",
+        "items": [
+          "Box",
+          "Grid",
+          "Spiral",
+          "Torus"
+        ]
+      },
+      {
+        "tool": "Import",
+        "items": [
+          "Channel",
+          "DOP Import",
+          "DOP Import",
+          "Dop Import Fields",
+          "DOP Import Fields",
+          "DOP Import Records",
+          "Dop I/O",
+          "File Merge",
+          "File Merge",
+          "GLTF",
+          "Lidar Import",
+          "LOP Import",
+          "LOP Import",
+          "MDD",
+          "Object Merge",
+          "Table Import",
+          "USD Import"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Material Network",
+          "Object Network",
+          "ROP Alembic Output",
+          "ROP FBX Output",
+          "ROP Geometry Output",
+          "ROP GLTF Output",
+          "ROP Network",
+          "SHOP Network",
+          "SOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Primitive",
+        "items": [
+          "Circle",
+          "Control",
+          "Curve",
+          "Curve Bezier",
+          "Draw Curve",
+          "File",
+          "Font",
+          "Line",
+          "L-System",
+          "Metaball",
+          "Platonic Solids",
+          "PolySoup",
+          "Primitive Properties",
+          "Sphere",
+          "Trace",
+          "TriBezier",
+          "Tube"
+        ]
+      },
+      {
+        "tool": "Edge",
+        "items": [
+          "Circle from Edges",
+          "Edge Equalize",
+          "Edge Fracture",
+          "Edge Straighten"
+        ]
+      },
+      {
+        "tool": "Fluid",
+        "items": [
+          "Collision Source",
+          "Collision Source",
+          "FLIP DOP Source",
+          "Fluid Compress",
+          "Fluid Source",
+          "Ocean Evaluate",
+          "Ocean Foam",
+          "Ocean Source",
+          "Ocean Source",
+          "Ocean Spectrum",
+          "Ocean Waves",
+          "Particle Fluid Mask",
+          "Particle Fluid Surface",
+          "Particle Fluid Surface",
+          "Particle Fluid Surface",
+          "Particle Fluid Tank",
+          "Points from Volume",
+          "Shallow Water Solver"
+        ]
+      },
+      {
+        "tool": "Material",
+        "items": [
+          "Color",
+          "Material",
+          "Rest Position",
+          "RMan Shader",
+          "UV Texture",
+          "UV Autoseam",
+          "UV Brush",
+          "UV Edit",
+          "UV Flatten",
+          "UV Flatten",
+          "UV Fuse",
+          "UV Layout",
+          "UV Layout",
+          "UV Layout",
+          "UV Pelt",
+          "UV Pelt",
+          "UV Project",
+          "UV Quick Shade",
+          "UV Transform",
+          "UV Transform",
+          "UV Unwrap",
+          "Verify BSDF"
+        ]
+      },
+      {
+        "tool": "Constraints",
+        "items": [
+          "Constraints Network",
+          "Export Object Transforms"
+        ]
+      },
+      {
+        "tool": "Terrain",
+        "items": [
+          "Convert HeightField",
+          "HeightField",
+          "HeightField Blur",
+          "HeightField Clip",
+          "HeightField Copy Layer",
+          "HeightField Crop",
+          "HeightField Cutout by Object",
+          "HeightField Deform",
+          "HeightField Distort by Noise",
+          "HeightField Distort by Layer",
+          "HeightField Draw Mask",
+          "HeightField Erode",
+          "HeightField Erode",
+          "HeightField Erode Hydro",
+          "HeightField Erode Precipitation",
+          "HeightField Erode Thermal",
+          "HeightField File",
+          "HeightField Flatten",
+          "HeightField Flow Field",
+          "HeightField Isolate Layer",
+          "HeightField Layer",
+          "HeightField Layer Clear",
+          "HeightField Layer Properties",
+          "HeightField Mask by Concavity",
+          "HeightField Mask by Feature",
+          "HeightField Mask by Object",
+          "HeightField Mask by Occlusion",
+          "HeightField Mask by Shadow",
+          "HeightField Noise",
+          "HeightField Output",
+          "HeightField Paint",
+          "HeightField Patch",
+          "HeightField Pattern",
+          "HeightField Project",
+          "HeightField Quick Shade",
+          "HeightField Remap",
+          "HeightField Resample",
+          "HeightField Scatter",
+          "HeightField Scatter",
+          "HeightField Slump",
+          "HeightField Terrace",
+          "HeightField Terrace",
+          "HeightField Tile Split",
+          "HeightField Visualize",
+          "HeightField Transform"
+        ]
+      },
+      {
+        "tool": "VDB",
+        "items": [
+          "Convert VDB",
+          "Convert VDB Points",
+          "VDB",
+          "VDB Activate",
+          "VDB Activate SDF",
+          "VDB Advect Points",
+          "VDB Advect",
+          "VDB Analysis",
+          "VDB Clip",
+          "VDB Combine",
+          "VDB Convex Clip SDF",
+          "VDB Diagnostics",
+          "VDB Extrapolate",
+          "VDB Fracture",
+          "VDB from Particle Fluid",
+          "VDB from Particles",
+          "VDB from Polygons",
+          "VDB LOD",
+          "VDB Merge",
+          "VDB Morph SDF",
+          "VDB Occlusion Mask",
+          "VDB Points Delete",
+          "VDB Points Group",
+          "VDB Potential Flow",
+          "VDB Project Non-Divergent",
+          "VDB Renormalize SDF",
+          "VDB Resample",
+          "VDB Reshape SDF",
+          "VDB Segment by Connectivity",
+          "VDB Smooth",
+          "VDB Smooth SDF",
+          "VDB Topology to SDF",
+          "VDB to Spheres",
+          "VDB Vector from Scalar",
+          "VDB Vector Split",
+          "VDB Visualize Tree"
+        ]
+      },
+      {
+        "tool": "Particle",
+        "items": [
+          "Debris Source",
+          "Debris Source",
+          "Force",
+          "Grain Source",
+          "Particle Trail",
+          "Point Generate",
+          "Point Replicate",
+          "Scatter",
+          "Scatter",
+          "Scatter and Align",
+          "Spray Paint",
+          "Sprite",
+          "Whitewater Source",
+          "Whitewater Source"
+        ]
+      },
+      {
+        "tool": "Hair",
+        "items": [
+          "Draw Hair",
+          "Fur",
+          "Groom Blend",
+          "Groom Fetch",
+          "Groom Switch",
+          "Guide Advect",
+          "Guide Collide With VDB",
+          "Guide Deform",
+          "Guide Draw",
+          "Guide Groom",
+          "Guide Groom",
+          "Guide Group",
+          "Guide Grow to Surface",
+          "Guide Initialize",
+          "Guide Mask",
+          "Guide Partition",
+          "Guide Process",
+          "Guide Skin Attribute Lookup",
+          "Guide Tangent Space",
+          "Guide Transfer",
+          "Hair Card Generate",
+          "Hair Clump",
+          "Hair Clump",
+          "Hair Generate",
+          "Hair Generate",
+          "Hair Growth Field",
+          "Groom Pack",
+          "Reguide",
+          "Groom Unpack",
+          "Wire Blend",
+          "Wire Transfer"
+        ]
+      },
+      {
+        "tool": "FEM",
+        "items": [
+          "FEM Validate",
+          "Tet Conform",
+          "Tet Embed",
+          "Tet Fracture"
+        ]
+      },
+      {
+        "tool": "FLIP",
+        "items": [
+          "FLIP Boundary",
+          "FLIP Collide",
+          "FLIP Container",
+          "FLIP Modify Volume",
+          "FLIP Solver"
+        ]
+      },
+      {
+        "tool": "Group",
+        "items": [
+          "Group",
+          "Group by Lasso",
+          "Group Combine",
+          "Group Copy",
+          "Group Create",
+          "Group Delete",
+          "Group Expand",
+          "Group Expression",
+          "Group Find Path",
+          "Group from Attribute Boundary",
+          "Group Paint",
+          "Group Promote",
+          "Group by Range",
+          "Group Rename",
+          "Groups from Name",
+          "Group Transfer"
+        ]
+      },
+      {
+        "tool": "KineFX",
+        "items": [
+          "Adapt to Terrain",
+          "Adapt to Terrain",
+          "Agent Animation Unpack",
+          "Agent Character Unpack",
+          "Agent from Rig",
+          "Agent Pose from Rig",
+          "Attach Control Geometry",
+          "Attach Joint Geo",
+          "Attribute Transform Compute",
+          "Attribute Transform Extract",
+          "Capture Packed Geometry",
+          "Character Blend Shape Channels",
+          "Character Blend Shapes",
+          "Character Blend Shapes Add",
+          "Character Blend Shapes Extract",
+          "Character I/O",
+          "Character I/O",
+          "Character Pack",
+          "Character Unpack",
+          "Animation Clip Export",
+          "Animation Clip Import",
+          "Compute Rig Pose",
+          "Compute Transform",
+          "Configure Clip Info",
+          "Configure Joints",
+          "Configure Rig Visualizers",
+          "Configure Rig Visualizers",
+          "Delete Joints",
+          "Dynamic Warp",
+          "Extract Locomotion",
+          "Full Body IK Configure Targets",
+          "FBX Animation Import",
+          "FBX Character Import",
+          "FBX Skin Import",
+          "FK Transfer",
+          "Full Body IK",
+          "Group Joints",
+          "IK Chains",
+          "IK Chains",
+          "Joint Capture Biharmonic",
+          "Joint Capture Paint",
+          "Joint Capture Proximity",
+          "Joint Deform",
+          "Map Points",
+          "Mocap Import",
+          "Mocap Stream",
+          "MotionClip",
+          "MotionClip Blend",
+          "MotionClip Blend",
+          "MotionClip Compute Velocity",
+          "MotionClip Create ",
+          "MotionClip Cycle",
+          "MotionClip Cycle",
+          "MotionClip Evaluate",
+          "MotionClip Extract",
+          "MotionClip Extract Key Poses",
+          "MotionClip Extract Locomotion",
+          "MotionClip Pose Delete",
+          "MotionClip Pose Delete",
+          "MotionClip Pose Insert",
+          "MotionClip Retime",
+          "MotionClip Sequence",
+          "MotionClip Sequence",
+          "MotionClip Update",
+          "Orient Joints",
+          "Parent Joints",
+          "Point Capture Biharmonic",
+          "Pose Difference",
+          "Ragdoll Collision Shapes",
+          "Ragdoll Constraints",
+          "Ragdoll Solver",
+          "Reverse Foot",
+          "Rig Attribute VOP",
+          "Rig Attribute Wrangle",
+          "Rig Copy Transforms",
+          "Rig Doctor",
+          "Rig Match Pose",
+          "Rig Mirror Pose",
+          "Rig Pose",
+          "Rig Python",
+          "Rig Stash Pose",
+          "ROP FBX Animation Output",
+          "ROP FBX Character Output",
+          "ROP GLTF Character Output",
+          "Scene Character Export",
+          "Scene Character Import",
+          "Secondary Motion",
+          "Skeleton",
+          "Skeleton Blend",
+          "Skeleton Blend",
+          "Skeleton Blend",
+          "Skeleton Mirror",
+          "Smooth Motion",
+          "Spline IK",
+          "Stabilize Joint",
+          "USD Animation Import",
+          "USD Character Import",
+          "USD Skin Import",
+          "Visualize Rig"
+        ]
+      },
+      {
+        "tool": "Labs/Misc",
+        "items": [
+          "Labs 2D WaveFunctionCollapse",
+          "Labs Edge Group To Curve"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Generative Algorithm",
+        "items": [
+          "Labs 2D Wave Function Collapse",
+          "Labs Wang Tiles Decoder",
+          "Labs Wang Tiles Sample",
+          "Labs WFC Initialize Grid",
+          "Labs WFC Sample Paint"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Visualize",
+        "items": [
+          "Labs Align and Distribute"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Attribute",
+        "items": [
+          "Labs Attribute Normalize Float",
+          "Labs Attribute Normalize Vector",
+          "Labs Attribute Value Replace",
+          "Labs Color Adjustment",
+          "Labs Color Blend",
+          "Labs Color Gradient",
+          "Labs Min Max Average",
+          "Labs Min Max Average",
+          "Labs Sort"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/UV: Create",
+        "items": [
+          "Labs Automatic Trim Texture",
+          "Labs Auto UV",
+          "Labs Inside Face UVs",
+          "Labs Trim Texture",
+          "Labs Trim Texture Subutil",
+          "Labs Trim Texture Utility",
+          "Labs UV Transfer",
+          "Labs UV Unwrap Cylinder"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Integration/AliceVision",
+        "items": [
+          "Labs AV Analyze Images",
+          "Labs AV Analyze Images",
+          "Labs AV Analyze Images"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/AliceVision",
+        "items": [
+          "Labs AV Analyze Images",
+          "Labs AV Analyze Images",
+          "Labs AV Depth Map",
+          "Labs AV Initialize",
+          "Labs AV Meshing",
+          "Labs AV Photogrammetry",
+          "Labs AV Structure from Motion",
+          "Labs AV Texturing"
+        ]
+      },
+      {
+        "tool": "Labs/AliceVision",
+        "items": [
+          "Labs AV Depth Map",
+          "Labs AV Depth Map",
+          "Labs AV Depth Map",
+          "Labs AV Depth Map",
+          "Labs AV Initialize",
+          "Labs AV Initialize",
+          "Labs AV Initialize",
+          "Labs AV Initialize",
+          "Labs AV Meshing",
+          "Labs AV Meshing",
+          "Labs AV Meshing",
+          "Labs AV Meshing",
+          "Labs AliceVision Photogrammetry",
+          "Labs AV Photogrammetry",
+          "Labs AV Photogrammetry",
+          "Labs AV Photogrammetry",
+          "Labs AV Structure from Motion",
+          "Labs AV Structure from Motion",
+          "Labs AV Structure from Motion",
+          "Labs AV Structure from Motion",
+          "Labs AV Texturing",
+          "Labs AV Texturing",
+          "Labs AV Texturing",
+          "Labs AV Texturing"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Transform",
+        "items": [
+          "Labs Axis Align",
+          "Labs Turntable"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Curve",
+        "items": [
+          "Labs Boolean Curve",
+          "Labs Curve Branches",
+          "Labs Curve Resample by Density",
+          "Labs Curve Sweep",
+          "Labs Merge Splines",
+          "Labs PolyWire UV",
+          "Labs Progressive Resample",
+          "Labs Spiral",
+          "Labs Sweep Geometry",
+          "Labs View Vertex Order"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Cut",
+        "items": [
+          "Labs Box Clip",
+          "Labs Boxcutter",
+          "Labs Boxcutter Subutil",
+          "Labs Mesh Slice",
+          "Labs PolySlice",
+          "Labs Split Primitives by Normal"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Architecture",
+        "items": [
+          "Labs Building from Patterns",
+          "Labs Building from Patterns",
+          "Labs Building Generator",
+          "Labs Building Generator Utility",
+          "Labs Building Generator Utility"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Prop",
+        "items": [
+          "Labs Cable Generator",
+          "Labs Cable Generator",
+          "Labs Edge Damage",
+          "Labs Lot Subdivision",
+          "Labs Lot Subdivision",
+          "Labs SciFi Panels",
+          "Labs SciFi Panels",
+          "Labs Simple Rope Wrap"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Analysis",
+        "items": [
+          "Labs Calculate Occlusion",
+          "Labs Calculate Occlusion",
+          "Labs Calculate Slope",
+          "Labs Calculate Thickness",
+          "Labs Distance From Border",
+          "Labs Edge Color",
+          "Labs Fast Gaussian Curvature",
+          "Labs Measure Curvature",
+          "Labs Measure Curvature",
+          "Labs Measure Curvature",
+          "Labs Measure Curvature",
+          "Labs Physical Ambient Occlusion",
+          "Labs Spectral Feature Extract"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/UV: Refine",
+        "items": [
+          "Labs Calculate UV Distortion",
+          "Labs Clean Seams",
+          "Labs Merge Small Islands",
+          "Labs Remove UV Distortion",
+          "Labs Texel Density",
+          "Labs UV Remove Overlap",
+          "Labs UV Unitize"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Refine",
+        "items": [
+          "Labs Cluster Refine",
+          "Labs Edge Smooth",
+          "Labs Mesh Sharpen",
+          "Labs Repair",
+          "Labs Soften Normals"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Convert",
+        "items": [
+          "Labs Connect Polygon Neighbours",
+          "Labs Edge Group to Polylines",
+          "Labs Edge Group To Curve",
+          "Labs Extract Borders",
+          "Labs Extract Silhouette",
+          "Labs Fast Remesh",
+          "Labs LOD Create",
+          "Labs Quadrangulate",
+          "Labs Straight Skeleton 3D",
+          "Labs Symmetrize",
+          "Labs Thicken"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Partition",
+        "items": [
+          "Labs Connectivity and Segmentation",
+          "Labs Multi Bounding Box"
+        ]
+      },
+      {
+        "tool": "Labs/Biomes",
+        "items": [
+          "Labs Convert Regions To Curves Subutil",
+          "Labs Region Assignment Subutil"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Cache",
+        "items": [
+          "Labs Cook with Timeout",
+          "Labs File Cache",
+          "Labs File Cache",
+          "Labs PDG Work-Item Import"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh/Create",
+        "items": [
+          "Labs Cylinder Generator",
+          "Labs Test Geometry: Luiz",
+          "Labs Test Geometry: Paul"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Create",
+        "items": [
+          "Labs Cylinder Generator",
+          "Labs Disc Generator",
+          "Labs Houdini Icon",
+          "Labs Quad Sphere Generator",
+          "Labs Simple Shapes",
+          "Labs Sphere Generator",
+          "Labs Star",
+          "Labs Superformula Shapes",
+          "Labs Test Geometry: Luiz",
+          "Labs Test Geometry: Paul"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Project",
+        "items": [
+          "Labs Decal Projector",
+          "Labs Detail Mesh",
+          "Labs Triplanar Displace"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Remove",
+        "items": [
+          "Labs Delete Small Parts",
+          "Labs Dissolve Flat Edges",
+          "Labs Remove Inside Faces"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Photogrammetry & Scan",
+        "items": [
+          "Labs Delight",
+          "Labs Straighten"
+        ]
+      },
+      {
+        "tool": "Labs/Character & Animation/Rigging",
+        "items": [
+          "Labs Dem Bones Skinning Converter",
+          "Labs Name from Capture Weight",
+          "Labs Skinning Converter",
+          "Labs Skinning Converter",
+          "Labs Skinning Converter",
+          "Labs Skinning Converter Utility",
+          "Labs Skinning Converter Utility"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Destruction",
+        "items": [
+          "Labs Destruction Cleanup",
+          "Labs Destruction Cleanup",
+          "Labs RBD Director",
+          "Labs RBD Edge Strip",
+          "Labs RBD Fracture",
+          "Labs RBD Solver"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh/Project",
+        "items": [
+          "Labs Detail Mesh"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Set Dressing",
+        "items": [
+          "Labs Dirt Skirt",
+          "Labs Snow Buildup"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Create",
+        "items": [
+          "Labs Disc Generator"
+        ]
+      },
+      {
+        "tool": "Labs/Geo",
+        "items": [
+          "Labs Dissolve Flat Edges",
+          "Labs Edge Damage",
+          "Labs Quick Material",
+          "Labs Spiral",
+          "Labs Thicken"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Integration/Exoside Quad Remesher",
+        "items": [
+          "Labs Exoside QuadRemesher"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Exoside",
+        "items": [
+          "Labs Exoside QuadRemesher"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/UV: Visualize",
+        "items": [
+          "Labs Export UV Wireframe",
+          "Labs UDIM Tile Number",
+          "Labs UV Visualize"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Data Processing",
+        "items": [
+          "Labs Extract Filename",
+          "Labs Validate Geometry Type"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Group",
+        "items": [
+          "Labs Fast Group Unshared",
+          "Labs Group Attribute Borders",
+          "Labs Group by Attribute",
+          "Labs Group By Color",
+          "Labs Group by Measure",
+          "Labs Group Curve Corners",
+          "Labs Group Edge Loop",
+          "Labs Group Expand",
+          "Labs Group Invert",
+          "Labs Group UV Borders",
+          "Labs Loops from Selection",
+          "Labs Random Selection"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh/Convert",
+        "items": [
+          "Labs Fast Remesh",
+          "Labs LOD Create",
+          "Labs Quadrangulate",
+          "Labs Voxel Mesh",
+          "Labs Voxel Mesh"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Import",
+        "items": [
+          "Labs FBX Archive Import",
+          "Labs Multi File",
+          "Labs OBJ Importer"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Fluid",
+        "items": [
+          "Labs Flowmap",
+          "Labs Flowmap Obstacle",
+          "Labs Flowmap Obstacle",
+          "Kelvin Wakes Deformer",
+          "Labs Splatter"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Water",
+        "items": [
+          "Labs Flowmap",
+          "Labs Guide Flowmap",
+          "Labs Flowmap Obstacle",
+          "Labs Flowmap to Color",
+          "Labs Flowmap Visualize"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Integration/Gaea",
+        "items": [
+          "Labs Gaea Tor Processor",
+          "Labs Gaea Tor Processor",
+          "Labs Gaea Tor Processor"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Gaea",
+        "items": [
+          "Labs Gaea Tor Processor"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Real-Time Engine",
+        "items": [
+          "Labs GameRes",
+          "Labs GameRes",
+          "Labs Niagara Impacts",
+          "Labs Niagara Interpolate",
+          "Labs Niagara RBD Split",
+          "Labs Terrain Layer Export",
+          "Labs Terrain Layer Import",
+          "Labs Unreal Pivot Painter",
+          "Labs Unreal PivotPainter",
+          "Labs VolumeTexture Export"
+        ]
+      },
+      {
+        "tool": "Labs/Real-Time Engine",
+        "items": [
+          "Labs GameRes",
+          "Labs Niagara ROP",
+          "Labs Niagara ROP",
+          "Labs Terrain Layer Export",
+          "Labs Terrain Layer Import",
+          "Labs Unreal Groom Export",
+          "Labs Unreal PivotPainter",
+          "Labs Worldcomposition Prepare",
+          "Labs Vector Field Export",
+          "Labs VolumeTexture Export"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/ZBrush",
+        "items": [
+          "Labs GoZ Export",
+          "Labs GoZ Import"
+        ]
+      },
+      {
+        "tool": "Labs/Group",
+        "items": [
+          "Labs Group by Attribute"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Terrain",
+        "items": [
+          "Labs HeightField Combine Masks",
+          "Labs HeightField Insert Mask",
+          "Labs Terrain Mesh ROP",
+          "Labs Terrain Mesh Output",
+          "Labs Terrain Texture ROP",
+          "Labs Terrain Texture Output"
+        ]
+      },
+      {
+        "tool": "Labs/Destruction",
+        "items": [
+          "Labs Inside Face UVs",
+          "Labs Simple RBD"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Placement",
+        "items": [
+          "Labs Instance Attributes",
+          "Labs Mesh Tiler",
+          "Labs Mesh Tiler",
+          "Labs Physics Painter",
+          "Labs Pick and Place"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Integration/Instant Meshes",
+        "items": [
+          "Labs Instant Meshes"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Instant Meshes",
+        "items": [
+          "Labs Instant Meshes"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Electricity",
+        "items": [
+          "Labs Lightning"
+        ]
+      },
+      {
+        "tool": "Labs/Utils",
+        "items": [
+          "Labs Make Loop",
+          "Labs Make Loop",
+          "Labs Measure Curvature"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Time",
+        "items": [
+          "Labs Make Loop"
+        ]
+      },
+      {
+        "tool": "Labs/Import",
+        "items": [
+          "Labs MapBox",
+          "Labs MapBox",
+          "Labs Trace PSD File"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/MapBox",
+        "items": [
+          "Labs MapBox",
+          "Labs Mapbox",
+          "Labs Mapbox Post-process"
+        ]
+      },
+      {
+        "tool": "Labs/Output",
+        "items": [
+          "Labs Maps Baker",
+          "Labs Maps Baker",
+          "Labs Maps Baker"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Baking",
+        "items": [
+          "Labs Maps Baker",
+          "Labs Maps Baker",
+          "Labs Simple Baker",
+          "Labs Simple Baker"
+        ]
+      },
+      {
+        "tool": "Labs/UV/Visualize",
+        "items": [
+          "Labs Mark Seams"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering/Material",
+        "items": [
+          "Labs Material to Override",
+          "Labs Quick Material",
+          "Labs Quick Material"
+        ]
+      },
+      {
+        "tool": "Labs/UV",
+        "items": [
+          "Labs Merge Small Islands"
+        ]
+      },
+      {
+        "tool": "Labs/Character & Animation/Performance Capture",
+        "items": [
+          "Labs Neuron Mocap",
+          "Labs Rokoko Mocap"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/OSM",
+        "items": [
+          "Labs OSM Buildings",
+          "Labs OSM Filter",
+          "Labs OSM Import"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Mesh: Deform",
+        "items": [
+          "Labs Path Deform",
+          "Labs PolyDeform"
+        ]
+      },
+      {
+        "tool": "Labs/Character & Animation/Deform",
+        "items": [
+          "Labs Post Animation Deform",
+          "Labs Sine Wave"
+        ]
+      },
+      {
+        "tool": "Labs/Simulation & FX/Pyro",
+        "items": [
+          "Labs Procedural Smoke",
+          "Labs Volume Adjust Look",
+          "Labs Volume Detail Attributes"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Vegetation",
+        "items": [
+          "Labs Quick Basic Tree",
+          "Labs Tree Branch Generator",
+          "Labs Tree Branch Placer",
+          "Labs Tree Controller",
+          "Labs Tree Hierarchy",
+          "Labs Tree Leaf Generator",
+          "Labs Tree Simple Leaf",
+          "Labs Tree Trunk Generator"
+        ]
+      },
+      {
+        "tool": "Labs",
+        "items": [
+          "Labs Quick Material"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Integration/RealityCapture",
+        "items": [
+          "Labs RC Register Images",
+          "Labs RC Texture Model"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/RizomUV",
+        "items": [
+          "Labs RizomUV Optimize",
+          "Labs RizomUV Processor",
+          "Labs RizomUV Rectangularize",
+          "Labs RizomUV Unwrap"
+        ]
+      },
+      {
+        "tool": "Labs/WorldBuilding",
+        "items": [
+          "Labs Road Generator",
+          "Labs Road Generator"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Road",
+        "items": [
+          "Labs Road Generator"
+        ]
+      },
+      {
+        "tool": "Labs/Character & Animation/Time",
+        "items": [
+          "Labs Simple Retime"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Sketchfab",
+        "items": [
+          "Labs Sketchfab Output"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Export",
+        "items": [
+          "Labs Static Fracture Export"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Substance",
+        "items": [
+          "Labs Substance Material"
+        ]
+      },
+      {
+        "tool": "Labs/Integration/Photoshop",
+        "items": [
+          "Labs Trace PSD File"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/UV/Refine",
+        "items": [
+          "Labs UV Stack"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Volume",
+        "items": [
+          "Labs VDB Transform Properties"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/UV/Visualize",
+        "items": [
+          "Labs UV Visualize"
+        ]
+      },
+      {
+        "tool": "Digital Assets",
+        "items": [
+          "Comb",
+          "VEX Builder SOP"
+        ]
+      },
+      {
+        "tool": "Layout Brushes",
+        "items": [
+          "Delete",
+          "Fill",
+          "Line",
+          "Nudge",
+          "Orient",
+          "Paint",
+          "Place",
+          "Scale",
+          "Stack"
+        ]
+      },
+      {
+        "tool": "Mask",
+        "items": [
+          "Mask by Feature"
+        ]
+      },
+      {
+        "tool": "Volume Paint",
+        "items": [
+          "Volume Paint Color",
+          "Volume Paint Fog",
+          "Volume Paint SDF"
+        ]
+      },
+      {
+        "tool": "Planar",
+        "items": [
+          "Planar Patch",
+          "Planar Patch from Curves",
+          "Planar Pleat"
+        ]
+      },
+      {
+        "tool": "RBD",
+        "items": [
+          "RBD Bullet Solver",
+          "RBD Cluster",
+          "RBD Cluster",
+          "RBD Concrete Fracture",
+          "RBD Configure",
+          "RBD Connected Faces",
+          "RBD Constraint Properties",
+          "RBD Constraint Properties",
+          "RBD Constraints from Curves",
+          "RBD Constraints from Lines",
+          "RBD Constraints from Rules",
+          "RBD Convert Constraints",
+          "RBD Custom fracture",
+          "RBD Deforming to Animated",
+          "RBD Deform Pieces",
+          "RBD Disconnected Faces",
+          "RBD Exploded View",
+          "RBD Glass Fracture",
+          "RBD Guide Setup",
+          "RBD Interior Detail",
+          "RBD I/O",
+          "RBD I/O",
+          "RBD Match Transforms",
+          "RBD Material Fracture",
+          "RBD Material Fracture",
+          "RBD Material Fracture",
+          "RBD Pack",
+          "RBD Paint",
+          "RBD Recursive Fracture",
+          "RBD Recursive Fracture",
+          "RBD Rewire Constraints",
+          "RBD Unpack",
+          "RBD Wood Fracture",
+          "RBD Transform"
+        ]
+      },
+      {
+        "tool": "Test Geometry",
+        "items": [
+          "Test Geometry: Crag",
+          "Test Geometry: Pig Head",
+          "Test Geometry: Rubber Toy",
+          "Test Geometry: Shader Ball",
+          "Test Geometry: Squab",
+          "Test Geometry: Template Body",
+          "Test Geometry: Template Head",
+          "Test Geometry: Tommy"
+        ]
+      },
+      {
+        "tool": "Vellum",
+        "items": [
+          "Vellum Attach Constraints",
+          "Vellum Brush",
+          "Vellum Constraint Properties",
+          "Vellum Constraints",
+          "Vellum Configure Grain",
+          "Vellum Drape",
+          "Vellum I/O",
+          "Vellum I/O",
+          "Vellum Pack",
+          "Vellum Post-Process",
+          "Vellum Reference Frame",
+          "Vellum Rest Blend",
+          "Vellum Solver",
+          "Vellum Unpack",
+          "Vellum Transform Pieces"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Top",
+    "items": [
+      {
+        "tool": "Attributes",
+        "items": [
+          "Attribute Array",
+          "Attribute Copy",
+          "Attribute Create",
+          "Attribute Delete",
+          "Attribute from String",
+          "Attribute Promote",
+          "Attribute Reduce",
+          "Attribute Rename",
+          "Partition by Attribute"
+        ]
+      },
+      {
+        "tool": "Managers",
+        "items": [
+          "CHOP Network",
+          "COP2 Network",
+          "DOP Network",
+          "LOP Network",
+          "Material Network",
+          "Object Network",
+          "Remote Graph",
+          "ROP Network",
+          "SHOP Network",
+          "SOP Network",
+          "TOP Network",
+          "VOP Network"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Command Server End",
+          "Error",
+          "Block Begin Feedback ",
+          "Block End Feedback ",
+          "Filter by State",
+          "Merge",
+          "Node Pattern",
+          "Null",
+          "Output",
+          "Range Extend",
+          "Sort",
+          "Split",
+          "Subnetwork",
+          "Switch",
+          "Work Item Expand"
+        ]
+      },
+      {
+        "tool": "Data",
+        "items": [
+          "CSV Concat",
+          "CSV Input",
+          "CSV Modify",
+          "CSV Output",
+          "Environment Edit ",
+          "Filter by Expression",
+          "Filter by Range",
+          "Generic Generator",
+          "Json Input",
+          "Json Output",
+          "Range Generate",
+          "SQL Input",
+          "SQL Output",
+          "Text Output",
+          "URL Request",
+          "Wedge",
+          "Xml Input"
+        ]
+      },
+      {
+        "tool": "Schedulers",
+        "items": [
+          "Deadline Scheduler",
+          "HQueue Scheduler",
+          "In Process Scheduler",
+          "Local Scheduler",
+          "Tractor Scheduler"
+        ]
+      },
+      {
+        "tool": "Files",
+        "items": [
+          "Download File",
+          "File Compress",
+          "File Copy",
+          "File Decompress",
+          "File Pattern",
+          "File Range",
+          "File Remove",
+          "File Rename",
+          "Make Directory",
+          "Text to CSV"
+        ]
+      },
+      {
+        "tool": "Images",
+        "items": [
+          "FFmpeg Encode Video",
+          "FFmpeg Extract Images",
+          "ImageMagick"
+        ]
+      },
+      {
+        "tool": "Geometry",
+        "items": [
+          "Geometry Import",
+          "HDA Processor",
+          "Invoke",
+          "ROP Alembic Output",
+          "ROP FBX Output",
+          "ROP Geometry Output",
+          "ROP USD Output"
+        ]
+      },
+      {
+        "tool": "Command Chain",
+        "items": [
+          "Houdini Server Begin",
+          "Maya Server Begin",
+          "Nuke Server Begin",
+          "Python Server Begin",
+          "Command Send",
+          "ShotGrid Server Begin"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Cache",
+        "items": [
+          "Labs Archive Project",
+          "Labs File Cache",
+          "Labs File Cache"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Data Processing",
+        "items": [
+          "Labs Concatenate Text",
+          "Labs Data Diff",
+          "Labs Extract Image Metadata",
+          "Labs Extract Image Metadata"
+        ]
+      },
+      {
+        "tool": "Labs/Geometry/Partition",
+        "items": [
+          "Labs Cut Geometry to Partitions"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Dependency Mapping",
+        "items": [
+          "Labs File Cache Filter",
+          "Labs File Cache Partitioner",
+          "Labs Filter by Value",
+          "Labs Filter by Value"
+        ]
+      },
+      {
+        "tool": "Labs/Pipeline/Task Generation",
+        "items": [
+          "Labs Generate from Imageplanes",
+          "Labs Wedge"
+        ]
+      },
+      {
+        "tool": "Labs/Render",
+        "items": [
+          "Labs Karma Render"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering/Render",
+        "items": [
+          "Labs Karma Render"
+        ]
+      },
+      {
+        "tool": "Dependencies",
+        "items": [
+          "Map All",
+          "Map by Expression",
+          "Map by Index",
+          "Map by Range",
+          "Partition by Combination",
+          "Partition by Comparison",
+          "Partition by Expression",
+          "Partition by Frame",
+          "Partition by Index",
+          "Partition by Node",
+          "Partition by Range",
+          "Wait for All"
+        ]
+      },
+      {
+        "tool": "Notify",
+        "items": [
+          "OP Notify",
+          "Send Email"
+        ]
+      },
+      {
+        "tool": "Partitioner",
+        "items": [
+          "Partition by Bounds",
+          "Partition by Iteration",
+          "Partition by Tile"
+        ]
+      },
+      {
+        "tool": "Version Control",
+        "items": [
+          "Perforce"
+        ]
+      },
+      {
+        "tool": "Python",
+        "items": [
+          "Python Mapper",
+          "Python Partitioner",
+          "Python Processor",
+          "Python Scheduler",
+          "Python Script"
+        ]
+      },
+      {
+        "tool": "Render",
+        "items": [
+          "Render IFD",
+          "ROP Composite Output",
+          "ROP Fetch",
+          "ROP Karma Render",
+          "ROP Mantra Render"
+        ]
+      },
+      {
+        "tool": "Services",
+        "items": [
+          "Service Create",
+          "Service Delete",
+          "Service Reset",
+          "Service Start",
+          "Service Stop"
+        ]
+      },
+      {
+        "tool": "ShotGrid",
+        "items": [
+          "ShotGrid Create",
+          "ShotGrid Delete",
+          "ShotGrid Download",
+          "ShotGrid Find",
+          "ShotGrid Update",
+          "ShotGrid Upload"
+        ]
+      },
+      {
+        "tool": "TOP",
+        "items": [
+          "TOP Fetch",
+          "TOP Fetch Input",
+          "Work Item Import"
+        ]
+      },
+      {
+        "tool": "USD",
+        "items": [
+          "USD Add Assets to Gallery",
+          "USD Import",
+          "USD Import Files",
+          "USD Import Prims",
+          "USD Render"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "TopNet",
+    "items": [
+      {
+        "tool": "Managers",
+        "items": [
+          "Remote Graph",
+          "TOP Network"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Vop",
+    "items": [
+      {
+        "tool": "Noise",
+        "items": [
+          "Anti-Aliased Flow Noise",
+          "Anti-Aliased Noise",
+          "Cellular Noise",
+          "Curl Noise",
+          "Curl Noise 2D",
+          "Flow Noise",
+          "High-Low Noise",
+          "Periodic Noise",
+          "Periodic Worley Noise",
+          "Turbulent Noise",
+          "Unified Noise",
+          "Unified Noise",
+          "Unified Noise - Static",
+          "Unified Noise - Static",
+          "Voronoi Noise",
+          "Worley Noise"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Anti-Aliased Ramp Parameter",
+          "Add Steer Force",
+          "Add Wind Force",
+          "And",
+          "Bake Exports",
+          "Bake Exports",
+          "Bias",
+          "Bind",
+          "Box Clip",
+          "Clamp",
+          "Class Cast",
+          "Color Map",
+          "Compare",
+          "Constant",
+          "Contour",
+          "Contour",
+          "Copy",
+          "Depth Map",
+          "Distance",
+          "Dual Anti-Aliased Ramp Parameter",
+          "Fit Range Unclamped",
+          "Fit Range Unclamped",
+          "Environment Map",
+          "Fit Range",
+          "Gain",
+          "Get PTexture ID",
+          "Global Variables",
+          "Gaussian Random",
+          "Gaussian Random UV",
+          "Has Input",
+          "If Connected",
+          "Importance Remap",
+          "Inline Code",
+          "Is Connected",
+          "Limits",
+          "Limits",
+          "Luminance",
+          "Method Call",
+          "Method Subnetwork",
+          "Not",
+          "Non-Deterministic Random",
+          "Null",
+          "Or",
+          "Bias",
+          "Gain",
+          "Output Variables and Parameters",
+          "Parameter",
+          "Plane Clip",
+          "Print",
+          "Properties",
+          "Distance Point to Line",
+          "Filter Pulse Train",
+          "Ramp Filter",
+          "Ramp Filter",
+          "Random",
+          "Random BRJ",
+          "Random Sobol",
+          "Report Error",
+          "Bias",
+          "Gain",
+          "Random Value",
+          "Sample Sphere",
+          "Shader Call Export Variables",
+          "Snippet",
+          "Soft Clip",
+          "Soft Clip",
+          "Struct",
+          "Struct Pack",
+          "Struct Unpack",
+          "Subnet Inputs",
+          "Subnetwork",
+          "Subnet Input Connector",
+          "Return",
+          "Subnet Outputs",
+          "Switch",
+          "Texture",
+          "Typed Two Way Switch",
+          "Typed Two Way Switch Impl",
+          "Two Way Switch",
+          "Visualize",
+          "Wave Vector",
+          "Xor"
+        ]
+      },
+      {
+        "tool": "Math",
+        "items": [
+          "Absolute",
+          "Add Constant",
+          "Arc Tangent (Atan2)",
+          "Average",
+          "Ceiling",
+          "Complement",
+          "Cosine",
+          "Divide Constant",
+          "Divide",
+          "Exponential",
+          "Floor",
+          "Fraction",
+          "Is Finite",
+          "Is NaN",
+          "Logarithm",
+          "Multiply Add Constant",
+          "Maximum",
+          "Minimum",
+          "Modulo",
+          "Multiply Constant",
+          "Multiply",
+          "Negate",
+          "Logarithm",
+          "Power",
+          "Quaternion Multiply",
+          "Round to Integer",
+          "Logarithm",
+          "Sign",
+          "Sine",
+          "Square Root",
+          "Subtract Constant",
+          "Subtract",
+          "Tangent"
+        ]
+      },
+      {
+        "tool": "String",
+        "items": [
+          "Add",
+          "Character to String",
+          "String Ends With",
+          "Is Alphabetic",
+          "Is Digit",
+          "Join Strings",
+          "String to Character",
+          "Regex Find",
+          "Regex Find All",
+          "Regex Match",
+          "Regex Replace",
+          "Regex Split",
+          "Split String",
+          "String Starts With",
+          "Strip",
+          "String Length",
+          "Title Case",
+          "To Lower Case",
+          "To Upper Case"
+        ]
+      },
+      {
+        "tool": "Geometry",
+        "items": [
+          "Add Attribute",
+          "Add Attribute",
+          "Add Point to Group",
+          "Add Point",
+          "Add Primitive",
+          "Add Vertex",
+          "Bounding Box",
+          "Compute Normal",
+          "Filament Sample",
+          "Find Attribute Value",
+          "Find Attribute Value Count",
+          "Find Attribute Value by Index",
+          "Get Attribute",
+          "Get Attribute",
+          "Import Attribute",
+          "Import Detail Attribute",
+          "Import Point Attribute",
+          "Import Primitive Attribute",
+          "Import Vertex Attribute",
+          "Point In Group",
+          "In Group",
+          "Intersect",
+          "Intersect",
+          "Intersect All",
+          "Meta-Loop Import",
+          "Meta-Loop Next",
+          "Meta-Loop Start",
+          "Metaball Weight",
+          "Minimum Position",
+          "Near Point",
+          "Neighbour Count",
+          "Neighbour",
+          "Neighbours",
+          "Create Point Group",
+          "Point Count",
+          "Unique Value Count of Attribute",
+          "Ocean Sample Layers",
+          "OpenSubdiv Face Count",
+          "OpenSubdiv First Patch",
+          "OpenSubdiv Limit Surface",
+          "OpenSubdiv Lookup Face",
+          "OpenSubdiv Lookup Patch",
+          "OpenSubdiv Patch Count",
+          "Point Cloud Close",
+          "Point Cloud Export",
+          "Point Cloud Farthest",
+          "Point Cloud Filter",
+          "Point Cloud Find",
+          "Point Cloud Find Radius",
+          "Point Cloud Import",
+          "Point Cloud Import by Index",
+          "Point Cloud Iterate",
+          "Point Cloud Num Found",
+          "Point Cloud Open",
+          "Point Cloud Unshaded",
+          "Point Cloud Write",
+          "Point Bounding Box",
+          "Primitive Intrinsic",
+          "Primitive Normal",
+          "Primitive Attribute",
+          "Relative to Bounding Box",
+          "Relative to Point Bounding Box",
+          "Remove Point",
+          "Remove Primitive",
+          "Set Attribute",
+          "Set Primitive Vertex",
+          "Surface Distance",
+          "Tetrahedron Adjacent",
+          "Tetrahedron Face Index",
+          "Unique Value of Attribute",
+          "XYZ Distance"
+        ]
+      },
+      {
+        "tool": "Volume",
+        "items": [
+          "Advect by Volumes",
+          "Point Loop",
+          "Gradient 3D",
+          "Metaball Attribute",
+          "Metaball Density",
+          "Metaball Space",
+          "Texture 3D",
+          "Texture 3D Box",
+          "VEX Volume Procedural",
+          "Volume Gradient",
+          "Volume Index",
+          "Volume Index to Pos",
+          "Volume Index Vector",
+          "Volume Pos to Index",
+          "Volume Resolution",
+          "Volume Sample",
+          "Volume Sample Vector"
+        ]
+      },
+      {
+        "tool": "Crowds",
+        "items": [
+          "Agent Add Clip",
+          "Agent Clip Catalog",
+          "Agent Clip Length",
+          "Agent Clip Names",
+          "Agent Clip Sample",
+          "Agent Clip Sample Rate",
+          "Agent Clip Times",
+          "Agent Clip Weights",
+          "Agent Convert Transforms",
+          "Agent Layer Bindings",
+          "Agent Layer Name",
+          "Agent Layers",
+          "Agent Layer Shapes",
+          "Agent Rig Children",
+          "Agent Rig Find",
+          "Agent Rig Parent",
+          "Agent Transform Count",
+          "Agent Transform Names",
+          "Agent Transforms",
+          "Set Agent Clip Names",
+          "Set Agent Clip Times",
+          "Set Agent Clip Weights",
+          "Set Agent Layer",
+          "Set Agent Transforms"
+        ]
+      },
+      {
+        "tool": "Shading (BSDFs)",
+        "items": [
+          "Get BSDF Albedo",
+          "BSDF Tint",
+          "Conserve Energy",
+          "PBR Diffuse",
+          "PBR Emission",
+          "PBR Metallic Reflection",
+          "PBR Non-Metallic",
+          "PBR Volume Phase Function",
+          "PBR Single Scatter",
+          "PBR SSS",
+          "Switch Lighting BSDF"
+        ]
+      },
+      {
+        "tool": "Matrix",
+        "items": [
+          "Align",
+          "Determinant",
+          "Eigenvalues",
+          "Extract Transform",
+          "Extract Transform",
+          "Get Matrix Component",
+          "Set Matrix Component",
+          "Matrix to Vector4",
+          "Vector4 to Matrix",
+          "Invert",
+          "Look At",
+          "Make Instance Transform",
+          "Make Transform",
+          "Get Matrix2 Component",
+          "Set Matrix2 Component",
+          "Matrix2 to Float",
+          "Matrix2 to Vector2",
+          "Get Matrix3 Component",
+          "Set Matrix3 Component",
+          "Matrix3 to Float",
+          "Matrix3 to Vector",
+          "Get Object Transform",
+          "Orient",
+          "Transform",
+          "Transform Color",
+          "Rotate",
+          "Transform Color",
+          "Transform",
+          "Scale",
+          "Smooth Rotation",
+          "Transform",
+          "Make Space Transform",
+          "Translate",
+          "Transpose",
+          "Vector2 to Matrix2",
+          "Vector to Matrix3",
+          "Transform Matrix"
+        ]
+      },
+      {
+        "tool": "Shading (Utilities)",
+        "items": [
+          "Alpha Mix",
+          "Ambient",
+          "Attenuated Falloff",
+          "Bump To Normal Map",
+          "Bump To Normal Map",
+          "Compute Lighting",
+          "Conductor Fresnel",
+          "Curvature",
+          "Decal",
+          "Volume Density to Opacity",
+          "Direct Lighting",
+          "Dirt Mask",
+          "Edge Falloff",
+          "Fake Caustics",
+          "Fast Shadow",
+          "Filter Shadow",
+          "Filter Step",
+          "Filter Width",
+          "Fresnel",
+          "General Fresnel",
+          "Get Object Transform",
+          "Get Primitive ID",
+          "Illuminance Loop",
+          "Indirect Lighting",
+          "Irradiance",
+          "Is Fog Ray",
+          "Is Front Face",
+          "Is Shadow Ray",
+          "Karma Curvature",
+          "Karma Rounded Edge",
+          "Lambert",
+          "Lighting Model",
+          "Import Light Variable",
+          "Matte",
+          "Normal Clamp",
+          "Normal Falloff",
+          "Occlusion",
+          "OCIO Import",
+          "Oren-Nayar",
+          "PBR Lighting",
+          "Physical SSS",
+          "Ramp Parameter",
+          "Ray Bounce Level",
+          "Ray Hit",
+          "Ray Import",
+          "Ray Trace",
+          "Ray Bounce Weight",
+          "Reflected Light",
+          "Refracted Light",
+          "Render State",
+          "Rounded Edge",
+          "Shading Area",
+          "Shading Derivative",
+          "Shading Layer Parameter",
+          "Shading Normal",
+          "Shadow",
+          "Shadow Map",
+          "Shadow Matte",
+          "Specular Sheen",
+          "Import Surface Variable",
+          "Specular",
+          "SSS Component",
+          "Surface Color",
+          "Surface Color",
+          "Tangent Normal",
+          "Tangent Normal Remap",
+          "Thin Film Fresnel",
+          "Trace",
+          "Two Sided",
+          "Gather Loop"
+        ]
+      },
+      {
+        "tool": "Array",
+        "items": [
+          "Array Append",
+          "Array Arg Sort",
+          "Array Contains",
+          "Dictionary Keys",
+          "Dictionary Length",
+          "Array Find Indices",
+          "Array Find Index",
+          "Get Dictionary Element",
+          "Get Array Element",
+          "Dictionary Has Key",
+          "Array Insert",
+          "Array Length",
+          "Array Pop",
+          "Array Remove Index",
+          "Dictionary Remove Key",
+          "Array Remove Value",
+          "Array Reorder",
+          "Array Reverse",
+          "Set Dictionary Element",
+          "Set Array Element",
+          "Array Slice",
+          "Array Sort"
+        ]
+      },
+      {
+        "tool": "Shading",
+        "items": [
+          "Attenuate",
+          "Brushed Circles",
+          "Compute Lighting",
+          "Decal",
+          "Displacement Exports",
+          "Gather Loop",
+          "Calculate Normal",
+          "Dx/Dx/Dz",
+          "Environment Map",
+          "Step",
+          "Texture Map",
+          "Physically Based Diffuse",
+          "Physically Based Diffuse",
+          "Physically Based Specular",
+          "Physically Based Specular",
+          "PBR Specular",
+          "Calculate Normal",
+          "Z-Depth From Camera",
+          "Deriv",
+          "Du/Dv",
+          "Environment Map",
+          "Illuminance Loop",
+          "Illuminate Construct",
+          "Import Value",
+          "Indirect Diffuse",
+          "Occlusion",
+          "Ray Information",
+          "Render State Information",
+          "Shadow Map",
+          "Step",
+          "Surface Color",
+          "Texture Map",
+          "Texture Map Information",
+          "Surface Color",
+          "Surface Exports",
+          "Surface Model",
+          "Surface Model",
+          "Surface Model Shader",
+          "Two Sided",
+          "Volume Model"
+        ]
+      },
+      {
+        "tool": "Vector",
+        "items": [
+          "Average Vector Component",
+          "Cross Product",
+          "Dot Product",
+          "Front Face",
+          "Get Vector4 Component",
+          "Set Vector4 Component",
+          "Length",
+          "Max Vector Component",
+          "Min Vector Component",
+          "Normalize",
+          "Outer Product",
+          "Reflect",
+          "Refract",
+          "Swizzle Vector4",
+          "Swizzle Vector",
+          "Swizzle Vector2",
+          "Get Vector2 Component",
+          "Set Vector2 Component",
+          "Vector Cast",
+          "Get Vector Component",
+          "Set Vector Component"
+        ]
+      },
+      {
+        "tool": "Combine",
+        "items": [
+          "Blend Regions",
+          "Color Mix",
+          "Composite",
+          "Mix",
+          "Smooth",
+          "Spline"
+        ]
+      },
+      {
+        "tool": "Control Flow",
+        "items": [
+          "Block Begin",
+          "Block Begin For",
+          "Block Begin For-Each",
+          "Block Begin If",
+          "Block End",
+          "Block End Break-If",
+          "Block End While"
+        ]
+      },
+      {
+        "tool": "Patterns",
+        "items": [
+          "Boxes",
+          "Boxes",
+          "Tiled Boxes",
+          "Tiled Boxes",
+          "Bricker",
+          "Bricker",
+          "Brushed Circles",
+          "Burlap",
+          "Burlap Pattern",
+          "Burlap Pattern",
+          "Cellular Cracks",
+          "Cellular Noise",
+          "Checkered",
+          "Checkered",
+          "Crackle",
+          "Crackle",
+          "Eggshell Pattern",
+          "Gingham Checks",
+          "Gingham Checks",
+          "Tiled Hexagons",
+          "Tiled Hexagons",
+          "Mandelbrot Set",
+          "Mandelbrot Set",
+          "Oscillations",
+          "Rainbow",
+          "Rainbow",
+          "Ramps",
+          "Ramps",
+          "Rounded Hexes",
+          "Rounded Hexes",
+          "Rings",
+          "Rings",
+          "Ripples",
+          "Ripples",
+          "Rounded Stars",
+          "Rounded Stars",
+          "Scales",
+          "Scales",
+          "Soft Dots",
+          "Soft Dots",
+          "Splatter",
+          "Stripes",
+          "Stripes",
+          "Unified Noise",
+          "Veins",
+          "Wire Pattern",
+          "Wire Pattern"
+        ]
+      },
+      {
+        "tool": "Shaders",
+        "items": [
+          "Brushed Metal Shader Core",
+          "Car Paint Shader Core",
+          "Classic Shader",
+          "Classic Shader Core",
+          "CVEX Shader Builder",
+          "Default Light Surface",
+          "Generic Shader",
+          "Glass Shader",
+          "Hair Shader",
+          "Karma Hair",
+          "XPU Pyro Preview",
+          "MatCap Shader",
+          "Material Builder",
+          "Principled Shader",
+          "Principled Shader",
+          "Principled Shader Core",
+          "Pyro Shader",
+          "Pyro Shader - Classic",
+          "Pyro Shader Core",
+          "Skin Shader Core",
+          "Skin Shader Core",
+          "Toon Color Shader",
+          "Toon Outline Shader",
+          "Volume Shader Core"
+        ]
+      },
+      {
+        "tool": "Displace",
+        "items": [
+          "Bump Noise",
+          "Burlap",
+          "Cavities",
+          "Cellular Cracks",
+          "Import Displacement Variable",
+          "Displace",
+          "Displace Along Normal",
+          "Furrows",
+          "Waves"
+        ]
+      },
+      {
+        "tool": "Channels",
+        "items": [
+          "Channel",
+          "Get Channel Attribute",
+          "Get Channel Value",
+          "Get Channel Value by Name",
+          "Get CHOP Channels",
+          "Set Channel Attribute",
+          "Get Channel Transform",
+          "Set Channel Value",
+          "Set Channel Transform"
+        ]
+      },
+      {
+        "tool": "Globals",
+        "items": [
+          "Collect",
+          "Fur Guide Global Variables",
+          "Fur Guide Output Variables and Parameters",
+          "Fur Skin Global Variables",
+          "Fur Skin Output Variables and Parameters",
+          "Geometry VOP Global Parameters",
+          "Geometry VOP Global Parameters",
+          "Geometry VOP Output",
+          "Shader Call Global Variables",
+          "USD Global Parameters",
+          "Volume VOP Global Parameters",
+          "Volume VOP Output",
+          "VOP Force Global",
+          "VOP Force Output"
+        ]
+      },
+      {
+        "tool": "Generic",
+        "items": [
+          "Color Correction",
+          "Hue Shift"
+        ]
+      },
+      {
+        "tool": "Shading (UVs)",
+        "items": [
+          "Compute Tangents",
+          "Rest Position",
+          "Rest Position",
+          "Tangent Normals",
+          "UV Coords",
+          "UV Noise",
+          "UV Planar Project",
+          "UV Position",
+          "UV Position",
+          "UV Project",
+          "UV Project",
+          "UV Tri-Planar Project",
+          "UV Transform"
+        ]
+      },
+      {
+        "tool": "Composite",
+        "items": [
+          "COP Input",
+          "Has Metadata",
+          "Metadata",
+          "Pixel Area",
+          "Pixel Derivative",
+          "Plane Count",
+          "Plane Exists",
+          "Plane Index",
+          "Plane Name",
+          "Plane Size",
+          "Resolution",
+          "Timing"
+        ]
+      },
+      {
+        "tool": "Convert",
+        "items": [
+          "Color Transform",
+          "Degrees to Radians",
+          "Euler to Quaternion",
+          "Euler to Quaternion",
+          "Float to Matrix",
+          "Float to Vector4",
+          "Float to Integer",
+          "Float to Matrix3",
+          "Float to Matrix2",
+          "Float to Vector",
+          "Float to Vector2",
+          "From NDC",
+          "From NDC",
+          "From Polar",
+          "Matrix to Float",
+          "HSV to RGB",
+          "Vector4 to Float",
+          "Vector4 to Vector",
+          "Vector4 to Vector2",
+          "Integer to Float",
+          "Integer to Vector",
+          "Karma OCIO Color Transform",
+          "Matrix2 to Matrix3",
+          "Matrix2 to Matrix4",
+          "Matrix3 to Matrix2",
+          "Matrix3 to Matrix4",
+          "Matrix4 to Matrix2",
+          "Matrix4 to Matrix3",
+          "Matrix3 to Quaternion",
+          "OCIO Transform",
+          "Quaternion to Euler",
+          "Quaternion to Matrix3",
+          "Quaternion to Angle/Axis",
+          "Radians to Degrees",
+          "RGB to HSV",
+          "To NDC",
+          "To NDC",
+          "To Polar",
+          "Trigonometric Functions",
+          "Type Convert",
+          "Type Convert Implementation",
+          "Vector2 to Float",
+          "Vector2 to Vector4",
+          "Vector2 to Vector",
+          "Vector to Float",
+          "Vector to Vector4",
+          "Vector to Quaternion",
+          "Vector to Vector2"
+        ]
+      },
+      {
+        "tool": "Digital Assets",
+        "items": [
+          "Default Shader",
+          "Water Surface"
+        ]
+      },
+      {
+        "tool": "Textures",
+        "items": [
+          "Displacement Texture",
+          "Texture"
+        ]
+      },
+      {
+        "tool": "Pyro",
+        "items": [
+          "Dual Rest",
+          "Dual Rest Solver",
+          "Dual Rest Solver",
+          "Field Name",
+          "Field Parameter",
+          "Reshape Value"
+        ]
+      },
+      {
+        "tool": "Procedural",
+        "items": [
+          "Houdini Engine Procedural: Curve Generate",
+          "Houdini Engine Procedural",
+          "Houdini Engine Procedural: Point Generate",
+          "Delayed Load Procedural",
+          "Instance with Hscript Procedural",
+          "Run External Program Procedural",
+          "Point Instance Procedural",
+          "Point Replicate Procedural",
+          "Sprites Procedural"
+        ]
+      },
+      {
+        "tool": "Hair",
+        "items": [
+          "Fur Procedural",
+          "Hair Normal",
+          "Hair Shader",
+          "Hair Shader Core",
+          "Jittered Hair Normal",
+          "PBR Hair Primary Reflection",
+          "PBR Hair Secondary Reflection",
+          "PBR Hair Transmission"
+        ]
+      },
+      {
+        "tool": "Fuzzy Logic",
+        "items": [
+          "Fuzzy And",
+          "Fuzzy Defuzz",
+          "Fuzzy Inference",
+          "Fuzzy Inference Mirror",
+          "Fuzzy Input",
+          "Fuzzy Not",
+          "Fuzzy Or",
+          "Fuzzy Obstacle Sense"
+        ]
+      },
+      {
+        "tool": "Shading (Layers)",
+        "items": [
+          "Get Layer Export",
+          "Get Layer Export",
+          "Layer Composite",
+          "Layer Export",
+          "Layer Mix",
+          "Layer Pack",
+          "Layer Unpack",
+          "Promote Layer Exports",
+          "Set Layer Component",
+          "Set Layer Export",
+          "Set Layer Export"
+        ]
+      },
+      {
+        "tool": "BSDF",
+        "items": [
+          "Physically Based Hair Model"
+        ]
+      },
+      {
+        "tool": "MaterialX/Houdini",
+        "items": [
+          "MtlX Bias",
+          "MtlX Facing Ratio",
+          "MtlX Gain",
+          "MtlX Hcatmullrom",
+          "MtlX Hinvlinear",
+          "MtlX Huniformcubic",
+          "MtlX Huniformramp",
+          "Karma AOV",
+          "Karma Ray Import"
+        ]
+      },
+      {
+        "tool": "MaterialX/Color Correction",
+        "items": [
+          "MtlX Color Correct",
+          "MtlX Contrast",
+          "MtlX Adjust as HSV",
+          "MtlX Range",
+          "MtlX Saturate"
+        ]
+      },
+      {
+        "tool": "MaterialX/Math",
+        "items": [
+          "MtlX Complement",
+          "Karma Ray Hit Level Falloff",
+          "MtlX Absval",
+          "MtlX Acos",
+          "MtlX Array Append",
+          "MtlX Asin",
+          "MtlX Atan2",
+          "MtlX Ceil",
+          "MtlX Clamp",
+          "MtlX Cos",
+          "MtlX Cross Product",
+          "MtlX Determinant",
+          "MtlX Divide",
+          "MtlX Dot Product",
+          "MtlX Exp",
+          "MtlX Floor",
+          "MtlX Invert",
+          "MtlX Invert Matrix",
+          "MtlX Ln",
+          "MtlX Magnitude",
+          "MtlX Max",
+          "MtlX Min",
+          "MtlX Modulo",
+          "MtlX Normalize",
+          "MtlX Normalmap",
+          "MtlX Place2D",
+          "MtlX Power",
+          "MtlX Rotate2D",
+          "MtlX Rotate3D",
+          "MtlX Sign",
+          "MtlX Sin",
+          "MtlX Sqrt",
+          "MtlX Subtract",
+          "MtlX Tan",
+          "MtlX Transform Matrix",
+          "MtlX Transform Normal",
+          "MtlX Transform Point",
+          "MtlX Transform Vector",
+          "MtlX Transpose"
+        ]
+      },
+      {
+        "tool": "MaterialX/Procedural",
+        "items": [
+          "MtlX Color Cubic Ramp",
+          "MtlX Float Cubic Ramp",
+          "MtlX Color Ramp",
+          "MtlX Float Ramp",
+          "MtlX Constant"
+        ]
+      },
+      {
+        "tool": "Image 3D",
+        "items": [
+          "Image 3D Iso-Texture Procedural",
+          "Image 3D Volume Procedural"
+        ]
+      },
+      {
+        "tool": "KineFX",
+        "items": [
+          "Add Joint",
+          "Bind Point Transform",
+          "Blend Transforms",
+          "Collide Geometry",
+          "Combine Local Transform",
+          "Direction To Child",
+          "Direction To Parent",
+          "Extract Local Transform",
+          "Filter Point Transforms",
+          "Find Point Transform",
+          "For-Each Transform",
+          "Get Descendant Transforms",
+          "Get FBIK Attributes",
+          "Get Full Body COM",
+          "Get Joint Chain Axes",
+          "Get Parent Transform",
+          "Get Parent",
+          "Get Point Transform",
+          "Get Point Transforms",
+          "Joint Angle",
+          "Look At (KineFX)",
+          "Look At Constraint",
+          "Map Point",
+          "Offset Transform",
+          "Parent Blend",
+          "Parent Constraint",
+          "Pose Difference",
+          "Realistic Shoulder",
+          "Realistic Shoulder",
+          "Resolve Mapping Attribute",
+          "Reverse Foot",
+          "Set Point Transform",
+          "Set Point Transforms",
+          "Curve Solver",
+          "IK Solver",
+          "Stash Transform",
+          "Transform From Path",
+          "Transform From Surface",
+          "Two Bone IK"
+        ]
+      },
+      {
+        "tool": "MaterialX/Pbr",
+        "items": [
+          "Karma Fake Caustics",
+          "Karma Nested Dielectrics",
+          "Karma Volume",
+          "MtlX Absorption Vdf",
+          "MtlX Add",
+          "MtlX Anisotropic Vdf",
+          "MtlX Artistic Ior",
+          "MtlX Blackbody",
+          "MtlX Burley Diffuse Bsdf",
+          "MtlX Conductor Bsdf",
+          "MtlX Conical Edf",
+          "MtlX Dielectric Bsdf",
+          "MtlX Displacement",
+          "MtlX Generalized Schlick Bsdf",
+          "MtlX Glossiness Anisotropy",
+          "MtlX Gltf Pbr",
+          "MtlX Layer",
+          "MtlX Light",
+          "MtlX Measured Edf",
+          "MtlX Mix",
+          "MtlX Multiply",
+          "MtlX Oren Nayar Diffuse Bsdf",
+          "MtlX Roughness Anisotropy",
+          "MtlX Roughness Dual",
+          "MtlX Sheen Bsdf",
+          "MtlX Standard Surface",
+          "MtlX Subsurface Bsdf",
+          "MtlX Surface",
+          "MtlX Thin Film Bsdf",
+          "MtlX Thin Surface",
+          "MtlX Translucent Bsdf",
+          "MtlX Uniform Edf",
+          "MtlX Volume"
+        ]
+      },
+      {
+        "tool": "Light Filters",
+        "items": [
+          "Karma Light Filter Barndoor",
+          "Karma Light Filter Gel",
+          "Karma Light Filter Gobo",
+          "Karma Light Filter Projection"
+        ]
+      },
+      {
+        "tool": "MaterialX/Pyro",
+        "items": [
+          "Karma Pyro Anisotropy",
+          "Karma Pyro Fire Color",
+          "Karma Pyro Fire Emission",
+          "Karma Pyro Scatter Color",
+          "Karma Pyro Scatter Emission",
+          "Karma Pyro Shader",
+          "Karma Pyro Smoke Color",
+          "Karma Pyro Volume Mask"
+        ]
+      },
+      {
+        "tool": "Projection",
+        "items": [
+          "Karma UV Lens"
+        ]
+      },
+      {
+        "tool": "MaterialX/Procedural2D",
+        "items": [
+          "Karma Voronoi Noise 2D",
+          "MtlX Cell Noise 2D",
+          "MtlX Noise2D",
+          "MtlX Ramp4",
+          "MtlX Ramplr",
+          "MtlX Ramptb",
+          "MtlX Splitlr",
+          "MtlX Splittb",
+          "MtlX Worley Noise 2D"
+        ]
+      },
+      {
+        "tool": "MaterialX/Procedural3D",
+        "items": [
+          "Karma Voronoi Noise 3D",
+          "MtlX Cell Noise 3D",
+          "MtlX Fractal3D",
+          "MtlX Noise3D",
+          "MtlX Worley Noise 3D"
+        ]
+      },
+      {
+        "tool": "Labs/Math",
+        "items": [
+          "Labs Coord Swizzle Quaternion",
+          "Labs Coord Swizzle Vector",
+          "Labs Vertical Point Index"
+        ]
+      },
+      {
+        "tool": "Labs/World Building/Water",
+        "items": [
+          "Labs Flowmap Distort"
+        ]
+      },
+      {
+        "tool": "Labs/Rendering/Shader",
+        "items": [
+          "Labs PBR Shader",
+          "Labs PBR Shader",
+          "Labs MatCap Shader",
+          "Labs Toon Shader"
+        ]
+      },
+      {
+        "tool": "Shading (Lens)",
+        "items": [
+          "Lens Bokeh",
+          "Lens Chromatic Aberration",
+          "Lens Coordinates",
+          "Lens Distort",
+          "Lens Parameters",
+          "Karma Physical Lens Core",
+          "Lens Rolling Shutter",
+          "Lens Shutter Curve",
+          "Karma Physical Lens"
+        ]
+      },
+      {
+        "tool": "MaterialX/Global",
+        "items": [
+          "MtlX Ambient Occlusion"
+        ]
+      },
+      {
+        "tool": "MaterialX/Geometric",
+        "items": [
+          "MtlX Bitangent",
+          "MtlX Geometry Color",
+          "MtlX Geometry Property Value",
+          "MtlX Normal",
+          "MtlX Position",
+          "MtlX Tangent",
+          "MtlX Texcoord"
+        ]
+      },
+      {
+        "tool": "MaterialX/Convolution2D",
+        "items": [
+          "MtlX Blur",
+          "MtlX Height to Normal"
+        ]
+      },
+      {
+        "tool": "MaterialX/Compositing",
+        "items": [
+          "MtlX Burn",
+          "MtlX Difference",
+          "MtlX Disjoint Over",
+          "MtlX Dodge",
+          "MtlX In",
+          "MtlX Inside",
+          "MtlX Mask",
+          "MtlX Matte",
+          "MtlX Minus",
+          "MtlX Out",
+          "MtlX Outside",
+          "MtlX Over",
+          "MtlX Overlay",
+          "MtlX Plus",
+          "MtlX Premult",
+          "MtlX Screen",
+          "MtlX Un-Premult"
+        ]
+      },
+      {
+        "tool": "MaterialX/Channel",
+        "items": [
+          "MtlX Combine2",
+          "MtlX Combine3",
+          "MtlX Combine4",
+          "MtlX Convert",
+          "MtlX Extract",
+          "MtlX Separate2",
+          "MtlX Separate Color 3",
+          "MtlX Separate Vector 3",
+          "MtlX Separate Color 4",
+          "MtlX Separate Vector 4",
+          "MtlX Swizzle"
+        ]
+      },
+      {
+        "tool": "MaterialX/Adjustment",
+        "items": [
+          "MtlX Curveadjust",
+          "MtlX HSV to RGB",
+          "MtlX Luminance",
+          "MtlX Remap",
+          "MtlX RGB to HSV",
+          "MtlX Smoothstep"
+        ]
+      },
+      {
+        "tool": "MaterialX/Light",
+        "items": [
+          "MtlX Directional Light",
+          "MtlX Point Light",
+          "MtlX Spot Light"
+        ]
+      },
+      {
+        "tool": "MaterialX/Other",
+        "items": [
+          "MtlX Disney Brdf 2012",
+          "MtlX Disney Bsdf 2015"
+        ]
+      },
+      {
+        "tool": "MaterialX/Organization",
+        "items": [
+          "MtlX Dot"
+        ]
+      },
+      {
+        "tool": "MaterialX/Application",
+        "items": [
+          "MtlX Frame",
+          "MtlX Time"
+        ]
+      },
+      {
+        "tool": "MaterialX/Conditional",
+        "items": [
+          "MtlX If Equal",
+          "MtlX If Greater",
+          "MtlX If Greater or Equal",
+          "MtlX Switch"
+        ]
+      },
+      {
+        "tool": "MaterialX/Texture2D",
+        "items": [
+          "MtlX Image",
+          "MtlX Tiled Image"
+        ]
+      },
+      {
+        "tool": "MaterialX/Shader",
+        "items": [
+          "MtlX Surface Unlit"
+        ]
+      },
+      {
+        "tool": "MaterialX/Material",
+        "items": [
+          "MtlX Surface Material",
+          "MtlX Volume Material"
+        ]
+      },
+      {
+        "tool": "MaterialX/Texture3D",
+        "items": [
+          "MtlX Triplanar Projection"
+        ]
+      },
+      {
+        "tool": "Generic Shaders",
+        "items": [
+          "OSL Generic Shader Builder"
+        ]
+      },
+      {
+        "tool": "Quaternion",
+        "items": [
+          "Quaternion Distance",
+          "Quaternion Invert",
+          "Rotate by Quaternion",
+          "Quaternion",
+          "Spherical Linear Interp"
+        ]
+      },
+      {
+        "tool": "Sensor",
+        "items": [
+          "Sensor Panorama Color",
+          "Sensor Panorama Cone",
+          "Sensor Panorama Create",
+          "Sensor Panorama Depth",
+          "Sensor Save"
+        ]
+      },
+      {
+        "tool": "USD",
+        "items": [
+          "USD Preview Surface",
+          "USD Prim Var Reader",
+          "USD Transform 2D",
+          "USD UV Texture",
+          "USD UV Texture"
+        ]
+      },
+      {
+        "tool": "Shading UV",
+        "items": [
+          "UV Coords",
+          "UV Noise"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "VopNet",
+    "items": [
+      {
+        "tool": "Operators",
+        "items": [
+          "CHOP Type",
+          "COP2 Filter Type",
+          "COP2 Generator Type",
+          "CVEX Type",
+          "SOP Type"
+        ]
+      },
+      {
+        "tool": "Mantra",
+        "items": [
+          "VEX Displacement SHOP Type",
+          "VEX Fog SHOP Type",
+          "VEX Image3D SHOP Type",
+          "VEX Light SHOP Type",
+          "VEX Shadow SHOP Type",
+          "VEX Surface SHOP Type"
+        ]
+      },
+      {
+        "tool": "RenderMan",
+        "items": [
+          "RSL Displacement SHOP Type",
+          "RSL Imager SHOP Type",
+          "RSL Light SHOP Type",
+          "RSL Surface SHOP Type",
+          "RSL Volume SHOP Type"
+        ]
+      },
+      {
+        "tool": "Utility",
+        "items": [
+          "Subnetwork"
+        ]
+      }
+    ]
+  }
+]
