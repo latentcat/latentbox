@@ -1,6 +1,4 @@
 import { Prose } from "@/components/Prose";
-import { Container, ContainerFull } from "@/components/Containers";
-import { HeaderPadding } from "@/components/Header";
 import {
   NextIntlClientProvider,
   useMessages,
@@ -11,8 +9,7 @@ import pick from "lodash/pick";
 import { Footer } from "@/components/Footer";
 import React from "react";
 
-import { default as contributors } from "../../.all-contributorsrc";
-import { Contributor, ContributorById, ContributorProps } from "@/components/Contributors";
+import { ContributorById } from "@/components/Contributors";
 import { Separator } from "@/components/ui/separator";
 import { Link } from "@/navigation";
 

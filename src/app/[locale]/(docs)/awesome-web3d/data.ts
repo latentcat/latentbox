@@ -1,6 +1,11 @@
 import { ResourceItem } from "@/lib/data_types";
 
 export const dataWeb3D: ResourceItem[] = [
+  { id: "magma", name: "Magma", url: "https://thisismagma.com/" },
+  { id: "organimo", name: "Organimo", url: "https://organimo.com/" },
+  { id: "findworkhappiness", name: "The Search for Work Happiness Book", url: "https://findworkhappiness.com/" },
+  { id: "dogstudio", name: "DOGSTUDIO", url: "https://dogstudio.co/" },
+  { id: "aircord", name: "Aircord", url: "https://aircord.co.jp/" },
   { id: "blob-mixer", name: "Blob Mixer", url: "https://blobmixer.14islands.com" },
   { id: "tongji-exhibition", name: "2022 Virtual Graduation Exhibition of D&I, Tongji University", url: "https://tjdi.tongji.edu.cn/tags/exhibition/" },
   { id: "frontier-within", name: "Frontier Within", url: "http://frontierwithin.thorne.com/" },
