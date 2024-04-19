@@ -7,4 +7,5 @@ export const dataWebCollection:ResourceItem[] = [
   { id: "gsap-showcase", name: "GSAP Showcase", url: "https://gsap.com/showcase/" },
   { id: "hoverstat", name: "Hoverstat", url: "https://www.hoverstat.es/" },
   { id: "cssnectar", name: "CSS Nectar", url: "https://cssnectar.com/" },
+  { id: "linears", name: "Linears", url: "https://www.linears.art/" },
 ]
