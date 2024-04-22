@@ -1,16 +1,17 @@
 
-import React, { ComponentPropsWithoutRef, ReactNode } from "react";
+import { ComponentPropsWithoutRef, ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import {
   BookTypeIcon,
   BoxesIcon, BracesIcon,
   BrainIcon, ComponentIcon,
-  FileImageIcon, GlobeIcon, GraduationCap,
+  EarthIcon,
+  GlobeIcon, GraduationCap,
   Grid3X3Icon,
   ImagesIcon, Layers3Icon, LayoutGrid, NewspaperIcon, PackageIcon, Paintbrush2Icon,
-  Palette, PaletteIcon,
+  PaletteIcon,
   PenToolIcon,
-  PodcastIcon, Rotate3DIcon, ScanEyeIcon, SlidersVertical, SlidersVerticalIcon
+  PodcastIcon, Rotate3DIcon, ScanEyeIcon, SlidersVerticalIcon
 } from "lucide-react";
 
 export interface CollectionItemProps {
@@ -130,6 +131,13 @@ export function useCollectionData() {
     {
       title: t("group.web"),
       links: [
+        {
+          id: "awesome-web-collection",
+          name: t("awesome-web-collection.title"),
+          desc: t("awesome-web-collection.desc"),
+          background: "linear-gradient(293.96deg, #98FFF9 0%, #19C8FF 19.55%, #FF2A55 63.83%, #B499FF 100%)",
+          icon: EarthIcon,
+        },
         {
           id: "awesome-web3d",
           name: t("awesome-web3d.title"),
