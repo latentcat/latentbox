@@ -285,6 +285,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "RayJason",
+      "name": "RayJason",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15711610?v=4",
+      "profile": "https://rayjason.cn",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
