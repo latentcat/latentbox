@@ -41,6 +41,7 @@ export const data: ResourceItem[] = [
   { id: "qian-tu-xiao-tu-ti", name: "千图小兔体", url: "https://pic.qiantucdn.com/font/%E5%8D%83%E5%9B%BE%E7%BD%91_%E5%8D%83%E5%9B%BE%E5%B0%8F%E5%85%94%E4%BD%93%E8%A3%85%E9%A5%B0_%E5%88%9B%E6%84%8F%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87tif%E5%AD%97%E4%BD%93%E4%B8%8B%E8%BD%BD_%E5%9B%BE%E7%89%87%E7%BC%96%E5%8F%B736827382.zip" },
   { id: "qian-tu-xue-hua-ti", name: "千图雪花体", url: "https://pic.qiantucdn.com/font/%E5%8D%83%E5%9B%BE%E7%BD%91_%E5%8D%83%E5%9B%BE%E9%9B%AA%E8%8A%B1%E4%BD%93%E8%A3%85%E9%A5%B0_%E5%88%9B%E6%84%8F%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87TTF%E5%AD%97%E4%BD%93%E4%B8%8B%E8%BD%BD_%E5%9B%BE%E7%89%87%E7%BC%96%E5%8F%B740155793.zip" },
   { id: "wen-dao-chao-hei-ti", name: "文道潮黑体", url: "https://www.wonderfonts.com.cn/font/113.html" },
+  { id: "xia-wu-wen-kai", name: "霞鹜文楷", url: "https://github.com/lxgw/LxgwWenKai" },
   { id: "you-she-biao-ti-hei", name: "优设标题黑", url: "https://pan.baidu.com/s/1nEyb0mSQy24HK9gz01fRjw?pwd=2333" },
   { id: "you-she-biao-ti-yuan", name: "优设标题圆", url: "https://pan.baidu.com/s/14j8czdTX-n5rjG2SXLkcyA?pwd=hvhw" },
   { id: "you-she-sha-yu-fei-te-jian-kang-ti", name: "优设鲨鱼菲特健康体", url: "https://www.hellofont.cn/font-detail?fontid=11244" },
