@@ -323,6 +323,12 @@ export const data: dataType = [
       { id: "canva", name: "Canva", url: "https://www.canva.com/" },
     ],
   },
+  {
+    category: "programming",
+    items: [
+      { id: "cursor", name: "Cursor", url: "https://cursor.sh/" },
+    ],
+  },
 ];
 
 export default data;
