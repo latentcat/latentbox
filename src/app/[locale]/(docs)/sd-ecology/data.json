@@ -83,6 +83,7 @@
         "arxiv": "https://arxiv.org/abs/2401.07519",
         "github": "https://github.com/InstantID/InstantID",
         "project_website": "https://instantid.github.io/",
+        "hugging_face": "https://huggingface.co/InstantX/InstantID",
         "principle_diagram": true,
         "showcase": true
       },

@@ -138,7 +138,8 @@
       "voice": "Voice",
       "digital-human": "Digital Human",
       "3d": "3D",
-      "design": "Design"
+      "design": "Design",
+      "programming": "Programming"
     },
     "digital-art-tools": {
       "title": "Awesome Digital Art Tools",
@@ -180,6 +181,10 @@
     },
     "open-source-fonts": {
       "title": "Chinese Open Source Fonts",
+      "desc": ""
+    },
+    "awesome-web-collection": {
+      "title": "Awesome Web Collection",
       "desc": ""
     },
     "awesome-web3d": {

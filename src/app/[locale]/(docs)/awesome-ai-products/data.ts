@@ -154,6 +154,8 @@ export const data: dataType = [
       { id: "gemini", name: "Gemini", url: "https://gemini.google.com/" },
       { id: "diffus", name: "Diffus", url: "https://www.diffus.me/" },
       { id: 'code-former', name: 'Code Former', url: 'https://huggingface.co/spaces/sczhou/CodeFormer', iconType: 'svg' },
+      { id: 'lexica', name: 'Lexica', url: 'https://lexica.art/', iconType: 'png' },
+      { id: 'leonardo', name: 'Leonardo', url: 'https://leonardo.ai/', iconType: 'svg' },
     ],
   },
   {
@@ -319,6 +321,12 @@ export const data: dataType = [
       },
       { id: "wan-zhi", name: "万知", url: "https://wanzhi.com/" },
       { id: "canva", name: "Canva", url: "https://www.canva.com/" },
+    ],
+  },
+  {
+    category: "programming",
+    items: [
+      { id: "cursor", name: "Cursor", url: "https://cursor.sh/" },
     ],
   },
 ];
