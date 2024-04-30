@@ -75,6 +75,8 @@
         "name": "InstantStyle",
         "arxiv": "https://arxiv.org/abs/2404.02733",
         "github": "https://github.com/InstantStyle/InstantStyle",
+        "project_website": "https://instantstyle.github.io/",
+        "hugging_face": "https://huggingface.co/spaces/InstantX/InstantStyle",
         "principle_diagram": true,
         "showcase": true
       },
