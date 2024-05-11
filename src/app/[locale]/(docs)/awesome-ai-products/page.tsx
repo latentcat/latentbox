@@ -3,7 +3,6 @@ import { getTranslations } from "next-intl/server";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 import { ProductView } from "@/components/collection/ProductView";
-import RadialClusterTree from "@/app/[locale]/(docs)/sd-ecology/RadialClusterTree";
 import { Fragment } from "react";
 
 import data from "./data";
@@ -30,7 +29,7 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["HiMrHOW", "ciaochaos", "zheishei", "LonelyFellas", "jw782cn" ]}
+      authors={["HiMrHOW", "ciaochaos", "zheishei", "LonelyFellas", "jw782cn", "aiyoudiao", "RayJason" ]}
     >
       <ProductTree data={radialClusterTreeData} assetsPrefix={assetsPrefix} />
 

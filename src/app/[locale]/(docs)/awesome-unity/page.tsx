@@ -2,7 +2,6 @@ import { CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
-import { ListView } from "@/components/collection/ListView";
 import data from "./data";
 import { GalleryView } from "@/components/collection/GalleryView";
 

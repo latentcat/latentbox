@@ -326,7 +326,9 @@ export const data: dataType = [
   {
     category: "programming",
     items: [
+      { id: "github-copilot", name: "Github Copilot", url: "https://github.com/features/copilot/", iconType: 'png' },
       { id: "cursor", name: "Cursor", url: "https://cursor.sh/" },
+      { id: "1024code", name: "1024 Code", url: "https://1024code.com/", iconType: 'png' },
     ],
   },
 ];
