@@ -2,6 +2,8 @@ import { CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
+import { ListView } from "@/components/collection/ListView";
+import { vistool } from "@/app/[locale]/(docs)/vis-tools/data";
 
 
 export default function Page() {
@@ -11,10 +13,11 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
+      authors={["VicaYang"]}
     >
 
-      <SectionTitle title={t("title")} />
-
+      <SectionTitle title={t("tool")} />
+      <ListView data={vistool} />
     </CollectionLayout>
   )
 }
