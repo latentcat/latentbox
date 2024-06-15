@@ -1,6 +1,7 @@
 import { ResourceItem } from "@/lib/data_types";
 
 export const dataWeb3D: ResourceItem[] = [
+  { id: "noomo", name: "Noomo", url: "https://labs.noomoagency.com/" },
   { id: "magma", name: "Magma", url: "https://thisismagma.com/" },
   { id: "organimo", name: "Organimo", url: "https://organimo.com/" },
   { id: "findworkhappiness", name: "The Search for Work Happiness Book", url: "https://findworkhappiness.com/" },
