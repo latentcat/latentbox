@@ -54,7 +54,7 @@
     },
     "introduction": {
       "title": "Introduction",
-      "desc": "",
+      "desc": "Learn about Latent Box's philosophy, vision, and mission",
       "what_is_latent_box": "What is Latent Box",
       "p1": "Latent Box is a reinvented resource site, maintained by Latent Cat. Why are we doing this? We have a few pursuits:",
       "p2": "Bridging the information gap with high-quality content.",
@@ -69,7 +69,7 @@
     },
     "follow-us": {
       "title": "Follow Us",
-      "desc": "",
+      "desc": "Follow our latest updates on social media platforms",
       "social_media": "Social Media",
       "communities": "Communities",
       "contact": "Contact",
@@ -83,15 +83,15 @@
     },
     "contributing": {
       "title": "Contributing",
-      "desc": ""
+      "desc": "How to contribute to Latent Box"
     },
     "collections": {
       "title": "Browse Collections",
-      "desc": ""
+      "desc": "Explore our curated content collections"
     },
     "sd-ecology": {
       "title": "Stable Diffusion Papers",
-      "desc": "",
+      "desc": "Selected influential academic papers in the Stable Diffusion ecosystem",
       "original": "Original",
       "control": "Control",
       "consistency": "Consistency",
@@ -104,24 +104,24 @@
     },
     "diffuseum": {
       "title": "Diffuseum Podcast",
-      "desc": "Diffuseum 是一个对生成式图像、开源人工智能感兴趣的社区，这档播客记录我们关注的一线开发者的故事。",
+      "desc": "Diffuseum is a community interested in generative images and open-source AI. This podcast documents stories of frontline developers we follow.",
       "ep1": {
-        "title": "00 后一份课堂作业，如何让 AI 生图 10 倍加速",
-        "content": "<p>00 后 AI 研究者 Allen 的课堂大作业 LCM 让 Stable Diffusion 推理速度加快了 10 倍，让 AI 生成图像迈入了实时推理的台阶，也因此在开源社区获得了数百万的下载和应用。</p><p>本期播客除了分享这位年轻研究者的个人背景以及社区故事外，也抛出了一个开放性观点：生成的“实时性”对 C 端用户构成了 AI 交互体验的质变，因此蕴含着绝佳的产品机会。</p><p>那么，哪些形态的应用会因此得到变革？我们期待和听众们一起头脑风暴，欢迎和我们分享任何想法。</p>"
+        "title": "How a Gen-Z's Homework Made AI Image Generation 10x Faster",
+        "content": "<p>Gen-Z AI researcher Allen's coursework LCM accelerated Stable Diffusion inference by 10x, bringing AI image generation into real-time inference, which has garnered millions of downloads and applications in the open-source community.</p><p>In addition to sharing this young researcher's background and community stories, this episode also raises an open perspective: the 'real-time' nature of generation constitutes a qualitative change in AI interaction experience for C-end users, thus containing excellent product opportunities.</p><p>So, which forms of applications will be transformed? We look forward to brainstorming with listeners, and welcome any ideas.</p>"
       },
       "ep2": {
-        "title": "对话 InstantID：我的脸，AI 前赴后继的战场",
-        "content": "<p>只要上传一张照片，无需等待，我的脸立刻进入瞬息全宇宙。开源工具 InstantID 出现，让 AI 写真进入了新高度，一张脸可以实时出现在任意提示词描绘的场景里，LeCun 都忍不住转发互动。回顾过去一年，写真是 AI 领域为数不多产品化成功的方向，无论技术怎么卷，好像我们还是最先关心自己的脸。</p><p>本期除了关注 InstantID 年轻开发者背后的故事外，也抛出了以下问题：AI 人像的产品潜力是否还没挖掘完，哪些要素让这些算法团队在竞相厮杀？期待和听众们一起头脑风暴，欢迎分享任何想法。</p>"
+        "title": "Dialogue with InstantID: My Face, AI's Relentless Battlefield",
+        "content": "<p>Just upload a photo, and without waiting, my face instantly enters the multiverse. With the emergence of the open-source tool InstantID, AI portraits have reached new heights - a face can appear in real-time in any scene described by prompts, even LeCun couldn't resist sharing and interacting. Looking back at the past year, portraits have been one of the few successful productization directions in the AI field. No matter how technology evolves, it seems we still care about our faces first.</p><p>In addition to focusing on the story behind InstantID's young developers, this episode also raises questions: Is the product potential of AI portraits not yet fully tapped? What elements drive these algorithm teams to compete? We look forward to brainstorming with listeners and welcome any thoughts.</p>"
       }
     },
     "transformer-papers": {
       "title": "Transformer Papers",
-      "desc": "",
+      "desc": "Selected groundbreaking research papers in the Transformer field",
       "original": "Original"
     },
     "image-datasets": {
       "title": "Image Datasets",
-      "desc": "",
+      "desc": "Selected high-quality image dataset resources",
       "internet": "Internet",
       "midjourney": "Midjourney",
       "anime": "Anime"
@@ -143,7 +143,7 @@
     },
     "digital-art-tools": {
       "title": "Awesome Digital Art Tools",
-      "desc": "",
+      "desc": "Comprehensive guide to digital art creation tools",
       "gen_art": "Gen Art",
       "3d_engine": "3D Engine",
       "3d_modeling": "3D Modeling",
@@ -163,41 +163,41 @@
     },
     "digital-artists": {
       "title": "Awesome Digital Artists",
-      "desc": ""
+      "desc": "Showcase of outstanding digital artists and their works"
     },
     "midi-controllers": {
       "title": "Awesome MIDI Controllers",
-      "desc": ""
+      "desc": "Professional MIDI controller buying guide"
     },
     "gen-art-algorithm": {
       "title": "Gen Art Algorithm",
-      "desc": ""
+      "desc": "Explore the algorithmic principles behind generative art"
     },
     "design-resources": {
       "title": "Design Resources",
-      "desc": "",
+      "desc": "Essential tools and resources for designers",
       "design_systems": "Design Systems",
       "color_tools": "Color Tools"
     },
     "open-source-fonts": {
       "title": "Chinese Open Source Fonts",
-      "desc": ""
+      "desc": "Collection of quality Chinese open-source fonts"
     },
     "awesome-web-collection": {
       "title": "Awesome Web Collection",
-      "desc": ""
+      "desc": "Selected high-quality website collection platforms"
     },
     "awesome-web3d": {
       "title": "Awesome Web 3D",
-      "desc": ""
+      "desc": "Outstanding Web 3D interactive design cases"
     },
     "awesome-wechat-svg": {
       "title": "Awesome WeChat SVG",
-      "desc": ""
+      "desc": "Outstanding WeChat interactive push cases, with comments from Yang @ Symbol Interactive"
     },
     "latent-cat-stack": {
       "title": "Latent Cat Stack",
-      "desc": "",
+      "desc": "Technical tools and frameworks used by the Latent Cat team",
       "framework": "Framework",
       "deploy": "Deploy",
       "ui": "UI",
@@ -207,11 +207,11 @@
     },
     "python-5-libs": {
       "title": "5 Game-Changing Python Libs",
-      "desc": ""
+      "desc": "Five libraries that significantly improve Python development experience"
     },
     "awesome-unity": {
       "title": "Awesome Unity",
-      "desc": "",
+      "desc": "Systematic Unity game development learning path",
       "getting_started": "Getting Started",
       "csharp": "C#",
       "shader_graph": "Shader Graph",
@@ -227,19 +227,19 @@
     },
     "vis-tools": {
       "title": "Awesome Vis Tools",
-      "desc": ""
+      "desc": "Collection of data visualization tools and frameworks"
     },
     "vis-websites": {
       "title": "Awesome Vis Websites",
-      "desc": ""
+      "desc": "Outstanding data visualization website cases"
     },
     "edu-free": {
       "title": "Education-Free Apps",
-      "desc": ""
+      "desc": "Free quality educational applications and resources"
     },
     "awesome-resource-sites": {
       "title": "Awesome Resource Sites",
-      "desc": "",
+      "desc": "Selected high-quality resource aggregation websites",
       "web": "Web",
       "ai": "AI",
       "product": "Product",

@@ -54,13 +54,13 @@
     },
     "introduction": {
       "title": "介绍",
-      "desc": "",
+      "desc": "了解 Latent Box 的理念、愿景和使命",
       "what_is_latent_box": "什么是 Latent Box",
       "p1": "Latent Box 是一个重新构想的聚合站，由 Latent Cat 组织维护。为什么要做这件事情？我们有下面几个小小的追求：",
       "p2": "通过高质量的内容抹平信息差。",
       "p3": "我们不需要另一个搜索引擎、收录大量的网站、产品，配置复杂的自动化、检索和用户系统——因为那根本没人会看。我希望当我们收录一千个站点时，其中的一百个都是用户会打开试试并记住的、真正好的东西。",
       "p4": "尽可能多元、跨界。",
-      "p5": "我们认为一个好的产品、好的技术、好的团队，所涉及的学科知识、专业技能都是非常宽广的，希望这份合集能涵盖尽可能多的创意领域。因此，它适合同样热衷于突破自我的你。",
+      "p5": "我们认为一个好的产品、好的技术、好的团队，所涉及的学科知识、专业技能都是非常宽广的，希望这份合集能涵盖尽可能多的创意领域。因此，它适同一样热衷于突破自我的你。",
       "p6": "保持更新、社区共创。",
       "p7": "保持更新非常难，社区会是我们坚持下去的动力。所以，我们在 GitHub 开源了整个网站，并建立了 Twitter、小红书账号，和 Discord、微信群。你可以在任何一个平台与我们分享内容，并可以直接在 GitHub 上提交 pull requests、添加贡献者名字。除此之外，你的每次点赞都会是对我们最大的鼓励。",
       "p8": "这就我们设立 Latent Box 的初心，希望能给大家带来一点帮助！",
@@ -69,7 +69,7 @@
     },
     "follow-us": {
       "title": "关注我们",
-      "desc": "",
+      "desc": "在各大社交平台上关注我们的最新动态",
       "social_media": "社交媒体",
       "communities": "社区",
       "contact": "联系",
@@ -83,15 +83,17 @@
     },
     "contributing": {
       "title": "贡献",
-      "desc": ""
+      "desc": "如何为 Latent Box 做出贡献",
+      "original": "原版"
     },
     "collections": {
       "title": "浏览合集",
-      "desc": ""
+      "desc": "探索我们精心策划的内容合集",
+      "original": "原版"
     },
     "sd-ecology": {
       "title": "Stable Diffusion 生态论文精选",
-      "desc": "",
+      "desc": "精选 Stable Diffusion 生态中最具影响力的学术论文",
       "original": "原版",
       "control": "控制",
       "consistency": "一致性",
@@ -116,19 +118,19 @@
     },
     "transformer-papers": {
       "title": "Transformer 论文精选",
-      "desc": "",
+      "desc": "收录 Transformer 领域的开创性研究论文",
       "original": "原版"
     },
     "image-datasets": {
       "title": "图像数据集",
-      "desc": "",
+      "desc": "精选优质的图像数据集资源",
       "internet": "互联网",
       "midjourney": "Midjourney",
       "anime": "动漫"
     },
     "awesome-ai-products": {
       "title": "精选 AI 产品集",
-      "desc": "卓浩的 AI 产品清单",
+      "desc": "卓浩的 AI 产品清单，涵盖全球优秀的 AI 应用",
       "llm-global": "LLM（全球）",
       "llm-chinese": "LLM（中国）",
       "search": "搜索",
@@ -143,7 +145,7 @@
     },
     "digital-art-tools": {
       "title": "数字艺术工具大全",
-      "desc": "",
+      "desc": "全面的数字艺术创作工具指南",
       "gen_art": "生成艺术",
       "3d_engine": "3D 引擎",
       "3d_modeling": "3D 建模",
@@ -163,33 +165,33 @@
     },
     "digital-artists": {
       "title": "数字艺术家推荐",
-      "desc": ""
+      "desc": "优秀数字艺术家及其作品展示"
     },
     "midi-controllers": {
       "title": "MIDI 控制器推荐",
-      "desc": ""
+      "desc": "专业 MIDI 控制器选购指南"
     },
     "gen-art-algorithm": {
       "title": "生成艺术算法",
-      "desc": ""
+      "desc": "探索生成艺术背后的算法原理"
     },
     "design-resources": {
       "title": "设计资源",
-      "desc": "",
+      "desc": "精选设计师必备工具和资源",
       "design_systems": "设计系统",
       "color_tools": "配色工具"
     },
     "open-source-fonts": {
       "title": "中文开源字体",
-      "desc": ""
+      "desc": "优质中文开源字体合集"
     },
     "awesome-web-collection": {
       "title": "Web 收录平台精选",
-      "desc": ""
+      "desc": "精选优质的网站收录平台"
     },
     "awesome-web3d": {
       "title": "Web 3D 案例精选",
-      "desc": ""
+      "desc": "优秀的 Web 3D 交互设计案例"
     },
     "awesome-wechat-svg": {
       "title": "微信 SVG 案例精选",
@@ -197,7 +199,7 @@
     },
     "latent-cat-stack": {
       "title": "Latent Cat 技术栈",
-      "desc": "",
+      "desc": "Latent Cat 团队使用的技术工具和框架",
       "framework": "框架",
       "deploy": "部署",
       "ui": "UI",
@@ -207,11 +209,11 @@
     },
     "python-5-libs": {
       "title": "5 个改变体验的 Python 库",
-      "desc": ""
+      "desc": "五个能显著提升 Python 开发体验的库"
     },
     "awesome-unity": {
       "title": "Unity 从入门到精通",
-      "desc": "",
+      "desc": "系统的 Unity 游戏开发学习路径",
       "getting_started": "入门",
       "csharp": "C#",
       "shader_graph": "Shader Graph",
@@ -227,19 +229,19 @@
     },
     "vis-tools": {
       "title": "可视化工具大全",
-      "desc": ""
+      "desc": "数据可视化工具和框架合集"
     },
     "vis-websites": {
       "title": "可视化网站推荐",
-      "desc": ""
+      "desc": "优秀的数据可视化网站案例"
     },
     "edu-free": {
       "title": "教育免费应用大全",
-      "desc": ""
+      "desc": "免费优质的教育类应用和资源"
     },
     "awesome-resource-sites": {
       "title": "聚合站推荐",
-      "desc": "",
+      "desc": "精选优质的资源聚合网站",
       "web": "网页",
       "ai": "AI",
       "product": "产品",
