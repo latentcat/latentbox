@@ -12,7 +12,6 @@ export default function Page() {
   return (
     <div>
       <SectionHero />
-      
       <SectionSocial />
       {/*<Container>*/}
       {/*  <Separator />*/}
