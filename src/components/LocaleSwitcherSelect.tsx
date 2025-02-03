@@ -21,9 +21,8 @@ export default function LocaleSwitcherSelect({
   const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
 
-  function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
-    const nextLocale = event.target.value;
-    console.log(nextLocale);
+  function onSelectChange(event: React.ChangeEvent<HTMLSelectElement>) {
+    const nextLocale = event.target.value as "en" | "zh";
     startTransition(() => {
       router.replace(pathname, { locale: nextLocale });
     });
