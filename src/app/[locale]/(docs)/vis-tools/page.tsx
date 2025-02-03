@@ -13,7 +13,7 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["ciaochaos", "zheishei", "Leozzz7988"]}
+      authors={["Leozzz7988"]}
     >
       <ProductView data={visTool} assetsPrefix={assetsPrefix} />
     </CollectionLayout>
