@@ -29,7 +29,7 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["HiMrHOW", "ciaochaos", "zheishei", "LonelyFellas", "jw782cn", "aiyoudiao", "RayJason"]}
+      authors={["HiMrHOW", "ciaochaos", "zheishei", "LonelyFellas", "jw782cn", "aiyoudiao", "RayJason" ]}
     >
       <ProductTree data={radialClusterTreeData} assetsPrefix={assetsPrefix} />
 
@@ -45,7 +45,6 @@ export default function Page() {
     </CollectionLayout>
   );
 }
-
 
 export async function generateMetadata({
   params: { locale },
