@@ -195,7 +195,6 @@ export function useCollectionData() {
           desc: t("vis-tools.desc"),
           background: "linear-gradient(112.91deg, #12C6FF 0%, #8941FF 22.55%, #FF99A6 58.9%, #FFBF5F 87.67%, #FFFBD4 100%)",
           icon: Paintbrush2Icon,
-          tag: "WIP",
         },
         {
           id: "vis-websites",
@@ -203,7 +202,6 @@ export function useCollectionData() {
           desc: t("vis-websites.desc"),
           background: "linear-gradient(112.91deg, #12C6FF 0%, #8941FF 22.55%, #FF99A6 58.9%, #FFBF5F 87.67%, #FFFBD4 100%)",
           icon: ScanEyeIcon,
-          tag: "WIP",
         },
       ]
     },
