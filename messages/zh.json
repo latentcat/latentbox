@@ -173,7 +173,13 @@
     },
     "gen-art-algorithm": {
       "title": "生成艺术算法",
-      "desc": "探索生成艺术背后的算法原理"
+      "desc": "探索生成艺术背后的算法原理",
+      "nature_inspired_computation": "自然计算",
+      "procedural_noise": "图形噪声",
+      "computational_geometry": "计算几何",
+      "complex_systems": "复杂系统",
+      "bio-inspired_simulation": "生物模拟",
+      "artificial_intelligence": "人工智能"
     },
     "design-resources": {
       "title": "设计资源",

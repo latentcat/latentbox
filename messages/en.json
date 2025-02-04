@@ -171,7 +171,13 @@
     },
     "gen-art-algorithm": {
       "title": "Gen Art Algorithm",
-      "desc": "Explore the algorithmic principles behind generative art"
+      "desc": "Explore the algorithmic principles behind generative art",
+      "nature_inspired_computation": "Nature Inspired Computation",
+      "procedural_noise": "Procedural Noise",
+      "computational_geometry": "Computational Geometry",
+      "complex_systems": "Complex Systems",
+      "bio-inspired_simulation": "Bio-inspired Simulation",
+      "artificial_intelligence": "Artificial Intelligence"
     },
     "design-resources": {
       "title": "Design Resources",
