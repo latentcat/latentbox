@@ -5,3 +5,7 @@ export interface ResourceItem {
   desc?: string,
   iconType?: 'jpg' | 'png' | 'svg' | 'ico'
 }
+
+export function isDisabled(item: ResourceItem): boolean {
+  return !item.url
+}
