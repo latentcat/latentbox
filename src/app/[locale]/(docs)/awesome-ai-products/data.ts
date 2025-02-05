@@ -1,4 +1,4 @@
-import { ResourceItem } from "@/lib/data_types";
+import { ResourceItem } from "@/lib/data_types"
 
 
 type dataType = {
@@ -321,6 +321,7 @@ export const data: dataType = [
       },
       { id: "wan-zhi", name: "万知", url: "https://wanzhi.com/" },
       { id: "canva", name: "Canva", url: "https://www.canva.com/" },
+      { id: "gezhe-ppt", name: "歌者 PPT", url: "https://gezhe.com/", iconType: 'png' },
     ],
   },
   {
@@ -331,6 +332,6 @@ export const data: dataType = [
       { id: "1024code", name: "1024 Code", url: "https://1024code.com/", iconType: 'png' },
     ],
   },
-];
+]
 
-export default data;
+export default data
