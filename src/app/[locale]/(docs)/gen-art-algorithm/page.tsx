@@ -3,13 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { SecondarySectionTitle, SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
 import { ListView } from "@/components/collection/ListView";
-import data, {
-  dataArtificialIntelligence,
-  dataBioinspiredSimulation,
-  dataComplexSystems,
-  dataComputationalGeometry,
-  dataProceduralNoise
-} from "./data";
+import data from "./data";
 
 export default function Page() {
   const t = useTranslations("docs.gen-art-algorithm")
@@ -18,6 +12,7 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
+      authors={["Leozzz7988"]}
     >
 
       <SectionTitle title={t("nature_inspired_computation")} />
