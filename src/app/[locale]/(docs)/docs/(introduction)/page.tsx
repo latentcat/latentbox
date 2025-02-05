@@ -5,7 +5,6 @@ import Image from "next/image"
 import { useTranslations } from "next-intl";
 import Contributors from "@/components/Contributors";
 import { Link } from "@/navigation";
-import { MidRealLogoFull } from "@/components/Logos";
 
 
 export default function Page() {
@@ -58,25 +57,13 @@ export default function Page() {
 
       <Contributors />
 
-
-      <h2>
-        {t("sponsor")}
-      </h2>
-
-      <Link
-        href="https://midreal.ai"
-        target="_blank"
-      >
-        <MidRealLogoFull className="h-12" />
-      </Link>
-
     </ArticleLayout>
   )
 }
 
 export async function generateMetadata({
-                                         params: { locale }
-                                       }: Readonly<{
+  params: { locale }
+}: Readonly<{
   params: { locale: string };
 }>) {
   const t = await getTranslations({ locale, namespace: "docs.introduction" });
