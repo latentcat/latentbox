@@ -50,14 +50,6 @@ export function useCollectionData() {
           icon: PodcastIcon,
         },
         {
-          id: "transformer-papers",
-          name: t("transformer-papers.title"),
-          desc: t("transformer-papers.desc"),
-          background: "linear-gradient(293.07deg, #FFEBB7 0%, #FFCA41 24.44%, #FF687C 62.61%, #C464FF 100%)",
-          icon: Grid3X3Icon,
-          tag: "WIP",
-        },
-        {
           id: "image-datasets",
           name: t("image-datasets.title"),
           desc: t("image-datasets.desc"),
@@ -104,7 +96,6 @@ export function useCollectionData() {
           desc: t("gen-art-algorithm.desc"),
           background: "linear-gradient(114.38deg, #DB8EFF 0%, #0967F5 48.9%, rgba(255, 227, 231, 0.906327) 86.73%)",
           icon: BracesIcon,
-          tag: "WIP",
         },
       ]
     },
