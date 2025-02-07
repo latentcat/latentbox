@@ -75,14 +75,14 @@ export function useCollectionData() {
           background: "linear-gradient(114.38deg, #DB8EFF 0%, #0967F5 48.9%, rgba(255, 227, 231, 0.906327) 86.73%)",
           icon: PenToolIcon,
         },
-        {
-          id: "digital-artists",
-          name: t("digital-artists.title"),
-          desc: t("digital-artists.desc"),
-          background: "linear-gradient(114.38deg, #DB8EFF 0%, #0967F5 48.9%, rgba(255, 227, 231, 0.906327) 86.73%)",
-          icon: PaletteIcon,
-          tag: "WIP",
-        },
+        // {
+        //   id: "digital-artists",
+        //   name: t("digital-artists.title"),
+        //   desc: t("digital-artists.desc"),
+        //   background: "linear-gradient(114.38deg, #DB8EFF 0%, #0967F5 48.9%, rgba(255, 227, 231, 0.906327) 86.73%)",
+        //   icon: PaletteIcon,
+        //   tag: "WIP",
+        // },
         {
           id: "midi-controllers",
           name: t("midi-controllers.title"),
@@ -108,7 +108,6 @@ export function useCollectionData() {
           desc: t("design-resources.desc"),
           background: "linear-gradient(113.96deg, #FFD600 0%, #FF872F 27.1%, #C286FF 76.57%, #F3E7FF 100%)",
           icon: ComponentIcon,
-          tag: "WIP",
         },
         {
           id: "open-source-fonts",
@@ -154,14 +153,6 @@ export function useCollectionData() {
           desc: t("latent-cat-stack.desc"),
           background: "linear-gradient(113.96deg, #02B755 0%, #4C4AC4 25.59%, #C892FF 82.79%, #F1E2FF 100%)",
           icon: Layers3Icon,
-        },
-        {
-          id: "python-5-libs",
-          name: t("python-5-libs.title"),
-          desc: t("python-5-libs.desc"),
-          background: "linear-gradient(113.96deg, #02B755 0%, #4C4AC4 25.59%, #C892FF 82.79%, #F1E2FF 100%)",
-          icon: PackageIcon,
-          tag: "WIP",
         },
       ]
     },
