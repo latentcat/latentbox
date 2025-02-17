@@ -5,6 +5,8 @@ import Image from "next/image"
 import { useTranslations } from "next-intl";
 import Contributors from "@/components/Contributors";
 import { Link } from "@/navigation";
+import { Button } from "@/components/ui/button";
+import { Newspaper } from "lucide-react";
 
 
 export default function Page() {
@@ -50,6 +52,14 @@ export default function Page() {
       <p>
         {t("p8")}
       </p>
+
+
+      <Link href="https://latentcat.com/blog/building-latentbox" target="_blank">
+        <Button variant="secondary" size="sm">
+          <Newspaper className="h-4 mr-2" />
+          {t("read_blog_post")}
+        </Button>
+      </Link>
 
       <h2>
         {t("contributors")}
