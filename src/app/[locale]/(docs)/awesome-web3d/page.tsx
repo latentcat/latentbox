@@ -1,9 +1,8 @@
-import { ArticleLayout, CollectionLayout } from "@/components/SimpleLayout";
+import { CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
 import { GalleryView } from "@/components/collection/GalleryView";
-import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
-import { dataWeb3D } from "@/app/[locale]/(docs)/awesome-web3d/data";
+import { dataWeb3D } from "./data";
 
 
 export default function Page() {
@@ -14,11 +13,9 @@ export default function Page() {
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
-      authors={["ciaochaos"]}
+      authors={["ciaochaos", "RayJason"]}
     >
-
       <GalleryView data={dataWeb3D} assetsPrefix={assetsPrefix} />
-
     </CollectionLayout>
   )
 }

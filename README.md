@@ -85,6 +85,16 @@ Latent Box 是一个重新构想的聚合站，由 Latent Cat 组织维护。为
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mog-"><img src="https://avatars.githubusercontent.com/u/3657219?v=4" width="100px;" alt=""/><br /><sub><b>Mog</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vzhao-21"><img src="https://avatars.githubusercontent.com/u/61822573?v=4" width="100px;" alt=""/><br /><sub><b>LionelZ</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Leozzz7988"><img src="https://avatars.githubusercontent.com/u/166421489?v=4" width="100px;" alt=""/><br /><sub><b>Leozzz7988</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/xiaohu2015"><img src="https://avatars.githubusercontent.com/u/16861194?v=4" width="100px;" alt=""/><br /><sub><b>Hu Ye</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sdbds"><img src="https://avatars.githubusercontent.com/u/8085926?v=4" width="100px;" alt=""/><br /><sub><b>青龍聖者@bdsqlsz</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/headboxer"><img src="https://avatars.githubusercontent.com/u/45675810?v=4" width="100px;" alt=""/><br /><sub><b>Echo_Sculpture</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/iFurySt"><img src="https://avatars.githubusercontent.com/u/16201837?v=4" width="100px;" alt=""/><br /><sub><b>Leo</b></sub></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/IDKiro"><img src="https://avatars.githubusercontent.com/u/24263261?v=4" width="100px;" alt=""/><br /><sub><b>IDKiro</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://chatidea.com"><img src="https://avatars.githubusercontent.com/u/166817217?v=4" width="100px;" alt=""/><br /><sub><b>Yangzehao</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/BbuBbuBe"><img src="https://avatars.githubusercontent.com/u/85188390?v=4" width="100px;" alt=""/><br /><sub><b>BbuBbu</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/RayJason"><img src="https://avatars.githubusercontent.com/u/15711610?v=4" width="100px;" alt=""/><br /><sub><b>RayJason</b></sub></a></td>
     </tr>
   </tbody>
 </table>

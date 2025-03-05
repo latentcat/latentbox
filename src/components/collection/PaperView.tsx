@@ -1,28 +1,14 @@
-import { ResourceItem } from "@/lib/data_types";
 import React, { Fragment } from "react";
-import Image from "next/image"
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Link } from "@/navigation";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 
-import { Card, CardContent } from "@/components/ui/card"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-import { Button } from "@/components/ui/button";
-import { ArxivIcon, DiscordIcon, GitHubIcon, HuggingFaceIcon, XhsIcon, XIcon } from "@/components/LogosBrand";
+import { Card } from "@/components/ui/card";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { ArxivIcon, GitHubIcon, HuggingFaceIcon } from "@/components/LogosBrand";
 import { GlobeIcon } from "lucide-react";
 
 type PaperType = {
@@ -39,13 +25,13 @@ type PaperType = {
 }[]
 
 interface GalleryViewProps {
-  data: PaperType
-  assetsPrefix?: string
-  namespace: string
+  data: PaperType;
+  assetsPrefix?: string;
+  namespace: string;
 }
 
 
-const linkButtonClass="text-foreground opacity-60 hover:opacity-100 transition-opacity flex items-center "
+const linkButtonClass = "text-foreground opacity-60 hover:opacity-100 transition-opacity flex items-center ";
 
 
 export function PaperView(props: GalleryViewProps) {
@@ -57,7 +43,7 @@ export function PaperView(props: GalleryViewProps) {
       className={cn(
         "",
         "",
-        "space-y-6",
+        "space-y-6"
       )}
     >
       <div className="mt-9" />
@@ -69,8 +55,8 @@ export function PaperView(props: GalleryViewProps) {
               className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"
             >
               {group.items.map((item) => {
-                const flags = [item.showcase, item.principle_diagram]
-                const urls = ["showcase", "principle_diagram"]
+                const flags = [item.showcase, item.principle_diagram];
+                const urls = ["showcase", "principle_diagram"];
                 return (
                   <Card
                     key={item.name} className="relative overflow-hidden flex flex-col">
@@ -78,12 +64,12 @@ export function PaperView(props: GalleryViewProps) {
                       <Carousel
                         className="shrink-0 w-full _max-w-sm border-b"
                         opts={{
-                          loop: true,
+                          loop: true
                         }}
                       >
                         <CarouselContent>
                           {flags.map((flag, index) => {
-                            if (!flag) return null
+                            if (!flag) return null;
                             return (
                               <CarouselItem key={index}>
                                 <div className="relative max-h-48">
@@ -100,7 +86,7 @@ export function PaperView(props: GalleryViewProps) {
                                   </div>
                                 </div>
                               </CarouselItem>
-                            )
+                            );
                           })}
                         </CarouselContent>
                         {flags.filter(item => !!item).length > 1 && (
@@ -150,12 +136,12 @@ export function PaperView(props: GalleryViewProps) {
                       )}
                     </div>
                   </Card>
-                )
+                );
               })}
             </div>
           </div>
         </div>
       ))}
     </div>
-  )
+  );
 }

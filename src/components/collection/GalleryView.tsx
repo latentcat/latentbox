@@ -33,7 +33,7 @@ export function GalleryView(props: GalleryViewProps) {
             <div className="w-full relative rounded-xl overflow-hidden">
               <AspectRatio ratio={16/9} />
               <Image
-                className="absolute top-0 left-0 w-full h-full"
+                className="absolute top-0 left-0 w-full h-full object-cover"
                 width={1280}
                 height={720}
                 src={`${props.assetsPrefix || ""}/${item.id}.jpg`}

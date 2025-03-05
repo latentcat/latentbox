@@ -1,5 +1,5 @@
 import { genMetadata } from "@/lib/articles";
-import { SimpleLayoutProj } from "@/components/SimpleLayout";
+import { ArticleLayout } from "@/components/SimpleLayout";
 
 export const article = {
   author: "Latent Cat",
@@ -11,9 +11,7 @@ export const article = {
 export const metadata = genMetadata(article);
 
 export default (props) => (
-  <SimpleLayoutProj title="Privacy Policy" intro="" {...props} />
+  <ArticleLayout title="Privacy Policy" intro="Privacy Policy of Latent Box" {...props}>
+    To be written.
+  </ArticleLayout>
 );
-
-PRIVACY POLICY
-
-To be written.

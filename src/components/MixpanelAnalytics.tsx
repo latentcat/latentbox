@@ -13,7 +13,7 @@ const body = {
 
 export default function MixpanelAnalytics() {
   useEffect(() => {
-    mixpanel.init("02948b6369bba242c60d9483e873025d", {
+    mixpanel.init("8a679310fb17ccef3982f7937e041391", {
       // debug: true,
       // track_pageview: true,
       persistence: "localStorage",

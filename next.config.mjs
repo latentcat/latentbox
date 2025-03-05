@@ -12,8 +12,8 @@ const withMDX = createNextMDXPlugin({
         rehypeShiki,
         {
           themes: {
-            light: "vitesse-light",
-            dark: "vitesse-dark",
+            light: "github-light",
+            dark: "github-dark",
           },
           defaultColor: false,
         },

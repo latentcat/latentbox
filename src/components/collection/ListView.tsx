@@ -1,4 +1,4 @@
-import { ResourceItem } from "@/lib/data_types";
+import { ResourceItem, isDisabled } from "@/lib/data_types";
 import React from "react";
 import Image from "next/image"
 import { cn } from "@/lib/utils";
@@ -19,24 +19,26 @@ export function ListView(props: GalleryViewProps) {
       )}
     >
       {props.data.map((item, index) => (
-        <Link
-          href={item.url}
-          target="_blank"
+        <div
           key={item.id}
+          className={`${isDisabled(item) ? 'pointer-events-none' : ''}`}
         >
-          <div
-            className="flex flex-col"
+          <Link
+            href={item.url}
+            target="_blank"
           >
-            <div className="py-3 text-base flex justify-between gap-6">
-              {item.name}
-              {item.desc && (
-                <div className="text-sm text-foreground/50 text-end pt-0.5">
-                  {item.desc}
-                </div>
-              )}
+            <div className="flex flex-col">
+              <div className="py-3 text-base flex justify-between gap-6">
+                {item.name}
+                {item.desc && (
+                  <div className="text-sm text-foreground/50 text-end pt-0.5">
+                    {item.desc}
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-        </Link>
+          </Link>
+        </div>
       ))}
     </div>
   )

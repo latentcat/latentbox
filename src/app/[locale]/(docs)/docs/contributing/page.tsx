@@ -19,7 +19,7 @@ export default function Page() {
     <ArticleLayout
       title={t("title")}
       intro=""
-      authors={["cpunisher", "ciaochaos"]}
+      authors={["cpunisher", "chenbaiyujason"]}
     >
       <LocaledComponent />
     </ArticleLayout>

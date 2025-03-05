@@ -123,7 +123,7 @@ export const dataLayoutDesign: ResourceItem[] = [
 
 export const dataVideoEditing: ResourceItem[] = [
   { id: "premiere-pro", name: "Premiere Pro", url: "https://www.adobe.com/products/premiere.html" },
-  { id: "jian-ying", name: "剪映", url: "https://www.jianshu.com/p/7e6589303cf3" },
+  { id: "jian-ying", name: "剪映", url: "https://www.capcut.cn/" },
   { id: "davinci-resolve", name: "Davinci Resolve", url: "https://www.blackmagicdesign.com/products/davinciresolve/" },
   { id: "final-cut-pro", name: "Final Cut Pro", url: "https://www.apple.com/final-cut-pro/" },
   { id: "imovie", name: "iMovie", url: "https://www.apple.com/imovie/" },

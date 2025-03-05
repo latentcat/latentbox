@@ -1,20 +1,21 @@
 import { CollectionLayout } from "@/components/SimpleLayout";
 import { getTranslations } from "next-intl/server";
-import { SectionTitle } from "@/components/collection/SectionTitle";
 import { useTranslations } from "next-intl";
+import { ProductView } from "@/components/collection/ProductView";
+import { visWebsite } from "./data";
 
 
 export default function Page() {
   const t = useTranslations("docs.vis-websites")
+  const assetsPrefix = "/assets/collections/vis-websites"
 
   return (
     <CollectionLayout
       title={t("title")}
       intro={t("desc")}
+      authors={["Leozzz7988"]}
     >
-
-      <SectionTitle title={t("title")} />
-
+      <ProductView data={visWebsite} assetsPrefix={assetsPrefix} />
     </CollectionLayout>
   )
 }

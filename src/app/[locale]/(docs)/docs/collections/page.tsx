@@ -4,40 +4,10 @@ import { useTranslations } from "next-intl";
 import { CollectionGroupProps, CollectionItemProps, useCollectionData } from "@/lib/docs_navigation";
 import { Link } from "@/navigation";
 import { Separator } from "@/components/ui/separator";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { CollectionGroup } from "@/components/collection/CollectionView";
 
 
-function CollectionLink(props: CollectionItemProps) {
-  return (
-    <Link
-      href={`/${props.id}`}
-      className="py-1 px-3 _bg-foreground/5 hover:bg-accent transition rounded-md"
-    >
-      <div className="line-clamp-1">
-        {props.name}
-      </div>
-    </Link>
-  )
-}
-
-
-function CollectionGroup(props: CollectionGroupProps) {
-  return (
-    <div className="w-full flex flex-col">
-      <h3 className="text-base font-bold mb-1">
-        {props.title}
-      </h3>
-      <Separator className="my-2" />
-      <div className="w-full grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 _gap-[2px]">
-        {props.links.map((item, index) => (
-          <CollectionLink
-            key={index}
-            {...item}
-          />
-        ))}
-      </div>
-    </div>
-  )
-}
 
 export default function Page() {
 
