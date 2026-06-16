@@ -156,6 +156,7 @@ export const data: dataType = [
       { id: 'code-former', name: 'Code Former', url: 'https://huggingface.co/spaces/sczhou/CodeFormer', iconType: 'svg' },
       { id: 'lexica', name: 'Lexica', url: 'https://lexica.art/', iconType: 'png' },
       { id: 'leonardo', name: 'Leonardo', url: 'https://leonardo.ai/', iconType: 'svg' },
+      { id: 'seedream-ai-studio', name: 'Seedream AI Studio', url: 'https://seedream4.video/' },
     ],
   },
   {
