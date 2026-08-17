@@ -192,6 +192,12 @@ export const data: dataType = [
       },
       { id: "du-jia", name: "度加", url: "https://aigc.baidu.com/" },
       { id: 'viggle', name: 'Viggle', url: 'https://viggle.ai/', iconType: 'ico' },
+      {
+        id: "openmontage",
+        name: "OpenMontage",
+        url: "https://github.com/calesthio/OpenMontage",
+        desc: "世界首个开源智能体视频生产系统：12 条 pipeline、100+ 工具、700+ agent skill",
+      },
     ],
   },
   {
