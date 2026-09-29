@@ -17,6 +17,8 @@ export const dataAI: ResourceItem[] = [
   { id: "way-to-agi", name: "Way To AGI", url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e" },
   { id: "1001-ai-resources", name: "1001+ AI Resources", url: "https://ignacio-velasquez.notion.site/1001-AI-Resources-30379fa273a740aa9e263a405d0f80f1" },
   { id: "toolify-ai", name: "Toolify.ai", url: "https://www.toolify.ai/" },
+  { id: "scrapling", name: "Scrapling", url: "https://github.com/D4Vinci/Scrapling", desc: "自适应网页抓取框架，内置反爬绕过与隐身无头浏览器" },
+  { id: "ponytail", name: "ponytail", url: "https://github.com/DietrichGebert/ponytail", desc: "让 AI 写出最简代码的编码 skill（YAGNI / 标准库优先）" },
 ];
 
 export const dataProduct: ResourceItem[] = [
