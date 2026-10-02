@@ -330,6 +330,12 @@ export const data: dataType = [
       { id: "github-copilot", name: "Github Copilot", url: "https://github.com/features/copilot/", iconType: 'png' },
       { id: "cursor", name: "Cursor", url: "https://cursor.sh/" },
       { id: "1024code", name: "1024 Code", url: "https://1024code.com/", iconType: 'png' },
+        {
+          id: "secret-mcp",
+          name: "Secret MCP",
+          url: "https://github.com/yyeongjin/secret_mcp",
+          iconType: "svg",
+        },
     ],
   },
 ]
