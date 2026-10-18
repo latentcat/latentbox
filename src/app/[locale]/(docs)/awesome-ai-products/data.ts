@@ -94,6 +94,12 @@ export const data: dataType = [
     category: "image",
     items: [
       {
+        id: "hiapi-image-generator",
+        name: "HiAPI Image Generator",
+        url: "https://www.hiapi.ai/en/tools/free-ai-image-generator",
+        iconType: "svg",
+      },
+      {
         id: "dall-e-copilot-designer",
         name: "DALL-E (Copilot Designer)",
         url: "https://copilot.microsoft.com/images/create",
