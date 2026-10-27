@@ -23,6 +23,7 @@ export const dataProduct: ResourceItem[] = [
   { id: "product-hunt", name: "Product Hunt", url: "https://www.producthunt.com/" },
   { id: "futurepedia", name: "Futurepedia", url: "https://www.futurepedia.io/" },
   { id: "future-tools", name: "Future Tools", url: "https://www.futuretools.io/" },
+  { id: "respawnstack", name: "RespawnStack", url: "https://respawnstack.com/" },
   { id: "mobbin", name: "Mobbin", url: "https://mobbin.com/" },
 ];
 
